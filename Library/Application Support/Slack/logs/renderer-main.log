@@ -91478,3 +91478,20 @@
 }
 [10/30/18, 20:05:48:821] info: Store: SET_SUSPEND_STATUS
 [10/30/18, 20:05:01:851] info: Store: SET_SUSPEND_STATUS true
+[10/30/18, 20:28:30:438] info: Store: REFRESH_TEAMS
+{
+  "teamIds": [
+    "T5Q29PBRD"
+  ]
+}
+[10/30/18, 20:28:30:452] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T5Q29PBRD"
+}
+[10/30/18, 20:28:31:127] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T5Q29PBRD"
+}

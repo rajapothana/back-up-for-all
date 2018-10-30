@@ -15240,3 +15240,23 @@
 [10/30/18, 20:05:48:821] info: Store: SET_SUSPEND_STATUS
 [10/30/18, 20:05:48:825] error: Oct-30 20:05:48.825 SOCKET-MANAGER (T5Q29PBRD) Closing socket because #4102: client is going to sleep
 [10/30/18, 20:05:01:850] info: Store: SET_SUSPEND_STATUS true
+[10/30/18, 20:28:28:742] error: Oct-30 20:28:28.741 SOCKET-MANAGER (T5Q29PBRD) Socket was closed because #1006: generic error
+[10/30/18, 20:28:30:413] error: Oct-30 20:28:30.412 SOCKET-MANAGER (T5Q29PBRD) Closing socket because #4106: received an "error" message from socket
+[10/30/18, 20:28:30:438] info: Store: REFRESH_TEAMS
+{
+  "teamIds": [
+    "T5Q29PBRD"
+  ]
+}
+[10/30/18, 20:28:30:452] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T5Q29PBRD"
+}
+[10/30/18, 20:28:30:563] info: Window is unloading, window.desktop is no longer accessible
+[10/30/18, 20:28:31:127] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T5Q29PBRD"
+}

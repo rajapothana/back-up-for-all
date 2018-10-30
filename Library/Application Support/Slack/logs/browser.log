@@ -13954,3 +13954,28 @@
 }
 [10/30/18, 20:05:48:820] info: Store: SET_SUSPEND_STATUS
 [10/30/18, 20:05:01:849] info: Store: SET_SUSPEND_STATUS true
+[10/30/18, 20:28:30:427] info: Store: REFRESH_TEAMS
+{
+  "teamIds": [
+    "T5Q29PBRD"
+  ]
+}
+[10/30/18, 20:28:30:429] info: EpicHelpers: Flushing cookie store
+[10/30/18, 20:28:30:450] info: WebContents LifeCycle: webContents:3 from 'webapp-loaded' to 'page-will-navigate' took 295310745 ms
+[10/30/18, 20:28:30:451] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T5Q29PBRD"
+}
+[10/30/18, 20:28:30:454] info: Background Clients Update: 
++-----------+----------+------------+
+|           | Full     | Background |
+|-----------+----------+------------+
+| T5Q29PBRD | navigate |            |
++-----------+----------+------------+
+[10/30/18, 20:28:31:126] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T5Q29PBRD"
+}
