@@ -1,0 +1,183 @@
+pwd
+ls
+cad pannapur
+cat  pannapur
+rev pannapur 
+cp pannapur ghost
+ls
+cat ghost 
+rev pannapur
+rev pannapur | cp ghost
+rev pannapur | cp pannnapur  ghost
+rev pannapur > ghost 
+cat ghost 
+grep ".a..*" ghost
+grep -w "a" ghost
+grep -o "a" ghost
+grep -o ".*a.*" ghost
+grep -o ".*a.*[' '}" ghost
+grep -o ".*a.*[' ']" ghost
+grep -o [a-z]\+ ghost
+cat ghost
+grep -o "[a-z]\+" ghost
+grep ".a.*" ghost
+grep -o "[a-z]\+" ghost | grep ".*a.*" 
+vim yorker
+cat yorker 
+vim
+cat pannapur 
+grep ".*a.*" pannapur 
+grep -o "[a-z]\+" ghost
+grep -o "[a-z]\+" ghost | grep ".*a.*"
+ls
+cat sharuk 
+cd
+cd Downloads/
+ls
+cat srk
+cat srk.csv
+man grep
+grep -B "1997" srk.csv
+grep -B "1997" srk.csv
+grep -b "1997" srk.csv
+man grep
+grep -B "1997" srk.csv
+man grep
+grep -B 20 "1997" srk.csv
+grep -B 20000 "1997" srk.csv
+-A100 "2000" SRK
+-A100 "2000" srk.csv
+grep -A100 "2000" srk.csv
+grep -A10 "2000" srk.csv
+grep -A10 "1996" srk.csv
+grep "1997" srk.csv
+cat > apple
+sort -t ',' -nk2 apple
+sort -t ',' -nk2 apple | cut -t ',' -nk2 
+sort -t ',' -nk2 apple | cut -b ',' -nk2 
+man tr
+tr ',' '.' apple
+tr -d ',' '.' apple
+tr -d , . apple
+cat apple
+man tr
+tr 
+tr -d , . <apple
+tr -d , "." <apple
+tr -d , <apple
+tr , "." <apple
+tr . ":" <apple
+tr . ":" <apple
+tr . "/" <apple
+tr , "/" <apple
+tr / " " <apple
+man tr
+tr , " " <apple
+tr '\n' " " <apple
+tr '\n' "." <apple
+tr , " " <apple
+man tr
+tr ' ' '\n' <apple
+tr ',' '\n' <apple
+tail -r apple
+tr ',' '\n' <apple | tail -r
+tr ',' '\n' <apple | tail -r|tr '\n' ',' 
+tr ',' '\n' <apple
+tr ',' '\n' <apple|rev 
+tr ',' '\n' <apple|rev |tr '\n' ' ' 
+pwd
+ls
+cad srk.csv 
+cat srk.csv 
+grep -v "1997" srk.csv 
+tail -n3
+tail man
+man tail
+tail -n4 srk.csv 
+tail -n4 srk.csv 
+tail -n4 srk.csv | wc -l
+man wc
+tail -n4 srk.csv | wc -c
+man date
+date
+\n
+all commands
+All commands
+ls
+cat movies.csv 
+grep "korean" movies.csv 
+grep korean movies.csv 
+grep -o 'korean' movies.csv 
+grep ".*korean.*" movies.csv 
+grep -o ".*korean.*" movies.csv 
+grep -o ".*Korean.*" movies.csv 
+wd -n
+grep -o ".*Korean.*" movies.csv |wc -l
+grep -o ".*Drama, Thriller.*" movies.csv 
+grep -o ".*Drama, Thriller.*" movies.csv | wc -l
+grep -A100 "1999" movies.csv 
+cat movies.csv 
+wc -l
+wc -l movies.csv 
+grep -o -A500 "1999" movies.csv 
+grep -A "1999" movies.csv 
+grep -A255 ".*1990.*" movies.csv 
+grep -A255 1999 movies.csv 
+grep -o "2000-2018" movies.csv 
+cat movies.csv 
+grep -o ".*Martin scor
+
+grep -o ".*Martin Scorsese.*" movies.csv
+grep -o ".*Martin Scorsese.*" movies.csv|grep -o ".*Leonardo Dicapria.*" 
+grep -o ".*Martin Scorsese.*" movies.csv|grep -o ".*Leonardo Dicapria.*" movies.csv 
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o ".*Leonardo Dicapria.*" movies.csv 
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o "Leonardo Dicapria" movies.csv 
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o ".*Leonardo DiCapria.*" movies.csv 
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o ".*Leonardo DiCapria.*"  
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o ".*Leonardo DiCapriO.*"  
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o ".*Leonardo DiCaprio.*"  
+cut -d '|' -f1 movies.csv 
+grep -o ".*Martin Scorsese.*" movies.csv | grep -o ".*Leonardo DiCaprio.*" | cut -d '|' -f1 
+cat movies.csv 
+sort -t '|' -n -k4 movies.csv 
+sort -t '|' -n -k4 movies.csv | tail -n5
+sort -t '|' -n -k4 movies.csv | tail -n5|cut -d '|' -f1 
+cat movies.csv 
+grep -o ".*Hong Kong.*" movies.csv 
+grep -o ".*Hong Kong.*" movies.csv |cut -d '|' -f10 
+grep -o ".*Hong Kong.*" movies.csv |cut -d '|' -f10 |sort 
+grep -o ".*Hong Kong.*" movies.csv |cut -d '|' -f10 |sort |grep -o "8.0 ,9.0"
+grep -o ".*Hong Kong.*" movies.csv |sort -t '|' -nk10
+grep -o ".*Hong Kong.*" movies.csv |sort -t '|' -nk10|tail -n6
+grep -o ".*Hong Kong.*" movies.csv |sort -t '|' -nk10|tail -n6|cut -d '|' -f1
+cat movies.csv 
+grep -o ".*Spanish.*" movies.csv 
+grep -o ".*Spanish.*" movies.csv |grep -v "Spain"
+grep -o ".*Spanish.*" movies.csv |grep -v "Spain"|wc -l
+cat movies.csv 
+cut -d '|' -f7 movies.csv 
+cut -d '|' -f7 movies.csv |tr ',' '\n' 
+cut -d '|' -f7 movies.csv |tr ',' '\n' |wc -l
+cut -d '|' -f7 movies.csv |tr ',' '\n' |sort -u
+cut -d '|' -f7 movies.csv |tr ',' '\n' |sort -u|wc -l
+cat movies.csv 
+grep -B255 "1950" movies.csv 
+grep -B255 "1950" movies.csv |grep -A255 "1960"
+grep -B255 "1950" movies.csv |grep -A255 "1960" M
+grep -B255 "1950" movies.csv |grep -A255 "1960" movies.csv 
+cat movies.csv 
+sort -t '|' -nf2 movies.csv 
+sort -t '|' -nk2 movies.csv 
+sort -t '|' -nk2 movies.csv |grep -B100 "Yojimbo"
+sort -t '|' -nk2 movies.csv |grep -B100 "Psycho"
+sort -t '|' -nk2 movies.csv |grep -B100 "Psycho"|grep -A100 "Rashomon" 
+sort -t '|' -nk2 movies.csv |grep -B100 "Psycho"|grep -A100 "Rashomon" |cut -d '|' -f6
+cat movies.csv 
+sort -t '|' -nk2 movies.csv 
+sort -t '|' -nk2 movies.csv |grep -A150 "Amores Perros"
+sort -t '|' -nk2 movies.csv |grep -A150 "Amores Perros"|wc -l
+cat movies.csv 
+man uniq
+cut -d '|' -f2 movies.csv 
+cut -d '|' -f2 movies.csv |sort 
+cut -d '|' -f2 movies.csv |sort |uniq -c

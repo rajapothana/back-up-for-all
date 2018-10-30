@@ -1,0 +1,90 @@
+[Sat Oct 6 18:28:12 IST 2018]path: /usr/bin:/bin:/usr/sbin:/sbin
+The path includes /usr/bin.
+path new: /usr/bin:/bin:/usr/sbin:/sbin
+check whereis:/usr/bin/whoami
+check unzip:/usr/bin/unzip
+os ver: ProductName:	Mac OS X
+ProductVersion:	10.13.6
+BuildVersion:	17G65
+check admin:rajapoth, 0, user is a member of the group, user is a member of the group, 29
+no ZITPackage installed
+drwxrwxr-x+ 42 root  admin  1344 Sep 21 10:53 /Applications
+ 0: group:everyone deny delete
+[Sat Oct 6 18:28:12 IST 2018]use this app path: /Applications/zoom.us.app
+[Sat Oct 6 18:28:12 IST 2018]use this old app path: /Applications/Zoom.app
+[Sat Oct 6 18:28:12 IST 2018]use this folder path: /Applications
+[Sat Oct 6 18:28:12 IST 2018]use this dock path: file://localhost/Applications/zoom.us.app/
+get running zoom.us.app id: 
+get running Zoom.app id: 
+start remove file
+end remove file: 0
+the app directory has been removed.
+[Sat Oct 6 18:28:12 IST 2018]result of copy zm.7z: 0, 
+file permission: -rw-r--r--  1 rajapoth  staff  9833784 Sep 25 10:52 /Applications/zm.7z
+Install succeeds
+[Sat Oct 6 18:28:12 IST 2018]result of copy 7zr.zip: 0, 
+file permission: -rw-r--r--  1 rajapoth  staff  507274 Sep 25 10:52 /Applications/7zr.zip
+Install succeeds
+unzip ver: UnZip 6.00 of 20 April 2009, by Info-ZIP.  Maintained by C. Spieler.  Send
+bug reports using http://www.info-zip.org/zip-bug.html; see README for details.
+
+Latest sources and executables are at ftp://ftp.info-zip.org/pub/infozip/ ;
+see ftp://ftp.info-zip.org/pub/infozip/UnZip.html for other sites.
+
+Compiled with gcc 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.31) for Unix Mac OS X on Oct  6 2017.
+
+UnZip special compilation options:
+        COPYRIGHT_CLEAN (PKZIP 0.9x unreducing method not supported)
+        SET_DIR_ATTRIB
+        SYMLINKS (symbolic links supported, if RTL and file system permit)
+        TIMESTAMP
+        UNIXBACKUP
+        USE_EF_UT_TIME
+        USE_UNSHRINK (PKZIP/Zip 1.x unshrinking method supported)
+        USE_DEFLATE64 (PKZIP 4.x Deflate64(tm) supported)
+        LARGE_FILE_SUPPORT (large files over 2 GiB supported)
+        ZIP64_SUPPORT (archives using Zip64 for large files supported)
+        VMS_TEXT_CONV
+        [decryption, version 2.11 of 05 Jan 2007]
+
+UnZip and ZipInfo environment options:
+           UNZIP:  [none]
+        UNZIPOPT:  [none]
+         ZIPINFO:  [none]
+      ZIPINFOOPT:  [none]
+[Sat Oct 6 18:28:12 IST 2018]check unzip return:0, 
+decompressed 7zr.zip to /tmp
+un7z zm.7z =================================
+[Sat Oct 6 18:28:14 IST 2018]check un7z return:0, 
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,4 CPUs x64)
+
+Scanning the drive for archives:
+1 file, 9833784 bytes (9604 KiB)
+
+Extracting archive: /Applications/zm.7z
+--
+Path = /Applications/zm.7z
+Type = 7z
+Physical Size = 9833784
+Headers Size = 15577
+Method = LZMA2:48m LZMA:20 BCJ2
+Solid = +
+Blocks = 2
+
+Everything is Ok
+
+Folders: 226
+Files: 1314
+Size:       36804369
+Compressed: 9833784
+7z file path:/Applications/zm.7z
+7zr file path:/tmp/7zr
+7zr.zip file path:/Applications/7zr.zip
+[Sat Oct 6 18:28:14 IST 2018]remove previous install plugin: 1
+[Sat Oct 6 18:28:14 IST 2018]result of remove zoom plugin: 0
+result of copy zoom plugin: 0
+parent id: 91942
+start new app: /Applications/zoom.us.app
+installer pid: 91942
+[Sat Oct 6 18:28:15 IST 2018]installer saved state: /Users/rajapoth/Library/Saved Application State/com.apple.installer.savedState/windows.plist

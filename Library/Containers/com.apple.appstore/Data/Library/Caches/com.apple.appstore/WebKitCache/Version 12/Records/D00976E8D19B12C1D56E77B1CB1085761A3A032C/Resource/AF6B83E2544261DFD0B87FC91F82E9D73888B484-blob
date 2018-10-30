@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.apple.com/itms/" lang="en">
+
+
+  <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Mac App Store" /><meta name="description" content="Mac App Store" /><meta name="platform-cache-id" content="13" />
+
+
+
+<title>Categories</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+    
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/85df/da-storefront-base.css" />
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/85df/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"pageData":{},"constants":{"fetchSoftwareUpdatesUrl":"https://su.itunes.apple.com/WebObjects/MZSoftwareUpdate.woa/wa/fetchSoftwareUpdates","Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MacSoftware":{"id":12,"name":"DesktopApps"},"Audiobooks":{"id":3,"name":"Audiobooks"},"MusicVideos":{"id":5,"name":"MusicVideos"},"iTunesU":{"id":10,"name":"iTunesU"},"EBooks":{"id":11,"name":"EBooks"},"Music":{"id":1,"name":"Music"},"Podcasts":{"id":2,"name":"Podcasts"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"TVShows":{"id":4,"name":"TVShows"},"Movies":{"id":6,"name":"Movies"},"Ringtones":{"id":9,"name":"Ringtones"},"Textbooks":{"id":13,"name":"Textbooks"}},"SFSortOrder":{"PlaylistName":{"id":9},"RecentBestSellers":{"id":18},"SeriesOrder":{"id":17},"CmcRecommended":{"id":10},"Popularity":{"id":3},"OriginalReleaseDate":{"id":19},"ArtistName":{"id":8},"Featured":{"id":1},"TopRated":{"id":5},"Duration":{"id":11},"ReleaseDate":{"id":2},"TrackNumber":{"id":13},"Name":{"id":0},"AllTimeBestSellers":{"id":14},"ExpirationDate":{"id":6},"Price":{"id":7},"MostRecent":{"id":16},"PurchaseDate":{"id":4},"DateAdded":{"id":15},"DiscNumber":{"id":12}},"SFEntityType":{"Artist":{"id":1},"Playlist":{"id":4},"TopContents":{"id":7},"MultiRoom":{"id":3},"Search":{"id":6},"WeMix":{"id":8},"Cmc":{"id":2},"Work":{"id":10},"Wishlist":{"id":9},"TopAuthors":{"id":12},"Room":{"id":5},"TheyMix":{"id":11}},"countryCode":"ind","languageCode":"en","SFCustomComponentCountryCode":"ind","IXDisplayableKind":{"Artist":{"id":20,"cssClasses":[],"name":"artist"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"}},"AddToWishlistResult":{"ItemIsFree":{"id":6},"ListFull":{"id":3},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"SomeContentAlreadyInWishlist":{"id":1},"Success":{"id":0},"Failure":{"id":2},"SomeContentAlreadyOwned":{"id":4}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=in","resourceImagePathFrameworks":"https://s.mzstatic.com/htmlResources/85df/frameworks/images/","resourceBasePath":"https://s.mzstatic.com/htmlResources/85df"},"properties":{"clientStatsLoadTimeGroup":"4033","MZHtmlResourcesUtil.allowDeferJsLoad":true,"ITSServerEnvironment":"prod","ITSServerInstance":"3021506","ITSResourceRevNum":"85df","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.UseLegacyLogFormat":false,"ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/in/app/id490217893","iTunesUEnrollLink":"https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=in","cobaltLearnMore":"https://itunes.apple.com/in/learn-more?about=iTunesUUpgradePage&type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":false,"SFJ.isNFAEnabledInStorefront":true,"SFJ.isRecommendationsSwooshEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"},"iTunes":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"sampling":{"custom":{"xp_amp_itd_main":{"percentage":0.001}}},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"}},"MacAppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"}},"Maps":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"disabled":true,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"}}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true,"isStoweUpgradeDialogEnabled":false,"stoweUpgradeSize":1600000000,"isStopPageOneEnabled":false,"SF.isNotifyMeEnabled":false,"SF.notifyMeIds":[],"SF.notifyMeIdsWithAppleWatchApp":[],"SF.notifyMeIdsWithTvApp":[],"isMovieAnywhereEnabled":true}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.MyAlerts.GeniusActivationNeeded.Button":"Go to Genius", "DABuyButton.aria.accept":"Accept, @@name@@, Free", "Js.Wishlist.RemoveTooltip":"Remove from Wish list", "DABuyButtonAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@?", "MHJavascriptLocalizations.DIBuyButtonDownloading":"Downloading", "DAHSoftwareInstall.Status.EstimatedTime.LessThanAMinute":"less than a minute", "DAHSoftwareInstall.Status.EstimatedTime.SecondsLeft":"@@seconds@@ @@secondUnit@@", "Js.Showcase.Next":"Next Item", "Js.DA.BuyButton.Installed":"Installed", "Js.PreflightCheckWarning.Continue":"Continue", "DABuyButtonInstall":"Install App", "DABuyButtonNewerVersionAlreadyInstalledMessage":"A newer version of this app is already installed on this computer", "DAHSoftwareInstall.Status.Paused":"Paused", "Js.CNConnections.Dialog.GetStarted":"Get Started", "Js.ReportAConcern.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "DIBuyButtonDownloadingAria":"Downloading, @@name@@", "DABuyButton.aria.preOrder.buy":"Pre-order, @@name@@, @@price@@", "Js.TextTruncation.More":"More", "Js.QuickView.Unavailable.Title":"Quick View is currently unavailable for this item.", "CNConnections.Dialog.Post.Review.SignIn.Title":"Sign in to post.", "DAHSoftwareInstall.Status.EstimatedTime.hour":"hr", "CNConnections.Upload.UploadErrorHeading":"There Is a Problem With Your Upload", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "CNConnections.Dialog.OptIn.Title":"Ping Will No Longer Be Available as of September 30", "DIBuyButtonDownloadedAria":"Downloaded, @@name@@", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Alerts based on your library content will not be enabled until you have turned on Genius. To learn more, click Go to Genius.", "_thousandsSeparator":",", "InAppPurchases":"In-App Purchases", "DAHSoftwareInstall.Status.EstimatedTime.DaysLeft":"@@days@@ @@dayUnit@@ @@hours@@ @@hourUnit@@", 
+"Js.CNConnections.LoginRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.Pagination.PreviousPage":"Previous Page", "DAHSoftwareInstall.Status.Error.MultipleUsers.description":"To update, log out all other users who are currently logged in to this computer.", "Js.TellAFriend.SigninTitle":"Sign in to tell a friend.", "Js.InlineReview.RateThis":"Rate this", "Js.InlineReview.5":"it’s great", "DAHSoftwareInstall.Status.EstimatedTime.minutes":"mins", "Js.InlineReview.4":"it’s good", "Js.InlineReview.3":"it’s ok", "DABuyButtonPreOrdered":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.second":"sec", "Js.InlineReview.2":"don’t like it", "Js.InlineReview.1":"hate it", "Js.InlinePreview.StopPreview":"Stop preview of @@title@@", "DAPreordersNotAvailableOnYourOS":"To pre-order this app, update to macOS 10.13.2 or later.", "DAHSoftwareInstall.Status.WaitingToInstall":"Waiting to install…", "DABuyButtonAlreadyInstalledNoVersionMessage":"@@installedname@@ is already installed and was not purchased from the Mac App Store.", "Close":"Close", "CNConnections.Dialog.OptIn.Message":"CNConnections.Dialog.OptIn.Message", "Js.DA.BuyButton.Open":"Open", "Js.CreateAccount":"Create Apple ID", "DAHSoftwareInstall.Status.EstimatedTime.hours":"hrs", "MZCommerce.Login_explanation":"Please enter your Apple ID and password and click Sign In.", "Js.CNConnections.OptInRequired.Title":"Ping", "Cancel":"Cancel", "DAHSoftwareInstall.Status.EstimatedTime.seconds":"secs", "DABuyButton.aria.installed":"Installed, @@name@@", "DABuyButton.aria.preOrder.free":"Pre-order, @@name@@, Free", "Js.ManageArtistAlerts.CheckAll.Actors":"Check All Actors", "SF.AskToBuy.PermissionBannerText":"Your request was sent and is awaiting approval from a parent. They can also @@bannerLinkText@@ on this device.", "DABuyButtonSameVersionAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@ again?", "DAHSoftwareInstall.Status.FileSizeSeparator":".", "DAPreorderLabel":"Pre-Order", "More":"More", "DAHSoftwareInstall.Status.EstimatedTime.minute":"min", "DABuyButtonPreOrder":"Pre-Order App", "Js.Pagination.DisabledButtonText":"disabled @@button_text@@", "Js.DA.BuyButton.Installing":"Installing", "Js.MyAlerts.CancelEmailSignUp.Message":"Are you sure you want to stop receiving email alerts?", "JS.errors.requiredLite":"Please fill in all required fields.", "CNConnections.Dialog.Post.Review.SignIn.Message":"CNConnections.Dialog.Post.Review.SignIn.Message", "SF.AskToBuy.PermissionBannerText.Free.bannerLinkText":"approve it in person", "MZCommerce.PurchaseBlockedForSpecialEdu_message":"This Apple ID cannot be used to make purchases.", "Js.ManageArtistAlerts.UncheckAll.Artists":"Uncheck All Artists", "Buy":"Buy", "Js.InlineRating.SigninTitle":"Sign in to rate this item.", "Js.ManageArtistAlerts.UncheckAll.Actors":"Uncheck All Actors", "MHJavascriptLocalizations.DIBuyButtonDownload":"Download", 
+"Js.CNConnections.OptInRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "DAHSoftwareInstall.Status.Downloading":"@@completed@@ of @@total@@", "DABuyButtonLearnMoreURL.Mavericks":"http://support.apple.com/kb/HT5842", "DABuyButtonLearnMoreURL.Lion":"http://support.apple.com/kb/ht4949", "DAHSoftwareInstall.Status.EstimatedTime.HoursLeft":"@@hours@@ @@hourUnit@@ @@minutes@@ @@minuteUnit@@", "Js.Search.HintsTitle":"Suggestions", "DAHSoftwareInstall.Status.EstimatedTime.MinutesLeft":"@@minutes@@ @@minuteUnit@@", "DABuyButtonLearnMoreURL.MtnLion":"http://support.apple.com/kb/ht5444", "DAHSoftwareInstall.Status.Error.MultipleUsers":"Multiple Users Logged In", "Js.InlinePreview.PlayPreview":"Play preview of @@title@@", "SignIn":"Sign In", "DAHSoftwareInstall.Status.Error":"An error has occurred", "Js.ManageArtistAlerts.UncheckAll":"Uncheck All", "Js.iTunesStoreError.Message":"We could not complete your request.", "DVHMusicPurchasesPage.Restored":"Unhidden", "DAHSoftwareInstall.Status.Waiting":"Waiting…", "Done":"Done", "DABuyButton.aria.open":"Open, @@name@@", "Js.Pagination.NextPage":"Next Page", "Js.CNConnections.RequestSent":"Request sent", "MHJavascriptLocalizations.DIBuyButtonDownloaded":"Downloaded", "DABuyButton.aria.install":"Install, @@name@@, Free", "DABuyButtonLearnMore":"Learn More", "CNConnections.Upload.UploadErrorMessage":"Sorry, there was an error during upload.", "Js.PreflightCheckFailedError.UpdateTitle":"We could not complete your update.", "Js.InlineReview.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.PreflightCheckFailedError.Message":"This computer does not meet the minimum install requirements for the app", "Software.HasAddOns":"Offers In-App Purchases", "Less":"Less", "Js.MyAlerts.GeniusActivationNeeded.Message":"This requires Genius.", "Js.ManageArtistAlerts.CheckAll.Artists":"Check All Artists", "Js.TellAFriend.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "CNConnections.Dialog.StopFollowing.Title":"Are you sure you want to stop following @@fullName@@?", "Js.PreflightCheckFailedErrorWithAppName.Title":"We could not complete your purchase of @@appName@@", "DTHBuyInfo.actionText.Accept":"Accept", "Js.PreflightCheckFailedError.Title":"We could not complete your purchase.", "Js.InlineReview.SigninTitle":"Sign in to write a review.", "Js.InlineRating.SigninMessage":"Sign in to continue.", "DAHSoftwareInstall.Status.EstimatedTime.TimeLeft":"@@time@@ remaining", "Js.DA.BuyButton.Install":"Install", "DABuyButton.aria.confirm.buy":"Confirm, Buy, @@name@@, @@price@@", "DAHSoftwareInstall.Status.EstimatedTime.days":"days", "Js.Pagination.Back":"Back", "DABuyButton.aria.installing":"Installing, @@name@@", "DTHBuyInfo.actionText.Gratis":"Free", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"If you would like to perform this action, please change your privacy settings.", "DAPreorderedLabel":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.day":"day", "DVHMusicPurchasesPage.Restore":"Unhide", "DABuyButton.aria.confirm.install":"Confirm, Install, @@name@@, Free", "DAHSoftwareInstall.Status.Installing":"Installing", "Js.QuickView.Unavailable.Text":"Please try again later.", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "Js.CNConnections.Dialog.Cancel":"Cancel", "Js.CNConnections.PeoplePopupMore":"and @@count@@ other@@s@@...", "Js.CNConnections.Confirmed":"Confirmed", "Js.CNConnections.UserReview.YouLiked":"You Liked", "MHJavascriptLocalizations.DIBuyButtonUpdate":"Update", "Yes":"Yes", "Js.Pagination.Next":"Next", "DABuyButton.aria.preOrdered":"Pre-ordered, @@name@@", "Js.ManageArtistAlerts.CheckAll":"Check All", "Js.ReportAConcern.SigninTitle":"Sign in to report a concern.", "Js.MyAlerts.CancelEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"This action will make your profile picture and name visible to others.", "Js.TextLimit.Remaining":"@@count@@ characters remaining", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"Are you sure you want to perform this action?", "DABuyButtonBuyNow":"Buy App", "Js.Pagination.PageNumberTitle":"page @@num@@", "DABuyButtonPreOrderedAllCaps":"PRE-ORDERED", "SF.AskToBuy.PermissionBannerText.bannerLinkText":"purchase it in person", "OK":"OK", "Js.InlineReview.Thanks":"Thanks!", "Js.InlineReview.Error":"Error", "CNConnections.Dialog.Like.Review.SignIn.Message":"CNConnections.Dialog.Like.Review.SignIn.Message", "Js.List.Item":"item", "DABuyButtonAlreadyInstalledMessage":"@@installedname@@ @@installedversion@@ is already installed and was not purchased from the Mac App Store", "No":"No", "Js.iTunesStoreError.Explanation":"There was an error in the App Store. Please try again later.", "Js.InlineReview.ClickToRate":"Click to rate", "DABuyButtonNewerVersionAlreadyInstalledExplanation":"If you want to replace it with this version, move the existing app to the trash.", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Private users may not perform this action.", "DABuyButton.aria.buy":"Buy, @@name@@, @@price@@", "Js.MyAlerts.ConfirmEmailSignUp.Message":"Are you sure you want to receive email alerts?", "CNConnections.Dialog.OptIn.ButtonSubmit":"Learn More", "_decimalSeparator":".", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancel", "MZCommerce.Login_message":"Sign In", "DIBuyButtonRedownloadAria":"Download, @@name@@: Free", "Js.CNConnections.LoginRequired.Title":"Sign in to access Ping.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Sign In", "Js.Pagination.PageNumber":"Page @@num@@", "DAHSoftwareInstall.Status.EstimatedTime.Calculating":"Calculating…", "DIBuyButtonUpdateAria":"Update, @@name@@", "CNConnections.Dialog.Like.Review.SignIn.Title":"Sign in to like a review.", "Js.PreflightCheckWarning.Title":"Would you like to continue?", "CNConnections.Upload.MaxPhotosErrorMessage":"You can have no more than 20 photos in one post."}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/85df/da-storefront-base.js"></script>
+
+
+
+
+
+
+
+  
+</head>
+
+  <body data-country="ind" buy-button-metadata-url="https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/buyButtonMetaData" toolbar-selection="genres" class="ind en categories">
+  <script type="text/javascript">
+    if (window['iTSKit']) { iTSKit.preLoad(); }
+    if (window.its && its.kit) { its.kit.preload(); }
+  </script>
+
+  
+
+  
+  <div id="page">
+    <div id="wrapper">
+
+      <div id="content">
+
+        <div class="background"></div>
+
+        
+
+        
+
+        
+    <div class="columns">
+      <div class="main">
+        
+        <div class="lockup-container application mac-application"><div metrics-loc="Titledbox_Categories" class="title">
+  
+    <h2>
+      
+      Categories
+    </h2>
+    
+  
+  
+  
+  
+</div>
+<div class="content-and-controls"><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-business/id12001?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Business" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/40/6e/65/406e65db-15d6-7b6a-4a5f-1ebfcc05fd06/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/40/6e/65/406e65db-15d6-7b6a-4a5f-1ebfcc05fd06/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-business/id12001?mt=12">Business</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/itransfer-for-samsung-galaxy/id1416631937?mt=12">iTransfer for Samsung Galaxy</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/templates-for-powerpoint-microsoft/id841336884?mt=12">Templates for PowerPoint (Microsoft)</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/igooffice-microsoft-office-edition-templates-for-ms/id1112971518?mt=12">iGoOffice - Microsoft Office Edition - Templates for MS Word Documents, Powerpoint Presentations, Excel Spreadsheets</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-developer-tools/id12002?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Developer Tools" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a3/f7/a2/a3f7a252-1e32-ac71-4cab-6b2b43d7329d/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/a3/f7/a2/a3f7a252-1e32-ac71-4cab-6b2b43d7329d/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-developer-tools/id12002?mt=12">Developer Tools</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/coderunner-2/id955297617?mt=12">CodeRunner 2</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/coconotebook-for-jupyter/id1329417156?mt=12">CocoNotebook for Jupyter</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/snailsvn-svn-for-finder/id847259925?mt=12">SnailSVN: SVN for Finder</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-education/id12003?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Education" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ba/65/81/ba6581d2-448a-7366-0a33-90c9918bbf44/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ba/65/81/ba6581d2-448a-7366-0a33-90c9918bbf44/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-education/id12003?mt=12">Education</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/earth-3d-amazing-atlas/id609649363?mt=12">Earth 3D - Amazing Atlas</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/athan-prayer-timings/id668570670?mt=12">Athan - Prayer Timings</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/clearview/id557090104?mt=12">Clearview</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-entertainment/id12004?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Entertainment" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/01/81/69/0181692a-385e-72a5-c1f0-c809f72a216f/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/01/81/69/0181692a-385e-72a5-c1f0-c809f72a216f/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-entertainment/id12004?mt=12">Entertainment</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/earth-3d/id476566660?mt=12">Earth 3D</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/app-for-youtube-app-with-menu-bar-tab-window-experience/id958456880?mt=12">App for YouTube - App with Menu Bar Tab &amp; Window Experience</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/wrapp-for-netflix/id1073617739?mt=12">WrApp for Netflix</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-finance/id12005?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Finance" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/6e/d9/d4/6ed9d470-8e00-aecc-8267-610dcd3a56fe/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/6e/d9/d4/6ed9d470-8e00-aecc-8267-610dcd3a56fe/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-finance/id12005?mt=12">Finance</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/cheque-print-2/id925249696?mt=12">Cheque Print 2</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/homebudget-with-sync/id578747615?mt=12">HomeBudget with Sync</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/money-pro-personal-finance/id972572731?mt=12">Money Pro: Personal Finance</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-games/id12006?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Games" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-games/id12006?mt=12">Games</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12">GRID 2 Reloaded Edition</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/dave-in-danger/id1005835970?mt=12">Dave in Danger</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/alpine-crawler-ultimate/id486344876?mt=12">Alpine Crawler Ultimate</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-graphics-design/id12022?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Graphics &amp; Design" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/75/b4/69/75b4692f-89d4-587d-7701-c5641207b4c2/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/75/b4/69/75b4692f-89d4-587d-7701-c5641207b4c2/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-graphics-design/id12022?mt=12">Graphics &amp; Design</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/graphic/id404705039?mt=12">Graphic</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/affinity-designer/id824171161?mt=12">Affinity Designer</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/boxy-svg/id611658502?mt=12">Boxy SVG</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-health-fitness/id12007?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Health &amp; Fitness" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/a0/99/ee/a099eef4-f9bd-40dd-f433-beb0c2de64bb/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/a0/99/ee/a099eef4-f9bd-40dd-f433-beb0c2de64bb/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-health-fitness/id12007?mt=12">Health &amp; Fitness</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/imuscle-2/id580090604?mt=12">iMuscle 2</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/pranayama/id421943796?mt=12">Pranayama</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/noizio-focus-relax-sleep/id928871589?mt=12">Noizio — focus, relax, sleep</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-lifestyle/id12008?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Lifestyle" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/79/6a/77/796a77b5-ca75-b8f9-56f6-88dbf38599ee/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/79/6a/77/796a77b5-ca75-b8f9-56f6-88dbf38599ee/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-lifestyle/id12008?mt=12">Lifestyle</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/wallpapers-hd/id443512640?mt=12">Wallpapers HD</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/diarie/id425024162?mt=12">Diarie</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/my-wonderful-days/id586786516?mt=12">My Wonderful Days</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-medical/id12010?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Medical" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple6/v4/8a/7e/d5/8a7ed5d1-7bfa-9b2c-5395-c71121db3fc9/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple6/v4/8a/7e/d5/8a7ed5d1-7bfa-9b2c-5395-c71121db3fc9/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-medical/id12010?mt=12">Medical</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/grays-anatomy-premium-edition/id465590812?mt=12">Gray's Anatomy Premium Edition</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/essential-anatomy-5/id626264355?mt=12">Essential Anatomy 5</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/3d-human-body-organs-reference/id451304117?mt=12">3D Human Body Organs Reference</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-music/id12011?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Music" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-music/id12011?mt=12">Music</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12">Logic Pro X</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/audio-edit-pro-audio-editor/id984332192?mt=12">Audio Edit Pro-Audio Editor</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/djay-pro-2/id1302002064?mt=12">djay Pro 2</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-news/id12012?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="News" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/27/69/d0/2769d055-4e3c-80ef-69b8-925c00e3660d/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/27/69/d0/2769d055-4e3c-80ef-69b8-925c00e3660d/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-news/id12012?mt=12">News</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/readkit/id588726889?mt=12">ReadKit</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/leaf-rss-news-reader/id576338668?mt=12">Leaf - RSS News Reader</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/pulp/id406857632?mt=12">Pulp</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-photography/id12013?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Photography" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/61/57/8e/61578e8c-44c2-e4b4-1509-fc5fc93693a2/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/61/57/8e/61578e8c-44c2-e4b4-1509-fc5fc93693a2/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-photography/id12013?mt=12">Photography</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/poster-maker-pro-collage/id958459191?mt=12">Poster Maker Pro - Collage</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/duplicate-photos-fixer-pro/id963642514?mt=12">Duplicate Photos Fixer Pro</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/photos-exif-editor/id1202851767?mt=12">Photos Exif Editor</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-productivity/id12014?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Productivity" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/b3/8c/23/b38c235b-fc34-8029-c513-070673366c03/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/b3/8c/23/b38c235b-fc34-8029-c513-070673366c03/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-productivity/id12014?mt=12">Productivity</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/bettersnaptool/id417375580?mt=12">BetterSnapTool</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/pdf-expert-edit-and-sign-pdf/id1055273043?mt=12">PDF Expert - Edit and Sign PDF</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/notes-for-google-keep/id981433563?mt=12">Notes for Google Keep</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-reference/id12015?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Reference" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple4/v4/77/d3/44/77d344e6-e1cb-beb9-5bf3-780ba44934a6/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple4/v4/77/d3/44/77d344e6-e1cb-beb9-5bf3-780ba44934a6/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-reference/id12015?mt=12">Reference</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/shortcuts-for-mac/id412610974?mt=12">Shortcuts for Mac</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/wordweb-pro-dictionary/id442806060?mt=12">WordWeb Pro Dictionary</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/quran-majeed-%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF/id411622604?mt=12">Quran Majeed — القرآن المجيد</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-social-networking/id12016?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Social Networking" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple/v4/cf/11/34/cf1134e2-0095-a4c6-0747-5615331b7855/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple/v4/cf/11/34/cf1134e2-0095-a4c6-0747-5615331b7855/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-social-networking/id12016?mt=12">Social Networking</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/facetime/id414307850?mt=12">FaceTime</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/sopochat-for-whatsapp/id1078016835?mt=12">SopoChat for WhatsApp</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/menutab-pro-for-facebook/id426843868?mt=12">MenuTab Pro for Facebook</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-sports/id12017?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Sports" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/8e/75/97/8e7597d4-38b9-8aea-8383-8cec2e2d86c3/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple117/v4/8e/75/97/8e7597d4-38b9-8aea-8383-8cec2e2d86c3/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-sports/id12017?mt=12">Sports</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/criclive/id968002891?mt=12">CricLive</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/mourinho-tactical-board-pro/id1103359983?mt=12">Mourinho Tactical Board Pro</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/swing-it/id412762314?mt=12">Swing it</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-travel/id12018?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Travel" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/a9/cf/5a/a9cf5a47-c20b-556d-47e6-62c26a8dd833/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/a9/cf/5a/a9cf5a47-c20b-556d-47e6-62c26a8dd833/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-travel/id12018?mt=12">Travel</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/quickmap-for-google-map/id1093436303?mt=12">QuickMap for Google Map</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/world-explorer-premium-travel-guide/id434615650?mt=12">World Explorer PREMIUM - Travel guide</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/passport-photo-an-id-app/id449746087?mt=12">Passport Photo - An ID App</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-utilities/id12019?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Utilities" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/4c/ba/3e/4cba3edd-8f2c-d0bc-3df6-572fc0839088/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/4c/ba/3e/4cba3edd-8f2c-d0bc-3df6-572fc0839088/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-utilities/id12019?mt=12">Utilities</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/rar-extractor-star/id647505820?mt=12">RAR Extractor Star</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/winzip-zip-unzip-protect/id583827028?mt=12">WinZip - Zip, unzip, protect</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/flash-slideshow-maker/id446051315?mt=12">Flash Slideshow Maker</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-video/id12020?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Video" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-video/id12020?mt=12">Video</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12">Final Cut Pro</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12">Motion</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/compressor/id424390742?mt=12">Compressor</a></li></ul>
+</div><div class="lockup category">
+  <a href="https://itunes.apple.com/in/genre/mac-weather/id12021?mt=12"><div class="artwork">
+    <img width="75" height="75" alt="Weather" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/a2/2c/c4/a22cc441-7d04-0858-b881-04c69fff7b53/source/150x150bb.png" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/a2/2c/c4/a22cc441-7d04-0858-b881-04c69fff7b53/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/genre/mac-weather/id12021?mt=12">Weather</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/solar-authentic-weather-forecast-with-commentary/id1234730471?mt=12">Solar - Authentic Weather Forecast with Commentary</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/clear-day-weather-hd/id411543336?mt=12">Clear Day® - Weather HD</a></li><li class="genre"><a href="https://itunes.apple.com/in/app/weather-live/id755717884?mt=12">Weather Live</a></li></ul>
+</div></div></div>
+      </div>
+      <div class="sidebar">
+        
+        <div class="user-info"><div class="user-info-links"></div></div><div data-account-info-url="https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/personalizedAccountInfoFragment" data-sign-in-text="Sign In" data-welcome-text="Welcome" data-account-text="Account" metrics-loc="Titledbox_Quick Links" class="chart titled-box quick-links">
+  
+    <h2>
+      
+      Quick Links
+    </h2>
+    
+  
+  
+  
+    <div class="content"><ol class="list"><li class="link welcome user-link"><a href="#welcome">Welcome</a></li><li class="link account user-link"><a href="#account">Account</a></li><li class="link redeem user-link"><a href="https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/redeemLandingPage?cc=in">Redeem</a></li><li class="link user-link"><a target="_blank" href="http://www.apple.com/uk/support/mac/app-store/">Support</a></li></ol></div>
+  
+  
+</div>
+
+      </div>
+    </div>
+  
+
+      </div>
+
+
+      
+      
+
+    </div>
+  </div>
+
+  <footer>
+  <div class="legal">
+    <span class="copyright">Copyright © 2018 Apple Inc. <a target="_blank" href="https://www.apple.com/uk/legal/">All Rights Reserved.</a></span>
+    <ul class="list" role="presentation">
+      <li><a target="_blank" href="https://www.apple.com/uk/privacy/">Privacy Policy</a></li>
+      <li><a target="_blank" href="http://www.apple.com/legal/itunes/appstore/in/terms.html">Terms and Conditions</a></li>
+      
+      <li><a href="https://itunes.apple.com/in/faq">FAQ</a></li>
+    </ul>
+    
+    <div class="intl" metrics-loc="CountryPicker">
+      <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage"><img src-load-auto-after-dom-load="" width="30" height="30" src-swap-high-dpi="https://s.mzstatic.com/images/flags/-dsi-30/ind.png" alt="My Store: India, Choose Store" src-swap="https://s.mzstatic.com/images/flags/30/ind.png"></img></a>
+      
+    </div>
+    
+  </div>
+</footer>
+
+
+  
+  <script type="text/javascript">
+    var pageMetricsUrl = 'https://xp.apple.com/report/2/xp_its_main?responseType=image&eventType=page&app=MacAppStore&eventSource=server&page=finance_DAHAppCategoriesPage&pageType=finance&dsid=25130963677&pageId=DAHAppCategoriesPage';
+    if (pageMetricsUrl) {
+        pageMetricsUrl += "&eventTime=" + encodeURIComponent((new Date()).getTime());
+    }
+    var billingSection = document.querySelector(".edit-billing, .creditcard");
+    if (billingSection !== null) {
+        var selectedPaymentType = document.querySelector(".credit-card-picker input.selected, #paymentTypeField");
+        if (selectedPaymentType !== null) {
+            pageMetricsUrl += "&pageDetails=pmtTyp%3D" + selectedPaymentType.value;
+        } 
+    }
+    if (its && its.cookies) {
+        var itcCt = its.cookies.getUnescaped("itcCt");
+        var itscc = its.cookies.getUnescaped("itscc");
+        var hasitcCt = false;
+        if (itcCt && itcCt !== "") {
+            pageMetricsUrl += "&cookie=itcCt%3D" + itcCt;
+            hasitcCt = true;
+        }
+        if (itscc && itscc != "") {
+            pageMetricsUrl += (hasitcCt) ? "%26" : "&cookie=";
+            pageMetricsUrl += "itscc%3D" + itscc;
+        }
+    }
+    var containingDiv = document.createElement('div');
+    containingDiv.innerHTML = "<img width='0' height='0' border='0' alt='' aria-hidden=true src='" + pageMetricsUrl + "'/>";
+    document.body.appendChild(containingDiv);
+
+    // NOTE: This should be considered temporary and replaced when a better solution is available.
+    //      right now, SFMetrics should be referenced for all of these, but MZComponents can't access anything
+    //      in MZStoreComponents so we're going to have to go with this workaround.
+    var metricsConfig = {
+        'metricsUrl' : 'https://xp.apple.com/report/2/',
+        'compoundSeparator' : '_',
+        'tokenSeparator' : '|',
+        'postFrequency' : 60000,
+        'metricsBase' : {}
+    };
+</script>
+
+</body>
+
+
+</html>

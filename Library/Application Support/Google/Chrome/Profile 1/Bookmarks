@@ -1,0 +1,46 @@
+{
+   "checksum": "2ac1d8395d9a62c52bb627b0d3924fb0",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [  ],
+            "date_added": "13184856403601595",
+            "date_modified": "13184856403601595",
+            "id": "6",
+            "name": "",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         } ],
+         "date_added": "13184855664706156",
+         "date_modified": "0",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13184855664706163",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "3",
+      "synced": {
+         "children": [ {
+            "date_added": "13176367610132275",
+            "id": "5",
+            "name": "Payoff personal loans: 2018 comprehensive review – Home",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://xyztopnews.com/2018/06/11/payoff-personal-loans-2018-comprehensive-review/"
+         } ],
+         "date_added": "13184855664706166",
+         "date_modified": "13176367610132275",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

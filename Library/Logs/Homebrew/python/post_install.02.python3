@@ -1,0 +1,988 @@
+2018-10-04 22:24:06 +0530
+
+/usr/local/Cellar/python/3.7.0/bin/python3
+-s
+setup.py
+--no-user-cfg
+install
+--force
+--verbose
+--install-scripts=/usr/local/Cellar/python/3.7.0/bin
+--install-lib=/usr/local/lib/python3.7/site-packages
+--single-version-externally-managed
+--record=installed.txt
+
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pip
+copying src/pip/__init__.py -> build/lib/pip
+copying src/pip/__main__.py -> build/lib/pip
+creating build/lib/pip/_internal
+copying src/pip/_internal/configuration.py -> build/lib/pip/_internal
+copying src/pip/_internal/baseparser.py -> build/lib/pip/_internal
+copying src/pip/_internal/resolve.py -> build/lib/pip/_internal
+copying src/pip/_internal/compat.py -> build/lib/pip/_internal
+copying src/pip/_internal/index.py -> build/lib/pip/_internal
+copying src/pip/_internal/cmdoptions.py -> build/lib/pip/_internal
+copying src/pip/_internal/download.py -> build/lib/pip/_internal
+copying src/pip/_internal/cache.py -> build/lib/pip/_internal
+copying src/pip/_internal/__init__.py -> build/lib/pip/_internal
+copying src/pip/_internal/status_codes.py -> build/lib/pip/_internal
+copying src/pip/_internal/pep425tags.py -> build/lib/pip/_internal
+copying src/pip/_internal/exceptions.py -> build/lib/pip/_internal
+copying src/pip/_internal/basecommand.py -> build/lib/pip/_internal
+copying src/pip/_internal/locations.py -> build/lib/pip/_internal
+copying src/pip/_internal/wheel.py -> build/lib/pip/_internal
+copying src/pip/_internal/build_env.py -> build/lib/pip/_internal
+creating build/lib/pip/_vendor
+copying src/pip/_vendor/retrying.py -> build/lib/pip/_vendor
+copying src/pip/_vendor/ipaddress.py -> build/lib/pip/_vendor
+copying src/pip/_vendor/__init__.py -> build/lib/pip/_vendor
+copying src/pip/_vendor/appdirs.py -> build/lib/pip/_vendor
+copying src/pip/_vendor/six.py -> build/lib/pip/_vendor
+copying src/pip/_vendor/distro.py -> build/lib/pip/_vendor
+copying src/pip/_vendor/pyparsing.py -> build/lib/pip/_vendor
+creating build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/logging.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/misc.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/encoding.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/deprecation.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/ui.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/filesystem.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/__init__.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/temp_dir.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/appdirs.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/setuptools_build.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/packaging.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/outdated.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/typing.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/hashes.py -> build/lib/pip/_internal/utils
+copying src/pip/_internal/utils/glibc.py -> build/lib/pip/_internal/utils
+creating build/lib/pip/_internal/models
+copying src/pip/_internal/models/index.py -> build/lib/pip/_internal/models
+copying src/pip/_internal/models/__init__.py -> build/lib/pip/_internal/models
+creating build/lib/pip/_internal/operations
+copying src/pip/_internal/operations/check.py -> build/lib/pip/_internal/operations
+copying src/pip/_internal/operations/__init__.py -> build/lib/pip/_internal/operations
+copying src/pip/_internal/operations/freeze.py -> build/lib/pip/_internal/operations
+copying src/pip/_internal/operations/prepare.py -> build/lib/pip/_internal/operations
+creating build/lib/pip/_internal/req
+copying src/pip/_internal/req/req_install.py -> build/lib/pip/_internal/req
+copying src/pip/_internal/req/req_tracker.py -> build/lib/pip/_internal/req
+copying src/pip/_internal/req/req_set.py -> build/lib/pip/_internal/req
+copying src/pip/_internal/req/req_uninstall.py -> build/lib/pip/_internal/req
+copying src/pip/_internal/req/__init__.py -> build/lib/pip/_internal/req
+copying src/pip/_internal/req/req_file.py -> build/lib/pip/_internal/req
+creating build/lib/pip/_internal/vcs
+copying src/pip/_internal/vcs/git.py -> build/lib/pip/_internal/vcs
+copying src/pip/_internal/vcs/__init__.py -> build/lib/pip/_internal/vcs
+copying src/pip/_internal/vcs/mercurial.py -> build/lib/pip/_internal/vcs
+copying src/pip/_internal/vcs/bazaar.py -> build/lib/pip/_internal/vcs
+copying src/pip/_internal/vcs/subversion.py -> build/lib/pip/_internal/vcs
+creating build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/configuration.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/show.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/list.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/check.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/completion.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/download.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/__init__.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/hash.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/uninstall.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/freeze.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/search.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/install.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/help.py -> build/lib/pip/_internal/commands
+copying src/pip/_internal/commands/wheel.py -> build/lib/pip/_internal/commands
+creating build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/version.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/__init__.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/utils.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/requirements.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/_structures.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/markers.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/__about__.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/_compat.py -> build/lib/pip/_vendor/packaging
+copying src/pip/_vendor/packaging/specifiers.py -> build/lib/pip/_vendor/packaging
+creating build/lib/pip/_vendor/pytoml
+copying src/pip/_vendor/pytoml/__init__.py -> build/lib/pip/_vendor/pytoml
+copying src/pip/_vendor/pytoml/core.py -> build/lib/pip/_vendor/pytoml
+copying src/pip/_vendor/pytoml/parser.py -> build/lib/pip/_vendor/pytoml
+copying src/pip/_vendor/pytoml/writer.py -> build/lib/pip/_vendor/pytoml
+creating build/lib/pip/_vendor/msgpack
+copying src/pip/_vendor/msgpack/_version.py -> build/lib/pip/_vendor/msgpack
+copying src/pip/_vendor/msgpack/__init__.py -> build/lib/pip/_vendor/msgpack
+copying src/pip/_vendor/msgpack/exceptions.py -> build/lib/pip/_vendor/msgpack
+copying src/pip/_vendor/msgpack/fallback.py -> build/lib/pip/_vendor/msgpack
+creating build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/enums.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langhungarianmodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/mbcssm.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langthaimodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/version.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/compat.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langbulgarianmodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/euckrprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/sjisprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/cp949prober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/__init__.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/euctwfreq.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langhebrewmodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/chardistribution.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/latin1prober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/charsetprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/gb2312prober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/mbcharsetprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langcyrillicmodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/euctwprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/codingstatemachine.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/escprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/universaldetector.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/utf8prober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/gb2312freq.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/mbcsgroupprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langgreekmodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/eucjpprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/jisfreq.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/escsm.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/langturkishmodel.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/sbcharsetprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/big5freq.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/euckrfreq.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/big5prober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/hebrewprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/charsetgroupprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/sbcsgroupprober.py -> build/lib/pip/_vendor/chardet
+copying src/pip/_vendor/chardet/jpcntx.py -> build/lib/pip/_vendor/chardet
+creating build/lib/pip/_vendor/webencodings
+copying src/pip/_vendor/webencodings/labels.py -> build/lib/pip/_vendor/webencodings
+copying src/pip/_vendor/webencodings/mklabels.py -> build/lib/pip/_vendor/webencodings
+copying src/pip/_vendor/webencodings/x_user_defined.py -> build/lib/pip/_vendor/webencodings
+copying src/pip/_vendor/webencodings/__init__.py -> build/lib/pip/_vendor/webencodings
+copying src/pip/_vendor/webencodings/tests.py -> build/lib/pip/_vendor/webencodings
+creating build/lib/pip/_vendor/progress
+copying src/pip/_vendor/progress/__init__.py -> build/lib/pip/_vendor/progress
+copying src/pip/_vendor/progress/bar.py -> build/lib/pip/_vendor/progress
+copying src/pip/_vendor/progress/spinner.py -> build/lib/pip/_vendor/progress
+copying src/pip/_vendor/progress/helpers.py -> build/lib/pip/_vendor/progress
+copying src/pip/_vendor/progress/counter.py -> build/lib/pip/_vendor/progress
+creating build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/locators.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/metadata.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/version.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/compat.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/index.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/manifest.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/util.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/database.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/__init__.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/markers.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/resources.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/scripts.py -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/wheel.py -> build/lib/pip/_vendor/distlib
+creating build/lib/pip/_vendor/colorama
+copying src/pip/_vendor/colorama/__init__.py -> build/lib/pip/_vendor/colorama
+copying src/pip/_vendor/colorama/win32.py -> build/lib/pip/_vendor/colorama
+copying src/pip/_vendor/colorama/ansitowin32.py -> build/lib/pip/_vendor/colorama
+copying src/pip/_vendor/colorama/ansi.py -> build/lib/pip/_vendor/colorama
+copying src/pip/_vendor/colorama/winterm.py -> build/lib/pip/_vendor/colorama
+copying src/pip/_vendor/colorama/initialise.py -> build/lib/pip/_vendor/colorama
+creating build/lib/pip/_vendor/lockfile
+copying src/pip/_vendor/lockfile/sqlitelockfile.py -> build/lib/pip/_vendor/lockfile
+copying src/pip/_vendor/lockfile/__init__.py -> build/lib/pip/_vendor/lockfile
+copying src/pip/_vendor/lockfile/linklockfile.py -> build/lib/pip/_vendor/lockfile
+copying src/pip/_vendor/lockfile/mkdirlockfile.py -> build/lib/pip/_vendor/lockfile
+copying src/pip/_vendor/lockfile/symlinklockfile.py -> build/lib/pip/_vendor/lockfile
+copying src/pip/_vendor/lockfile/pidlockfile.py -> build/lib/pip/_vendor/lockfile
+creating build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/serialize.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/wrapper.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/controller.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/compat.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/filewrapper.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/heuristics.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/adapter.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/cache.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/__init__.py -> build/lib/pip/_vendor/cachecontrol
+copying src/pip/_vendor/cachecontrol/_cmd.py -> build/lib/pip/_vendor/cachecontrol
+creating build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/intranges.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/package_data.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/compat.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/idnadata.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/__init__.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/core.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/codec.py -> build/lib/pip/_vendor/idna
+copying src/pip/_vendor/idna/uts46data.py -> build/lib/pip/_vendor/idna
+creating build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/cookies.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/auth.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/sessions.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/hooks.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/compat.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/models.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/certs.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/__init__.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/status_codes.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/packages.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/__version__.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/api.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/_internal_utils.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/utils.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/exceptions.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/structures.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/help.py -> build/lib/pip/_vendor/requests
+copying src/pip/_vendor/requests/adapters.py -> build/lib/pip/_vendor/requests
+creating build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/_inputstream.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/_ihatexml.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/constants.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/html5parser.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/__init__.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/serializer.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/_tokenizer.py -> build/lib/pip/_vendor/html5lib
+copying src/pip/_vendor/html5lib/_utils.py -> build/lib/pip/_vendor/html5lib
+creating build/lib/pip/_vendor/certifi
+copying src/pip/_vendor/certifi/__init__.py -> build/lib/pip/_vendor/certifi
+copying src/pip/_vendor/certifi/core.py -> build/lib/pip/_vendor/certifi
+copying src/pip/_vendor/certifi/__main__.py -> build/lib/pip/_vendor/certifi
+creating build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/filepost.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/fields.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/request.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/__init__.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/poolmanager.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/response.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/connection.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/_collections.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/exceptions.py -> build/lib/pip/_vendor/urllib3
+copying src/pip/_vendor/urllib3/connectionpool.py -> build/lib/pip/_vendor/urllib3
+creating build/lib/pip/_vendor/pkg_resources
+copying src/pip/_vendor/pkg_resources/py31compat.py -> build/lib/pip/_vendor/pkg_resources
+copying src/pip/_vendor/pkg_resources/__init__.py -> build/lib/pip/_vendor/pkg_resources
+creating build/lib/pip/_vendor/chardet/cli
+copying src/pip/_vendor/chardet/cli/__init__.py -> build/lib/pip/_vendor/chardet/cli
+copying src/pip/_vendor/chardet/cli/chardetect.py -> build/lib/pip/_vendor/chardet/cli
+creating build/lib/pip/_vendor/distlib/_backport
+copying src/pip/_vendor/distlib/_backport/shutil.py -> build/lib/pip/_vendor/distlib/_backport
+copying src/pip/_vendor/distlib/_backport/misc.py -> build/lib/pip/_vendor/distlib/_backport
+copying src/pip/_vendor/distlib/_backport/__init__.py -> build/lib/pip/_vendor/distlib/_backport
+copying src/pip/_vendor/distlib/_backport/tarfile.py -> build/lib/pip/_vendor/distlib/_backport
+copying src/pip/_vendor/distlib/_backport/sysconfig.py -> build/lib/pip/_vendor/distlib/_backport
+creating build/lib/pip/_vendor/cachecontrol/caches
+copying src/pip/_vendor/cachecontrol/caches/file_cache.py -> build/lib/pip/_vendor/cachecontrol/caches
+copying src/pip/_vendor/cachecontrol/caches/__init__.py -> build/lib/pip/_vendor/cachecontrol/caches
+copying src/pip/_vendor/cachecontrol/caches/redis_cache.py -> build/lib/pip/_vendor/cachecontrol/caches
+creating build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/sanitizer.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/inject_meta_charset.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/__init__.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/base.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/alphabeticalattributes.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/optionaltags.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/lint.py -> build/lib/pip/_vendor/html5lib/filters
+copying src/pip/_vendor/html5lib/filters/whitespace.py -> build/lib/pip/_vendor/html5lib/filters
+creating build/lib/pip/_vendor/html5lib/treewalkers
+copying src/pip/_vendor/html5lib/treewalkers/etree_lxml.py -> build/lib/pip/_vendor/html5lib/treewalkers
+copying src/pip/_vendor/html5lib/treewalkers/__init__.py -> build/lib/pip/_vendor/html5lib/treewalkers
+copying src/pip/_vendor/html5lib/treewalkers/etree.py -> build/lib/pip/_vendor/html5lib/treewalkers
+copying src/pip/_vendor/html5lib/treewalkers/genshi.py -> build/lib/pip/_vendor/html5lib/treewalkers
+copying src/pip/_vendor/html5lib/treewalkers/base.py -> build/lib/pip/_vendor/html5lib/treewalkers
+copying src/pip/_vendor/html5lib/treewalkers/dom.py -> build/lib/pip/_vendor/html5lib/treewalkers
+creating build/lib/pip/_vendor/html5lib/treebuilders
+copying src/pip/_vendor/html5lib/treebuilders/etree_lxml.py -> build/lib/pip/_vendor/html5lib/treebuilders
+copying src/pip/_vendor/html5lib/treebuilders/__init__.py -> build/lib/pip/_vendor/html5lib/treebuilders
+copying src/pip/_vendor/html5lib/treebuilders/etree.py -> build/lib/pip/_vendor/html5lib/treebuilders
+copying src/pip/_vendor/html5lib/treebuilders/base.py -> build/lib/pip/_vendor/html5lib/treebuilders
+copying src/pip/_vendor/html5lib/treebuilders/dom.py -> build/lib/pip/_vendor/html5lib/treebuilders
+creating build/lib/pip/_vendor/html5lib/_trie
+copying src/pip/_vendor/html5lib/_trie/_base.py -> build/lib/pip/_vendor/html5lib/_trie
+copying src/pip/_vendor/html5lib/_trie/datrie.py -> build/lib/pip/_vendor/html5lib/_trie
+copying src/pip/_vendor/html5lib/_trie/__init__.py -> build/lib/pip/_vendor/html5lib/_trie
+copying src/pip/_vendor/html5lib/_trie/py.py -> build/lib/pip/_vendor/html5lib/_trie
+creating build/lib/pip/_vendor/html5lib/treeadapters
+copying src/pip/_vendor/html5lib/treeadapters/sax.py -> build/lib/pip/_vendor/html5lib/treeadapters
+copying src/pip/_vendor/html5lib/treeadapters/__init__.py -> build/lib/pip/_vendor/html5lib/treeadapters
+copying src/pip/_vendor/html5lib/treeadapters/genshi.py -> build/lib/pip/_vendor/html5lib/treeadapters
+creating build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/queue.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/wait.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/request.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/timeout.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/__init__.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/response.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/ssl_.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/retry.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/url.py -> build/lib/pip/_vendor/urllib3/util
+copying src/pip/_vendor/urllib3/util/connection.py -> build/lib/pip/_vendor/urllib3/util
+creating build/lib/pip/_vendor/urllib3/contrib
+copying src/pip/_vendor/urllib3/contrib/securetransport.py -> build/lib/pip/_vendor/urllib3/contrib
+copying src/pip/_vendor/urllib3/contrib/__init__.py -> build/lib/pip/_vendor/urllib3/contrib
+copying src/pip/_vendor/urllib3/contrib/socks.py -> build/lib/pip/_vendor/urllib3/contrib
+copying src/pip/_vendor/urllib3/contrib/pyopenssl.py -> build/lib/pip/_vendor/urllib3/contrib
+copying src/pip/_vendor/urllib3/contrib/appengine.py -> build/lib/pip/_vendor/urllib3/contrib
+copying src/pip/_vendor/urllib3/contrib/ntlmpool.py -> build/lib/pip/_vendor/urllib3/contrib
+creating build/lib/pip/_vendor/urllib3/packages
+copying src/pip/_vendor/urllib3/packages/__init__.py -> build/lib/pip/_vendor/urllib3/packages
+copying src/pip/_vendor/urllib3/packages/ordered_dict.py -> build/lib/pip/_vendor/urllib3/packages
+copying src/pip/_vendor/urllib3/packages/six.py -> build/lib/pip/_vendor/urllib3/packages
+creating build/lib/pip/_vendor/urllib3/contrib/_securetransport
+copying src/pip/_vendor/urllib3/contrib/_securetransport/__init__.py -> build/lib/pip/_vendor/urllib3/contrib/_securetransport
+copying src/pip/_vendor/urllib3/contrib/_securetransport/low_level.py -> build/lib/pip/_vendor/urllib3/contrib/_securetransport
+copying src/pip/_vendor/urllib3/contrib/_securetransport/bindings.py -> build/lib/pip/_vendor/urllib3/contrib/_securetransport
+creating build/lib/pip/_vendor/urllib3/packages/backports
+copying src/pip/_vendor/urllib3/packages/backports/__init__.py -> build/lib/pip/_vendor/urllib3/packages/backports
+copying src/pip/_vendor/urllib3/packages/backports/makefile.py -> build/lib/pip/_vendor/urllib3/packages/backports
+creating build/lib/pip/_vendor/urllib3/packages/ssl_match_hostname
+copying src/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py -> build/lib/pip/_vendor/urllib3/packages/ssl_match_hostname
+copying src/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py -> build/lib/pip/_vendor/urllib3/packages/ssl_match_hostname
+copying src/pip/_vendor/distlib/t32.exe -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/t64.exe -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/w32.exe -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/distlib/w64.exe -> build/lib/pip/_vendor/distlib
+copying src/pip/_vendor/certifi/cacert.pem -> build/lib/pip/_vendor/certifi
+copying src/pip/_vendor/distlib/_backport/sysconfig.cfg -> build/lib/pip/_vendor/distlib/_backport
+running install_lib
+creating /usr/local/lib/python3.7/site-packages/pip
+creating /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/configuration.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/baseparser.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/resolve.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/compat.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/index.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/cmdoptions.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/download.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/cache.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/status_codes.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+creating /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/logging.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/misc.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/encoding.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/deprecation.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/ui.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/filesystem.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/temp_dir.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/appdirs.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/setuptools_build.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/packaging.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/outdated.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/typing.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/hashes.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+copying build/lib/pip/_internal/utils/glibc.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/utils
+creating /usr/local/lib/python3.7/site-packages/pip/_internal/models
+copying build/lib/pip/_internal/models/index.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/models
+copying build/lib/pip/_internal/models/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/models
+creating /usr/local/lib/python3.7/site-packages/pip/_internal/operations
+copying build/lib/pip/_internal/operations/check.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/operations
+copying build/lib/pip/_internal/operations/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/operations
+copying build/lib/pip/_internal/operations/freeze.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/operations
+copying build/lib/pip/_internal/operations/prepare.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/operations
+creating /usr/local/lib/python3.7/site-packages/pip/_internal/req
+copying build/lib/pip/_internal/req/req_install.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/req
+copying build/lib/pip/_internal/req/req_tracker.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/req
+copying build/lib/pip/_internal/req/req_set.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/req
+copying build/lib/pip/_internal/req/req_uninstall.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/req
+copying build/lib/pip/_internal/req/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/req
+copying build/lib/pip/_internal/req/req_file.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/req
+creating /usr/local/lib/python3.7/site-packages/pip/_internal/vcs
+copying build/lib/pip/_internal/vcs/git.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/vcs
+copying build/lib/pip/_internal/vcs/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/vcs
+copying build/lib/pip/_internal/vcs/mercurial.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/vcs
+copying build/lib/pip/_internal/vcs/bazaar.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/vcs
+copying build/lib/pip/_internal/vcs/subversion.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/vcs
+copying build/lib/pip/_internal/pep425tags.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/exceptions.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+creating /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/configuration.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/show.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/list.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/check.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/completion.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/download.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/hash.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/uninstall.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/freeze.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/search.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/install.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/help.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/commands/wheel.py -> /usr/local/lib/python3.7/site-packages/pip/_internal/commands
+copying build/lib/pip/_internal/basecommand.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/locations.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/wheel.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+copying build/lib/pip/_internal/build_env.py -> /usr/local/lib/python3.7/site-packages/pip/_internal
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor
+copying build/lib/pip/_vendor/retrying.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/version.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/utils.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/requirements.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/_structures.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/markers.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/__about__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/_compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+copying build/lib/pip/_vendor/packaging/specifiers.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml
+copying build/lib/pip/_vendor/pytoml/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml
+copying build/lib/pip/_vendor/pytoml/core.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml
+copying build/lib/pip/_vendor/pytoml/parser.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml
+copying build/lib/pip/_vendor/pytoml/writer.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml
+copying build/lib/pip/_vendor/ipaddress.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack
+copying build/lib/pip/_vendor/msgpack/_version.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack
+copying build/lib/pip/_vendor/msgpack/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack
+copying build/lib/pip/_vendor/msgpack/exceptions.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack
+copying build/lib/pip/_vendor/msgpack/fallback.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/enums.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langhungarianmodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/mbcssm.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langthaimodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/version.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langbulgarianmodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/euckrprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/sjisprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/cp949prober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/euctwfreq.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langhebrewmodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/cli
+copying build/lib/pip/_vendor/chardet/cli/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/cli
+copying build/lib/pip/_vendor/chardet/cli/chardetect.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/cli
+copying build/lib/pip/_vendor/chardet/chardistribution.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/latin1prober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/charsetprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/gb2312prober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/mbcharsetprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langcyrillicmodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/euctwprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/codingstatemachine.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/escprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/universaldetector.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/utf8prober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/gb2312freq.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/mbcsgroupprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langgreekmodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/eucjpprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/jisfreq.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/escsm.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/langturkishmodel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/sbcharsetprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/big5freq.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/euckrfreq.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/big5prober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/hebrewprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/charsetgroupprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/sbcsgroupprober.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+copying build/lib/pip/_vendor/chardet/jpcntx.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings
+copying build/lib/pip/_vendor/webencodings/labels.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings
+copying build/lib/pip/_vendor/webencodings/mklabels.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings
+copying build/lib/pip/_vendor/webencodings/x_user_defined.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings
+copying build/lib/pip/_vendor/webencodings/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings
+copying build/lib/pip/_vendor/webencodings/tests.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/progress
+copying build/lib/pip/_vendor/progress/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/progress
+copying build/lib/pip/_vendor/progress/bar.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/progress
+copying build/lib/pip/_vendor/progress/spinner.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/progress
+copying build/lib/pip/_vendor/progress/helpers.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/progress
+copying build/lib/pip/_vendor/progress/counter.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/progress
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/_backport/shutil.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/_backport/misc.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/_backport/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/_backport/sysconfig.cfg -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/_backport/tarfile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/_backport/sysconfig.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport
+copying build/lib/pip/_vendor/distlib/w32.exe -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/locators.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/metadata.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/version.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/index.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/manifest.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/util.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/database.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/t32.exe -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/w64.exe -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/markers.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/resources.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/scripts.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/t64.exe -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+copying build/lib/pip/_vendor/distlib/wheel.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+copying build/lib/pip/_vendor/colorama/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+copying build/lib/pip/_vendor/colorama/win32.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+copying build/lib/pip/_vendor/colorama/ansitowin32.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+copying build/lib/pip/_vendor/colorama/ansi.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+copying build/lib/pip/_vendor/colorama/winterm.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+copying build/lib/pip/_vendor/colorama/initialise.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+copying build/lib/pip/_vendor/lockfile/sqlitelockfile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+copying build/lib/pip/_vendor/lockfile/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+copying build/lib/pip/_vendor/lockfile/linklockfile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+copying build/lib/pip/_vendor/lockfile/mkdirlockfile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+copying build/lib/pip/_vendor/lockfile/symlinklockfile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+copying build/lib/pip/_vendor/lockfile/pidlockfile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/serialize.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/wrapper.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/controller.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/filewrapper.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/heuristics.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/adapter.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/cache.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+copying build/lib/pip/_vendor/cachecontrol/_cmd.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches
+copying build/lib/pip/_vendor/cachecontrol/caches/file_cache.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches
+copying build/lib/pip/_vendor/cachecontrol/caches/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches
+copying build/lib/pip/_vendor/cachecontrol/caches/redis_cache.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/intranges.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/package_data.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/idnadata.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/core.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/codec.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/idna/uts46data.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/idna
+copying build/lib/pip/_vendor/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/cookies.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/auth.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/sessions.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/hooks.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/models.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/certs.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/status_codes.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/packages.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/__version__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/api.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/_internal_utils.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/utils.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/exceptions.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/structures.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/help.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/requests/adapters.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/requests
+copying build/lib/pip/_vendor/appdirs.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/sanitizer.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/inject_meta_charset.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/base.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/alphabeticalattributes.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/optionaltags.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/lint.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+copying build/lib/pip/_vendor/html5lib/filters/whitespace.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+copying build/lib/pip/_vendor/html5lib/treewalkers/etree_lxml.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+copying build/lib/pip/_vendor/html5lib/treewalkers/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+copying build/lib/pip/_vendor/html5lib/treewalkers/etree.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+copying build/lib/pip/_vendor/html5lib/treewalkers/genshi.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+copying build/lib/pip/_vendor/html5lib/treewalkers/base.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+copying build/lib/pip/_vendor/html5lib/treewalkers/dom.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders
+copying build/lib/pip/_vendor/html5lib/treebuilders/etree_lxml.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders
+copying build/lib/pip/_vendor/html5lib/treebuilders/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders
+copying build/lib/pip/_vendor/html5lib/treebuilders/etree.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders
+copying build/lib/pip/_vendor/html5lib/treebuilders/base.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders
+copying build/lib/pip/_vendor/html5lib/treebuilders/dom.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders
+copying build/lib/pip/_vendor/html5lib/_inputstream.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+copying build/lib/pip/_vendor/html5lib/_ihatexml.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+copying build/lib/pip/_vendor/html5lib/constants.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+copying build/lib/pip/_vendor/html5lib/html5parser.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+copying build/lib/pip/_vendor/html5lib/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie
+copying build/lib/pip/_vendor/html5lib/_trie/_base.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie
+copying build/lib/pip/_vendor/html5lib/_trie/datrie.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie
+copying build/lib/pip/_vendor/html5lib/_trie/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie
+copying build/lib/pip/_vendor/html5lib/_trie/py.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters
+copying build/lib/pip/_vendor/html5lib/treeadapters/sax.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters
+copying build/lib/pip/_vendor/html5lib/treeadapters/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters
+copying build/lib/pip/_vendor/html5lib/treeadapters/genshi.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters
+copying build/lib/pip/_vendor/html5lib/serializer.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+copying build/lib/pip/_vendor/html5lib/_tokenizer.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+copying build/lib/pip/_vendor/html5lib/_utils.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi
+copying build/lib/pip/_vendor/certifi/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi
+copying build/lib/pip/_vendor/certifi/core.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi
+copying build/lib/pip/_vendor/certifi/cacert.pem -> /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi
+copying build/lib/pip/_vendor/certifi/__main__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi
+copying build/lib/pip/_vendor/six.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/filepost.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/fields.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/queue.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/wait.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/request.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/timeout.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/response.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/ssl_.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/retry.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/url.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/util/connection.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util
+copying build/lib/pip/_vendor/urllib3/request.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/poolmanager.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/response.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+copying build/lib/pip/_vendor/urllib3/contrib/securetransport.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+copying build/lib/pip/_vendor/urllib3/contrib/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+copying build/lib/pip/_vendor/urllib3/contrib/socks.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+copying build/lib/pip/_vendor/urllib3/contrib/pyopenssl.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+copying build/lib/pip/_vendor/urllib3/contrib/appengine.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport
+copying build/lib/pip/_vendor/urllib3/contrib/_securetransport/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport
+copying build/lib/pip/_vendor/urllib3/contrib/_securetransport/low_level.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport
+copying build/lib/pip/_vendor/urllib3/contrib/_securetransport/bindings.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport
+copying build/lib/pip/_vendor/urllib3/contrib/ntlmpool.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib
+copying build/lib/pip/_vendor/urllib3/connection.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/_collections.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages
+copying build/lib/pip/_vendor/urllib3/packages/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports
+copying build/lib/pip/_vendor/urllib3/packages/backports/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports
+copying build/lib/pip/_vendor/urllib3/packages/backports/makefile.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports
+copying build/lib/pip/_vendor/urllib3/packages/ordered_dict.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages
+copying build/lib/pip/_vendor/urllib3/packages/six.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname
+copying build/lib/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname
+copying build/lib/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname
+copying build/lib/pip/_vendor/urllib3/exceptions.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/urllib3/connectionpool.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3
+copying build/lib/pip/_vendor/distro.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+creating /usr/local/lib/python3.7/site-packages/pip/_vendor/pkg_resources
+copying build/lib/pip/_vendor/pkg_resources/py31compat.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/pkg_resources
+copying build/lib/pip/_vendor/pkg_resources/__init__.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor/pkg_resources
+copying build/lib/pip/_vendor/pyparsing.py -> /usr/local/lib/python3.7/site-packages/pip/_vendor
+copying build/lib/pip/__init__.py -> /usr/local/lib/python3.7/site-packages/pip
+copying build/lib/pip/__main__.py -> /usr/local/lib/python3.7/site-packages/pip
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/configuration.py to configuration.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/baseparser.py to baseparser.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/resolve.py to resolve.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/compat.py to compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/index.py to index.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/cmdoptions.py to cmdoptions.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/download.py to download.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/cache.py to cache.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/status_codes.py to status_codes.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/logging.py to logging.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/misc.py to misc.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/encoding.py to encoding.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/deprecation.py to deprecation.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/ui.py to ui.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/filesystem.py to filesystem.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/temp_dir.py to temp_dir.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/appdirs.py to appdirs.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/setuptools_build.py to setuptools_build.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/packaging.py to packaging.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/outdated.py to outdated.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/typing.py to typing.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/hashes.py to hashes.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/utils/glibc.py to glibc.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/models/index.py to index.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/models/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/operations/check.py to check.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/operations/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/operations/freeze.py to freeze.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/operations/prepare.py to prepare.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/req/req_install.py to req_install.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/req/req_tracker.py to req_tracker.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/req/req_set.py to req_set.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/req/req_uninstall.py to req_uninstall.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/req/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/req/req_file.py to req_file.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/vcs/git.py to git.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/vcs/mercurial.py to mercurial.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/vcs/bazaar.py to bazaar.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py to subversion.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/pep425tags.py to pep425tags.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/exceptions.py to exceptions.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/configuration.py to configuration.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/show.py to show.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/list.py to list.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/check.py to check.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/completion.py to completion.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/download.py to download.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/hash.py to hash.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/uninstall.py to uninstall.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/freeze.py to freeze.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/search.py to search.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/install.py to install.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/help.py to help.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/commands/wheel.py to wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/basecommand.py to basecommand.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/locations.py to locations.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/wheel.py to wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_internal/build_env.py to build_env.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/retrying.py to retrying.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/version.py to version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/utils.py to utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py to requirements.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/_structures.py to _structures.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py to markers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/__about__.py to __about__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/_compat.py to _compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/packaging/specifiers.py to specifiers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml/core.py to core.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml/parser.py to parser.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pytoml/writer.py to writer.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/ipaddress.py to ipaddress.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack/_version.py to _version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack/exceptions.py to exceptions.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/msgpack/fallback.py to fallback.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/enums.py to enums.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langhungarianmodel.py to langhungarianmodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/mbcssm.py to mbcssm.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langthaimodel.py to langthaimodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/version.py to version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/compat.py to compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langbulgarianmodel.py to langbulgarianmodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/euckrprober.py to euckrprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/sjisprober.py to sjisprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/cp949prober.py to cp949prober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/euctwfreq.py to euctwfreq.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langhebrewmodel.py to langhebrewmodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/cli/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/cli/chardetect.py to chardetect.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/chardistribution.py to chardistribution.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/latin1prober.py to latin1prober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/charsetprober.py to charsetprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312prober.py to gb2312prober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/mbcharsetprober.py to mbcharsetprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langcyrillicmodel.py to langcyrillicmodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/euctwprober.py to euctwprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/codingstatemachine.py to codingstatemachine.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/escprober.py to escprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/universaldetector.py to universaldetector.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/utf8prober.py to utf8prober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312freq.py to gb2312freq.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/mbcsgroupprober.py to mbcsgroupprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langgreekmodel.py to langgreekmodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/eucjpprober.py to eucjpprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/jisfreq.py to jisfreq.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/escsm.py to escsm.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/langturkishmodel.py to langturkishmodel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/sbcharsetprober.py to sbcharsetprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/big5freq.py to big5freq.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/euckrfreq.py to euckrfreq.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/big5prober.py to big5prober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/hebrewprober.py to hebrewprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/charsetgroupprober.py to charsetgroupprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/sbcsgroupprober.py to sbcsgroupprober.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/chardet/jpcntx.py to jpcntx.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings/labels.py to labels.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings/mklabels.py to mklabels.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings/x_user_defined.py to x_user_defined.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/webencodings/tests.py to tests.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/progress/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/progress/bar.py to bar.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/progress/spinner.py to spinner.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/progress/helpers.py to helpers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/progress/counter.py to counter.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/shutil.py to shutil.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/misc.py to misc.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py to tarfile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py to sysconfig.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/locators.py to locators.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/metadata.py to metadata.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/version.py to version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py to compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/index.py to index.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/manifest.py to manifest.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/util.py to util.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/database.py to database.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/markers.py to markers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/resources.py to resources.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/scripts.py to scripts.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distlib/wheel.py to wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama/win32.py to win32.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama/ansitowin32.py to ansitowin32.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama/ansi.py to ansi.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama/winterm.py to winterm.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/colorama/initialise.py to initialise.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py to sqlitelockfile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile/linklockfile.py to linklockfile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py to mkdirlockfile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py to symlinklockfile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/lockfile/pidlockfile.py to pidlockfile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/serialize.py to serialize.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/wrapper.py to wrapper.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/controller.py to controller.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/compat.py to compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py to filewrapper.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/heuristics.py to heuristics.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/adapter.py to adapter.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/cache.py to cache.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/_cmd.py to _cmd.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py to file_cache.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py to redis_cache.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/intranges.py to intranges.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/package_data.py to package_data.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/compat.py to compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/idnadata.py to idnadata.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/core.py to core.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/codec.py to codec.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/idna/uts46data.py to uts46data.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/cookies.py to cookies.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/auth.py to auth.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py to sessions.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/hooks.py to hooks.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/compat.py to compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/models.py to models.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/certs.py to certs.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/status_codes.py to status_codes.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/packages.py to packages.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/__version__.py to __version__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/api.py to api.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/_internal_utils.py to _internal_utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/utils.py to utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/exceptions.py to exceptions.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/structures.py to structures.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/help.py to help.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/requests/adapters.py to adapters.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/appdirs.py to appdirs.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py to sanitizer.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py to inject_meta_charset.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/base.py to base.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py to alphabeticalattributes.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py to optionaltags.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/lint.py to lint.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py to whitespace.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py to etree_lxml.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py to etree.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py to genshi.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py to base.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py to dom.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py to etree_lxml.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py to etree.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py to base.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py to dom.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_inputstream.py to _inputstream.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_ihatexml.py to _ihatexml.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/constants.py to constants.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/html5parser.py to html5parser.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/_base.py to _base.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py to datrie.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/py.py to py.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py to sax.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py to genshi.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/serializer.py to serializer.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_tokenizer.py to _tokenizer.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/html5lib/_utils.py to _utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi/core.py to core.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/certifi/__main__.py to __main__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/six.py to six.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/filepost.py to filepost.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/fields.py to fields.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/queue.py to queue.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/wait.py to wait.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/request.py to request.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/timeout.py to timeout.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/response.py to response.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py to ssl_.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/retry.py to retry.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/url.py to url.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py to connection.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/request.py to request.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/poolmanager.py to poolmanager.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/response.py to response.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/securetransport.py to securetransport.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/socks.py to socks.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py to pyopenssl.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/appengine.py to appengine.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py to low_level.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py to bindings.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py to ntlmpool.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py to connection.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/_collections.py to _collections.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py to makefile.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py to ordered_dict.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/six.py to six.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py to _implementation.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/exceptions.py to exceptions.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py to connectionpool.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/distro.py to distro.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pkg_resources/py31compat.py to py31compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pkg_resources/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/_vendor/pyparsing.py to pyparsing.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pip/__main__.py to __main__.cpython-37.pyc
+running install_egg_info
+running egg_info
+writing src/pip.egg-info/PKG-INFO
+writing dependency_links to src/pip.egg-info/dependency_links.txt
+writing entry points to src/pip.egg-info/entry_points.txt
+writing top-level names to src/pip.egg-info/top_level.txt
+reading manifest file 'src/pip.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '.coveragerc'
+warning: no previously-included files found matching '.mailmap'
+warning: no previously-included files found matching '.travis.yml'
+warning: no previously-included files found matching 'tox.ini'
+warning: no previously-included files found matching 'appveyor.yml'
+warning: no previously-included files found matching 'src/pip/_vendor/six'
+warning: no previously-included files found matching 'src/pip/_vendor/six/moves'
+warning: no previously-included files matching '*.pyi' found under directory 'src/pip/_vendor'
+no previously-included directories found matching '.github'
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'news'
+no previously-included directories found matching 'tasks'
+no previously-included directories found matching 'tests'
+no previously-included directories found matching 'tools'
+writing manifest file 'src/pip.egg-info/SOURCES.txt'
+Copying src/pip.egg-info to /usr/local/lib/python3.7/site-packages/pip-18.0-py3.7.egg-info
+running install_scripts
+Installing pip script to /usr/local/Cellar/python/3.7.0/bin
+Installing pip3 script to /usr/local/Cellar/python/3.7.0/bin
+Installing pip3.7 script to /usr/local/Cellar/python/3.7.0/bin
+writing list of installed files to 'installed.txt'

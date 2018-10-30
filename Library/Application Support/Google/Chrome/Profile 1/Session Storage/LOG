@@ -1,0 +1,60 @@
+2018/10/26-20:49:20.508 49667 Reusing MANIFEST /Users/rajapoth/Library/Application Support/Google/Chrome/Profile 1/Session Storage/MANIFEST-000001
+2018/10/26-20:49:20.509 49667 Recovering log #26
+2018/10/26-20:49:20.509 49667 Reusing old log /Users/rajapoth/Library/Application Support/Google/Chrome/Profile 1/Session Storage/000026.log 
+2018/10/26-20:53:18.690 6327 Level-0 table #30: started
+2018/10/26-20:53:18.693 6327 Level-0 table #30: 17653 bytes OK
+2018/10/26-20:53:18.694 6327 Delete type=0 #26
+2018/10/26-21:48:45.404 6327 Level-0 table #32: started
+2018/10/26-21:48:45.407 6327 Level-0 table #32: 18688 bytes OK
+2018/10/26-21:48:45.408 6327 Delete type=0 #29
+2018/10/27-10:15:11.558 6327 Level-0 table #34: started
+2018/10/27-10:15:11.561 6327 Level-0 table #34: 24247 bytes OK
+2018/10/27-10:15:11.562 6327 Delete type=0 #31
+2018/10/27-10:15:11.562 6327 Compacting 4@0 + 1@1 files
+2018/10/27-10:15:11.570 6327 Generated table #35@0: 416 keys, 60109 bytes
+2018/10/27-10:15:11.570 6327 Compacted 4@0 + 1@1 files => 60109 bytes
+2018/10/27-10:15:11.571 6327 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/10/27-10:15:11.571 6327 Delete type=2 #34
+2018/10/27-10:15:11.571 6327 Delete type=2 #32
+2018/10/27-10:15:11.572 6327 Delete type=2 #27
+2018/10/27-10:15:11.573 6327 Delete type=2 #25
+2018/10/27-10:15:11.574 6327 Delete type=2 #30
+2018/10/27-10:31:04.016 6327 Level-0 table #37: started
+2018/10/27-10:31:04.020 6327 Level-0 table #37: 17702 bytes OK
+2018/10/27-10:31:04.021 6327 Delete type=0 #33
+2018/10/27-12:48:42.731 6327 Level-0 table #39: started
+2018/10/27-12:48:42.734 6327 Level-0 table #39: 16586 bytes OK
+2018/10/27-12:48:42.735 6327 Delete type=0 #36
+2018/10/27-21:25:27.581 6327 Level-0 table #41: started
+2018/10/27-21:25:27.592 6327 Level-0 table #41: 21894 bytes OK
+2018/10/27-21:25:27.592 6327 Delete type=0 #38
+2018/10/27-23:23:02.981 6327 Level-0 table #43: started
+2018/10/27-23:23:02.983 6327 Level-0 table #43: 17869 bytes OK
+2018/10/27-23:23:02.984 6327 Delete type=0 #40
+2018/10/27-23:23:02.985 6327 Compacting 4@0 + 1@1 files
+2018/10/27-23:23:02.991 6327 Generated table #44@0: 529 keys, 132817 bytes
+2018/10/27-23:23:02.991 6327 Compacted 4@0 + 1@1 files => 132817 bytes
+2018/10/27-23:23:02.991 6327 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/10/27-23:23:02.991 6327 Delete type=2 #39
+2018/10/27-23:23:02.993 6327 Delete type=2 #35
+2018/10/27-23:23:02.994 6327 Delete type=2 #37
+2018/10/27-23:23:02.995 6327 Delete type=2 #43
+2018/10/27-23:23:02.995 6327 Delete type=2 #41
+2018/10/29-07:39:07.438 6327 Compacting 1@1 + 1@2 files
+2018/10/29-07:39:07.527 6327 Generated table #45@1: 162 keys, 125849 bytes
+2018/10/29-07:39:07.527 6327 Compacted 1@1 + 1@2 files => 125849 bytes
+2018/10/29-07:39:07.528 6327 compacted to: files[ 0 0 1 0 0 0 0 ]
+2018/10/29-07:39:07.528 6327 Delete type=2 #5
+2018/10/29-07:39:07.541 6327 Delete type=2 #44
+2018/10/29-16:31:16.899 6327 Level-0 table #47: started
+2018/10/29-16:31:16.910 6327 Level-0 table #47: 22121 bytes OK
+2018/10/29-16:31:16.912 6327 Delete type=0 #42
+2018/10/30-09:31:47.619 6327 Level-0 table #49: started
+2018/10/30-09:31:47.630 6327 Level-0 table #49: 14332 bytes OK
+2018/10/30-09:31:47.632 6327 Delete type=0 #46
+2018/10/30-13:04:41.747 6327 Level-0 table #51: started
+2018/10/30-13:04:41.759 6327 Level-0 table #51: 19054 bytes OK
+2018/10/30-13:04:41.759 6327 Delete type=0 #48
+2018/10/30-13:05:55.974 6327 Level-0 table #53: started
+2018/10/30-13:05:55.991 6327 Level-0 table #53: 18064 bytes OK
+2018/10/30-13:05:55.992 6327 Delete type=0 #50

@@ -1,0 +1,339 @@
+/*
+** Copyright © 2018 Apple Inc.
+** All rights reserved.
+*/
+
+v\:*{behavior:url(ac_media_player/stylesheets/#default#VML);background-color:transparent}
+v\:roundrect{background-color:transparent;display:block;color:#fff;font-size:1.2em;height:100%;padding:0;width:100%}
+.border-radius-box .border-radius-fill{display:block;height:100%;left:0;position:absolute;top:0;width:100%;z-index:14}
+object.quicktime{behavior:url(ac_media_player/stylesheets/#qt_event_source)}
+.ACMediaRedraw{position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;background-color:transparent}
+.ACMediaControls{position:absolute!important;top:0;*top:50%;right:0;bottom:0;left:0;margin:auto;width:100%;height:100%;text-align:left;user-select:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;transition:height .6s linear,width .6s linear;-webkit-transition:height .6s linear,width .6s linear;-o-transition:height .6s linear,width .6s linear}
+.moviePanel.movie-loading-animation object.sbvdp{left:-2000px;position:absolute!important;top:-2000px}
+.moviePanel object.sbvdp{position:relative}
+.moviePanel{position:relative;top:0;left:0;bottom:0;right:0;margin:auto;height:100%;width:100%}
+.moviePanel object{z-index:0}
+.moviePanel .controllerPanel{background:none!important;height:auto!important;position:static!important;width:auto!important}
+.moviePanel .controllerPanel:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.moviePanel .video,.moviePanel object{position:absolute;display:block;top:0;*top:50%;right:0;bottom:0;left:0;margin:auto;user-select:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;transition:height .6s linear,width .6s linear;-webkit-transition:height .6s linear,width .6s linear;-o-transition:height .6s linear,width .6s linear}
+.moviePanel embed{position:absolute;display:block;top:0;*top:50%;right:0;bottom:0;left:0;margin:auto;transition:height .6s linear,width .6s linear;-webkit-transition:height .6s linear,width .6s linear}
+.winchrome object,.winchrome .ACMediaControls{-webkit-transition:none}
+.moviePanel .canvasFrame{width:848px;height:480px;position:absolute;display:block;bottom:0;left:0;margin:auto;right:0;top:0;*top:50%;user-select:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;transition:height .6s linear,width .6s linear,opacity .3s linear;-webkit-transition:height .6s linear,width .6s linear,opacity .3s linear;-moz-transition:height .6s linear,width .6s linear,opacity .3s linear;-o-transition:height .6s linear,width .6s linear,opacity .3s linear}
+.moviePanel #loadingIndicator{background:rgba(0,0,0,.5);border-radius:7px;-moz-border-radius:7px;width:36px;height:36px;position:absolute;z-index:10;display:block;user-select:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;transition:opacity .3s linear;-webkit-transition:opacity .3s linear;-moz-transition:opacity .3s linear}
+.moviePanel #loadingIndicator div{background:url(ac_media_player/images/quicktime/loading.png) 50% 50% no-repeat;-webkit-animation-name:loadingIndicatorAnime;-webkit-animation-duration:.8s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;width:36px;height:36px}
+.moviePanel #loadingIndicator{!background:#fff}
+.moviePanel.mozilla #loadingIndicator{display:none;background:#fff}
+.moviePanel #loadingIndicator div{!background:url(ac_media_player/images/quicktime/animated_spinner.gif) 50% 50% no-repeat}
+.moviePanel.mozilla #loadingIndicator div{background:url(ac_media_player/images/quicktime/animated_spinner.gif) 50% 50% no-repeat}
+@-webkit-keyframes loadingIndicatorAnime{0%{ -webkit-transform:rotate(0deg)}
+8.32%{-webkit-transform:rotate(0deg)}
+8.33%{-webkit-transform:rotate(30deg)}
+16.66%{-webkit-transform:rotate(30deg)}
+16.67%{-webkit-transform:rotate(60deg)}
+24.99%{-webkit-transform:rotate(60deg)}
+25%{-webkit-transform:rotate(90deg)}
+33.32%{-webkit-transform:rotate(90deg)}
+33.33%{-webkit-transform:rotate(120deg)}
+41.66%{-webkit-transform:rotate(120deg)}
+41.67%{-webkit-transform:rotate(150deg)}
+49.99%{-webkit-transform:rotate(150deg)}
+50%{-webkit-transform:rotate(180deg)}
+58.2%{-webkit-transform:rotate(180deg)}
+58.3%{-webkit-transform:rotate(210deg)}
+66.66%{-webkit-transform:rotate(210deg)}
+66.67%{-webkit-transform:rotate(240deg)}
+74.99%{-webkit-transform:rotate(240deg)}
+75%{-webkit-transform:rotate(270deg)}
+83.32%{-webkit-transform:rotate(270deg)}
+83.33%{-webkit-transform:rotate(300deg)}
+91.65%{-webkit-transform:rotate(300deg)}
+91.66%{-webkit-transform:rotate(330deg)}
+100%{-webkit-transform:rotate(330deg)}
+}
+.moviePanel.movie-loading-panel_320x180,.moviePanel.movie-loading-panel_320x200,.moviePanel.movie-loading-panel_480x272,.moviePanel.movie-loading-panel_480x300,.moviePanel.movie-loading-panel_560x316,.moviePanel.movie-loading-panel_560x352,.moviePanel.movie-loading-panel_640x360,.moviePanel.movie-loading-panel_640x400,.moviePanel.movie-loading-panel_848x480,.moviePanel.movie-loading-panel_848x528,.moviePanel.movie-loading-panel{background-position:50% 50%;background-repeat:no-repeat;z-index:20050}
+.moviePanel.movie-loading-panel_320x180{background-image:url(ac_media_player/images/quicktime/qt_loading320x180.gif)}
+.moviePanel.movie-loading-panel_320x200{background-image:url(ac_media_player/images/quicktime/qt_loading320x200.gif)}
+.moviePanel.movie-loading-panel_480x272{background-image:url(ac_media_player/images/quicktime/qt_loading480x272.gif)}
+.moviePanel.movie-loading-panel_480x300{background-image:url(ac_media_player/images/quicktime/qt_loading480x300.gif)}
+.moviePanel.movie-loading-panel_560x316{background-image:url(ac_media_player/images/quicktime/qt_loading560x316.gif)}
+.moviePanel.movie-loading-panel_560x352{background-image:url(ac_media_player/images/quicktime/qt_loading560x352.gif)}
+.moviePanel.movie-loading-panel_640x360{background-image:url(ac_media_player/images/quicktime/qt_loading640x360.gif)}
+.moviePanel.movie-loading-panel_640x400{background-image:url(ac_media_player/images/quicktime/qt_loading640x400.gif)}
+.moviePanel.movie-loading-panel_848x480{background-image:url(ac_media_player/images/quicktime/qt_loading848x480.gif)}
+.moviePanel.movie-loading-panel_848x528{background-image:url(ac_media_player/images/quicktime/qt_loading848x528.gif)}
+.moviePanel.movie-loading-panel{background-image:url(ac_media_player/images/quicktime/qt_loading848x528.gif)}
+* html .ACMediaControls *{position:static!important}
+.ACMediaControls .ACMediaAlertDisplay-active .two-times-speed-display,.ACMediaControls .ACMediaAlertDisplay-active .four-times-speed-display,.ACMediaControls .ACMediaAlertDisplay-active .eight-times-speed-display,.ACMediaControls .mediaControllerPanel>.ACMediaController .volumeMute,.ACMediaControls .mediaControllerPanel>.ACMediaController .volumeTrack,.ACMediaControls .mediaControllerPanel>.ACMediaController .volumeTrackProgress,.ACMediaControls .mediaControllerPanel>.ACMediaController .volumePlayHead,.ACMediaControls .mediaControllerPanel>.ACMediaController .volumeFull,.ACMediaControls .mediaControllerPanel>.ACMediaController .play,.ACMediaControls .mediaControllerPanel>.ACMediaController .pause,.ACMediaControls .mediaControllerPanel>.ACMediaController .fastBackward,.ACMediaControls .mediaControllerPanel>.ACMediaController .fastForward,.ACMediaControls .mediaControllerPanel>.ACMediaController .accessibilitiesMenuControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .sizesMenuControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .downloadMenuControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .shareMenuControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .track,.ACMediaControls .mediaControllerPanel>.ACMediaController .loadedProgress,.ACMediaControls .mediaControllerPanel>.ACMediaController .trackProgress,.ACMediaControls .mediaControllerPanel>.ACMediaController .playHead,.slim .ACMediaControls .ACMediaController .trackPanel .playHead{background-image:url(ac_media_player/images/quicktime/ac_media_regular_controls.png);background-repeat:no-repeat;*text-indent:-99999px}
+.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .captionsControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .sizesControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .downloadControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .shareControl,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .fullscreenControl{background-image:url(ac_media_player/images/quicktime/snow_leopard_controller_settings_controls.png);background-repeat:no-repeat;display:none}
+.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .captionsControl-enabled,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .sizesControl-enabled,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .downloadControl-enabled,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .shareControl-enabled,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .fullscreenControl-enabled,.ACMediaControls .mediaControllerPanel>.ACMediaController .settingsControls .fullscreenControl-disabled{display:inline-block}
+.ACMediaControls .ACMediaController *{user-select:none;-webkit-user-select:none;-moz-user-select:none;-o-user-select:none}
+.mediaControllerPanel{opacity:1;transition:opacity .7s;-webkit-transition:opacity .7s;-o-transition:opacity .7s}
+.mediaControllerPanel.fade{opacity:0}
+.ACMediaControls .ACMediaAlertDisplay{display:none}
+.ACMediaControls .ACMediaAlertDisplay-active{display:block;left:20px;position:absolute!important;top:20px;z-index:20050}
+.ACMediaControls .ACMediaAlertDisplay-active div.two-times-speed-display,.ACMediaControls .ACMediaAlertDisplay-active div.four-times-speed-display,.ACMediaControls .ACMediaAlertDisplay-active div.eight-times-speed-display{height:40px;text-indent:-99999px;width:40px;*color:#FFF;*font-size:15px;*font-weight:bold;*text-indent:0;_background:0;_color:#FFF;_font-size:15px;_font-weight:bold;_text-indent:0;_text-shadow:#000 1px 1px 2px;top:0}
+.ACMediaControls .ACMediaAlertDisplay-active div.two-times-speed-display{background-position:-1px -170px;height:40px;width:39px;*background:0}
+.ACMediaControls .ACMediaAlertDisplay-active div.four-times-speed-display{background-position:-40px -170px;*background:0}
+.ACMediaControls .ACMediaAlertDisplay-active div.eight-times-speed-display{background-position:-80px -170px;*background:0}
+.ACMediaControls .ACMediaAlertDisplay-active div .border-radius-box{margin:0;padding:0;position:relative}
+.ACMediaControls .ACMediaAlertDisplay-active div .border-radius-box span{left:7px;position:absolute!important;top:10px}
+.slim .ACMediaControls .fastBackward-speed-display,.slim .ACMediaControls .fastForward-speed-display{display:none}
+.ACMediaControls .ACMediaAlertDisplay-active .ACMediaCaptionsDisplay{background:rgba(0,0,0,.5);border-radius:7px;color:#FFF;font-size:15px;font-weight:bold;padding:7px 10px;text-shadow:#000 1px 1px 2px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;_height:40px;_margin:0;_padding:0;_width:210px}
+.ACMediaControls .ACMediaAlertDisplay-active .ACMediaCaptionsDisplay .border-radius-box{height:40px;margin:0;padding:0;position:relative;width:210px}
+.ACMediaControls .ACMediaAlertDisplay-active .ACMediaCaptionsDisplay .border-radius-box span{left:10px;position:absolute!important;top:10px;white-space:nowrap}
+.ACMediaControls .ACMediaTrackText-enabled{bottom:30px;height:auto;left:0;position:absolute!important;right:0;margin:0 auto;width:70%}
+.ACMediaControls .ACMediaTrackText-enabled span{background:#000;clear:left;color:#FFF;float:left;font-family:Monaco;font-size:14px;height:20px;letter-spacing:4px;padding:2px 12px;white-space:nowrap}
+.ACMediaControls .mediaControllerPanel{bottom:20px;height:71px;left:50%;margin-left:-225px;position:absolute!important;width:450px;z-index:10;*color:transparent}
+.ACMediaControls .slim-left-cap,.ACMediaControls .slim-right-cap{display:none}
+.ACMediaControls div.mediaControllerPanel div.ACMediaController{height:71px;width:450px}
+.ACMediaControls div.mediaControllerPanel> div.ACMediaController{background-image:url(ac_media_player/images/quicktime/ac_media_regular_background.png);background-repeat:no-repeat;color:transparent}
+.slim .ACMediaControls div.mediaControllerPanel div.ACMediaController{text-align:left}
+.ACMediaControls div.mediaControllerPanel div.ACMediaController{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ac_media_regular_background.png', sizingMethod='crop')}
+* html .ACMediaControls .ACMediaController .volumeMute,* html .ACMediaControls .ACMediaController .volumeMute-enabled,* html .ACMediaControls .ACMediaController .volumeMute-active,* html .ACMediaControls .ACMediaController .volumeFull,* html .ACMediaControls .ACMediaController .volumeFull-enabled,* html .ACMediaControls .ACMediaController .volumeFull-active,* html .ACMediaControls .ACMediaController .play,* html .ACMediaControls .ACMediaController .play-enabled,* html .ACMediaControls .ACMediaController .play-active,* html .ACMediaControls .ACMediaController .pause,* html .ACMediaControls .ACMediaController .pause-enabled,* html .ACMediaControls .ACMediaController .pause-active,* html .ACMediaControls .ACMediaController .fastBackward,* html .ACMediaControls .ACMediaController .fastBackward-enabled,* html .ACMediaControls .ACMediaController .fastBackward-active,* html .ACMediaControls .ACMediaController .fastForward,* html .ACMediaControls .ACMediaController .fastForward-enabled,* html .ACMediaControls .ACMediaController .fastForward-active,* html .ACMediaControls .ACMediaController .settingsControls .captionsControl,* html .ACMediaControls .ACMediaController .settingsControls .captionsControl-enabled,* html .ACMediaControls .ACMediaController .settingsControls .captionsControl-active,* html .ACMediaControls .ACMediaController .settingsControls .captionsControl-selected,* html .ACMediaControls .ACMediaController .settingsControls .sizesControl,* html .ACMediaControls .ACMediaController .settingsControls .sizesControl-enabled,* html .ACMediaControls .ACMediaController .settingsControls .sizesControl-active,* html .ACMediaControls .ACMediaController .settingsControls .sizesControl-selected,* html .ACMediaControls .ACMediaController .settingsControls .downloadControl,* html .ACMediaControls .ACMediaController .settingsControls .downloadControl-enabled,* html .ACMediaControls .ACMediaController .settingsControls .downloadControl-active,* html .ACMediaControls .ACMediaController .settingsControls .downloadControl-selected,* html .ACMediaControls .ACMediaController .settingsControls .shareControl,* html .ACMediaControls .ACMediaController .settingsControls .shareControl-enabled,* html .ACMediaControls .ACMediaController .settingsControls .shareControl-active,* html .ACMediaControls .ACMediaController .settingsControls .shareControl-seleted,* html .ACMediaControls .ACMediaController .settingsControls .fullscreenControl-enabled,* html .ACMediaControls .ACMediaController .settingsControls .fullscreenControl-disabled,* html .ACMediaControls .ACMediaController .settingsControls .fullscreenControl-active,* html .ACMediaControls .ACMediaController .settingsControls .fullscreenControl-selected{text-indent:-99999px}
+.ACMediaControls .ACMediaController .volumeMute{background-position:-195px -33px;height:20px;left:15px;position:absolute!important;top:15px;width:20px;_top:13px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeMute.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumeMute-enabled{background-position:-195px -3px;cursor:pointer;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeMute-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumeMute-active{background-position:-195px -63px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeMute-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumePanel{height:20px;left:33px;overflow:visible;position:absolute!important;top:16px;width:50px}
+.ACMediaControls .ACMediaController .volumeTrack{background-attachment:scroll;background-color:transparent;background-position:0 -95px;height:9px;left:0;position:absolute!important;top:5px;text-align:left;width:50px;_height:18px;_top:-2px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeProgress.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumeTrackProgress{background-attachment:scroll;background-color:transparent;background-position:-50px -95px;height:9px;overflow:visible;position:absolute!important;_height:18px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeTrack.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumePlayHead{background-attachment:scroll;background-color:transparent;background-position:-136px -36px;height:18px;margin-left:-3px;position:absolute!important;top:-3px;width:18px;_top:0;_z-index:100;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumePlayhead.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumePlayHead-enabled{background-position:-136px -7px;cursor:pointer;_z-index:100;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumePlayhead-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumePlayHead-active{background-position:-136px -67px;_z-index:100;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumePlayhead-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumeFull{background-position:-225px -33px;height:20px;left:86px;position:absolute!important;top:15px;width:20px;_top:13px;_z-index:0;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeFull.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumeFull-enabled{background-position:-225px -3px;cursor:pointer;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeFull-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .volumeFull-active{background-position:-225px -63px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/volumeFull-active.png', sizingMethod='crop')}
+.ACMediaControls .mediaControllerPanel> .ACMediaController .fastBackward{background-image:url(ac_media_player/images/quicktime/ac_media_regular_controls.png);background-repeat:no-repeat}
+.ACMediaControls .mediaControllerPanel> .ACMediaController .fastForward{background-image:url(ac_media_player/images/quicktime/ac_media_regular_controls.png);background-repeat:no-repeat}
+.ACMediaControls .ACMediaController .play{height:30px;left:213px;overflow:hidden;position:absolute!important;text-indent:-9999px;top:10px;width:30px}
+.ACMediaControls .ACMediaController .play,.ACMediaControls .ACMediaController .pause{background-attachment:scroll;background-color:transparent;background-position:0 -30px;height:30px;left:213px;overflow:hidden;position:absolute!important;text-indent:-9999px;top:10px;width:30px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/play.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .play-enabled{background-position:0 0;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/play-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .play-active{background-position:0 -60px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/play-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .pause{background-position:-29px -30px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/pause.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .pause-enabled{background-position:-29px 0;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/pause-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .pause-active{background-position:-29px -60px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/pause-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .fastBackward{background-attachment:scroll;background-color:transparent;background-position:-60px -30px;height:30px;left:172px;overflow:hidden;position:absolute!important;top:10px;width:35px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/fastBackward.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .fastBackward-enabled{background-position:-60px 0;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/fastBackward-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .fastBackward-active{background-position:-60px -60px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/fastBackward-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .fastForward{background-attachment:scroll;background-color:transparent;background-position:-95px -30px;height:30px;left:250px;overflow:hidden;position:absolute!important;top:10px;width:35px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/fastForward.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .fastForward-enabled{background-position:-95px 0;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/fastForward-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .fastForward-active{background-position:-95px -60px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/fastForward-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .track-container{left:0;position:absolute;top:0}
+.ACMediaControls .ACMediaController .trackPanel{height:20px;left:65px;position:absolute!important;top:41px;width:318px}
+.ACMediaControls .ACMediaController .trackPanel>.track{background-position:-1px -113px}
+.ACMediaControls .ACMediaController .trackPanel .track{background-attachment:scroll;background-color:transparent;height:13px;left:0;position:absolute!important;top:0;text-align:left;width:318px;_height:18px;_top:0;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/track.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .trackPanel .track .loadedProgress{display:block;background-attachment:scroll;background-color:transparent;background-position:-1px -135px;height:13px;overflow:hidden;position:absolute!important;top:1px;left:0;_height:18px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/loadedProgress.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .trackPanel .track .trackProgress{-webkit-box-sizing:content-box;display:block;background-color:transparent;background-position:-1px -155px;display:block;height:13px;padding-left:4px;overflow:hidden;position:absolute!important;top:1px;left:0;_height:18px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/trackProgress.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .track .playHead{background-attachment:scroll;background-color:transparent;background-position:-167px -35px;height:18px;margin-left:-4px;position:absolute!important;top:-1px;width:18px;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/playHead.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .track .playHead-enabled{background-position:-167px -5px;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/playHead-enabled.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .track .playHead-active{background-position:-167px -65px;cursor:pointer;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src='../images/quicktime/ie6/playHead-active.png', sizingMethod='crop')}
+.ACMediaControls .ACMediaController .timeDisplay{color:#4F4F4F;display:none;left:28px;font-size:9px;font-weight:bold;padding:0;position:absolute!important;right:auto!important;text-shadow:#000 1px 1px 2px;top:41px;white-space:nowrap;width:auto!important;_font-weight:normal}
+.ACMediaControls .ACMediaController .timeDisplay span{padding:0}
+.ACMediaControls .ACMediaController .durationDisplay{color:#4F4F4F;display:none;font-size:9px;font-weight:bold;left:392px;padding:0;position:absolute!important;text-shadow:#000 1px 1px 2px;top:41px;white-space:nowrap;_font-weight:normal}
+.ACMediaControls .ACMediaController .timeDisplay-enabled{color:#d5d5d5;display:block;font-size:9px;font-weight:bold;left:28px;position:absolute!important;right:auto!important;text-shadow:#000 1px 1px 2px;top:41px;width:auto!important;_font-weight:normal}
+.ACMediaControls .ACMediaController .timeDisplay-enabled span{padding:0}
+.ACMediaControls .ACMediaController .durationDisplay-enabled{color:#d5d5d5;display:block;font-size:9px;font-weight:bold;left:392px;position:absolute!important;text-shadow:#000 1px 1px 2px;top:41px;_font-weight:normal}
+.ACMediaControls .ACMediaControllerTrackText{background:#000;color:#d5d5d5;display:none;margin:auto auto 70px;padding:10px;position:relative}
+.ACMediaControls .ACMediaControllerTrackText.enabled{display:block}
+.slim .ACMediaControls .ACMediaAlertDisplay{display:none!important}
+.slim .ACMediaControls .mediaControllerPanel{bottom:-31px;height:31px;left:0;margin-left:0;width:100%;z-index:10}
+div.slim .ACMediaControls div.mediaControllerPanel div.ACMediaController,.slim .ACMediaControls .slim-left-cap,.slim .ACMediaControls .slim-right-cap{background-image:url(ac_media_player/images/quicktime/ac_media_slim_background.png)}
+div.slim .ACMediaControls div.mediaControllerPanel div.ACMediaController{background-repeat:no-repeat;background-position:-20px 0;color:transparent;height:31px;margin:0 20px;position:relative;width:auto;z-index:10}
+.slim .ACMediaControls .slim-left-cap{background-attachment:scroll;background-position:left top;background-repeat:no-repeat;display:block;height:31px;left:0;margin:0;position:absolute;top:0;width:20px;z-index:10}
+.slim .ACMediaControls .slim-right-cap{background-attachment:scroll;background-position:right top;background-repeat:no-repeat;display:block;height:31px;margin:0;position:absolute;right:0;top:0;width:20px;z-index:10}
+.slim .ACMediaControls .ACMediaController .volumeMute,.slim-short .ACMediaControls .ACMediaController .volumeTrack,.slim-short .ACMediaControls .ACMediaController .volumeTrackProgress,.slim .ACMediaControls .ACMediaController .volumeFull,.slim .ACMediaControls .ACMediaController .play,.slim .ACMediaControls .ACMediaController .pause,.slim .ACMediaControls .ACMediaController .fastBackward,.slim .ACMediaControls .ACMediaController .fastForward,.slim .ACMediaControls .ACMediaController .trackPanel .track,.slim .ACMediaControls .ACMediaController .trackPanel .loadedProgress,.slim .ACMediaControls .ACMediaController .trackPanel .trackProgress,.slim .ACMediaControls .ACMediaController .trackPanel .track-right-cap,.slim .ACMediaControls .ACMediaController .trackPanel .track-right-cap-loaded{background-color:transparent;background-image:url(ac_media_player/images/quicktime/ac_media_slim_controls.png);background-repeat:no-repeat}
+.slim .ACMediaControls .ACMediaController .volumeMute{background-position:-135px -33px;left:-5px;top:5px}
+.slim .ACMediaControls .ACMediaController .volumeMute-enabled{background-position:-135px -3px}
+.slim .ACMediaControls .ACMediaController .volumeMute-active{background-position:-135px -63px}
+.slim .ACMediaControls .ACMediaController .volumePanel{left:13px;top:6px}
+.slim .ACMediaControls .ACMediaController .volumeFull{background-position:-165px -33px;left:65px;top:5px}
+.slim .ACMediaControls .ACMediaController .volumeFull-enabled{background-position:-165px -3px}
+.slim .ACMediaControls .ACMediaController .volumeFull-active{background-position:-165px -63px}
+.slim .ACMediaControls .ACMediaController .play,.slim .ACMediaControls .ACMediaController .pause{left:131px!important;top:0!important}
+.slim .ACMediaControls .ACMediaController .pause{background-position:-29px -32px}
+.slim .ACMediaControls .ACMediaController .pause-enabled{background-position:-29px -2px}
+.slim .ACMediaControls .ACMediaController .pause-active{background-position:-29px -59px}
+.slim .ACMediaControls .ACMediaController .fastBackward{background-position:-60px -29px;left:98px;top:1px}
+.slim .ACMediaControls .ACMediaController .fastBackward-enabled{background-position:-60px 0}
+.slim .ACMediaControls .ACMediaController .fastBackward-active{background-position:-60px -59px}
+.slim .ACMediaControls .ACMediaController .two-times-fast-backward{background-position:-189px -3px;left:93px}
+.slim .ACMediaControls .ACMediaController .four-times-fast-backward{background-position:-189px -33px;left:93px}
+.slim .ACMediaControls .ACMediaController .eight-times-fast-backward{background-position:-189px -63px;left:93px}
+.slim .ACMediaControls .ACMediaController .fastForward{background-position:-95px -30px;left:157px;top:1px}
+.slim .ACMediaControls .ACMediaController .fastForward-enabled{background-position:-95px 0}
+.slim .ACMediaControls .ACMediaController .fastForward-active{background-position:-95px -60px}
+.slim .ACMediaControls .ACMediaController .two-times-fast-forward{background-position:-225px -3px;left:161px}
+.slim .ACMediaControls .ACMediaController .four-times-fast-forward{background-position:-225px -33px;left:161px}
+.slim .ACMediaControls .ACMediaController .eight-times-fast-forward{background-position:-225px -63px;left:161px}
+.slim .ACMediaControls .ACMediaController .track-container{display:inline-block;height:31px;margin:0 0 0 205px;position:relative;white-space:nowrap;width:auto}
+.slim .ACMediaControls .ACMediaController .trackPanel{display:inline-block;left:auto;margin-right:3px;position:relative!important;top:7px;width:80%}
+.slim .ACMediaControls .ACMediaController .trackPanel .track{background-attachment:scroll;background-position:-3px -93px;height:13px;position:relative;right:5px;text-align:left;top:0;width:100%;overflow:hidden}
+.slim .ACMediaControls .ACMediaController .trackPanel .loadedProgress{background-attachment:scroll;background-position:-3px -114px;height:13px;overflow:hidden;position:absolute;top:1px}
+.slim .ACMediaControls .ACMediaController .trackPanel .trackProgress{background-attachment:scroll;background-position:-3px -134px;height:13px;overflow:hidden;position:absolute;top:1px}
+.slim .ACMediaControls .ACMediaController .trackPanel .playHead{background-attachment:scroll;background-color:transparent;background-position:-167px -35px;height:18px;margin-left:-4px;position:absolute;top:-2px;width:18px;z-index:20050}
+.slim .ACMediaControls .ACMediaController .trackPanel .playHead-enabled{background-position:-167px -5px;cursor:pointer}
+.slim .ACMediaControls .ACMediaController .trackPanel .playHead-active{background-position:-167px -65px;cursor:pointer}
+.slim .ACMediaControls .ACMediaController .trackPanel .track-right-cap{background-color:transparent;background-position:-512px -93px;height:13px;margin-right:-5px;position:absolute!important;right:0;top:0;width:5px}
+.slim .ACMediaControls .ACMediaController .trackPanel .track-right-cap-loaded{background-color:transparent;background-position:-512px -154px;height:13px;margin-right:-5px;position:absolute!important;right:0;top:1px;width:5px}
+.slim .ACMediaControls .ACMediaController .timeDisplay{display:none;font-weight:bold;left:auto;margin-left:-5px;padding-left:2px;position:relative!important;text-align:right;text-shadow:#000 1px 1px 2px;top:-2px;width:40px;_font-weight:normal}
+.slim .ACMediaControls .ACMediaController .durationDisplay{display:none;font-weight:bold;left:auto;margin-left:-5px;padding-left:5px;position:relative!important;text-align:left;text-shadow:#000 1px 1px 2px;top:-2px;width:40px;_font-weight:normal}
+.slim .ACMediaControls .ACMediaController .timeDisplay-enabled{display:inline-block}
+.slim .ACMediaControls .ACMediaController .durationDisplay-enabled{display:inline-block}
+.slim .ACMediaControls .ACMediaController .settingsControls{display:inline-block;height:22px;left:auto;margin:0 0 0 15px;padding:0;position:absolute;right:0;text-align:right;top:4px;width:auto;z-index:20520}
+.short-slim.slim .ACMediaControls .ACMediaController .fastBackward,.short-slim.slim .ACMediaControls .ACMediaController .fastForward,.short-slim.slim .ACMediaControls .ACMediaController .timeDisplay,.short-slim.slim .ACMediaControls .ACMediaController .durationDisplay{display:none}
+.short-slim.slim .ACMediaControls .ACMediaController .volumeMute{left:-15px}
+.short-slim.slim .ACMediaControls .ACMediaController .volumePanel{left:3px;width:40px}
+.short-slim.slim .ACMediaControls .ACMediaController .volumeTrack{background-image:url(ac_media_player/images/quicktime/ac_media_slim_controls.png);background-position:-0px -175px;width:40px}
+.short-slim.slim .ACMediaControls .ACMediaController .volumeTrackProgress{background-image:url(ac_media_player/images/quicktime/ac_media_slim_controls.png);background-position:-43px -175px;width:40px}
+.short-slim.slim .ACMediaControls .ACMediaController .volumeFull{left:46px}
+.short-slim.slim .ACMediaControls .ACMediaController .play,.short-slim.slim .ACMediaControls .ACMediaController .pause{left:73px!important;top:0}
+.short-slim.slim .ACMediaControls .ACMediaController .track-container{margin-left:113px;top:1px}
+.short-slim.slim .ACMediaControls .ACMediaController .trackPanel{margin-left:-5px;width:100%}
+body.product.software #content{max-width:1397px}
+body.product div.columns{margin-bottom:30px}
+body.product.software .main{margin-top:8px}
+body.product .main>.product-detail{margin-bottom:23px;min-height:196px;margin-right:10px;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-align:stretch}
+body.product .main>.product-detail a.more-link{margin-top:3px;padding-left:21px;padding-right:10px;font-size:12px;float:right}
+body.product .product-detail .lockup{display:inline-block;width:175px;text-align:center;padding:0;margin-right:20px}
+body.product .product-detail .lockup div.artwork{float:none;margin-bottom:20px}
+body.product .product-detail .lockup div.artwork img{width:140px;height:140px}
+body.product .product-detail .multi-button *{-webkit-transform:translate3d(0,0,0)}
+body.product .product-detail .iap-disclosure-and-progress-bar{height:38px}
+body.product .product-detail .preorder-label{color:#0098fb;position:relative;top:-6px}
+body.product .product-detail .preorder-label-hidden{visibility:hidden}
+body.product .progress{-webkit-appearance:none;display:inline-block;border:1px solid #a9a9a9;width:175px;height:4px;-webkit-box-sizing:content-box;padding:1px 3px;-webkit-border-radius:8px;background:#fff;margin:10px 0 4px}
+body.product .progress span{display:block;height:4px;padding:0 2px;margin:0 -2px;-webkit-border-radius:4px;-webkit-box-sizing:content-box;background:-webkit-gradient(linear,left top,left bottom,from( #4C95DF),to( #3B64C8));border-width:0;overflow:hidden;vertical-align:top;color:transparent;text-shadow:none}
+body.product #wrapper div .high-sierra-time-remaining.time-remaining{color:#fff!important;text-shadow:2px 2px 2px black}
+body.product .product-detail .in-app-purchase-disclosure{font-size:11px;color:#999;text-align:center;padding-top:10px;margin-bottom:5px;white-space:normal}
+body.product .product-detail ul.list,body.product .product-detail .in-app-purchase-disclosure ul.list{padding-top:10px;margin-bottom:-10px;color:#999}
+body.product .product-detail .product-info{-webkit-box-flex:1}
+body.product .product-detail .product-info p span{color:#999}
+body.product .product-detail .product-info .title h1{margin-bottom:12px;font-size:24px;line-height:22px;color:#000}
+body.product .product-detail .product-info .title a{color:currentcolor}
+body.product .product-detail .product-info .product-review{margin-bottom:27px}
+body.product .product-detail .product-info .product-review.whats-new{height:66px}
+body.product .product-detail .product-info .product-review h4{margin-bottom:4px;font-family:"Helvetica Neue";font-size:16px;color:#6d83a2}
+body.product .product-detail .product-info .product-review p,body.product .product-detail .product-info .product-review ul{font-size:12px;line-height:16px}
+body.product .product-detail .product-info .product-review .moreLink{float:right;font-size:11px;color:#6D83A2;font-weight:bold;cursor:pointer;margin-top:-15px;margin-right:15px}
+body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div:nth-child(5),body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div:nth-child(6),body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div:nth-child(7),body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div:nth-child(8){display:none}
+body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div{border-bottom:0}
+body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div:nth-child(1){border-bottom-left-radius:5px 5px}
+body.product .customers-also-bought-include .lockup-container[data-columns-current="4"] .content-and-controls>div:nth-child(4){border-bottom-right-radius:5px 5px}
+body.product #screenshots{background-color:#fff;-webkit-border-radius:8px;-webkit-background-clip:padding;-webkit-background-size:100% 75px;padding:0 25px;border:1px solid #d2d2d2}
+#screenshots.rating-disabled{display:none}
+body.product #screenshots .fullsize{position:relative;max-width:800px;min-height:500px;margin:35px auto;text-align:center;-webkit-margin-collapse:separate;-webkit-box-align:center;display:-webkit-box}
+body.product #screenshots .fullsize>img,body.product #screenshots .fullsize video{width:100%}
+body.product #screenshots .slide{position:absolute;top:0;left:0;width:100%;max-height:500px;opacity:0;line-height:500px}
+body.product #screenshots .moviePanel{width:100%!important;height:auto!important;max-height:500px;line-height:16px;display:inline-block}
+body.product #screenshots .slide>img,body.product #screenshots .slide video{width:100%!important;height:auto!important;max-height:500px;position:static;display:inline-block;vertical-align:middle;border:1px solid rgba(128,128,128,.2)}
+body.product #screenshots .slide.poster{cursor:pointer}
+body.product #screenshots .slide.poster:after{position:absolute;width:100%;height:100%;background:url(da-storefront/images/-dsi-/video_trailers/playglyph_72.png) 50% 50% no-repeat,url(da-storefront/images/-dsi-/video_trailers/playglyph_72-over.png) -200px -200px no-repeat,url(da-storefront/images/-dsi-/video_trailers/playglyph_72-press.png) -200px -200px no-repeat;-webkit-background-size:72px 72px;content:"";top:0;left:0;opacity:.8}
+body.product #screenshots .slide.poster:hover:after{background:url(da-storefront/images/-dsi-/video_trailers/playglyph_72-over.png) 50% 50% no-repeat;-webkit-background-size:72px 72px}
+body.product #screenshots .slide.poster:active:after{background:url(da-storefront/images/-dsi-/video_trailers/playglyph_72-press.png) 50% 50% no-repeat;-webkit-background-size:72px 72px}
+body.product #screenshots .slide img.poster{display:none;vertical-align:middle;background:#000}
+body.product #screenshots .slide.poster img.poster{display:inline-block}
+body.product #screenshots .slide.poster .moviePanel{display:none}
+body.product #screenshots .fullsize .slide .moviePanel>div{width:auto!important;height:auto!important}
+body.product #screenshots .fullsize .slide .moviePanel .ACMediaControls{width:100%!important;height:100%!important}
+body.product #screenshots .fullsize .slide.top{opacity:1}
+body.product #screenshots .fullsize .slide.static{position:static}
+body.product #screenshots .thumbs{position:relative;margin:0 -25px}
+body.product #screenshots .thumbs:before{content:'';display:block;position:absolute;width:100%;top:0;border-width:0 0 3px 0;z-index:100;border-bottom:1px solid #c6c6c6}
+body.product #screenshots .thumbs ul{display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-pack:center}
+body.product #screenshots .thumbs li{position:relative;padding:0 8px 8px;border-left:1px solid #fff;border-right:1px solid #ddd;cursor:pointer}
+body.product #screenshots .thumbs li:first-child{border-left:1px solid #ddd}
+body.product:not(.uber) #screenshots .thumbs li.selected{background-color:#e2e2e2;-webkit-box-shadow:rgba(0,0,0,.5) 0 0 3px inset;margin-bottom:-1px;padding:0 9px 6px;border-width:0}
+body.product #screenshots .thumbs li.selected:before{content:"";display:block;position:absolute;top:-7px;left:42px;width:13px;height:13px;background-color:#fff;z-index:500;-webkit-box-shadow:rgba(0,0,0,.3) 1px 1px 0;-webkit-transform:rotate(45deg)}
+body.product #screenshots .thumbs li[data-media-video]:after{position:absolute;top:50%;left:50%;margin:-17px 0 0 -16px;background:url(da-storefront/images/-dsi-/video_trailers/playglyph_32.png) no-repeat,url(da-storefront/images/-dsi-/video_trailers/playglyph_32-over.png) -200px -200px no-repeat,url(da-storefront/images/-dsi-/video_trailers/playglyph_32-press.png) -200px -200px no-repeat;-webkit-background-size:32px 32px;width:32px;height:32px;content:""}
+body.product #screenshots .thumbs li[data-media-video]:hover:after{background:url(da-storefront/images/-dsi-/video_trailers/playglyph_32-over.png) no-repeat;-webkit-background-size:32px 32px}
+body.product #screenshots .thumbs li[data-media-video]:active:after{background:url(da-storefront/images/-dsi-/video_trailers/playglyph_32-press.png) no-repeat;-webkit-background-size:32px 32px}
+body.product #screenshots .thumbs li.loading:after{display:none}
+body.product #screenshots .thumbs li img{margin-top:10px;width:80px;height:50px;cursor:pointer;-webkit-border-radius:1px}
+body.product .sidebar .app-links{position:relative;height:227px}
+body.product .sidebar .app-links>div{position:absolute;bottom:20px}
+body.product .sidebar .app-links>div:before{content:'';display:block;position:absolute;width:0;height:100%;bottom:0;padding-top:20px;border-width:0 0 0 3px;z-index:9999;-webkit-border-image:url(da-storefront/images/-dsi-/app-links-shadow.png) 0 0 0 100% stretch stretch}
+body.product .sidebar .app-links a.see-all{position:relative;font-size:11px;line-height:14px;padding:9px 12px 0 10px;width:202px;max-height:41px;margin-bottom:7px;color:#898989;border-width:2px 0 0 0;background-image:-webkit-gradient(linear,left 10%,3% bottom,from(rgba(255,255,255,.4)),to(rgba(255,255,255,0)));-webkit-border-image:url(da-storefront/images/-dsi-/app-link-border.png) 100% 0 0 0 stretch stretch;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;-webkit-line-clamp:2}
+body.product .sidebar .app-links a.see-all:after{position:absolute;top:50%;right:0;width:5px;height:8px;margin-left:3px}
+body.product .sidebar .app-info .content{font-size:11px;color:#000}
+body.product .sidebar .app-info li .label,body.product .sidebar .app-info p span.app-requirements{color:#787878}
+body.product .sidebar .app-info p span.app-requirements{display:block}
+.editorial-badge{display:inline-block;background:#848484;color:#fff;font-size:10px;border-radius:20px;text-shadow:none;padding:1px 7px}
+.product .editorial-badge{position:relative;top:-4px;margin-bottom:8px}
+.uber.product .editorial-badge{top:-8px;margin-bottom:3px}
+.editorial-badge.small{font-size:9px;color:#fff;padding:1px 7px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;max-width:125px}
+body.product .sidebar .more-by{padding-bottom:0}
+body.product .sidebar .more-by .content{margin-top:-6px}
+body.product .sidebar .more-by div.lockup{display:-webkit-box;padding:7px 0;border-width:0 0 1px 0;height:55px}
+body.product.uber .sidebar .more-by div.lockup{background-image:none}
+body.product .sidebar .more-by div.lockup:last-child{-webkit-border-image:none;border-bottom-width:0;padding-bottom:0;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px}
+body.product .sidebar .more-by div.lockup .artwork{width:35px;height:35px;margin-right:5px;display:inline-block;float:left}
+body.product .sidebar .more-by div.lockup ul{display:inline-block;width:138px}
+body.product .sidebar .more-by div.lockup li{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden}
+body.product .sidebar .more-by div.lockup li.name{margin-bottom:1px;font-size:11px}
+body.product .sidebar .more-by div.lockup li.genre{color:#6c6c6c;font-size:10px}
+body.product .sidebar .more-by div.lockup ul>li.customer-ratings{margin-bottom:5px}
+body.product .sidebar .more-by div.lockup ul>li.customer-ratings div.rating{height:20px}
+body.product .sidebar .more-by div.lockup ul>li.customer-ratings div.rating>div{height:11px}
+body.product .sidebar .more-by div.lockup div.rating span.rating-count{font-size:11px;max-width:120px;margin-left:5px;color:#777}
+body.product .sidebar .more-by .show-more{clear:both;background:-webkit-gradient(linear,left top,left bottom,from(#333),to(#ccc));width:100%;text-align:center;-webkit-background-clip:text}
+body.product .sidebar .more-by .show-more a{font:bold 12px "Lucida Grande";color:transparent}
+div.text-container{background-color:#fff;-webkit-border-radius:5px;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.45);-webkit-background-clip:padding}
+body.eula div.text-container{padding:15px;margin-bottom:20px}
+div.text-container div.content{overflow-y:auto}
+div.text-container h2{font-family:Helvetica;font-size:18px;font-weight:bold;margin-bottom:10px}
+div.text-container div.content>div{height:550px;font-size:12px;color:#000;padding-right:40px}
+div.text-container ::-webkit-scrollbar{width:8px}
+div.text-container ::-webkit-scrollbar-button{display:none}
+div.text-container ::-webkit-scrollbar-track:vertical{-webkit-border-image:none!important;-webkit-border-radius:4px;border:1px solid #e2e2e2;background:-webkit-gradient(linear,0% 0,100% 0,from( #e6e6e6),color-stop(0.2, #f2f2f2),to( #f2f2f2));-webkit-box-shadow:0 1px 1px #fefefe}
+div.text-container ::-webkit-scrollbar-thumb:vertical{-webkit-border-image:none!important;-webkit-border-radius:4px;border:1px solid #89a2b6;background:-webkit-gradient(linear,0% 0,100% 0,from( #a3b1c6),color-stop(0.4, #a9b7cc),color-stop(0.5, #90a2be),to( #7e8ea7))}
+body.eula button.action-button{float:right;min-width:110px}
+body.eula .text-container,body.eula .text-container h2,body.eula .text-container .content,body.eula .text-container .content div{-webkit-user-select:text}
+body.product.uber-software .main>.product-detail{-webkit-box-orient:vertical;min-height:406px}
+body.product.uber-software .product-detail .product-info{margin-top:25px}
+body.product.uber-software .product-detail .product-info .title h1{font-size:16px}
+body.product.uber-software .sidebar div.app-links{height:437px}
+body.product.uber-software .sidebar .app-links a.see-all{text-shadow:none;background-image:none;-webkit-border-image:none;border-top:1px solid transparent}
+body.product.uber-software .sidebar .app-links a.see-all:last-child{border-bottom:0}
+body.product.uber-software .sidebar .app-links>div:before{-webkit-border-image:none;border-left:1px solid transparent;padding:0}
+body.product div.sidebar .in-app-purchases ol.list{font-size:11px;padding:0 10px}
+body.product div.sidebar .in-app-purchases li{margin-bottom:6px;position:relative;counter-increment:purchases}
+body.product div.sidebar .in-app-purchases li:last-of-type{margin-bottom:0}
+body.product div.sidebar .in-app-purchases li span.index{margin-right:4px;color:currentcolor;text-align:right;width:14px;display:inline-block;float:left}
+body.product div.sidebar .in-app-purchases li span.index:after{content:"."}
+body.product div.sidebar .in-app-purchases li span.in-app-title{display:inline-block;text-overflow:ellipsis;overflow:hidden;max-width:110px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+body.product div.sidebar .in-app-purchases li span.in-app-price{display:inline-block;position:absolute;right:0;top:0}
+body.product .preorder-placard{margin:20px 0 -21px;padding:8px 20px 9px;text-align:center;font-size:12px;color:#8e8e93;background-color:#e9e9ec;border-radius:8px}
+body.uber.product .preorder-placard{margin:2px -10px 15px 0}
+body.product .product-detail .product-info .title a,body.product .product-detail .product-info .title a:hover,body.product .product-detail .product-info .title a span,body.product .product-detail .product-info .title a span:hover{text-decoration:none}
+body.product .product-info .title .content-rating{position:relative;top:-4px;margin-left:5px;border:1px solid #a0a0a0;border-radius:2px;padding:0 3px 1px;height:14px;font-size:10px;font-weight:bold;font-family:"Helvetica Neue";-webkit-box-shadow:0 1px #fff;color:#a0a0a0}
+body.product.uber .product-info .title .content-rating{top:-3px}
+body.product .product-info .title a:hover .content-rating{text-decoration:none}
+body.product.uber .product-info .title .content-rating{color:currentcolor;-webkit-box-shadow:none;border-color:currentcolor}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"]{display:inline-block;position:relative;top:-5px;left:-1px;border:0;width:16px;height:16px;background-size:16px 16px;background-repeat:no-repeat;text-indent:-9999px;-webkit-box-shadow:none}
+body.product.uber .product-info .title .content-rating[rating-system="apps-brazil"]{top:-4px;left:-5px}
+body.product .sidebar .app-info ul.list li,body.product .sidebar .app-info .app-rating{margin-bottom:5px}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"]{display:inline-block;width:14px;height:14px;background-size:14px 14px;background-repeat:no-repeat;text-indent:-9999px}
+ul.app-rating-reasons{margin-top:5px}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="6"]{background-image:url(da-storefront/images/ratings/brazil/l-medium.png)}
+body.product.hd-device .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="6"]{background-image:url(da-storefront/images/ratings/brazil/l-medium.2x.png)}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="6"]{background-image:url(da-storefront/images/ratings/brazil/l-small.png)}
+body.product.hd-device .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="6"]{background-image:url(da-storefront/images/ratings/brazil/l-small.2x.png)}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="7"]{background-image:url(da-storefront/images/ratings/brazil/10-medium.png)}
+body.product.hd-device .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="7"]{background-image:url(da-storefront/images/ratings/brazil/10-medium.2x.png)}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="7"]{background-image:url(da-storefront/images/ratings/brazil/10-small.png)}
+body.product.hd-device .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="7"]{background-image:url(da-storefront/images/ratings/brazil/10-small.2x.png)}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="8"]{background-image:url(da-storefront/images/ratings/brazil/12-medium.png)}
+body.product.hd-device .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="8"]{background-image:url(da-storefront/images/ratings/brazil/12-medium.2x.png)}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="8"]{background-image:url(da-storefront/images/ratings/brazil/12-small.png)}
+body.product.hd-device .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="8"]{background-image:url(da-storefront/images/ratings/brazil/12-small.2x.png)}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="9"]{background-image:url(da-storefront/images/ratings/brazil/14-medium.png)}
+body.product.hd-device .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="9"]{background-image:url(da-storefront/images/ratings/brazil/14-medium.2x.png)}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="9"]{background-image:url(da-storefront/images/ratings/brazil/14-small.png)}
+body.product.hd-device .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="9"]{background-image:url(da-storefront/images/ratings/brazil/14-small.2x.png)}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="10"]{background-image:url(da-storefront/images/ratings/brazil/16-medium.png)}
+body.product.hd-device .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="10"]{background-image:url(da-storefront/images/ratings/brazil/16-medium.2x.png)}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="10"]{background-image:url(da-storefront/images/ratings/brazil/16-small.png)}
+body.product.hd-device .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="10"]{background-image:url(da-storefront/images/ratings/brazil/16-small.2x.png)}
+body.product .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="11"]{background-image:url(da-storefront/images/ratings/brazil/18-medium.png)}
+body.product.hd-device .product-info .title .content-rating[rating-system="apps-brazil"][rating-id="11"]{background-image:url(da-storefront/images/ratings/brazil/18-medium.2x.png)}
+body.product .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="11"]{background-image:url(da-storefront/images/ratings/brazil/18-small.png)}
+body.product.hd-device .sidebar .app-info .content-rating[rating-system="apps-brazil"][rating-id="11"]{background-image:url(da-storefront/images/ratings/brazil/18-small.2x.png)}

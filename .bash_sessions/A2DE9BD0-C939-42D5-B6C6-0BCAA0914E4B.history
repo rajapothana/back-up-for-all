@@ -1,0 +1,501 @@
+ls
+cat pannapur 
+mv raja Raja[king]
+ls
+ls projects/
+cd Documents/
+ls
+ls
+pwd
+cd ..
+cd Downloads/
+ls
+mv GDP_mortality.awk ~/Raja\[king\] 
+ls
+cd ..
+ls
+ls Raja\[king\] 
+cd Raja\[king\] 
+ls Raja\[king\] 
+mv Raja\[king\] raja_035
+ls
+ls raja_035 
+cd ..
+ls
+cd
+ls
+cat raja_035
+mv raja_035 GDP_morality.awk
+ls
+mv GDP_morality.awk ~/Downloads/
+ls
+cd Downloads/
+ls
+cat apple
+rm apple
+pwd
+ls -al
+ls
+man awk
+vim while_exp.awk
+cat Countries.csv 
+head -5 Countries.csv 
+cut -d "|" -f14 Countries.csv 
+cut -d "|" -f15 Countries.csv 
+cut -d "|" -f15 Countries.csv |grep 4
+cut -d "|" -f11 Countries.csv 
+head -n2 Countries.csv 
+grep ^India Countries.csv 
+vim region_has_more_phones.awk
+ls
+vim more_mobiles.awk
+awk -f more_mobiles.awk Countries.csv 
+vim more_mobiles.awk
+vim region_literacy_rate.awk 
+vim literacy_region.awk 
+vim more_mobiles.awk
+awk -f more_mobiles.awk Countries.csv 
+vim more_mobiles.awk
+vim random_number_game.awk
+awk -f random_number_game.awk 
+vim random_number_game.awk
+ls
+vim  delete.awk
+man vim
+man awk
+awk -F 'BEGIN{v=raja is a good boy;match;is} 
+
+is
+
+man vim
+man awk
+vim  delete.awk
+awk -f delete.awk
+awk 'BEGIN{match ("raja is a good boy" ,"is"); print}
+awk 'BEGIN{print match("raja is a good boy" ,"is")}'
+awk 'BEGIN{print match("raja is a good boy" ,"is"); print RSTRART}'
+awk 'BEGIN{print match("raja is a good boy" ,"is"); print RSTART}'
+awk 'BEGIN{print match("raja is a good boy" ,"is"); print RLENGTH}'
+awk 'BEGIN{print match("raja is a good boy" ,"good"); print RLENGTH}'
+vim delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+cat>nakka
+cat nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+vim delete.awk
+vim delete.awk
+awk -f delete.awk nakka 
+`
+ls
+vim literacy_region.awk 
+awk -f literacy_region.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+vim literacy_region.awk 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+vim literacy_region.awk 
+man awk
+man awk
+ls
+vim match_smalllarge_data.awk 
+ls
+cat nakka
+rm nakka
+cat cat
+rm cat
+cat apple
+rm apple
+rm apple
+chmod +w apple
+rm apple
+cat 2000.awk
+rm 2000.awk
+ls
+mv match_small_data.awk match_smalllarge_data.awk
+ls
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f 'BEGIN{ i="jayanth" } gsub("j","a")'
+ls
+cat >> jayanth
+awk -f 'gsub("j","a")' jayanth 
+awk -f 'gsub(j,a)' jayanth 
+cat jayanth 
+cat jayanth | awk -f 'gsub("is","was")
+
+
+
+sa
+
+as
+
+d
+gs
+s
+dsgs
+fdf
+fd
+df
+s
+gs
+s
+sf
+sf
+s
+f
+gsf
+gf
+gfd
+gfd
+fd
+gf
+g
+fg
+s
+vim delete.awk 
+awk -f delete.awk 
+vim delete.awk 
+ls
+which curl
+ls
+cat moments 
+cat moments |wc -l
+cat moments
+cd ../
+ls
+mkdir assignment
+cd
+ls
+cd assignment/
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk moments
+awk -f  wow_ouch_moments.awk ./moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk ./moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk ./moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk ./moments
+awk -f  wow_ouch_moments.awk ~/moments
+awk -f  wow_ouch_moments.awk ~/Downloads/moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk ~/Downloads/moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk  moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk  moments
+vim wow_ouch_moments.awk
+awk -f  wow_ouch_moments.awk  moments
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments | wc -l
+awk -f wow_ouch_moments.awk moments >> WO_moments
+ls
+mv WO_moments WO_moments.sh
+ls
+cd ../
+ls
+cd Downloads/
+ls
+cd ../
+cp ~/Downloads/check_accuracy.sh  ~/assignment/
+ls
+cd assignment/
+ls
+bash check_accuracy.sh WO_moments.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments |wc -l
+bash check_accuracy.sh WO_moments.sh 
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments 
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk 
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments |bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments 
+awk -F " " '($0==Not) {print "w|$0}' moments 
+awk -F" " '($0==Not) {print "w|$0}' moments 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments 
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments | bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments|bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments|bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk moments| bash check_accuracy.sh 
+ls
+cat WO_moments.sh
+mv  WO_moments.sh wow_ouch_moments.sh
+ls
+vim wow_ouch_moments.awk 
+cd ../
+ls
+cat Public
+ls Public
+cat Drop
+cat ghost
+pwd
+ls
+cd Public/
+ls
+cat ghost
+cat pannapur 
+cat sharuk 
+cat tata
+cat yorker 
+cat bahubali_2 
+cat pakka
+cat pspk
+ls
+cat taramani 
+cat text_to_speek 
+rm ghost 
+ls
+rm pakka pspk
+ls
+rm Drop\ Box/ bahubali_2  pannapur sharuk taramani tata text_to_speek yorker 
+rm bahubali_2  pannapur sharuk taramani tata text_to_speek yorker 
+pwd
+ls
+cd ..
+ls
+mv ./Public/Drop\ Box/ 
+mv ./Public/Drop\ Box/ ./
+ls
+rmdir Public
+rm Public
+logout
+ls
+vim modified_wow_ouch_moments.awk
+awk -f modified_wow_ouch_moments.awk moments
+vim modified_wow_ouch_moments.awk
+awk -f modified_wow_ouch_moments.awk moments
+awk -f modified_wow_ouch_moments.awk moments |bash check_accuracy.sh 
+awk -f modified_wow_ouch_moments.awk moments
+vim modified_wow_ouch_moments.awk
+awk -f modified_wow_ouch_moments.awk moments |bash check_accuracy.sh 
+vim modified_wow_ouch_moments.awk
+awk -f modified_wow_ouch_moments.awk moments |bash check_accuracy.sh 
+vim modified_wow_ouch_moments.awk
+vim modified_wow_ouch_moments.awk
+awk -f modified_wow_ouch_moments.awk moments |bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments |bash check_accuracy.sh 
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments |bash check_accuracy.sh 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew -v
+man brew
+brew install zsh zsh-completions tree autojump
+
+awk -f wow_ouch_moments.awk moments |bash check_accuracy.sh 
+ls 
+cat check_accuracy.sh 
+man awk

@@ -1,0 +1,180 @@
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Traer todo al frente";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Ventana";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Minimizar";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Ventana";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "29"; */
+"29.title" = "Menú principal";
+
+/* Class = "NSTextFieldCell"; title = "Welcome"; ObjectID = "31U-qf-M54"; */
+"31U-qf-M54.title" = "Bienvenido";
+
+/* Class = "NSMenuItem"; title = "Sophos Installer"; ObjectID = "56"; */
+"56.title" = "Instalador de Sophos";
+
+/* Class = "NSMenu"; title = "Sophos Installer"; ObjectID = "57"; */
+"57.title" = "Instalador de Sophos";
+
+/* Class = "NSMenuItem"; title = "About Sophos Installer"; ObjectID = "58"; */
+"58.title" = "Acerca del instalador de Sophos";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "Cerrar";
+
+/* Class = "NSMenuItem"; title = "Save…"; ObjectID = "75"; */
+"75.title" = "Guardar…";
+
+/* Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "77"; */
+"77.title" = "Configurar página...";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "78"; */
+"78.title" = "Imprimir…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "Show Files"; ObjectID = "112"; */
+"112.title" = "Mostrar archivos";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Hide Sophos Installer"; ObjectID = "134"; */
+"134.title" = "Ocultar el instalador de Sophos";
+
+/* Class = "NSMenuItem"; title = "Quit Sophos Installer"; ObjectID = "136"; */
+"136.title" = "Salir del instalador de Sophos";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Ocultar otros";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Mostrar todo";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; */
+"239.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "711"; */
+"711.title" = "Editar";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "712"; */
+"712.title" = "Editar";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "716"; */
+"716.title" = "Cortar";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "717"; */
+"717.title" = "Copiar";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "718"; */
+"718.title" = "Pegar";
+
+/* Class = "NSMenuItem"; title = "Clear"; ObjectID = "720"; */
+"720.title" = "Borrar";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "721"; */
+"721.title" = "Seleccionar todo";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "1624"; */
+"1624.title" = "Instalar";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "1626"; */
+"1626.title" = "Salir";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1641"; */
+"1641.title" = "Etiqueta";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1643"; */
+"1643.title" = "Etiqueta";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1727"; */
+"1727.title" = "Etiqueta";
+
+/* Class = "NSTextFieldCell"; title = "Your computer is now protected by the Sophos Central Endpoint software. Next it will register with the Sophos Central servers and receive additional configuration information"; ObjectID = "1730"; */
+"1730.title" = "Su ordenador está protegido por el software Sophos Endpoint. A continuación se registrará con los servidores de Sophos Central y recibirá información de configuración adicional";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label "; ObjectID = "1765"; */
+"1765.title" = "Etiqueta multilínea ";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1792"; */
+"1792.title" = "Ventana";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "1800"; */
+"1800.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "1801"; */
+"1801.title" = "Instalar";
+
+/* Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "1802"; */
+"1802.title" = "Contraseña:";
+
+/* Class = "NSTextFieldCell"; title = "Please contact your administrator if you need assistance."; ObjectID = "1803"; */
+"1803.title" = "Póngase en contacto con su administrador si necesita ayuda.";
+
+/* Class = "NSTextFieldCell"; title = "Your administrator requires you to enter the Tamper Protection password to perform this action."; ObjectID = "1804"; */
+"1804.title" = "Su administrador requiere que introduzca la contraseña de protección contra manipulaciones para realizar esta acción.";
+
+/* Class = "NSTextFieldCell"; title = "Further information is available in KBA 123474"; ObjectID = "CNv-Gy-rdr"; */
+"CNv-Gy-rdr.title" = "Más información disponible en el artículo de la base de conocimiento 123474";
+
+/* Class = "NSTextFieldCell"; title = "Welcome"; ObjectID = "D25-7h-lWL"; */
+"D25-7h-lWL.title" = "Bienvenido";
+
+/* Class = "NSTextFieldCell"; title = "Registration Status Label"; ObjectID = "DCT-bs-Lqn"; */
+"DCT-bs-Lqn.title" = "Etiqueta de estado de registro";
+
+/* Class = "NSTextFieldCell"; title = "We found a previous installation, which we’ll replace with a new one."; ObjectID = "EZu-Wd-Pr5"; */
+"EZu-Wd-Pr5.title" = "Hemos encontrado una instalación anterior, que sustituiremos por una nueva.";
+
+/* Class = "NSTextFieldCell"; title = "Policy Status Label"; ObjectID = "GjY-ye-EWg"; */
+"GjY-ye-EWg.title" = "Etiqueta de estado de política";
+
+/* Class = "NSTextFieldCell"; title = "Intercept X: Protects against ransomware and exploits."; ObjectID = "MOW-3N-BWl"; */
+"MOW-3N-BWl.title" = "Intercept X: Protege contra ransomware y exploits.";
+
+/* Class = "NSTextFieldCell"; title = "Endpoint Protection: Protects against viruses, spyware and more."; ObjectID = "Sxk-pv-hIf"; */
+"Sxk-pv-hIf.title" = "Endpoint Protection: Protege contra virus, spyware y otras amenazas.";
+
+/* Class = "NSTextFieldCell"; title = "Device Encryption:  Protects your data if your device is lost or stolen."; ObjectID = "ado-Da-CZN"; */
+"ado-Da-CZN.title" = "Device Encryption:  Protege sus datos si pierde su dispositivo o se lo roban.";
+
+/* Class = "NSTextFieldCell"; title = "Installation Status Label"; ObjectID = "cyc-E5-XF8"; */
+"cyc-E5-XF8.title" = "Etiqueta de estado de instalación";
+
+/* Class = "NSTextFieldCell"; title = "Installation Status Label"; ObjectID = "dDj-Ez-TgB"; */
+"dDj-Ez-TgB.title" = "Etiqueta de estado de instalación";
+
+/* Class = "NSTextFieldCell"; title = "Installation and configuration is complete"; ObjectID = "dhz-A0-y4N"; */
+"dhz-A0-y4N.title" = "Se ha completado la instalación y la configuración";
+
+/* Class = "NSTextFieldCell"; title = "Registration Status Label"; ObjectID = "kGa-rD-lSs"; */
+"kGa-rD-lSs.title" = "Etiqueta de estado de registro";
+
+/* Class = "NSTextFieldCell"; title = "Policy Status Label"; ObjectID = "lim-b6-o9Y"; */
+"lim-b6-o9Y.title" = "Etiqueta de estado de política";
+
+/* Class = "NSTextFieldCell"; title = "Sophos Intercept X protects your Mac against ransomware and exploits. This app downloads and installs the latest version."; ObjectID = "nxg-uV-dsd"; */
+"nxg-uV-dsd.title" = "Sophos Intercept X protege su Mac contra ransomware y exploits. Esta app descarga e instala la última versión.";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label"; ObjectID = "u84-zb-7w2"; */
+"u84-zb-7w2.title" = "Etiqueta multilínea";
+
+/* Class = "NSTextFieldCell"; title = "We found a previous installation, which we’ll replace with a new one."; ObjectID = "zK2-dR-vA7"; */
+"zK2-dR-vA7.title" = "Hemos encontrado una instalación anterior, que sustituiremos por una nueva.";
+
+/* Class = "NSTextFieldCell"; title = "Sophos Endpoint will install the following products:"; ObjectID = "zdP-o1-Qwf"; */
+"zdP-o1-Qwf.title" = "Sophos Endpoint instalará los siguientes productos:";
+

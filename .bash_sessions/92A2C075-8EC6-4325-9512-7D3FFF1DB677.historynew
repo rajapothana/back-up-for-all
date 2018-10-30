@@ -1,0 +1,255 @@
+ls
+find -name puli.sh
+find . -name puli.sh
+cd Downloads/
+ls
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+./puli.sh 
+vim puli.sh 
+./puli.sh 
+vim puli.sh 
+cat movies.csv
+vim movies.csv
+vim 
+cd
+vim .vimrc 
+cd
+ls
+find . -names .vimrc
+ls Downloads/
+cd
+ls -a
+ls -l
+ls -al
+chmod +x .vimrc
+ls -al
+vim .vimrc
+vim movies.csv
+vim puli.csv
+vim .vimrc
+man tr
+vim pannapur 
+vim .vimrc
+cd
+ls
+ls -a
+vim .vimrc 
+vim .vimrc 
+cat>random
+tr random "bad" "good"
+tr "bad" "good" random 
+cat random | tr "bad" "good"
+man tr
+cat random | tr -c "bad" "good"
+ man tr
+echo "guebgshsjsjn cghb"
+echo "guebgshsjsjn cghb" | tr "a-z" "-" | tr " " "-"
+vim random 
+vim durga.sh
+chmod +x durga.sh
+./durga.sh random 
+vim durga.sh
+./durga.sh random 
+vim durga.sh
+./durga.sh random 
+vim durga.sh
+cat random 
+./durga.sh random 
+cat random 
+vim durga.sh
+./durga.sh raja is great
+./durga.sh"raja is great"
+./durga.sh "raja is great"
+./durga.sh "Raja is great"
+vim durga.sh
+./durga.sh "ghud08878*^*^ jjhd|"
+vim durga.sh
+./durga.sh "ghud08878*^*^ jjhd|"
+vim durga.sh
+./durga.sh random
+cat random 
+cat > random
+cat random 
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+echo hgfjydhjsnsg hsjdghdbgjhf cdjjedmnaksjd dyrtfgyhuijkojhgyhjkl;kj
+echo "hgfjydhjsnsg hsjdghdbgjhf cdjjedmnaksjd dyrtfgyhuijkojhgyhjkl;kj"
+echo "hgfjydhjsnsg hsjdghdbgjhf cdjjedmnaksjd dyrtfgyhuijkojhgyhjkl;kjstyuiuytrewrtyuioiuytrertyuiuytrewertyuioiuytrewertyuiytrewtyuuytrewrtuioiuytrewqrtyuio"
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+vim durga.sh
+cat random 
+vim random 
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+cat > random 
+vim random 
+vim durga.sh
+./durga.sh happy new year
+./durga.shhappy new year
+./durga.sh happy new year
+vim durga.sh
+./durga.sh happy new year
+./durga.sh "happy new year"
+cat > random 
+vim random 
+sort random 
+cat random
+cat random | head -n1 | wc -m
+cat random | wc -l
+vim durga.sh
+./durga.sh random
+vim durga.sh
+./durga.sh random
+vim durga.sh
+cat random 
+vim durga.sh 
+./durga.sh random 
+vim durga.sh 
+./durga.sh random 
+vim durga.sh 
+./durga.sh ./random 
+cat random 
+./durga.sh random 
+./durga.sh "random" 
+vim durga.sh 
+./durga.sh "random" 
+vim durga.sh 
+./durga.sh "random" 
+vim durga.sh 
+./durga.sh "random" 
+cat remo
+cat random 
+cat random |wc -l
+cat random |wc -c
+cat random |wc -w
+cat random |wc
+vim durga.sh 
+./durga.sh "random" 
+vim durga.sh 
+cat random |wc -L
+man wc
+vim durga.sh 
+"abcd" | wc -l
+echo "abcd" | wc -l
+echo "abcd" | wc -c
+tr "[a-z]" "1" random 
+cat random 
+cat random |tr "[A-z]" "1" 
+cat random |tr "[A-z]" "1" |sort
+cat random |tr "[A-z]" "1" |sort|tail -n1 
+cat random |tr "[ -~]" "1" |sort|tail -n1 | wc -c
+cat >random 
+cat random |tr "[ -~]" "1" |sort|tail -n1 | wc -c
+cat random |tr "[\ -\}]" "1" |sort|tail -n1 | wc -c
+cat random |tr "[ -\}]" "1" |sort|tail -n1 | wc -c
+cat random |tr "[ -\}]" "1" |sort|tail -n1 | wc -c
+cat > sample.txt
+vim box_file.sh
+vim durga.sh 
+cat sample.txt 
+vim durga.sh
+vim durga.sh
+./ durga.sh sample.txt
+./durga.sh "sample.txt"
+vim durga.sh
+./durga.sh "sample.txt"
+vim durga.sh
+./durga.sh "sample.txt"
+vim durga.sh
+./durga.sh "sample.txt"
+ls -al
+chmod +x sample.txt
+./durga.sh "sample.txt"
+vim durga.sh
+cat random |tr "[ -\}]" "1" |sort|tail -n1 | wc -c
+cat random
+cat random|tr "[ -\}]" "1" 
+vim durga.sh
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+cat sample.txt 
+cat sample.txt |head -n
+cat sample.txt |head -n1
+cat sample.txt |head -n1 | tail -n0
+cat sample.txt |head -n1 | tail -n1
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+./durga.sh "sample.txt"
+vim .vimrc
+./durga.sh "sample.txt"

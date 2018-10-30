@@ -1,0 +1,62 @@
+
+fsck_hfs started at Thu Aug 30 15:39:14 2018
+** /dev/rdisk2s2 (NO WRITE)
+   Executing fsck_hfs (version hfs-366.70.3).
+** Checking non-journaled HFS Plus Volume.
+   The volume name is InstallESD
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking extended attributes file.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume InstallESD appears to be OK.
+fsck_hfs completed at Thu Aug 30 15:39:15 2018
+
+
+fsck_hfs started at Fri Sep  7 09:05:43 2018
+** /dev/rdisk2s2 (NO WRITE)
+   Executing fsck_hfs (version hfs-407.50.6).
+** Checking non-journaled HFS Plus Volume.
+   The volume name is Google Chrome
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume Google Chrome appears to be OK.
+fsck_hfs completed at Fri Sep  7 09:05:43 2018
+
+
+fsck_hfs started at Tue Sep 11 14:50:07 2018
+** /dev/rdisk3s1 (NO WRITE)
+   Executing fsck_hfs (version hfs-407.50.6).
+** Checking non-journaled HFS Plus Volume.
+   The volume name is Slack.app
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking extended attributes file.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume Slack.app appears to be OK.
+fsck_hfs completed at Tue Sep 11 14:50:07 2018
+
+
+fsck_hfs started at Wed Oct 10 13:52:55 2018
+** /dev/rdisk4s2 (NO WRITE)
+   Executing fsck_hfs (version hfs-407.50.6).
+** Checking non-journaled HFS Plus Volume.
+   The volume name is Google Chrome
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume Google Chrome appears to be OK.
+fsck_hfs completed at Wed Oct 10 13:52:55 2018
+

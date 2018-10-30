@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>osUpdates</key>
+	<dict>
+		<key>091-63661</key>
+		<dict>
+			<key>abortCode</key>
+			<integer>202</integer>
+			<key>abortReason</key>
+			<string>the update requires a license agreement</string>
+			<key>productKey</key>
+			<string>091-63661</string>
+			<key>shouldInstall</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>runDate</key>
+	<date>2018-10-08T03:22:27Z</date>
+</dict>
+</plist>

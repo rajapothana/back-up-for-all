@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>17G65</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ZoomUsPlugIn</string>
+	<key>CFBundleGetInfoString</key>
+	<string>zoom.us 1.0 Copyright 2012 zoom.us</string>
+	<key>CFBundleIdentifier</key>
+	<string>us.zoom.plugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ZoomUsPlugIn</string>
+	<key>CFBundlePackageType</key>
+	<string>BRPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.1.33259.0925</string>
+	<key>CFBundleSignature</key>
+	<string>zoom.us</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>4.1.33259.0925</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<false/>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<string>MyFactoryFunction</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>00000000-0000-0000-0000-000000000000</key>
+		<array>
+			<string>00000000-0000-0000-0000-000000000000</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>9F2000</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>17E189</string>
+	<key>DTSDKName</key>
+	<string>macosx10.13</string>
+	<key>DTXcode</key>
+	<string>0941</string>
+	<key>DTXcodeBuild</key>
+	<string>9F2000</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2012 zoom.us. All rights reserved.</string>
+	<key>WebPluginDescription</key>
+	<string>zoom.us launcher plugin version 1.0</string>
+	<key>WebPluginMIMETypes</key>
+	<dict>
+		<key>application/x-zoom-scriptable-plugin</key>
+		<dict>
+			<key>WebPluginExtensions</key>
+			<array/>
+			<key>WebPluginTypeDescription</key>
+			<string>zmp</string>
+		</dict>
+	</dict>
+	<key>WebPluginName</key>
+	<string>Zoom launcher - 3.0.1</string>
+</dict>
+</plist>

@@ -1,0 +1,220 @@
+Process:               node [37778]
+Path:                  /usr/local/bin/node
+Identifier:            node
+Version:               ???
+Code Type:             X86-64 (Native)
+Parent Process:        zsh [36412]
+Responsible:           node [37778]
+User ID:               501
+
+Date/Time:             2018-10-13 12:17:55.641 +0530
+OS Version:            Mac OS X 10.13.6 (17G65)
+Report Version:        12
+Anonymous UUID:        FB1593CC-B258-B27D-F611-03154099FC5D
+
+Sleep/Wake UUID:       911A9A4C-60F7-4426-9501-2F6D025DC837
+
+Time Awake Since Boot: 830000 seconds
+Time Since Wake:       1200 seconds
+
+System Integrity Protection: enabled
+
+Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+
+Exception Type:        EXC_CRASH (SIGABRT)
+Exception Codes:       0x0000000000000000, 0x0000000000000000
+Exception Note:        EXC_CORPSE_NOTIFY
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff661a7b66 __pthread_kill + 10
+1   libsystem_pthread.dylib       	0x00007fff66372080 pthread_kill + 333
+2   libsystem_c.dylib             	0x00007fff661031ae abort + 127
+3   node                          	0x00000001000285eb node::Abort() + 34
+4   node                          	0x00000001000287ba node::OnFatalError(char const*, char const*) + 74
+5   node                          	0x000000010015bec3 v8::internal::V8::FatalProcessOutOfMemory(char const*, bool) + 707
+6   node                          	0x00000001004a915c v8::internal::Factory::NewUninitializedFixedArray(int) + 284
+7   node                          	0x000000010046f0c9 v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedObjectElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)2> >::GrowCapacity(v8::internal::Handle<v8::internal::JSObject>, unsigned int) + 185
+8   node                          	0x0000000100721f1d v8::internal::Runtime_GrowArrayElements(int, v8::internal::Object**, v8::internal::Isolate*) + 365
+9   ???                           	0x00003678ab4842fd 0 + 59891897615101
+10  ???                           	0x00003678ab606ca5 0 + 59891899198629
+11  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+12  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+13  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+14  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+15  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+16  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+17  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+18  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+19  ???                           	0x00003678ab53d1d6 0 + 59891898372566
+20  ???                           	0x00003678ab484239 0 + 59891897614905
+21  ???                           	0x00003678ab484101 0 + 59891897614593
+22  node                          	0x000000010049dc03 v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, bool, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*, v8::internal::Handle<v8::internal::Object>, v8::internal::Execution::MessageHandling) + 675
+23  node                          	0x000000010049d8ce v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*) + 158
+24  node                          	0x0000000100178fbd v8::Function::Call(v8::Local<v8::Context>, v8::Local<v8::Value>, int, v8::Local<v8::Value>*) + 381
+25  node                          	0x000000010002d5f6 node::LoadEnvironment(node::Environment*) + 516
+26  node                          	0x000000010003025d node::Start(v8::Isolate*, node::IsolateData*, int, char const* const*, int, char const* const*) + 515
+27  node                          	0x000000010002f8d8 node::Start(uv_loop_s*, int, char const* const*, int, char const* const*) + 461
+28  node                          	0x000000010002f036 node::Start(int, char**) + 522
+29  node                          	0x0000000100001534 start + 52
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff661a7a16 __psynch_cvwait + 10
+1   libsystem_pthread.dylib       	0x00007fff66370589 _pthread_cond_wait + 732
+2   node                          	0x00000001008ee697 uv_cond_wait + 9
+3   node                          	0x000000010007240e node::TaskQueue<v8::Task>::BlockingPop() + 58
+4   node                          	0x0000000100071a8c node::BackgroundRunner(void*) + 88
+5   libsystem_pthread.dylib       	0x00007fff6636f661 _pthread_body + 340
+6   libsystem_pthread.dylib       	0x00007fff6636f50d _pthread_start + 377
+7   libsystem_pthread.dylib       	0x00007fff6636ebf9 thread_start + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff661a7a16 __psynch_cvwait + 10
+1   libsystem_pthread.dylib       	0x00007fff66370589 _pthread_cond_wait + 732
+2   node                          	0x00000001008ee697 uv_cond_wait + 9
+3   node                          	0x000000010007240e node::TaskQueue<v8::Task>::BlockingPop() + 58
+4   node                          	0x0000000100071a8c node::BackgroundRunner(void*) + 88
+5   libsystem_pthread.dylib       	0x00007fff6636f661 _pthread_body + 340
+6   libsystem_pthread.dylib       	0x00007fff6636f50d _pthread_start + 377
+7   libsystem_pthread.dylib       	0x00007fff6636ebf9 thread_start + 13
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff661a7a16 __psynch_cvwait + 10
+1   libsystem_pthread.dylib       	0x00007fff66370589 _pthread_cond_wait + 732
+2   node                          	0x00000001008ee697 uv_cond_wait + 9
+3   node                          	0x000000010007240e node::TaskQueue<v8::Task>::BlockingPop() + 58
+4   node                          	0x0000000100071a8c node::BackgroundRunner(void*) + 88
+5   libsystem_pthread.dylib       	0x00007fff6636f661 _pthread_body + 340
+6   libsystem_pthread.dylib       	0x00007fff6636f50d _pthread_start + 377
+7   libsystem_pthread.dylib       	0x00007fff6636ebf9 thread_start + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff661a7a16 __psynch_cvwait + 10
+1   libsystem_pthread.dylib       	0x00007fff66370589 _pthread_cond_wait + 732
+2   node                          	0x00000001008ee697 uv_cond_wait + 9
+3   node                          	0x000000010007240e node::TaskQueue<v8::Task>::BlockingPop() + 58
+4   node                          	0x0000000100071a8c node::BackgroundRunner(void*) + 88
+5   libsystem_pthread.dylib       	0x00007fff6636f661 _pthread_body + 340
+6   libsystem_pthread.dylib       	0x00007fff6636f50d _pthread_start + 377
+7   libsystem_pthread.dylib       	0x00007fff6636ebf9 thread_start + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff6619e246 semaphore_wait_trap + 10
+1   node                          	0x00000001008ee575 uv_sem_wait + 16
+2   node                          	0x00000001000ac524 node::inspector::(anonymous namespace)::StartIoThreadMain(void*) + 28
+3   libsystem_pthread.dylib       	0x00007fff6636f661 _pthread_body + 340
+4   libsystem_pthread.dylib       	0x00007fff6636f50d _pthread_start + 377
+5   libsystem_pthread.dylib       	0x00007fff6636ebf9 thread_start + 13
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00007fff9eb6e380  rcx: 0x00007ffeefbfc858  rdx: 0x0000000000000000
+  rdi: 0x0000000000000307  rsi: 0x0000000000000006  rbp: 0x00007ffeefbfc890  rsp: 0x00007ffeefbfc858
+   r8: 0x00007fff9eb4d048   r9: 0x0000000000000040  r10: 0x0000000000000000  r11: 0x0000000000000206
+  r12: 0x0000000000000307  r13: 0x00007ffeefbfda80  r14: 0x0000000000000006  r15: 0x000000000000002d
+  rip: 0x00007fff661a7b66  rfl: 0x0000000000000206  cr2: 0x00007fff9eb4b168
+  
+Logical CPU:     0
+Error Code:      0x02000148
+Trap Number:     133
+
+
+Binary Images:
+       0x100000000 -        0x1014b5727 +node (???) <87616C3A-0296-3CB6-97CA-31DB80ADE050> /usr/local/bin/node
+       0x10587a000 -        0x1058c4acf  dyld (551.4) <8A72DE9C-A136-3506-AA02-4BA2B82DCAF3> /usr/lib/dyld
+    0x7fff3e195000 -     0x7fff3e636fef  com.apple.CoreFoundation (6.9 - 1454.90) <E5D594BF-9142-3325-A62D-CF4AAF472642> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff63836000 -     0x7fff63869ff7  libclosured.dylib (551.4) <3FB6B209-51F4-38DA-B1D8-2EE29D5BDD83> /usr/lib/closure/libclosured.dylib
+    0x7fff639fa000 -     0x7fff639fbff3  libDiagnosticMessagesClient.dylib (104) <9712E980-76EE-3A89-AEA6-DF4BAF5C0574> /usr/lib/libDiagnosticMessagesClient.dylib
+    0x7fff63d70000 -     0x7fff63d71ffb  libSystem.B.dylib (1252.50.4) <CD555F3B-FDDB-35E5-A2FB-FBBF3D62031A> /usr/lib/libSystem.B.dylib
+    0x7fff63fa5000 -     0x7fff63ffbfff  libc++.1.dylib (400.9) <7D3DACCC-3804-393C-ABC1-1A580FD00CB6> /usr/lib/libc++.1.dylib
+    0x7fff63ffc000 -     0x7fff64020ff7  libc++abi.dylib (400.8.2) <EF5E37D7-11D9-3530-BE45-B986612D13E2> /usr/lib/libc++abi.dylib
+    0x7fff64ad0000 -     0x7fff64cf7ffb  libicucore.A.dylib (59180.0.1) <34EBADD6-4092-30EC-90E8-F75241E94D76> /usr/lib/libicucore.A.dylib
+    0x7fff65429000 -     0x7fff658177e7  libobjc.A.dylib (723) <DD9E5EC5-B507-3249-B700-93433E2D5EDF> /usr/lib/libobjc.A.dylib
+    0x7fff65e3f000 -     0x7fff65e51ffb  libz.1.dylib (70) <48C67CFC-940D-3857-8DAD-857774605352> /usr/lib/libz.1.dylib
+    0x7fff65eed000 -     0x7fff65ef1ff7  libcache.dylib (80) <092479CB-1008-3A83-BECF-E115F24D13C1> /usr/lib/system/libcache.dylib
+    0x7fff65ef2000 -     0x7fff65efcff3  libcommonCrypto.dylib (60118.50.1) <029F5985-9B6E-3DCB-9B96-FD007678C6A7> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff65efd000 -     0x7fff65f04fff  libcompiler_rt.dylib (62) <968B8E3F-3681-3230-9D78-BB8732024F6E> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff65f05000 -     0x7fff65f0effb  libcopyfile.dylib (146.50.5) <3885083D-50D8-3EEC-B481-B2E605180D7F> /usr/lib/system/libcopyfile.dylib
+    0x7fff65f0f000 -     0x7fff65f94fff  libcorecrypto.dylib (562.70.1) <5C26364F-2269-31EC-84AF-0FED2C902E38> /usr/lib/system/libcorecrypto.dylib
+    0x7fff6601c000 -     0x7fff66055ff7  libdispatch.dylib (913.60.2) <232C69BD-022E-3AB9-8807-79F9FA7CB5EC> /usr/lib/system/libdispatch.dylib
+    0x7fff66056000 -     0x7fff66073ff7  libdyld.dylib (551.4) <81BF3A82-5719-3B54-ABA9-76C82D932CAC> /usr/lib/system/libdyld.dylib
+    0x7fff66074000 -     0x7fff66074ffb  libkeymgr.dylib (28) <E34E283E-90FA-3C59-B48E-1277CDB9CDCE> /usr/lib/system/libkeymgr.dylib
+    0x7fff66082000 -     0x7fff66082ff7  liblaunch.dylib (1205.70.9) <B184B521-FF24-3142-AFAF-23D170CF918C> /usr/lib/system/liblaunch.dylib
+    0x7fff66083000 -     0x7fff66087ffb  libmacho.dylib (906) <1902A611-081A-3452-B11E-EBD1B166E831> /usr/lib/system/libmacho.dylib
+    0x7fff66088000 -     0x7fff6608aff3  libquarantine.dylib (86) <26C0BA22-8F93-3A07-9A4E-C8D53D2CE42E> /usr/lib/system/libquarantine.dylib
+    0x7fff6608b000 -     0x7fff6608cff3  libremovefile.dylib (45) <711E18B2-5BBE-3211-A916-56740C27D17A> /usr/lib/system/libremovefile.dylib
+    0x7fff6608d000 -     0x7fff660a4fff  libsystem_asl.dylib (356.70.1) <39E46A6F-B228-3E78-B83E-1779F9707A39> /usr/lib/system/libsystem_asl.dylib
+    0x7fff660a5000 -     0x7fff660a5fff  libsystem_blocks.dylib (67) <17303FDF-0D2D-3963-B05E-B4DF63052D47> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff660a6000 -     0x7fff6612fff7  libsystem_c.dylib (1244.50.9) <1187BFE8-4576-3247-8177-481554E1F9E7> /usr/lib/system/libsystem_c.dylib
+    0x7fff66130000 -     0x7fff66133ffb  libsystem_configuration.dylib (963.50.8) <DF6B5287-203E-30CB-9947-78DF446C72B8> /usr/lib/system/libsystem_configuration.dylib
+    0x7fff66134000 -     0x7fff66137ffb  libsystem_coreservices.dylib (51) <486000D3-D8CB-3BE7-8EE5-8BF380DE6DF7> /usr/lib/system/libsystem_coreservices.dylib
+    0x7fff66138000 -     0x7fff66139fff  libsystem_darwin.dylib (1244.50.9) <09C21A4A-9EE0-388B-A9D9-DFF8F6758791> /usr/lib/system/libsystem_darwin.dylib
+    0x7fff6613a000 -     0x7fff66140ff7  libsystem_dnssd.dylib (878.70.2) <3290768B-54DE-3AB6-B155-AC0950AC5564> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff66141000 -     0x7fff6618aff7  libsystem_info.dylib (517.30.1) <AB634A98-B8AA-3804-8436-38261FC8EC4D> /usr/lib/system/libsystem_info.dylib
+    0x7fff6618b000 -     0x7fff661b1ff7  libsystem_kernel.dylib (4570.71.2) <F22B8D73-69D8-36D7-BF66-7F9AC70C08C2> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff661b2000 -     0x7fff661fdfcb  libsystem_m.dylib (3147.50.1) <8CFB51C9-B422-3379-8552-064C63943A23> /usr/lib/system/libsystem_m.dylib
+    0x7fff661fe000 -     0x7fff6621dfff  libsystem_malloc.dylib (140.50.6) <7FD43735-9DDD-300E-8C4A-F909A74BDF49> /usr/lib/system/libsystem_malloc.dylib
+    0x7fff6621e000 -     0x7fff6634eff7  libsystem_network.dylib (1229.70.2) <5E86B2DE-9E15-3354-8714-4094ED5F698D> /usr/lib/system/libsystem_network.dylib
+    0x7fff6634f000 -     0x7fff66359ffb  libsystem_networkextension.dylib (767.70.1) <D23EAFC1-E8BD-34D5-969C-6E45A1C3B4E4> /usr/lib/system/libsystem_networkextension.dylib
+    0x7fff6635a000 -     0x7fff66363ff3  libsystem_notify.dylib (172) <08012EC0-2CD2-34BE-BF93-E7F56491299A> /usr/lib/system/libsystem_notify.dylib
+    0x7fff66364000 -     0x7fff6636bff7  libsystem_platform.dylib (161.50.1) <6355EE2D-5456-3CA8-A227-B96E8F1E2AF8> /usr/lib/system/libsystem_platform.dylib
+    0x7fff6636c000 -     0x7fff66377fff  libsystem_pthread.dylib (301.50.1) <0E51CCBA-91F2-34E1-BF2A-FEEFD3D321E4> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff66378000 -     0x7fff6637bfff  libsystem_sandbox.dylib (765.70.1) <553DFCC6-9D31-3B9C-AB7C-30F6F265786D> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff6637c000 -     0x7fff6637dff3  libsystem_secinit.dylib (30) <DE8D14E8-A276-3FF8-AE13-77F7040F33C1> /usr/lib/system/libsystem_secinit.dylib
+    0x7fff6637e000 -     0x7fff66385ff7  libsystem_symptoms.dylib (820.60.2) <585BDFA2-D54D-39D0-8046-44E824DABD43> /usr/lib/system/libsystem_symptoms.dylib
+    0x7fff66386000 -     0x7fff66399fff  libsystem_trace.dylib (829.70.1) <3A6CB706-8CA6-3616-8AFC-14AAD7FAF187> /usr/lib/system/libsystem_trace.dylib
+    0x7fff6639b000 -     0x7fff663a0ff7  libunwind.dylib (35.3) <BEF3FB49-5604-3B5F-82B5-332B80023AC3> /usr/lib/system/libunwind.dylib
+    0x7fff663a1000 -     0x7fff663ceff7  libxpc.dylib (1205.70.9) <0BC7AD67-671D-31D4-8B88-C317B8379598> /usr/lib/system/libxpc.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 575930
+    thread_create: 0
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=242.0M resident=0K(0%) swapped_out_or_unallocated=242.0M(100%)
+Writable regions: Total=660.0M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=660.0M(100%)
+ 
+                                VIRTUAL   REGION 
+REGION TYPE                        SIZE    COUNT (non-coalesced) 
+===========                     =======  ======= 
+Activity Tracing                   256K        2 
+Kernel Alloc Once                    8K        2 
+MALLOC                            37.2M       10 
+MALLOC guard page                   16K        5 
+Memory Tag 255                     1.1G       53 
+STACK GUARD                       56.0M        7 
+Stack                             40.0M        7 
+__DATA                            4540K       48 
+__LINKEDIT                       205.2M        4 
+__TEXT                            36.8M       46 
+__UNICODE                          560K        2 
+shared memory                       12K        4 
+===========                     =======  ======= 
+TOTAL                              1.4G      178 
+
+
+System Profile:
+Network Service: Wi-Fi, AirPort, en0
+Thunderbolt Bus: MacBook Air, Apple Inc., 23.6
+Boot Volume File System Type: apfs
+Memory Module: BANK 0/DIMM0, 4 GB, DDR3, 1600 MHz, 0x02FE, -
+Memory Module: BANK 1/DIMM0, 4 GB, DDR3, 1600 MHz, 0x02FE, -
+USB Device: USB 3.0 Bus
+USB Device: BRCM20702 Hub
+USB Device: Bluetooth USB Host Controller
+Serial ATA Device: APPLE SSD SD0256F, 251 GB
+Model: MacBookAir6,2, BootROM MBA61.0107.B00, 2 processors, Intel Core i7, 1.7 GHz, 8 GB, SMC 2.13f15
+Graphics: Intel HD Graphics 5000, Intel HD Graphics 5000, Built-In
+AirPort: spairport_wireless_card_type_airport_extreme (0x14E4, 0x117), Broadcom BCM43xx 1.0 (7.77.37.31.1a9)
+Bluetooth: Version 6.0.7f10, 3 services, 27 devices, 1 incoming serial ports

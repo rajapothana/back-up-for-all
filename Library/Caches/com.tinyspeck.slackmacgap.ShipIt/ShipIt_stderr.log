@@ -1,0 +1,11 @@
+2018-10-10 13:54:16.472 ShipIt[67574:7062124] Beginning installation
+2018-10-10 13:54:17.972 ShipIt[67574:7052699] Moved bundle from file:///Applications/Slack.app/ to file:///var/folders/lf/cfzdrqs951g3bm6rtm2dzf9r0000gn/T/com.tinyspeck.slackmacgap.ShipIt.o9QakPAz/Slack.app
+2018-10-10 13:54:17.973 ShipIt[67574:7052699] Moved bundle from file:///var/folders/lf/cfzdrqs951g3bm6rtm2dzf9r0000gn/T/com.tinyspeck.slackmacgap.ShipIt.vJRiSiQ3/Slack.app to file:///Applications/Slack.app/
+2018-10-10 13:54:18.083 ShipIt[67574:7052699] Couldn't remove owned bundle at location file:///var/folders/lf/cfzdrqs951g3bm6rtm2dzf9r0000gn/T/com.tinyspeck.slackmacgap.ShipIt.vJRiSiQ3/Slack.app, error NSError { domain: NSCocoaErrorDomain, code: 4, description: "“Slack.app” couldn’t be removed.", failureReason: "The file doesn’t exist.", underlying error: NSError { domain: NSPOSIXErrorDomain, code: 2, description: "The operation couldn’t be completed. No such file or directory" }, userInfo: {
+    NSFilePath = "/var/folders/lf/cfzdrqs951g3bm6rtm2dzf9r0000gn/T/com.tinyspeck.slackmacgap.ShipIt.vJRiSiQ3/Slack.app";
+    NSUserStringVariant =     (
+        Remove
+    );
+} }
+2018-10-10 13:54:18.243 ShipIt[67574:7052699] Installation completed successfully
+2018-10-10 13:54:18.244 ShipIt[67574:7052699] ShipIt quitting

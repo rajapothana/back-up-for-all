@@ -1,0 +1,207 @@
+
+
+generic-white-none-green—
+
+TRANSIT_LineShield_CircleÀš
+0
+*TRANSIT_LineShield_Circle_LegibleBlackTextÈš
+$
+TRANSIT_NodeShield_Circle_DarkÂ‹
+‚
+generic-green-white-yellow´B¾BãOæBÜBáBÙOÚO­¡¢C¤C¦C¶C¸CºCÆCÈCÊC¸CÒCâCàCğCüCşC¦DªD°D²D³¸½Â
+?
+9TRANSIT_LineShield_RoundedRectangleOutlined_OneTwo_Digitsàš
+
+generic-white-none-black
+0
+%generic-lightblue-white-white-compactŠ…
+:
+4TRANSIT_LineShield_RoundedRectangle_LegibleBlackTextÉš
+%
+TRANSIT_DynamicModeShield_FerryÌ¾
+B
+<TRANSIT_LineShield_CircleOutlined_OneTwo_Digits_AlphanumericÚš
+F
+ TRANSIT_ModeShield_AerialTramwayæ¶ôÀõÀ÷ÀøÀùÀúÀûÀöÀ
+ 
+TRANSIT_LineShield_DiamondÆš
+'
+!TRANSIT_NodeShield_CircleOutlinedÁ‹
+Q
+TRANSIT_ModeShield_Railâ¶Ä·È·Ë·Ì·Í·Î·Ï·Ğ·Ñ·Ó·Ô·Õ·Œ¹
+F
+@TRANSIT_LineShield_Circle_OneTwo_Digits_Alphanumeric_LegibleTextÙš
+.
+(TRANSIT_LineShield_Bus_Kanji_LegibleTextÔš
+>
+TRANSIT_ModeShield_LightRailà¶ä½å½æ½ç½è½é½ê½
+(
+"TRANSIT_LineShield_Bus_LegibleTextËš
+-
+'TRANSIT_LineShield_Circle_OneTwo_DigitsÕš
+-
+'TRANSIT_DynamicModeShield_HighSpeedRailĞ¾
+!
+generic-white-none-green-dim—
+-
+'TRANSIT_LineShield_Square_OneTwo_DigitsÛš
+"
+TRANSIT_Maneuver_Embark_MaskÜè
+&
+ TRANSIT_DynamicModeShield_SubwayÊ¾
+.
+TRANSIT_ModeShield_Funicularç¶ØÁÙÁÚÁ
+%
+TRANSIT_Maneuver_Disembark_MaskÛè
+C
+generic-darkyellow-none-black¹ôOÍ¶ÎøÎùÎ¥í 
+
+generic-green-none-yellowC
+)
+generic-darkblue-white-whitedÈ©•
+!
+TRANSIT_Maneuver_Walk_WhiteÓè
+.
+ TRANSIT_ModeShield_Rail_NationalÉ·Æ·Ç·
+:
+TRANSIT_ModeShield_Coach¨¸«¸¬¸­¸®¸¯¸°¸±¸
+*
+ TRANSIT_ModeShield_Rail_RegionalÊ·Ò·
+|
+generic-lightblue-white-whiteùôù©Å%¢ï¨‘Ôì'ùKœ‘N»Ë¬»›NØÌ!”#™#Ü$Å%©&'Õ(…Šˆ'
+1
++TRANSIT_LineShield_Circle_Kanji_LegibleTextÎš
+!
+generic-brown-white-whiteñ	¯
+%
+TRANSIT_DynamicModeShield_CoachÒ¾
+&
+ TRANSIT_Maneuver_Disembark_WhiteÙè
+!
+generic-darkblue-none-yellow¶ 
+ 
+TRANSIT_ModeShield_Shuttle§¼
+:
+4TRANSIT_LineShield_Circle_OneTwo_Digits_AlphanumericØš
+5
+/TRANSIT_LineShield_SquareOutlined_OneTwo_Digitsİš
+;
+5TRANSIT_LineShield_RoundedRectangle_Kanji_LegibleTextÒš
+#
+TRANSIT_DynamicModeShield_BusÈ¾
+
+TRANSIT_Maneuver_Embark×è
+"
+TRANSIT_LineShield_RectangleÄš
+'
+TRANSIT_ModeShield_Subwayá¶ò¹¸»
+(
+"TRANSIT_DynamicModeShield_CableCarÍ¾
+
+TRANSIT_Maneuver_TransferÖè
+(
+"TRANSIT_LineShield_Rectangle_KanjiÏš
+-
+'TRANSIT_DynamicModeShield_AerialTramwayÎ¾
+!
+TRANSIT_LineShield_ColorBar‹Ó
+{
+generic-red-white-whiteÍÉ‰ˆĞOôBşBÀ%˜üàÄÉ„CÉÉÈ±ÉîÄÀCÄÉÉ è Ñ!ÉôCÀ%	
+$
+TRANSIT_LineShield_StationLineŠÓ
+$
+generic-lightblue-none-whiteşû'
+
+TRANSIT_NodeShield_CircleÀ‹
+
+TRANSIT_LineShield_BusÊš
+$
+TRANSIT_DynamicModeShield_RailË¾
+.
+(TRANSIT_LineShield_Rectangle_LegibleTextÌš
+5
+/TRANSIT_LineShield_CircleOutlined_OneTwo_Digits×š
+7
+1TRANSIT_LineShield_RoundedRectangle_OneTwo_DigitsŞš
+)
+#TRANSIT_DynamicModeShield_FunicularÏ¾
+4
+.TRANSIT_LineShield_Rectangle_Kanji_LegibleTextĞš
+ 
+TRANSIT_Maneuver_DisembarkØè
+#
+TRANSIT_Maneuver_Embark_WhiteÚè
+
+TRANSIT_Station_Gate_Map²½
+]
+generic-lightyellow-none-blackÕ×BÎæKÑOìé´§åÎÎÎÙÎø#®&†´Û
+ 
+TRANSIT_Maneuver_Walk_MaskÔè
+)
+#TRANSIT_DynamicModeShield_LightRailÉ¾
+!
+TRANSIT_ModeShield_CableCarå¶
+1
++TRANSIT_LineShield_RoundedRectangleOutlinedÃš
+\
+TRANSIT_ModeShield_Busã¶œ¼¼Ÿ¼ ¼¡¼¢¼£¼¤¼¥¼¦¼¨¼©¼ª¼«¼¬¼€½
+%
+TRANSIT_LineShield_Circle_KanjiÍš
+/
+)TRANSIT_LineShield_RoundedRectangle_KanjiÑš
+J
+TRANSIT_ModeShield_Ferryä¶ÀÔ¾Õ¾Ö¾×¾Ø¾Ù¾Ú¾Û¾Ü¾İ¾
+%
+TRANSIT_Station_Gate_Chrome°½±½
+;
+generic-green-white-whiteÒÁ ’NôçCæCÁD€
+9
+3TRANSIT_LineShield_Circle_OneTwo_Digits_LegibleTextÖš
+%
+TRANSIT_ModeShield_Bus_Regional¼
+C
+=TRANSIT_LineShield_RoundedRectangle_OneTwo_Digits_LegibleTextßš
+
+generic-blue-white-whiteŞ
+
+TRANSIT_Maneuver_WalkÒè
+3
+TRANSIT_ModeShield_Rail_Urbanğ¹ñ¹ó¹ô¹Ôº
+(
+"TRANSIT_DynamicModeShield_MonorailÑ¾
+)
+TRANSIT_ModeShield_Bus_National©¸ª¸
+'
+!TRANSIT_LineShield_CircleOutlinedÁš
+*
+$TRANSIT_LineShield_RectangleOutlinedÅš
+'
+!TRANSIT_DynamicModeShield_ShuttleŞ¾
+,
+&TRANSIT_NodeShield_CircleOutlined_DarkÃ‹
+%
+TRANSIT_ModeShield_Monorailì¶õ¹
++
+#TRANSIT_LineShield_RoundedRectangleÂš
+,
+&TRANSIT_LineShield_Diamond_LegibleTextÇš
+*
+ TRANSIT_ModeShield_HighSpeedRailè¶Å·
+"
+TRANSIT_LineShield_Bus_KanjiÓš
+9
+3TRANSIT_LineShield_Square_OneTwo_Digits_LegibleTextÜšÂ(
+ generic-lightblue-none-white-dimşû'"
+generic-green-none-yellow-dimC?
+generic-green-white-white-dimÒÁ ’NôçCæCÁD€a
+"generic-lightyellow-none-black-dimÕ×BÎæKÑOìé´§åÎÎÎÙÎø#®&†´Û 
+generic-white-none-black-dim†
+generic-green-white-yellow-dim´B¾BãOæBÜBáBÙOÚO­¡¢C¤C¦C¶C¸CºCÆCÈCÊC¸CÒCâCàCğCüCşC¦DªD°D²D³¸½Â%
+generic-brown-white-white-dimñ	¯%
+ generic-darkblue-none-yellow-dim¶ 
+generic-red-white-white-dimÍÉ‰ˆĞOôBşBÀ%˜üàÄÉ„CÉÉÈ±ÉîÄÀCÄÉÉ è Ñ!ÉôCÀ%	!
+generic-blue-white-white-dimŞ-
+ generic-darkblue-white-white-dimdÈ©•4
+)generic-lightblue-white-white-compact-dimŠ…€
+!generic-lightblue-white-white-dimùôù©Å%¢ï¨‘Ôì'ùKœ‘N»Ë¬»›NØÌ!”#™#Ü$Å%©&'Õ(…Šˆ'G
+!generic-darkyellow-none-black-dim¹ôOÍ¶ÎøÎùÎ¥í 

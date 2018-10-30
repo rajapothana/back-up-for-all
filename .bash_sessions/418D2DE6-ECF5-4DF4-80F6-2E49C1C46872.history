@@ -1,0 +1,710 @@
+ vim indian.awk
+awk -f indian.awk countries.csv
+ vim indian.awk
+awk -f indian.awk countries.csv
+ vim indian.awk
+awk -f indian.awk countries.csv
+ vim indian.awk
+awk -f indian.awk countries.csv
+ vim indian.awk
+awk -f indian.awk countries.csv
+ vim indian.awk
+awk -f indian.awk countries.csv
+ vim indian.awk
+ vim indian.awk
+ls
+cd countries.csv 
+cd awk_assignments/
+ls
+touch  smallest_country 
+ls
+vim smallest_country 
+vim indian.awk
+awk -f indian.awk countries.csv
+cd..
+cd ..
+pwd
+awk -f indian.awk countries.csv
+vim indian.awk
+vim indian.awk
+vim indian.awk
+ls
+cd awk_assignments/
+ls
+cad indian.awk 
+cat indian.awk 
+vim total_area
+awk -f total_area indian.awk
+awk -f total_area countries.csv
+awk -f total_area ./countries.csv
+awk -f total_area ./Downloads/countries.csv
+awk -f total_area ./user/Downloads/countries.csv
+pwd
+cat ./user/Downloads/countries.csv
+cat ~/Downloads/countries.csv
+awk -f total_area ~/Downloads/countries.csv
+vim landlocked countries.awk
+chmod +x BEGIN{
+  FS="|"
+  area=0
+  total_area=0
+};
+  {   area=$4;   total_area+=$4; };
+END{
+  print total_area
+};
+ls
+chmod +x landlocked 
+vim landlocked 
+cd
+vim .vimrc
+pwd
+cd 
+pwd
+ls
+cd Downloads
+ls
+ls awk_assignments/
+mv landlocked.awk
+mv landlocked landlocked.awk
+cd ..
+mv landlocked landlocked.awk
+mv ~/Downloads/awk_assignments/landlocked landlocked.awk
+mv ~/Downloads/countries.csv Countries.csv
+ls
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+cat Countries.csv 
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+vim landlocked.awk
+awk -f landlocked.awk Countries.csv
+ls
+man awk
+awk -F'|' '$2 ~/ASIA/ {print $1}' Countries.csv 
+awk -F'|' '$2 ~/ASIA/ {print $2}' Countries.csv 
+awk -F'|' '$2 ~/ASIA/ {print $1 "|" $2}' Countries.csv 
+ls
+cd Downloads
+ls
+rm =l-4
+ls
+cat 1
+cd ../
+ls
+cd Downloads/
+rv 1 no_of_countries-5.awk
+mv 1 no_of_countries-5.awk
+ls
+vim no_of_countries-5.awk C
+cat Screenshot_20180902-121233.jpg
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+awk -f  region_country.awk ~/Countries.csv
+vim region_country.awk
+vim cat Country.awk
+cat $!
+cat country.awk
+ls
+cd ..
+ls
+cat Countries.csv 
+man awk
+awk -F'|' '$1 ~/INDIA/ {print $3 "|" $10}' Countries.csv 
+awk -F'|' '$1 ~/^India/ {print $3 "|" $10}' Countries.csv 
+awk -F'|' '$1 ~/^India/ {print $3 "|" $10}' Countries.csv |awk -F'|' '{$1*$2/100}'
+awk -F'|' '$1 ~/^India/ {print $3 "|" $10}' Countries.csv | awk -F'|' '{$1*$2/100}'
+awk -F'|' '$1 ~/^India/ {print $3 "|" $10}' Countries.csv | awk -F'|' '{print $1*$2/100}'
+awk -F'|' '$1 ~/^India/ {print $3*$2/100}' Countries.csv
+awk -F'|' '$1 ~/^India/ {print $3*$10/100}' Countries.csv
+vim literacy_region.awk
+awk -f literacy_region.awk Countries.csv 
+man awk
+vim literacy_region.awk
+awk -f arable.awk Countries.csv 
+ls
+cd Downloads/
+ls
+vim arable.awk 
+awk -f arable.awk Countries.csv
+cat Countries.csv
+cat Countries.csv
+cd ../
+cat Countries.csv 
+awk -f arable.awk Countries.csv
+cd Downloads/
+awk -f arable.awk ~/Countries.csv
+vim arable.awk 
+awk -f arable.awk ~/Countries.csv
+ls
+cd ../
+ls
+mv Countries.csv Downloads/
+ls
+mv literacy_region.awk Downloads/
+mv landlocked.awk Downloads/
+ls
+cd Downloads/
+ls
+vim coastline_region.awk
+awk -f coastline_region.awk Countries.csv 
+vim coastline_region.awk
+awk -f coastline_region.awk Countries.csv 
+vim GDP_mortality.awk
+vim coastline_region.awk
+awk -f coastline_region.awk Countries.csv 
+vim coastline_region.awk
+vim GDP_mortality.awk
+awk -f GDP_mortality.awk Countries.csv 
+vim GDP_mortality.awk
+awk -f GDP_mortality.awk Countries.csv 
+vim GDP_mortality.awk
+awk -f GDP_mortality.awk Countries.csv 
+awk -F '|' '($5>0 && $5<100) {print $0}' Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv 
+awk -f  group_countries_based_on_population.awk Countries.csv |wc -l
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv |wc -l
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv |wc -l
+vim group_countries_based_on_population.awk
+awk -f  group_countries_based_on_population.awk Countries.csv |wc -l
+vim group_countries_based_on_population.awk
+awk -f group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awk
+awk -f group_countries_based_on_population.awk Countries.csv 
+vim group_countries_based_on_population.awkls
+awk -f group_countries_based_on_population.awk Countries.csv 
+ls
+cat Public 
+rm $!
+rm Public 
+ls
+vim spanish.awk 
+vim region_country.awk 
+cat region_country.awk
+ls
+vim coastline_region.awk 
+awk -f coastline_region.awk Countries.csv 
+vim coastline_region.awk 
+awk -f coastline_region.awk Countries.csv 
+vim coastline_region.awk 
+vim  file_
+cat file_name.awk 
+rm movies-2.csv
+cat name
+rm name
+cat party 
+rm party
+cat raj
+rm raj
+cat srk.csv
+cat puli.sh 
+bash puli.sh modified_movies.csv 
+ls
+indian.awk
+vim indian.aw
+bash raj.sh
+ls
+pwd
+cd ..
+ls
+bash raj.sh
+bash raj.sh
+bash raj.sh
+bash raj.sh
+bash raj.sh
+awk raj.sh
+ls
+Downloads/
+cd Downloads/
+ls
+vim 2000.awk 
+awk ~/raj.sh
+awk -f script.sh
+awk -f script.sh
+awk ./raj.sh
+awk ~./raj.sh
+awk ~/raj.sh
+man awk
+ls
+cd ..
+ls
+cat remo
+cat remo
+rm remo
+rm remo
+cd Downloads/
+man awk
+vim experiments.awk
+man awk
+vim experiments.awk
+man awk
+vim experiments.awk
+awk -f experiments.awk
+awk -f experiments.awk
+vim experiments.awk
+awk -f experiments.awk
+awk -f experiments.awk
+awk -f experiments.awk
+awk -f experiments.awk
+awk -f experiments.awk
+mv experiments.awk substr_exp.awk 
+ls
+cd ..
+ls
+cd Documents/
+ls
+ls Public
+cd public
+cd Public
+pwd
+cd ../
+ls Public
+cd ..
+ls
+pwd
+cd
+pwd
+cd
+pwd
+ls
+ls Library
+cd ..
+pwd
+cd
+ls
+rm box_file.sh 
+cat pr
+vim pr
+man awk
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+awk -f more_mobiles.awk Countries.csv 
+chmod +x random_number_game.awk 
+./random_number_game.awk 
+./random_number_game.awk 
+./random_number_game.awk 
+./random_number_game.awk 
+./random_number_game.awk 
+awk -f delete.awk
+ummmah
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+man awk
+awk -f delete.awk
+vim delete.awk 
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+awk -f delete.awk
+man awk
+awk -F '($0 ~/oklw/) {print $0}' match_data_small
+awk -F '($0 ~/oklw/) {print $1}' match_data_small
+awk -F '(~/oklw/) {print $1}' match_data_small
+man awk
+man awk
+man awk
+ls
+awk {print} match_data_small 
+awk substr(,3,4) match_data_small 
+awk 'substr(,3,4)' match_data_small 
+awk '{substr(,3,4)}' match_data_small 
+awk '[substr(,3,4)]' match_data_small 
+awk name=79oklw ;substr(name,3,4) 
+awk name=79oklw ;substr(name,3,4) 
+awk name=79oklw ;substr(name,3,4) 
+vim match_small_data.awk
+vim match_small_data.awk
+awk match_small_data.awk
+vim match_small_data.awk
+awk match_small_data.awk
+vim match_small_data.awk
+awk match_small_data.awk
+vim match_small_data.awk
+awk -F match_small_data.awk 
+vim match_small_data.awk
+awk -F match_small_data.awk 
+vim match_small_data.awk
+vim match_small_data.awk
+awk -F match_small_data.awk 
+awk -F match_small_data.awk line
+vim match_small_data.awk
+awk -F match_small_data.awk 
+vim match_small_data.awk
+awk -F match_small_data.awk 
+awk -F match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+chmod +x match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+vim match_small_data.awk
+awk -f match_small_data.awk 
+awk -f match_small_data.awk match_data_small 
+cat match_data_small 
+vim match_small_data.awk
+awk -f match_small_data.awk match_data_small 
+vim match_small_data.awk
+awk -f match_small_data.awk match_data_small 
+vim match_small_data.awk
+awk -f match_small_data.awk match_data_small 
+vim match_small_data.awk
+awk -f match_small_data.awk match_data_small 
+vim match_small_data.awk
+awk -f match_small_data.awk match_data_small 
+vim match_small_data.awk
+awk -f match_small_data.awk match_data_small 
+awk -f match_small_data.awk match_data_large 
+awk -f match_small_data.awk match_data_large 
+awk -f match_small_data.awk match_data_large 
+vim match_small_data.awk
+awk 'BEGIN{ hi=say"hello"};echo "hi"
+hi
+hi
+awk 'BEGIN{ hi=say"hello"};{ print hi}
+
+
+
+
+
+ls
+cd ../
+ls
+vim raj.sh
+mkdir raja_035
+ls
+cd raja_035
+mkdir awk_exercises
+ls
+pwd
+cd ../
+ls
+Downloads/
+ls Downloads/
+mv GDP_morality.awk ~/raja_035/awk_exercises/
+ls
+ls ./raja_035/awk_exercises/
+ls Downloads/
+rm ./screenshot_20180902-121233.jpg
+cd ../
+ls
+cd
+cd
+cd
+ls
+cd raja_035/
+ls
+cd awk_exercises/
+vim game_1.awk
+awk -f game_1.awk
+vim game_1.awk
+awk -f game_1.awk
+vim game_1.awk
+awk -f game_1.awk
+vim game_1.awk
+awk -f game_1.awk
+vim game_1.awk
+pwd
+ls
+vim region_literacy_rate.awk
+vim region_literacy_rate.awk
+awk -f region_literacy_rate.awk Countries.csv
+vim region_literacy_rate.awk
+cd ../
+pwd
+ls
+cd Downloads/
+vim coastline_region.awk 
+vim literacy_region.awk 
+ls
+vim region_country.awk 
+ls
+vim 2000.awk
+ls
+cd ..
+ls
+ls /music/
+ls ~/music/
+ls
+rm Music
+y
+rmdir Music
+cat Music
+yes
+ls
+vim box_file.sh 
+cat n
+rm n
+ls
+vim raj.sh
+bash  raj.sh 
+vim raj.sh
+bash  raj.sh 
+vim raj.sh
+bash  raj.sh 
+vim raj.sh
+bash  raj.sh 
+vim raj.sh
+bash raj.sh 
+vim raj.sh
+man awk
+vim experiments.awk
+rm experiments.awk 
+ls
+ cd Downloads/
+ls
+vim experiments.awk 
+pwd
+cd ../
+ls
+cat durga.sh 
+rm durga.sh 
+cat pr
+pwd
+ls
+mv movies.csv ~/Downloads/
+pwd
+ls
+cat raj.sh
+pwd
+ls
+cat random 
+rm random 
+cat sample.txt 
+rm sample.txt 
+ls
+cat pannapur 
+mv raja Raja[king]
+ls
+ls projects/
+cd Documents/
+ls
+ls
+pwd
+cd ..
+cd Downloads/
+ls
+mv GDP_mortality.awk ~/Raja\[king\] 
+ls
+cd ..
+ls
+ls Raja\[king\] 
+cd Raja\[king\] 
+ls Raja\[king\] 
+mv Raja\[king\] raja_035
+ls
+ls raja_035 
+cd ..
+ls
+cd
+ls
+cat raja_035
+mv raja_035 GDP_morality.awk
+ls
+mv GDP_morality.awk ~/Downloads/
+ls
+cd Downloads/
+ls
+cat apple
+rm apple
+pwd
+ls -al
+ls
+man awk
+vim while_exp.awk
+cat Countries.csv 
+head -5 Countries.csv 
+cut -d "|" -f14 Countries.csv 
+cut -d "|" -f15 Countries.csv 
+cut -d "|" -f15 Countries.csv |grep 4
+cut -d "|" -f11 Countries.csv 
+head -n2 Countries.csv 
+grep ^India Countries.csv 
+vim region_has_more_phones.awk
+ls
+vim more_mobiles.awk
+awk -f more_mobiles.awk Countries.csv 
+vim more_mobiles.awk
+vim region_literacy_rate.awk 
+vim literacy_region.awk 
+vim more_mobiles.awk
+awk -f more_mobiles.awk Countries.csv 
+vim more_mobiles.awk
+vim random_number_game.awk
+awk -f random_number_game.awk 
+vim random_number_game.awk
+ls
+vim  delete.awk
+man vim
+man awk
+awk -F 'BEGIN{v=raja is a good boy;match;is} 
+
+is
+
+man vim
+man awk
+vim  delete.awk
+awk -f delete.awk
+awk 'BEGIN{match ("raja is a good boy" ,"is"); print}
+awk 'BEGIN{print match("raja is a good boy" ,"is")}'
+awk 'BEGIN{print match("raja is a good boy" ,"is"); print RSTRART}'
+awk 'BEGIN{print match("raja is a good boy" ,"is"); print RSTART}'
+awk 'BEGIN{print match("raja is a good boy" ,"is"); print RLENGTH}'
+awk 'BEGIN{print match("raja is a good boy" ,"good"); print RLENGTH}'
+vim delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+vim delete.awk
+awk -f delete.awk
+cat>nakka
+cat nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+awk -f delete.awk nakka 
+vim delete.awk
+vim delete.awk
+vim delete.awk
+awk -f delete.awk nakka 
+`

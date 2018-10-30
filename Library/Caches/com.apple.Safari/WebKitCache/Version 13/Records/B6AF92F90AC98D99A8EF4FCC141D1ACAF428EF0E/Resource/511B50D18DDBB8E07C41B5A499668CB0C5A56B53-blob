@@ -1,0 +1,1852 @@
+﻿function DoBlur(fld) {
+    fld.className = 'textboxes1';
+}
+
+function DoFocus(fld) {
+    fld.className = 'textboxes3';
+}
+
+function ResetDataAppForm() {
+
+    document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value = ""
+    document.getElementById('ctl00_ContentPlaceHolder1_txtconfpass').value = ""
+    document.getElementById('ctl00_ContentPlaceHolder1_txtSecAns').value = ""
+    var con = confirm('Are you sure you want to reset all the Form controls value ?')
+    if (con == true) {
+
+        return true;
+
+    }
+
+    else {
+
+        return false;
+
+    }
+}
+
+
+function RefreshCaptcha() {
+
+    document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value = ""
+    document.getElementById('ctl00_ContentPlaceHolder1_txtconfpass').value = ""
+    document.getElementById('ctl00_ContentPlaceHolder1_txtSecAns').value = ""
+
+}
+
+function isNumeric(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function onsubclick(salt) {
+//    var $val = 0;
+//    $("input.inp").each(function () {
+//        if (($(this).val()) == "") {
+//            $(this).addClass("error");
+//            $val = 1
+//        }
+//        else {
+//            $(this).removeClass("error");
+//        }
+
+//    });
+
+//    $("select.inp").each(function () {
+//        if (($(this).val()) == "0") {
+//            $(this).addClass("error1");
+//            $(this).css("background-color", "ghostwhite");
+//            $(this).next(".chosen-container").addClass("error2");
+//            $val = 1
+//        }
+//        else {
+//            $(this).removeClass("error1");
+//        }
+
+//    });
+
+//    if ($val > 0) {
+//        alert('Please fill the details in hightlighted Required fields.');
+//        return false;
+//    }
+    Page_ClientValidate();
+    if (Page_IsValid) {
+
+    }
+    else {
+
+        document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value = ""
+        document.getElementById('ctl00_ContentPlaceHolder1_txtconfpass').value = ""
+        document.getElementById('ctl00_ContentPlaceHolder1_txtSecAns').value = ""
+        return (false);
+    }
+
+
+    if ($("#ctl00_ContentPlaceHolder1_ddcodeelig1").val() != 'ZZ') {
+        if ($("#ctl00_ContentPlaceHolder1_ddlStateOfSchool").val() != null) {
+            if ($("#ctl00_ContentPlaceHolder1_ddcodeelig1").val() != $("#ctl00_ContentPlaceHolder1_ddlStateOfSchool").val() && $("#ctl00_ContentPlaceHolder1_ddlStateOfSchool").val() != 'ZZ') {
+                alert("State of eligibility and State of location of your School must be same.For more information please click Help Button.");
+                $("#ctl00_ContentPlaceHolder1_ddlStateOfSchool").val('0');
+                return (false);
+            } 
+        }
+    }
+    if ($("#ctl00_ContentPlaceHolder1_ddcodeelig1").val() != 'ZZ') {
+        if ($("#ctl00_ContentPlaceHolder1_ddlPassportState").val() != null) {
+            if ($("#ctl00_ContentPlaceHolder1_ddcodeelig1").val() != $("#ctl00_ContentPlaceHolder1_ddlPassportState").val() && $("#ctl00_ContentPlaceHolder1_ddlStateOfSchool").val() != '0' && $("#ctl00_ContentPlaceHolder1_ddlStateOfSchool").val() == 'ZZ') {
+                alert("State name mentioned in your Passport and State of eligibility must be same.For more information please click Help Button.");
+                $("#ctl00_ContentPlaceHolder1_ddlPassportState").val('0');
+                return (false);
+            }
+        }
+    }
+
+ 
+    var textVerificationId = document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId')
+    var textVerificationType = document.getElementById('ctl00_ContentPlaceHolder1_ddlVerificationType')
+   if (textVerificationId.value.length > 20 || textVerificationId.value == "") {
+       alert('Please Enter Valid Identification Id');
+       textVerificationId.value = "";
+        return (false);
+    }
+    if (textVerificationType.value == '01') {
+        var flag = false;
+        if (isNumeric(textVerificationId.value)) {
+            var flag = true;
+        }
+        else { var flag = false; }
+
+        var len = textVerificationId.value.length
+        if (len > 12 || len < 12) {
+            alert('Please Enter Valid Aadhaar Number');
+            return (false);
+        }
+        if (flag == false) {
+            alert('Please Enter Valid Aadhaar Number');
+            return false;
+        }
+
+        if (textVerificationId.value == "") {
+            alert('Please Enter Identification Id');
+            return false;
+        }
+    }
+    var key = CryptoJS.enc.Utf8.parse(salt);
+    var iv = CryptoJS.enc.Utf8.parse('8080808080808080');
+    var encrypted = CryptoJS.AES.encrypt(CryptoJS.enc.Utf8.parse(textVerificationId.value), key,
+                {
+                    keySize: 128 / 8,
+                    iv: iv,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId').value = encrypted;
+  
+
+    if (document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value != "" && document.getElementById('ctl00_ContentPlaceHolder1_txtSecAns').value != "") {
+        var passlen = document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value.length;
+        if (passlen > 13 || passlen < 8) {
+            alert('Password should be 8 to 13 character long.');
+            document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId').value = "";
+            return (false);
+        }
+
+        var a = new RegExp("^(?=.{8,13})(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*\\W).*$", "g");
+        if (!a.test(document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value)) {
+            alert('Your password must satisfy the following. \n\n* Password should be 8 to 13 character long. \n* Password should have at least one Upper case alphabet.\n* Password should have at least one Lower case alphabet. \n* Password should have at least one numeric value. \n* Password should have at least one special characters eg.!@#$%^&*-');
+            document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId').value = "";
+            return (false);
+        }
+
+        document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value = (SHA256(document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value)).toUpperCase();
+        document.getElementById('ctl00_ContentPlaceHolder1_txtconfpass').value = (SHA256(document.getElementById('ctl00_ContentPlaceHolder1_txtconfpass').value)).toUpperCase();
+        document.getElementById('ctl00_ContentPlaceHolder1_txtSecAns').value = (SHA256(document.getElementById('ctl00_ContentPlaceHolder1_txtSecAns').value.toUpperCase())).toUpperCase();
+
+        var len = document.getElementById('ctl00_ContentPlaceHolder1_txtpass').value.length;
+        if (len > 64 || len < 64) {
+            alert('Operation can not be performed.Your browser is not supporting Password Encription.');
+            document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId').value = "";
+            return (false);
+        }
+        return (true);
+    }
+    else {
+        return (true);
+    }
+}
+
+function DisableBttAfterClick() {
+    var btt = document.getElementById('ctl00_ContentPlaceHolder1_btnSubmit');
+    Page_ClientValidate();
+    if (Page_IsValid) {
+        if (btt != null) {
+            btt.disabled = true;
+        }
+    }
+}
+
+function DisablePayModeBtt() {
+    var btt = document.getElementById('ctl00_ContentPlaceHolder1_btnSubmit');
+    btt.disabled = true;
+
+}
+
+function ChgPayMode() {
+    var btt = document.getElementById('ctl00_ContentPlaceHolder1_btnSubmit');
+    btt.disabled = false;
+}
+
+
+function ChgDeclaration() {
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreement');
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_btnFinalSubmit');
+//    alert($("#ctl00_ContentPlaceHolder1_paramChkList input:checked"));
+//    alert($("#ctl00_ContentPlaceHolder1_paramChkList input:checked").length);
+
+    var cnt = $("#ctl00_ContentPlaceHolder1_paramChkList input:checked").length;
+//    alert(cnt);
+    if (cnt < 10) {
+        alert('Kindly check all the check boxes of Parameter Checkbox list, if  all the information are verified and correct.');       
+        ChkIAgree.checked = false;
+        btnFinalSubmit.disabled = true;
+        return;
+    }
+    if (ChkIAgree.checked == true) {
+        btnFinalSubmit.disabled = false;
+        $('#ctl00_ContentPlaceHolder1_btnFinalSubmit').removeClass("final_subd");
+        $('#ctl00_ContentPlaceHolder1_btnFinalSubmit').addClass("final_sub");
+        
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        btnFinalSubmit.disabled = true;
+        $('#ctl00_ContentPlaceHolder1_btnFinalSubmit').removeClass("final_sub");
+        $('#ctl00_ContentPlaceHolder1_btnFinalSubmit').addClass("final_subd");
+        return;
+    }
+}
+
+
+function DisableFinalSubmit() {
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_btnFinalSubmit');
+    btnFinalSubmit
+    $('#ctl00_ContentPlaceHolder1_btnFinalSubmit').removeClass("final_sub");
+    $('#ctl00_ContentPlaceHolder1_btnFinalSubmit').addClass("final_subd");
+    btnFinalSubmit.disabled = true;
+
+}
+
+function DisableFinalUpload() {
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_btnUpload');
+    btnFinalSubmit.disabled = true;
+
+}
+
+function ChgFinalUploadDeclaration() {
+
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreement');
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_btnUpload');
+    if (ChkIAgree.checked == true) {
+        btnFinalSubmit.disabled = false;
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        btnFinalSubmit.disabled = true;
+        return;
+    }
+}
+
+
+function DisableCorrRequiredButton() {
+    var CtrlbttnCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_bttnCorrRequired');
+    var CtrlbttnExit = document.getElementById('ctl00_ContentPlaceHolder1_bttnLock');
+    CtrlbttnCorrRequired.disabled = true;
+    CtrlbttnExit.disabled = true;
+
+}
+
+function DisableCorrRequiredButtonAdmin() {
+    var CtrlbttnCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_bttnCorrRequired');
+    CtrlbttnCorrRequired.disabled = true;
+}
+
+function ChgCorrectionRequiredAdmin() {
+    var ChkCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_chkCorrRequired');
+    var CtrlbttnCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_bttnCorrRequired');
+
+    if (ChkCorrRequired.checked == true) {
+        CtrlbttnCorrRequired.disabled = false;
+        return;
+    }
+    if (ChkCorrRequired.checked == false) {
+        CtrlbttnCorrRequired.disabled = true;
+        return;
+    }
+}
+
+function ChgCorrectionRequired() {
+    var ChkCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_chkCorrRequired');
+    var ChkNotRequired = document.getElementById('ctl00_ContentPlaceHolder1_chkCorrNotRequired');
+    var CtrlbttnCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_bttnCorrRequired');
+    var CtrlbttnExit = document.getElementById('ctl00_ContentPlaceHolder1_bttnLock');
+    ChkNotRequired.checked = false;
+    if (ChkCorrRequired.checked == true) {
+        CtrlbttnCorrRequired.disabled = false;
+        CtrlbttnExit.disabled = true;
+        return;
+    }
+    if (ChkCorrRequired.checked == false) {
+        CtrlbttnCorrRequired.disabled = true;
+        CtrlbttnExit.disabled = true;
+        return;
+    }
+}
+
+
+function ChgCorrectionNotRequired() {
+    var ChkCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_chkCorrRequired');
+    var ChkNotRequired = document.getElementById('ctl00_ContentPlaceHolder1_chkCorrNotRequired');
+    var CtrlbttnCorrRequired = document.getElementById('ctl00_ContentPlaceHolder1_bttnCorrRequired');
+    var CtrlbttnExit = document.getElementById('ctl00_ContentPlaceHolder1_bttnLock');
+    ChkCorrRequired.checked = false;
+    if (ChkNotRequired.checked == true) {
+        CtrlbttnCorrRequired.disabled = true;
+        CtrlbttnExit.disabled = false;
+        return;
+    }
+    if (ChkNotRequired.checked == false) {
+        CtrlbttnCorrRequired.disabled = true;
+        CtrlbttnExit.disabled = true;
+        return;
+    }
+}
+
+function EncData(salt) {
+
+    Page_ClientValidate();
+    if (Page_IsValid) {
+    }
+    else {
+
+        return false;
+    }
+
+    if (document.getElementById('ctl00_ContentPlaceHolder1_ddlfeemode').value == "0" || document.getElementById('ctl00_ContentPlaceHolder1_txtappno').value == "" || document.getElementById('ctl00_ContentPlaceHolder1_dob').value == "") {
+        alert('All fields are mandatory?');
+        return false;
+    }
+    document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value = "";
+    document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value = document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value + document.getElementById('ctl00_ContentPlaceHolder1_ddlfeemode').value.toUpperCase();
+    document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value = document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value + document.getElementById('ctl00_ContentPlaceHolder1_txtappno').value.toUpperCase();
+    document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value = document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value + document.getElementById('ctl00_ContentPlaceHolder1_dob').value.toUpperCase();
+    document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value = (hex_md5(document.getElementById('ctl00_ContentPlaceHolder1_hiddvalue').value + salt)).toUpperCase();
+    return (true);
+}
+
+function EncDataSynd(salt) {
+    if (document.getElementById('ctl00_ContentPlaceHolder1_txtappno').value == "" || document.getElementById('ctl00_ContentPlaceHolder1_txtname').value == "" || document.getElementById('ctl00_ContentPlaceHolder1_txtfee').value == "") {
+        alert('All fields are mandatory?');
+        return false;
+    }
+    document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value = "";
+    document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value = document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value + document.getElementById('ctl00_ContentPlaceHolder1_txtappno').value.toUpperCase();
+    document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value = document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value + document.getElementById('ctl00_ContentPlaceHolder1_txtname').value.toUpperCase();
+    document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value = document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value + document.getElementById('ctl00_ContentPlaceHolder1_txtfee').value.toUpperCase();
+
+    document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value = (hex_md5(document.getElementById('ctl00_ContentPlaceHolder1_txthidd').value + salt)).toUpperCase();
+    return (true);
+}
+
+function IsDobBlank(sender, args) {
+    var ctrDay = document.getElementById('ctl00_ContentPlaceHolder1_ddlday');
+    var ctrMonth = document.getElementById('ctl00_ContentPlaceHolder1_ddlmonth');
+    var ctrYear = document.getElementById('ctl00_ContentPlaceHolder1_ddlyear');
+    if (ctrDay.value == "0" || ctrMonth.value == "0" || ctrYear.value == "0") {
+        args.IsValid = false;
+        ctrDay.focus();
+        return;
+    }
+}
+
+function isDobDateValid(sender, args) {
+    var ctrDay = document.getElementById('ctl00_ContentPlaceHolder1_ddlday');
+    var ctrMonth = document.getElementById('ctl00_ContentPlaceHolder1_ddlmonth');
+    var ctrYear = document.getElementById('ctl00_ContentPlaceHolder1_ddlyear');
+    if (ctrDay.value != "0" && ctrMonth.value != "0" && ctrYear.value != "0") {
+
+        var a = ctrDay.value + "/" + ctrMonth.value + "/" + ctrYear.value;
+        if (a.length < 10 || a.length > 10) {
+            args.IsValid = false;
+            ctrDay.value = "0";
+            return;
+        }
+        var datePat = /^(\d{2})(\/)(\d{2})\2(\d{4})$/;
+        var matchArray = a.match(datePat); // is the format ok?
+        if (matchArray == null) {
+            args.IsValid = false;
+            ctrDay.value = "0";
+            return;
+        }
+        day = ctrDay.value; // parse date into variables
+        month = ctrMonth.value;
+        year = ctrYear.value;
+        if (month < 1 || month > 12) { // check month range
+            args.IsValid = false;
+            ctrDay.value = "0";
+            return;
+        }
+        if (day < 1 || day > 31) {
+            args.IsValid = false;
+            ctrDay.value = "0";
+            return;
+        }
+        if ((month == 4 || month == 6 || month == 9 || month == 11) && day == 31) {
+            args.IsValid = false;
+            ctrDay.value = "0";
+            return;
+        }
+        if (month == 2) { // check for february 29th
+            var isleap = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+            if (day > 29 || (day == 29 && !isleap)) {
+                args.IsValid = false;
+                ctrDay.value = "0";
+                return;
+            }
+        }
+        args.IsValid = true;  // date is valid
+    }
+}
+
+function isvalidBOB(which) {
+    var ddlcat = document.getElementById('ctl00_ContentPlaceHolder1_ddlCat');
+    var ddlph = document.getElementById('ctl00_ContentPlaceHolder1_ddlPh');
+    var ctrDay = document.getElementById('ctl00_ContentPlaceHolder1_ddlday');
+    var ctrMonth = document.getElementById('ctl00_ContentPlaceHolder1_ddlmonth');
+    var ctrYear = document.getElementById('ctl00_ContentPlaceHolder1_ddlyear');
+    var ctrstelig = document.getElementById('ctl00_ContentPlaceHolder1_ddcodeelig1');
+    if (ctrDay.value != "0" && ctrMonth.value != "0" && ctrYear.value != "0" && ddlcat.value != "0" && ddlph.value != "0" && ctrstelig.value != "26" && ctrstelig.value != "20") {
+        var yy = ctrYear.value;
+        var dd = ctrDay.value;
+        var mm = ctrMonth.value;
+        if (yy > 2003) {
+            alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth");
+            ctrDay.value = "0";
+            ctrMonth.value = "0";
+            ctrYear.value = "0";
+            ctrDay.focus();
+
+        }
+        //--------- DOB for SC/ST candidates ---------
+        if ((ddlcat.value == "2" || ddlcat.value == "3")) {
+            if (yy <= 1987) {
+                if (yy == 1987 & mm <= 9) {
+                    ctrDay.value = "0";
+                    ctrMonth.value = "0";
+                    ctrYear.value = "0";
+                    ctrDay.focus();
+                    alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth.For more information click Help");
+
+
+                } else if (yy < 1987) {
+                    ctrDay.value = "0";
+                    ctrMonth.value = "0";
+                    ctrYear.value = "0";
+                    ctrDay.focus();
+                    alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth.For more information click Help");
+
+
+                }
+            }
+            //--------- DOB for General/OBC candidates for PH -----
+        } else if ((ddlcat.value == "1" || ddlcat.value == "4")) {
+            if (ddlph.value == "1") {
+                if (yy <= 1987) {
+                    if (yy == 1987 & mm <= 9) {
+                        ctrDay.value = "0";
+                        ctrMonth.value = "0";
+                        ctrYear.value = "0";
+                        ctrDay.focus();
+                        alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth.For more information click Help");
+
+
+                    } else if (yy < 1987) {
+
+                        alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth.For more information click Help");
+
+                        ctrDay.value = "0";
+                        ctrMonth.value = "0";
+                        ctrYear.value = "0";
+                        ctrDay.focus();
+
+                    }
+                }
+                //--------- DOB for General/OBC candidates For Non PH -----
+            } else if (ddlph.value == "2") {
+                if (yy <= 1992) {
+                    if (yy == 1992 & mm <= 9) {
+
+                        alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth.For more information click Help");
+
+                        ctrDay.value = "0";
+                        ctrMonth.value = "0";
+                        ctrYear.value = "0";
+                        ctrDay.focus();
+
+                    } else if (yy < 1992) {
+                        alert("You are not eligible for JEE(Main) 2019 on the basis of Date Of Birth.For more information click Help");
+
+                        ctrDay.value = "0";
+                        ctrMonth.value = "0";
+                        ctrYear.value = "0";
+                        ctrDay.focus();
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+
+function CustomValIsOnlyChild(sender, args) {
+    var ctrlGen = document.getElementById('ctl00_ContentPlaceHolder1_ddlGender');
+    var ctrlCh1 = document.getElementById('ctl00_ContentPlaceHolder1_ddlOnlyChild');
+    if (ctrlGen.value == "2" && args.Value == "0") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+
+function ChgSex() {
+    var ctrlGen = document.getElementById('ctl00_ContentPlaceHolder1_ddlGender');
+    var ctrlCh1 = document.getElementById('ctl00_ContentPlaceHolder1_ddlOnlyChild');
+    if (ctrlGen.value == "2")
+        ctrlCh1.disabled = false
+    else if (ctrlGen.value == "1" || ctrlGen.value == "3" || ctrlGen.value == "0") {
+        ctrlCh1.disabled = true
+        ctrlCh1.value = "0"
+    }
+    return false;
+}
+
+function CustomValIsBlind(sender, args) {
+    var ctrlDdlBlind = document.getElementById('ctl00_ContentPlaceHolder1_ddlBlind');
+    var ctrlDdlPh = document.getElementById('ctl00_ContentPlaceHolder1_ddlPh');
+    if (ctrlDdlPh.value != "0" && args.Value == "0") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+function CustomValPhPer(sender, args) {
+    var ctrltxtPhPer = document.getElementById('ctl00_ContentPlaceHolder1_txtPhPer');
+    var ctrlDdlPh = document.getElementById('ctl00_ContentPlaceHolder1_ddlPh');
+    if (ctrlDdlPh.value == "1" && ctrltxtPhPer.value == "") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+
+function ChgBoard() {
+    var ctrlDdlBoard = document.getElementById('ctl00_ContentPlaceHolder1_ddschboard');
+    document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo').value = "";
+    if (ctrlDdlBoard.value == "99") {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlOtherBoard').style.display = 'block';
+    }
+    else {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlOtherBoard').style.display = 'none';
+    }
+
+    return false;
+}
+
+
+function CustomValIsAmanuenses(sender, args) {
+    var ctrlDdlPH = document.getElementById('ctl00_ContentPlaceHolder1_ddlPh');
+    var ctrlDdlAmanuenses = document.getElementById('ctl00_ContentPlaceHolder1_ddlneedamanuenses');
+    var a = parseInt(document.getElementById('ctl00_ContentPlaceHolder1_txtPhPer').value);
+    if (ctrlDdlPH.value == "1" && ctrlDdlAmanuenses.value == "0" && a > 39) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+function ChgIsblind() {
+    var ctrlDdlBlind = document.getElementById('ctl00_ContentPlaceHolder1_ddlBlind');
+    var ctrlDdlneedamanuenses = document.getElementById('ctl00_ContentPlaceHolder1_ddlneedamanuenses');
+    if (ctrlDdlBlind.value == "2") {
+        ctrlDdlneedamanuenses.value = "2"
+        ctrlDdlneedamanuenses.disabled = true
+    }
+    else if (ctrlDdlBlind.value == "1" || ctrlDdlBlind.value == "0") {
+        ctrlDdlneedamanuenses.value = "0"
+        ctrlDdlneedamanuenses.disabled = false
+    }
+    return false;
+}
+
+function ChgXPassYear() {
+    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctr2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlYearPassX');
+    var ctr3 = document.getElementById('ctl00_ContentPlaceHolder1_ddlyear');
+    if (ctrl.value != "0" && ctr2.value != "0") {
+        if (parseInt(ctrl.value) - parseInt(ctr2.value) < 2) {
+            alert("Minimum difference between 'Year of passing class 10th or its equivalent' and 'Year of passing or appearing class 12th or its equivalent' should be 2 year");
+            ctr2.value = "0";
+            ctrl.value = "0";
+            ctr2.focus();
+        }
+    }
+    if (ctr2.value != "0" && ctr3.value != "0") {
+        if (parseInt(ctr2.value) - parseInt(ctr3.value) < 11) {
+            alert("Minimum difference between 'Year of passing class 10th/equivalent' and 'Date of Birth' should be 11 year.");
+            ctr2.value = "0";
+            ctr2.focus();
+        }
+    }
+
+    return true;
+
+}
+
+function CustomValIsPercentage(sender, args) {
+    var ctrlDdlXIIPassYear = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctrlXIITxt = document.getElementById('ctl00_ContentPlaceHolder1_txtperXII');
+    if (ctrlDdlXIIPassYear.value != "2019" && ctrlDdlXIIPassYear.value != "0" && args.Value == "") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+function CustomValIsimp(sender, args) {
+    var ctrlDdlXIIPassYear = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctrlXIITxt = document.getElementById('ctl00_ContentPlaceHolder1_ddlImproveMent');
+    if (ctrlDdlXIIPassYear.value != "2019" && ctrlDdlXIIPassYear.value != "0" && args.Value == "0") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+
+
+function CustomValMobileNo(sender, args) {
+    var ctrlRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtmobileno');
+    if (ctrlRoll.value != "") {
+        var str = ctrlRoll.value;
+        if (str.charAt(0) == "9" || str.charAt(0) == "8" || str.charAt(0) == "7" || str.charAt(0) == "6") {
+            args.IsValid = true;
+        }
+        else {
+            args.IsValid = false;
+        }
+
+    }
+}
+
+
+function CustomValRoll(sender, args) {
+    var ctrlDdlXIIPassYear = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctrlRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+    if (ctrlDdlXIIPassYear.value != "2019" && ctrlDdlXIIPassYear.value != "0" && args.Value != "") {
+        var flag = false;
+        var indx = "0123456789";
+        var str = ctrlRoll.value;
+        if (str.length > 0) {
+            for (i = 0; i < str.length; i++) {
+                if (indx.indexOf(str.charAt(i)) >= 0) {
+                    var flag = true;
+                }
+            }
+        }
+    }
+
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+
+function CustomValRollCheck(sender, args) {
+    var ctrlRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+    if (args.Value != "") {
+        var flag = false;
+        var indx = "0123456789";
+        var str = ctrlRoll.value;
+        if (str.length > 0) {
+            for (i = 0; i < str.length; i++) {
+                if (indx.indexOf(str.charAt(i)) >= 0) {
+                    var flag = true;
+                }
+            }
+        }
+    }
+
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+
+
+function CustomValImpRollNo(sender, args) {
+    var ctrlRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtImpRollNo');
+    if (ctrlRoll.value != "") {
+        var flag = false;
+        var indx = "0123456789";
+        var str = ctrlRoll.value;
+        if (str.length > 0) {
+            for (i = 0; i < str.length; i++) {
+                if (indx.indexOf(str.charAt(i)) >= 0) {
+                    var flag = true;
+                }
+            }
+
+        }
+
+
+        if (flag == false) {
+            args.IsValid = false;
+        }
+        else {
+            args.IsValid = true;
+        }
+
+    }
+
+}
+
+function IsValidAppnoCustomVal(sender, args) {
+    var flag = true;
+    var indx = "0123456789";
+    var str = args.Value;
+    if (str.length > 0) {
+        var len = str.length;
+        if (len > 12 || len < 12) {
+            flag = false;
+        }
+        if (str.charAt(0) != "1") {
+            flag = false;
+        }
+        for (i = 0; i < str.length; i++) {
+            if (indx.indexOf(str.charAt(i)) < 0) {
+                flag = false;
+            }
+        }
+    }
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+function IsValidRollnoCustomVal(sender, args) {
+    var flag = true;
+    var indx = "0123456789";
+    var str = args.Value;
+    if (str.length > 0) {
+        var len = str.length;
+        if (len > 8 || len < 8) {
+            flag = false;
+        }
+        if (str.charAt(0) == '8' || str.charAt(0) == '9') {
+            flag = true;
+        }
+        else {
+            flag = false;
+        }
+        for (i = 0; i < str.length; i++) {
+            if (indx.indexOf(str.charAt(i)) < 0) {
+                flag = false;
+            }
+        }
+    }
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+
+function CustomValImprovement(sender, args) {
+    var ctrlDdlXIIPassYear = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    if (ctrlDdlXIIPassYear.value != "2019" && ctrlDdlXIIPassYear.value != "0" && args.Value == "0") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+function CustomValIsRollNo(sender, args) {
+    var ctrlDdlXIIPassYear = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctrlXIITxt = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+    if (ctrlDdlXIIPassYear.value != "2019" && ctrlDdlXIIPassYear.value != "0" && args.Value == "") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+function CustomValIsImpRollNo(sender, args) {
+    var ctrlDdlImprovement = document.getElementById('ctl00_ContentPlaceHolder1_ddlImproveMent');
+    var ctrlDdlXIIPassYear = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    if (ctrlDdlXIIPassYear.value("2015") && ctrlDdlImprovement.value != "2" && ctrlDdlImprovement.value != "0" && args.Value == "") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+function CustomValOthBoard(sender, args) {
+    var ctrlDdlddschboard = document.getElementById('ctl00_ContentPlaceHolder1_ddschboard');
+    var ctrltxtboard = document.getElementById('ctl00_ContentPlaceHolder1_txtboard');
+    if (ctrlDdlddschboard.value == "99" && ctrlDdlddschboard.value != "0" && args.Value == "") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+
+//function ChgXIIPassYear() {
+
+//    var ctrlXIIPer = document.getElementById('ctl00_ContentPlaceHolder1_txtperXII');
+//    var ctrlXIIRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+//    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+//    var ctr2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlYearPassX');
+
+//    var ctrlImpRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtImpRollNo');
+//    var ctrlImprovement = document.getElementById('ctl00_ContentPlaceHolder1_ddlImproveMent');
+//    if (ctrl.value != "0" && ctr2.value != "0") {
+//        if (parseInt(ctrl.value) - parseInt(ctr2.value) < 2) {
+//            alert("Minimum difference between 'Year of passing class 10th or its equivalent' and 'Year of passing or appearing class 12th or its equivalent' should be 2 year");
+//            ctr2.value = "0";
+//            ctrl.value = "0";
+//            ctr2.focus();
+//            return false;
+//        }
+//    }
+
+//    if (ctrl.value == "2019") {
+//        ctrlXIIPer.value = "";
+//        ctrlXIIRoll.value = "";
+//        ctrlXIIPer.disabled = true;
+//        ctrlXIIRoll.disabled = true;
+
+//        ctrlImpRoll.value = "";
+//        ctrlImprovement.value = "2";
+//        ctrlImprovement.disabled = true;
+//        ctrlImpRoll.disabled = true;
+//        alert(ctrlImprovement);
+//        alert(ctrlImprovement.value);
+//    }
+//    else {
+//        ctrlXIIPer.disabled = false;
+//        ctrlXIIRoll.disabled = false;
+//        ctrlImpRoll.disabled = false;
+//        ctrlImprovement.value = "0";
+//        ctrlImprovement.value = "2";
+//        ctrlImprovement.disabled = false;
+//    }
+//    return true;
+//}
+
+
+function ChgXIIPassYear() {
+
+    var ctrlXIIPer = document.getElementById('ctl00_ContentPlaceHolder1_txtperXII');
+    var ctrlXIIRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctr2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlYearPassX');
+
+    var ctrlImpRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtImpRollNo');
+    var ctrlImprovement = document.getElementById('ctl00_ContentPlaceHolder1_ddlImproveMent');
+    if (ctrl.value != "0" && ctr2.value != "0") {
+        if (parseInt(ctrl.value) - parseInt(ctr2.value) < 2) {
+            alert("Minimum difference between 'Year of passing class 10th or its equivalent' and 'Year of passing or appearing class 12th or its equivalent' should be 2 year");
+            ctr2.value = "0";
+            ctrl.value = "0";
+            ctr2.focus();
+            return false;
+        }
+    }
+
+    if (ctrl.value == "2019") {
+        ctrlXIIPer.value = "";
+        ctrlXIIRoll.value = "";
+        ctrlXIIPer.disabled = true;
+        ctrlXIIRoll.disabled = true;
+        ctrlImpRoll.value = "";
+        ctrlImprovement.value = "2";
+        //ctrlImprovement.disabled = true;
+        ctrlImpRoll.disabled = true;
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlPerc').style.display = 'none';
+     
+    }
+    else {
+        ctrlXIIPer.disabled = false;
+        ctrlXIIRoll.disabled = false;
+        ctrlImpRoll.disabled = false;
+        ctrlImprovement.value = "0";
+        //ctrlImprovement.disabled = false;
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlPerc').style.display = 'block';
+        //document.getElementById('ctl00_ContentPlaceHolder1_valname20').disabled = false;
+    }
+    return true;
+}
+
+function ChgImprovement() {
+    var ctrlImpRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtImpRollNo');
+    var ctrlImprovement = document.getElementById('ctl00_ContentPlaceHolder1_ddlImproveMent');
+    if (ctrlImprovement.value == "2") {
+        ctrlImpRoll.value = "";
+        ctrlImpRoll.disabled = true;
+
+    }
+    else {
+        ctrlImpRoll.value = "";
+        ctrlImpRoll.disabled = false;
+    }
+    return true;
+}
+
+function ChgImprovementAcd() {
+    var ctrlImpRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtImpRollNo');
+    var ctrlImprovement = document.getElementById('ctl00_ContentPlaceHolder1_ddlImproveMent');
+    if (ctrlImprovement.value == "2") {
+        ctrlImpRoll.value = "";
+        ctrlImpRoll.disabled = true;
+
+    }
+    else {
+        ctrlImpRoll.value = "";
+        ctrlImpRoll.disabled = false;
+    }
+    return true;
+}
+
+
+
+function ChgMainExamCentre() {
+    var ctrl0 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnQuesPprMedium');
+    var ctrl1 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre1');
+    var ctrl2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre2');
+    var ctrl3 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre3');
+    var ctrl4 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre4');
+
+    if (ctrl1 != null && ctrl2 != null) {
+        if (ctrl1.value != "0" && ctrl2.value != "0") {
+            if (ctrl1.value == ctrl2.value) {
+                alert("The 1st & 2nd Choice of JEE(Main) Exam City should not be same.");
+                ctrl2.value = "0"
+                return false;
+            }
+        }
+    }
+
+    if (ctrl1 != null && ctrl3 != null) {
+        if (ctrl1.value != "0" && ctrl3.value != "0") {
+            if (ctrl1.value == ctrl3.value) {
+                alert("The 1st & 3rd Choice of JEE(Main) Exam City should not be same.");
+                ctrl3.value = "0"
+                return false;
+            }
+        }
+    }
+    if (ctrl1 != null && ctrl4 != null) {
+        if (ctrl1.value != "0" && ctrl4.value != "0") {
+            if (ctrl1.value == ctrl4.value) {
+                alert("The 1st & 4th Choice of JEE(Main) Exam City should not be same.");
+                ctrl4.value = "0"
+                return false;
+            }
+        }
+    }
+    if (ctrl2 != null && ctrl3 != null) {
+        if (ctrl2.value != "0" && ctrl3.value != "0") {
+            if (ctrl2.value == ctrl3.value) {
+                alert("The 2nd & 3rd Choice of JEE(Main) Exam City should not be same.");
+                ctrl3.value = "0"
+                return false;
+            }
+        }
+    }
+    if (ctrl2 != null && ctrl4 != null) {
+        if (ctrl2.value != "0" && ctrl4.value != "0") {
+            if (ctrl2.value == ctrl4.value) {
+                alert("The 2nd & 4th Choice of JEE(Main) Exam City should not be same.");
+                ctrl4.value = "0"
+                return false;
+            }
+        }
+    }
+    if (ctrl3 != null && ctrl4 != null) {
+        if (ctrl3.value != "0" && ctrl4.value != "0") {
+            if (ctrl3.value == ctrl4.value) {
+                alert("The 3rd & 4th Choice of JEE(Main) Exam City should not be same.");
+                ctrl4.value = "0"
+                return false;
+            }
+        }
+    }
+    if (ctrl1 != null && ctrl2 != null && ctrl3 != null && ctrl4 != null) {
+        if (ctrl1.value == "0" || ctrl2.value == "0" || ctrl3.value == "0" || ctrl4.value == "0") {
+            return false;
+        }
+    }
+
+    if (ctrl0.value == "G") {
+        ctrl0.value = "0";
+    }
+
+    return true;
+}
+
+function OnChangeMedium() {
+var ctrl0 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnQuesPprMedium');
+var ctrl1 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre1').options[document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre1').selectedIndex].text;
+var ctrl2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre2').options[document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre2').selectedIndex].text;
+var ctrl3 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre3').options[document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre3').selectedIndex].text;
+var ctrl4 = document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre4').options[document.getElementById('ctl00_ContentPlaceHolder1_ddlMnExamCentre4').selectedIndex].text;
+       if (ctrl0.value == "G") {
+              if (ctrl1.toLowerCase().indexOf("gujarat") == -1 || ctrl2.toLowerCase().indexOf("gujarat") == -1 || ctrl3.toLowerCase().indexOf("gujarat") == -1 || ctrl4.toLowerCase().indexOf("gujarat") == -1) {
+                  msg = "Gujarati Question Paper Medium is allowed only for those candidates who opted all the Exam Cities from Gujarat State.";
+               alert(msg);
+               ctrl0.value = "0";
+           }
+       }
+}
+
+function Chgyear() {
+
+    if (document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII').value == "2019") {
+        document.getElementById('ctl00_ContentPlaceHolder1_txtperXII').value = "";
+        document.getElementById('ctl00_ContentPlaceHolder1_txtperXII').disabled = true;
+        document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo').value = "";
+        document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo').disabled = true;
+    }
+    else {
+        document.getElementById('ctl00_ContentPlaceHolder1_txtperXII').disabled = false;
+        document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo').disabled = false;
+    }
+    return false;
+}
+
+
+function Chgboard() {
+    var ddlReport = document.getElementById('ctl00_ContentPlaceHolder1_ddschboard');
+    var ctrlpnlotherboard = document.getElementById('ctl00_ContentPlaceHolder1_pnlOtherBoard');
+    var ctrltxtotherboard = document.getElementById('ctl00_ContentPlaceHolder1_txtboard');
+    if (ddlReport.value == "99") {
+        ctrltxtotherboard.value = ""
+        ctrltxtotherboard.disabled = false
+        ctrlpnlotherboard.style.visibility = "visible";
+    }
+    else if (ddlReport.value != "99" || ddlReport.value == "0") {
+        ctrltxtotherboard.value = ddlReport.options[ddlReport.selectedIndex].text;
+        ctrltxtotherboard.disabled = true
+        ctrlpnlotherboard.style.visibility = "hidden";
+
+    }
+    return false;
+}
+
+
+function SecQuesHelpMsg() {
+    var msg;
+    msg = "For security of your Login Account, please choose a security question and give an answer only you know. We ask you this question in case you forget your password and also if we need to verify your identity."
+    alert(msg);
+}
+
+function PwdHelpMsg() {
+    var msg;
+    alert('For future reference you must choose Password. Your password must satisfy the following. \n\n* Password should be 8 to 13 character long. \n* Password should have at least one Upper case alphabet.\n* Password should have at least one Lower case alphabet. \n* Password should have at least one numeric value. \n* Password should have at least one special characters eg.!@#$%^&*-');
+}
+
+function XIIPassYearMsg() {
+    var msg;
+    msg = "Only those candidates who have passed their Class 12th Exam or any equivalent qualifying examination in 2016 or 2017; or those who are appearing in their Class 12th Exam or any equivalent qualifying examination in 2019 are eligible to appear in JEE(Main) 2019. Candidates who passed Class 12th/Qualifying examination in 2015 or before as well as those who will appear in such examination in 2019 or later are not eligible to appear in JEE (Main) – 2019. Candidates who appeared in class 12th/equivalent qualifying Examinations in 2015, did not pass in 2015, but passed in 2016 are also not eligible to appear in JEE (Main) 2019."
+    alert(msg);
+}
+function Dobmsg() {
+    var msg;
+    msg = "For appearing in the JEE (Main) examination there is no age limit for the candidates. The candidates who have passed XII examination in 2017, 2018 or appearing in 2019 irrespective of their age can appear in JEE (Main) examination – 2019. The candidates should satisfy themselves about the eligibility of age limit requirements of the Institutes in which he/she is desirous of taking admission."
+    alert(msg);
+}
+
+function StEligmsg() {
+    var msg;
+    msg = "(1) State Code of eligibility means the Code of the State from where the candidate has passed Class 12th / equivalent qualifying examination by virtue of which he/she becomes eligible to appear in the JEE (Main) for admission to B.E/B.Tech and B.Arch/B. Planning Courses of the institutions/ Colleges of the States/UT. \n (2) If a candidate has passed Class 12th/ equivalent qualifying examination from one state but appeared for improvement from another state, his/her state code of eligibility will be from where he/she has originally passed Class 12th/ equivalent qualifying examination and not the state from where he/she has appeared for improvement. \n  (3)  Indian nationals passing the equivalent qualifying examination from an institution abroad, the State of Eligibility will be determined on the basis of permanent address in India as given in the Passport of the candidate. \n (4)The candidates passing 12th/Qualifying Exam form NIOS should select the State of eligibility where their study cenetr is located"
+    alert(msg);
+}
+
+function Catmsg() {
+    var msg;
+    msg = " 1. Other Backward Classes (OBC)- Non Creamy Layer as per the central list of Other Backward Classes available on National Commission for Backward Classes (NCBC), Government of India website : www.ncbc.nic.in. \n 2. State list OBC Candidates who are not in OBC-NCL central list must choose General."
+    alert(msg);
+}
+
+function NatMsg() {
+    var msg;
+    msg = "Foreign/OCI/PIO candidates are not eligible for admission to NITs,IIITs and CFIs through JEE(Main) Channel."
+    alert(msg);
+}
+
+function popup() {
+    my_window = window.open('../Online/ConfirmationPage.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+
+function popupACK() {
+    my_window = window.open('../Online/Acknowledgement.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+
+function popupCBES() {
+    my_window = window.open('../OnlineExamDateChoice/CBEDateChoiceSlip.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+
+function popupAdmitCard() {
+    my_window = window.open('AdmitCard.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+function popupCorrSlip() {
+    my_window = window.open('Acknowledgepage.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+function popupAcdCorrSlip() {
+    my_window = window.open('AcademinDetailsCorrSlip.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+function popupCSCCorrSlip() {
+    my_window = window.open('CategoryAndStateCorrSlip.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+function popupCBEChoiceSlip() {
+    my_window = window.open('CBEDateChoiceSlip.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+function popupreview() {
+    my_window = window.open('ReviewCandidateDetails.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+
+
+function popupAppForm() {
+    my_window = window.open('ApplicationForm.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+function popupCorrSlip() {
+    my_window = window.open('CorrictionSlip.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+
+//function popupAdmitCard() {
+//    my_window = window.open('AdmitCardUndertakingForm.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+//}
+function popupDescrepancyLetter() {
+    my_window = window.open('discrepacnyLetter.aspx', '_blank', 'width=900,height=700,toolbar=0,resizable=1,scrollbars=1,menubar=0,status=1');
+}
+
+
+function isvaliddate(sender, args) {
+    var a = args.Value;
+    if (a.length < 10 || a.length > 10) {
+        args.IsValid = false;
+        return;
+    }
+    var datePat = /^(\d{2})(\/)(\d{2})\2(\d{4})$/;
+    var matchArray = a.match(datePat); // is the format ok?
+    if (matchArray == null) {
+        args.IsValid = false;
+        return;
+    }
+    day = matchArray[1]; // parse date into variables
+    month = matchArray[3];
+    year = matchArray[4];
+    if (month < 1 || month > 12) { // check month range
+        args.IsValid = false;
+        return;
+    }
+    if (day < 1 || day > 31) {
+        args.IsValid = false;
+        return;
+    }
+    if ((month == 4 || month == 6 || month == 9 || month == 11) && day == 31) {
+        args.IsValid = false;
+        return;
+    }
+    if (month == 2) { // check for february 29th
+        var isleap = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+        if (day > 29 || (day == 29 && !isleap)) {
+            args.IsValid = false;
+            return;
+        }
+    }
+    args.IsValid = true;  // date is valid
+}
+
+
+
+
+
+
+function popupFee() {
+    var width = 660;
+    var height = 500;
+    var left = (screen.width - width) / 2;
+    var top = (screen.height - height) / 2;
+    var params = 'width=' + width + ', height=' + height;
+    params += ', top=' + top + ', left=' + left;
+    params += ', toolbar=no';
+    params += ', menubar=no';
+    params += ', resizable=no';
+    params += ', directories=no';
+    params += ', scrollbars=yes';
+    params += ', status=no';
+    params += ', location=no';
+    newwin = window.open('../Registration/FeeCalculator.aspx', 'd', params);
+    if (window.focus) {
+        newwin.focus()
+    }
+    return false;
+}
+
+function popupQualExam() {
+    var width = 645;
+    var height = 545;
+    var left = (screen.width - width) / 2;
+    var top = (screen.height - height) / 2;
+    var params = 'width=' + width + ', height=' + height;
+    params += ', top=' + top + ', left=' + left;
+    params += ', toolbar=no';
+    params += ', menubar=no';
+    params += ', resizable=no';
+    params += ', directories=no';
+    params += ', scrollbars=yes';
+    params += ', status=no';
+    params += ', location=no';
+    newwin = window.open('QualExamDetails.htm', 'd', params);
+    if (window.focus) {
+        newwin.focus()
+    }
+    return false;
+}
+
+
+function checkPhotoExtension(sender, args) {
+
+    var flag = false;
+    var ctrlf1 = document.getElementById('ctl00_ContentPlaceHolder1_FileUpload1');
+    var filePath = ctrlf1.value;
+
+    if (filePath.indexOf('.') == -1) {
+        flag = false;
+    }
+
+    var validExtensions = new Array();
+    var ext = filePath.substring(filePath.lastIndexOf('.') + 1).toLowerCase();
+
+    validExtensions[0] = 'jpg';
+    validExtensions[1] = 'jpeg';
+
+    for (var i = 0; i < validExtensions.length; i++) {
+        if (ext == validExtensions[i]) {
+            flag = true;
+        }
+
+    }
+
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+
+function checkSignExtension(sender, args) {
+
+    var flag = false;
+    var ctrlf1 = document.getElementById('ctl00_ContentPlaceHolder1_FileUpload2');
+    var filePath = ctrlf1.value;
+
+    if (filePath.indexOf('.') == -1) {
+        flag = false;
+    }
+
+    var validExtensions = new Array();
+    var ext = filePath.substring(filePath.lastIndexOf('.') + 1).toLowerCase();
+
+    validExtensions[0] = 'jpg';
+    validExtensions[1] = 'jpeg';
+
+    for (var i = 0; i < validExtensions.length; i++) {
+        if (ext == validExtensions[i]) {
+            flag = true;
+        }
+
+    }
+
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+
+
+
+
+function checkThumbExtension(sender, args) {
+
+    var flag = false;
+    var ctrlf1 = document.getElementById('ctl00_ContentPlaceHolder1_FileUpload3');
+    var filePath = ctrlf1.value;
+
+    if (filePath.indexOf('.') == -1) {
+        flag = false;
+    }
+
+    var validExtensions = new Array();
+    var ext = filePath.substring(filePath.lastIndexOf('.') + 1).toLowerCase();
+
+    validExtensions[0] = 'jpg';
+    validExtensions[1] = 'jpeg';
+
+    for (var i = 0; i < validExtensions.length; i++) {
+        if (ext == validExtensions[i]) {
+            flag = true;
+        }
+
+    }
+
+    if (flag == false) {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+}
+function LogoutConf() {
+
+    var ctrl1 = document.getElementById('ctl00_ContentPlaceHolder1_txtoldpass')
+    var ctrl2 = document.getElementById('ctl00_ContentPlaceHolder1_txtnewpass')
+    var ctrl3 = document.getElementById('ctl00_ContentPlaceHolder1_txtconfnewpass')
+    var ctrl4 = document.getElementById('ctl00_ContentPlaceHolder1_txtsecans1')
+    if (ctrl1 != null && ctrl2 != null && ctrl3 != null && ctrl4 != null) {
+        ctrl1.value = ""
+        ctrl2.value = ""
+        ctrl3.value = ""
+        ctrl4.value = ""
+    }
+
+    var con = confirm('Are you sure, you want to Logout ?')
+    if (con == true) {
+
+        return true;
+
+    }
+
+    else {
+
+        return false;
+
+    }
+}
+function PwDPerc() {
+
+    if (document.getElementById('ctl00_ContentPlaceHolder1_txtPhPer').value != "") {
+        var a = 0;
+        a = parseInt(document.getElementById('ctl00_ContentPlaceHolder1_txtPhPer').value);
+        if (a < 40) {
+            document.getElementById('ctl00_ContentPlaceHolder1_ddlneedamanuenses').value = "2";
+            document.getElementById('ctl00_ContentPlaceHolder1_ddlneedamanuenses').disabled = true;
+
+        }
+        else {
+            document.getElementById('ctl00_ContentPlaceHolder1_ddlneedamanuenses').value = "0";
+            document.getElementById('ctl00_ContentPlaceHolder1_ddlneedamanuenses').disabled = false;
+
+        }
+    }
+
+}
+function IsCMFNameValid() {
+    var ctrl1 = document.getElementById('ctl00_ContentPlaceHolder1_TxtCname');
+    var ctrl2 = document.getElementById('ctl00_ContentPlaceHolder1_Txtmname');
+    var ctrl3 = document.getElementById('ctl00_ContentPlaceHolder1_Txtfname');
+
+    if (ctrl1.value != "" && ctrl2.value != "") {
+        if (ctrl1.value.toUpperCase() == ctrl2.value.toUpperCase()) {
+            alert("Candidate's name & Mother's name should not be same.");
+            ctrl2.value = ""
+            return;
+        }
+    }
+
+    if (ctrl1.value != "" && ctrl3.value != "") {
+        if (ctrl1.value.toUpperCase() == ctrl3.value.toUpperCase()) {
+            alert("Candidate's name & Father's name should not be same.");
+            ctrl3.value = ""
+            return;
+        }
+    }
+
+    if (ctrl2.value != "" && ctrl3.value != "") {
+        if (ctrl2.value.toUpperCase() == ctrl3.value.toUpperCase()) {
+            alert("Mother's name & Father's name should not be same.");
+            ctrl3.value = ""
+            return;
+        }
+    }
+}
+
+function DisablePhotoUpload() {
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_btnEditPhoto');
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreementP');
+    ChkIAgree.checked = false;
+    btnFinalSubmit.disabled = true;
+
+}
+function DisableSignUpload() {
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_bttEditSign');
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreementS');
+    ChkIAgree.checked = false;
+    btnFinalSubmit.disabled = true;
+
+}
+
+function DisableThumbUpload() {
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_bttEditThumb');
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreementT');
+    ChkIAgree.checked = false;
+    btnFinalSubmit.disabled = true;
+
+}
+
+
+function ChgFinalUploadPhoto() {
+
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreementP');
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_btnEditPhoto');
+    var btnBrows = document.getElementById('ctl00_ContentPlaceHolder1_FileUpload1');
+    if (ChkIAgree.checked == true) {
+        btnFinalSubmit.disabled = false;
+        btnBrows.disabled = true;
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        btnFinalSubmit.disabled = true;
+        btnBrows.disabled = false;
+        return;
+    }
+}
+function ChgFinalUploadSign() {
+
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreementS');
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_bttEditSign');
+    var btnBrows = document.getElementById('ctl00_ContentPlaceHolder1_FileUpload2');
+    if (ChkIAgree.checked == true) {
+        btnFinalSubmit.disabled = false;
+        btnBrows.disabled = true;
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        btnFinalSubmit.disabled = true;
+        btnBrows.disabled = false;
+        return;
+    }
+}
+
+function ChgFinalUploadThumb() {
+
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreementT');
+    var btnFinalSubmit = document.getElementById('ctl00_ContentPlaceHolder1_bttEditThumb');
+    var btnBrows = document.getElementById('ctl00_ContentPlaceHolder1_FileUpload3');
+    if (ChkIAgree.checked == true) {
+        btnFinalSubmit.disabled = false;
+        btnBrows.disabled = true;
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        btnFinalSubmit.disabled = true;
+        btnBrows.disabled = false;
+        return;
+    }
+}
+
+
+// ########################## For Application Form Correction Only #############################
+
+
+
+
+function ChgXIIPassYearCorr() {
+
+    var ctrlXIIPer = document.getElementById('ctl00_ContentPlaceHolder1_txtperXII');
+    var ctrlXIIRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+
+    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctr2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlYearPassX');
+    if (ctrl.value != "0" && ctr2.value != "0") {
+        if (parseInt(ctrl.value) - parseInt(ctr2.value) < 2) {
+            alert("Minimum difference between 'Year of passing class 10th or its equivalent' and 'Year of passing or appearing class 12th or its equivalent' should be 2 year");
+            ctr2.value = "0";
+            ctrl.value = "0";
+            ctr2.focus();
+            return false;
+        }
+    }
+
+    if (ctrl.value == "2019") {
+        ctrlXIIPer.value = "";
+        ctrlXIIRoll.value = "";
+        ctrlXIIPer.disabled = true;
+        ctrlXIIRoll.disabled = true;
+    }
+    else {
+        ctrlXIIPer.disabled = false;
+        ctrlXIIRoll.disabled = false;
+
+    }
+    return true;
+}
+
+function ChgXIIPassYearAck() {
+
+    var ctrlXIIPer = document.getElementById('ctl00_ContentPlaceHolder1_txtperXII');
+    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    if (ctrl.value == "2019") {
+        ctrlXIIPer.value = "";
+        ctrlXIIPer.disabled = true;
+
+    }
+    else {
+        ctrlXIIPer.value = "";
+        ctrlXIIPer.disabled = false;
+
+    }
+    return true;
+}
+
+
+function ChgXIIPassYearAuth() {
+
+    var ctrlRollNo = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    if (ctrl.value == "2019") {
+        ctrlRollNo.value = "";
+        ctrlRollNo.disabled = true;
+
+    }
+    else {
+        ctrlRollNo.value = "";
+        ctrlRollNo.disabled = false;
+
+    }
+    return true;
+}
+
+function ChgAgreement() {
+
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreement');
+    var btnApplyFor = document.getElementById('ctl00_ContentPlaceHolder1_AncApplyFor');
+    if (ChkIAgree.checked == true) {
+        btnApplyFor.disabled = false;
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        btnApplyFor.disabled = true;
+        return;
+    }
+}
+
+
+
+
+function DisableApplyFor() {
+    var btnApplyFor = document.getElementById('ctl00_ContentPlaceHolder1_AncApplyFor');
+    btnApplyFor.disabled = true;
+
+}
+
+//function OnChgCountry() {
+//    var ctrlCountry = document.getElementById('ctl00_ContentPlaceHolder1_ddlCountry');
+//    var ctrlState = document.getElementById('ctl00_ContentPlaceHolder1_ddlState');
+//    var ctrlDistrict = document.getElementById('ctl00_ContentPlaceHolder1_ddlDistrict');
+//    var trState = document.getElementById('ctl00_ContentPlaceHolder1_trAddState');
+//    var trDistrict = document.getElementById('ctl00_ContentPlaceHolder1_trAddDistrict');
+//    if (ctrlCountry.value != "IN") {
+//        ctrlDistrict.value = "0";
+//        ctrlState.value = "0";
+//        ctrlState.disabled = true;
+//        ctrlDistrict.disabled = true;
+//        trState.style.display = 'none';
+//        trDistrict.style.display = 'none';
+//    }
+//    else {
+//        ctrlState.value = "0";
+//        ctrlState.disabled = false;
+//        ctrlDistrict.value = "0";
+//        ctrlDistrict.disabled = false;
+//        trState.style.display = '';
+//        trDistrict.style.display = '';
+//    }
+//    return true;
+//}
+
+function CustomValAddState(sender, args) {
+    var ctrlDdlCountry = document.getElementById('ctl00_ContentPlaceHolder1_ddlCountry');
+    var ctrlDdlState = document.getElementById('ctl00_ContentPlaceHolder1_ddlState');
+    if (ctrlDdlCountry.value == "IN" && ctrlDdlState.Value == "0") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+function CustomValAddDistrict(sender, args) {
+    var ctrlDdlCountry = document.getElementById('ctl00_ContentPlaceHolder1_ddlCountry');
+    var ctrlddlDistrict = document.getElementById('ctl00_ContentPlaceHolder1_ddlDistrict');
+    if (ctrlDdlCountry.value == "IN" && ctrlddlDistrict.Value == "0") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+function CustomValIsAadhar(sender, args) {
+    var ctrlDdlAadhar = document.getElementById('ctl00_ContentPlaceHolder1_ddlNationality');
+    var ctrtxtAadhaarNum = document.getElementById('ctl00_ContentPlaceHolder1_txtAadhaarNum');
+    if (ctrlDdlAadhar.value == "1" && ctrlDdlAadhar.value != "0" && args.Value == "") {
+        args.IsValid = false;
+    }
+    else {
+        args.IsValid = true;
+    }
+
+}
+
+function PnlAadhaarConsent() {
+    var ctrlddlNat = document.getElementById('ctl00_ContentPlaceHolder1_ddlNationality');
+    var ctrlBttnSubmit = document.getElementById('ctl00_ContentPlaceHolder1_submitbutton');
+    var ctrlpnlAadhaarConsent = document.getElementById('ctl00_ContentPlaceHolder1_pnlAadhaarConsent');
+    var ctrltrAadhaarNo = document.getElementById('ctl00_ContentPlaceHolder1_trAadhaarNo');
+    if (ctrlddlNat.value == "1") {
+        ctrlpnlAadhaarConsent.style.display = 'block';
+        ctrltrAadhaarNo.style.display = '';
+        ctrlBttnSubmit.disabled = true;
+    }
+    else {
+        ctrlpnlAadhaarConsent.style.display = 'none';
+        ctrltrAadhaarNo.style.display = 'none';
+        ctrlBttnSubmit.disabled = false;
+    }
+
+}
+
+
+function OnChagNationality() {
+    var ctrlBttnSubmit = document.getElementById('ctl00_ContentPlaceHolder1_ddcodeelig1');
+    ctrlDdlCountry.value = '0';
+   }
+
+
+
+function ChgAadhaarConsent() {
+
+    var ChkIAgree = document.getElementById('ctl00_ContentPlaceHolder1_chkagreement');
+    var ctrlBttnSubmit = document.getElementById('ctl00_ContentPlaceHolder1_submitbutton');
+    if (ChkIAgree.checked == true) {
+        ctrlBttnSubmit.disabled = false;
+        return;
+    }
+    if (ChkIAgree.checked == false) {
+        ctrlBttnSubmit.disabled = true;
+        return;
+    }
+}
+
+
+function PnlPayMode() {
+    document.getElementById('ctl00_ContentPlaceHolder1_Pnlmain').style.display = 'block';
+    return false;
+}
+
+function DisableSubmitOnAadhaarConsent() {
+  
+    var ctrlBttnSubmit = document.getElementById('ctl00_ContentPlaceHolder1_submitbutton');
+    var ctrlddlVerificationType = document.getElementById('ctl00_ContentPlaceHolder1_ddlVerificationType');
+    var txtVerificationId = document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId');
+    txtVerificationId.value = "";
+    document.getElementById('ctl00_ContentPlaceHolder1_lblVerificationId').innerHTML = ctrlddlVerificationType.options[ctrlddlVerificationType.selectedIndex].text;
+
+   if (ctrlddlVerificationType.value == "01") {
+       ctrlBttnSubmit.disabled = false;
+    }
+    else {
+      
+        ctrlBttnSubmit.disabled = false;
+    }
+
+}
+
+function onChangeVerificationType() {
+    var txtVerificationId = document.getElementById('ctl00_ContentPlaceHolder1_txtVerificationId');
+    var ctrlddlVerificationType = document.getElementById('ctl00_ContentPlaceHolder1_ddlVerificationType');
+    txtVerificationId.value = "";
+    document.getElementById('ctl00_ContentPlaceHolder1_lblVerificationIdCaption').innerHTML = ctrlddlVerificationType.options[ctrlddlVerificationType.selectedIndex].text;
+}
+
+function onchangeddlCat() {
+    if ($("#ctl00_ContentPlaceHolder1_ddlCat").val() != '1') {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlCastNm').style.display = 'block';
+        $("#ctl00_ContentPlaceHolder1_txtCastNm").val("");
+    }
+    else {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlCastNm').style.display = 'none';
+        $("#ctl00_ContentPlaceHolder1_txtCastNm").val('NA');
+    }
+
+}
+
+
+function onchangeddlPwD() {
+    if ($("#ctl00_ContentPlaceHolder1_ddlPh").val() == '1' ) {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlisPh').style.display = 'block';
+        $("#ctl00_ContentPlaceHolder1_ddlneedamanuenses").val('0');
+        $("#ctl00_ContentPlaceHolder1_txtPhPer").val('');
+    }
+    else {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlisPh').style.display = 'none';
+        $("#ctl00_ContentPlaceHolder1_ddlneedamanuenses").val('2');
+        $("#ctl00_ContentPlaceHolder1_txtPhPer").val('10');
+        
+    }
+
+}
+
+
+function onchangeddlGender() {
+    if ($("#ctl00_ContentPlaceHolder1_ddlGender").val() == '1' || $("#ctl00_ContentPlaceHolder1_ddlGender").val() == '3' || $("#ctl00_ContentPlaceHolder1_ddlGender").val() == '0') {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlOnlyGirlChild').style.display = 'none';
+        $("#ctl00_ContentPlaceHolder1_ddlOnlyChild").val('2');
+    }
+    else if ($("#ctl00_ContentPlaceHolder1_ddlGender").val() == '2'){
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlOnlyGirlChild').style.display = 'block';
+        $("#ctl00_ContentPlaceHolder1_ddlOnlyChild").val('0');
+    }
+
+}
+
+
+function onchangeddlBoard() {
+    if ($("#ctl00_ContentPlaceHolder1_ddschboard").val() == '99') {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlOtherBoard').style.display = 'block';
+        $("#ctl00_ContentPlaceHolder1_txtboard").val('');
+
+    }
+    else  {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlOtherBoard').style.display = 'none';
+        $("#ctl00_ContentPlaceHolder1_txtboard").val('NA');
+    }
+
+}
+
+function onchangeddlDdlImprovement() {
+    if ($("#ctl00_ContentPlaceHolder1_ddlImproveMent").val() == '1') {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlImpRollNo').style.display = 'block';
+        $("#ctl00_ContentPlaceHolder1_txtImpRollNo").val('');
+
+    }
+    else {
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlImpRollNo').style.display = 'none';
+        $("#ctl00_ContentPlaceHolder1_txtImpRollNo").val('');
+    }
+
+}
+
+
+function ChgXIIPassYearCorr() {
+
+    var ctrlXIIPer = document.getElementById('ctl00_ContentPlaceHolder1_txtperXII');
+    var ctrlXIIRoll = document.getElementById('ctl00_ContentPlaceHolder1_txtRollNo');
+    var ctrl = document.getElementById('ctl00_ContentPlaceHolder1_ddyearpassXII');
+    var ctr2 = document.getElementById('ctl00_ContentPlaceHolder1_ddlYearPassX');
+    if (ctrl.value != "0" && ctr2.value != "0") {
+        if (parseInt(ctrl.value) - parseInt(ctr2.value) < 2) {
+            alert("Minimum difference between 'Year of passing class 10th or its equivalent' and 'Year of passing or appearing class 12th or its equivalent' should be 2 year");
+            ctr2.value = "0";
+            ctrl.value = "0";
+            ctr2.focus();
+            return false;
+        }
+    }
+
+    if (ctrl.value == "2019") {
+        ctrlXIIPer.value = "";
+        ctrlXIIRoll.value = "";
+        ctrlXIIPer.disabled = true;
+        ctrlXIIRoll.disabled = true;
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlPerc').style.display = 'none';
+    }
+    else {
+        alert(ctrl.value);
+        ctrlXIIPer.disabled = false;
+        ctrlXIIRoll.disabled = false;
+        ctrlXIIPer.value = "";
+        ctrlXIIRoll.value = "";
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlPerc').style.display = 'block';
+
+    }
+    return true;
+}
+
+function OnChgCountry() {
+    var ctrlCountry = document.getElementById('ctl00_ContentPlaceHolder1_ddlCountry');
+    var ctrlState = document.getElementById('ctl00_ContentPlaceHolder1_ddlState');
+    var ctrlDistrict = document.getElementById('ctl00_ContentPlaceHolder1_ddlDistrict');
+   
+    if (ctrlCountry.value != "IN") {
+        ctrlDistrict.value = "0";
+        ctrlState.value = "0";
+//        ctrlState.disabled = true;
+//        ctrlDistrict.disabled = true;
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlStateDist').style.display = 'none';
+    }
+    else {
+
+        ctrlState.value = "0";
+        ctrlDistrict.value = "0";
+//        ctrlState.disabled = false;
+//        ctrlDistrict.disabled = false;
+        document.getElementById('ctl00_ContentPlaceHolder1_pnlStateDist').style.display = 'block';
+    }
+    return true;
+}
+

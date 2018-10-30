@@ -1,0 +1,483 @@
+ls
+cd Downloads/
+ls
+ls -lh
+cd raj
+cd ../
+ls
+cd Downloads/
+cd raj
+cd..
+cd ..
+cd raj
+touch remo
+cd Downloads/
+ls -l
+cd ../
+touch remo
+ls
+ls
+cd remo
+cd remo
+cd public
+cat remo
+cd
+ls
+cd public
+touch tata
+cat tata
+ls
+cat > tata
+man cut
+cut -t',' -k2 -n
+sort -t',' -k2 -n
+sort -t',' -k2 -n tata
+cat tata
+vim tata
+cat tata 
+sort -t ',' -k2 -n tata
+cut -b 2 tata
+cut -b -2 tata
+cut -d ',' -f 2 tata
+cut -d ',' -f 2 tata |sort -n
+cut -d ',' -f 1 tata |sort -n
+man awk
+passwd
+passwd
+man awk
+cat a
+cat hero
+cat tata
+awk {print $2}
+awk {print $2} tata
+awk '{print $2}' tata
+awk '{print $1}' tata
+awk -f '{print $1}' tata
+awk -F '{print $1}' tata
+awk -F '{print $1}' tata
+awk -F',' {print $1}' tata
+awk -F',' '{print $1}' tata
+man awk
+awk -F',' '{print $2}' tata
+awk -F',' '{print $2}'|sort -n tata
+awk -F',' '{print $2}'tata | sort -n 
+awk -F',' '{print $2}' tata | sort -n 
+awk -F',' '{print $1}' tata | sort -n 
+cat >> tata
+sort tata
+cut -d ',' -f 2 tata
+cut -d ',' -f 1 tata
+cut 1'4 tata
+
+
+man cut
+man grep
+grep '^\.ee' tata
+pwd
+ls
+cd tata
+ls -lh
+man grep
+pwd
+cat tata
+cut man
+cut -f ','
+cut -f 2-4 tata
+cut -f ',' 2-4 tata
+cut -c ' 2-4 tata
+cut -c 2-4 tata
+cut -f ',' -k2 2-4 tata
+-d ',' -f 1 tata
+-d',' -f 1 tata
+cut -d',' -f 1 tata
+cut -d',' -f 2 tata
+cut -d',' -f -k2 tata
+cut -d',' -f k2 tata
+cut -d',' -f k2 tata
+pwd
+tree
+man tree
+ ls public
+cd ..
+pwd
+ls public
+ls -l tata
+open tata
+ls
+cd public
+pwd
+cd tata
+ls
+cd .
+pwd
+cd public
+ls
+cd Drop Box
+ls
+ls > bahubali
+cat bahubali 
+ls
+cat bahubali 
+cat 
+cat > bahubali 
+ls e*
+ls e*ba
+ls e* bahubali 
+ls bahubali 
+ls > bahubali_2
+ls 
+cad > bahubali_2
+cat > bahubali_2
+cat > bahubali
+cat > bahubali_2
+cut > bahubali_2
+cat > bahubali_2
+cat bahubali
+cat bahubali
+cat bahubali_2
+cd
+pwd
+ls
+cd Public/
+ls
+cad
+ls > text_to_speek
+cat > text_to_speek
+tree .
+ls
+cd text_to_speek 
+cat >> pakka lokal pakka lokal nenu pakka lokaluuuu
+cat text_to_speek 
+cat >> pakka lokal pakka lokal nenu pakka lokaluuuut
+cat >> text_to_speek 
+cat text_to_speek 
+ls e
+ls e*
+ls e* text_to_speek 
+cat text_to_speek 
+lsls
+ls
+ls D*
+ls
+ls e
+ls D*
+ls 
+ls *D
+LS *e
+ls *e*
+ls d*
+ls Dr*
+ls Dr*
+ls Dr*
+ls D*
+ls e*
+ls t*
+mv bahubali bahubali_2
+ls
+ls bahubali_2 
+cd bahubali_2 
+cat bahubali_2 
+ls ../
+ls -l
+ls -lh
+ls > pannapur
+ls
+ls -lh | cat > pannapur 
+cat pannapur 
+sort -t ''-k9 pannapur
+sort -t' ' -k9 pannapur
+vim pannapur
+tail -n6 pannapur > pannapur 
+cat pannapur
+ls > pannapur
+tail -n6 pannapur 
+ls -ah > pannapur
+ls -al > pannapur
+ls -al
+cat pannapur
+tail -n6 pannapur
+tail -n6 pannapur>a
+cat a
+tail -n6 pannapur>pannapur
+cat pannapur
+mov a,pannapur
+mv a,pannapur
+mv a pannapur
+cat pannapur 
+sort -t ''
+sort -t ' ' -f9 pannapur fm
+cat bahubali_2 
+cat > bahubali_2 
+cat bahubali_2 
+sort -t ',' -f2 bahubali_2 
+sort -t ',' -n -f2 bahubali_2 
+sort -t ',' -n -f2 bahubali_2 
+sort -t ',' -n -k2 bahubali_2 
+sort -t ',' -n -k2r bahubali_2 
+sort -t ',' -n -k2r bahubali_2 |cut -t ',' -f1 
+sort -t ',' -n -k2r bahubali_2 |cut -t ',' -k1
+sort -t ',' -n -k2r bahubali_2 | cut -d ',' -f1
+sort -t ',' -n -k2r bahubali_2 | cut -d ',' -f1| tail -n1
+sort -t ',' -n -k2r bahubali_2 | cut -d ',' -f1| tail -n1|cat > taramani
+ls
+cat taramani
+cat > sharuk
+grep 1995 sharuk
+grep "^a." sharuk
+grep -v "^a." sharuk
+grep romi singh sharuk 
+grep Romi singh sharuk 
+grep -A1 "ee"sharuk
+grep -A1 "ee" sharuk
+uniq sharuk
+man uniq
+cat pannapur 
+cat bahubali_2 
+cat >> bahubali_2 
+cat >> bahubali_2 
+cat >> bahubali_2 
+cat > bahubali_2 
+cat > bahubali_2 
+cat bahubali_2 
+cat bahubali_2 
+ls
+cat bahubali_2 
+man grep
+grep "o"* sharuk
+grep "o*" sharuk
+grep "oo*" sharuk
+grep "1$" sharuk 
+grep "^r*" sharuk 
+man uniq
+man uniq
+ls
+cat text_to_speek 
+grep -v "*v*" -e "*n*" text_to_speek 
+grep -v -e "v*" -e "n*" text_to_speek
+grep -v -e "v" -e "n" text_to_speek
+cat text_to_speek
+grep -v -e "v" text_to_speek
+grep -v -e -o "v" text_to_speek
+grep -o "v" text_to_speek
+grep -v -o "v" text_to_speek 
+grep -v  "v" text_to_speek 
+grep -v  "v" "n" text_to_speek 
+grep -v -e "v" -e "n" text_to_speek 
+grep -v  "v" text_to_speek | grep -v "n"
+grep -v  "n" text_to_speek 
+grep   "n" text_to_speek 
+vim text_to_speek
+grep -o "[a-z]\+" text_to_speek
+grep -o "[a-z]\+" text_to_speek| grep -v "v"
+grep -o "[a-z]\+" text_to_speek| grep -v -e "v" -e "n"
+grep -o "[a-z]" text_to_speek| grep -v -e "v" -e "n"
+grep -o "[a-z]\+" text_to_speek| grep -v -e "v" -e "n"
+man grep
+man pwd
+man pwd
+pwd
+pwd -l
+man pwd
+pwd -p
+ls > pspk
+ls
+cat > pspk 
+grep "*k" pspk 
+grep "*A." pspk 
+grep 2015 pspk 
+grep "t." pspk 
+grep -o "^A" pspk 
+grep "^A" pspk 
+grep 2000 pspk 
+grep "^devil"  pspk 
+grep -b10 "^ka" pspk 
+grep -b10 "ka" pspk 
+grep -b10 "ka" pspk 
+grep -b10 "michael" pspk 
+grep -b10 "Michael" pspk 
+cat text_to_speek 
+ls
+ls tata
+cat tata
+cat >> tata
+cat tata
+uniq tata
+cut 
+cut -t
+cut -d ',' -f1 tata 
+cut -d ',' -f1 tata | sort 
+cut -d ',' -f1 tata | sort | uniq 
+cut -d ',' -f1 tata | sort | uniq -d
+ls
+cat pannapur 
+cat sharuk
+grep -v 
+grep -v "^k" sharuk 
+grep -v "k" sharuk 
+grep -v "k*" sharuk 
+grep -v "k" sharuk 
+grep -v "k." sharuk 
+grep -v "k.*" sharuk 
+grep -v "K.*" sharuk 
+open camera
+cat tata
+grep -A1 "^r" tata
+grep -b3 "^r" tata
+man grep
+cat tata
+cut -c 5 tata
+cut -c 1-3 tata
+cut -c 3-5 tata
+grep "o"* tata
+grep "o"* tata
+grep "o*" tata
+grep 
+grep "1$" tata
+grep "0$" tata
+grep "5*$" tata
+grep "5$" tata
+grep "5$3" tata
+grep "" tata
+grep "5..\" tata
+grep "5.." tata
+grep "^5" tata
+grep "^,5" tata
+grep ".*5" tata
+grep ".*5.." tata
+grep "*5.." tata
+grep ".5.." tata
+grep ".5.." tata
+grep ".5." tata
+grep ".5..." tata
+say pannapur
+say paannapur
+say ppannapur
+say pppannapur
+say ppphannapur
+say pppppppannapur
+say ppanahpurh
+grep 
+grep ls
+ls
+ls taramani
+cat taramani 
+cat pannapur 
+re pannapur 
+rm pannapur 
+ls
+cat text_to_speek 
+vim orange
+cat > pannapur 
+rev pannapur
+cad pannapur
+cat pannapur
+cat > pannapur 
+cat pannapur
+ls
+cd
+pwd
+ls
+ls Downloads/
+cad movies.csv
+cat  movies.csv
+cat movies.csv
+ls movies.csv
+cad > movies.csv
+cat > movies.csv
+cut -d '|' -f1,5 movies.csv 
+cut -d '|' -f1,5 movies.csv | grep ".*drama.*" 
+cut -d '|' -f1,5 movies.csv | grep ".*Drama.*" 
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama.*" 
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama.*" |wc -n
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama.*" | wc -n
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama.*" |grep ".*|.*Thriller.*"
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama.*" |grep ".*|.*Thriller.*" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama.*" |grep ".*|.*Thriller.*" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*Drama ,Thriller.*" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*Drama,Thriller.*" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*Drama,Thriller.*" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*Drama,Thriller" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*Drama, Thriller" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*| Drama, Thriller" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*| .*Drama, Thriller" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama, Thriller" | wc -l
+cut -d '|' -f1,5 movies.csv | grep ".*|.*Drama,.*Thriller.*" | wc -l
+cat movies.csv 
+cut -d '|' -f2 movies.csv 
+cut -d '|' -f2 movies.csv |sort 
+cut -d '|' -f2 movies.csv |sort | grep "20.*
+cut -d '|' -f2 movies.csv |sort | grep "^20.*"
+cut -d '|' -f2 movies.csv |sort | grep -c "^20.*"
+cut -d '|' -f2,6 movies.csv
+cut -d '|' -f2,6 movies.csv| grep "^195.*|.*"
+cut -d '|' -f2,6 movies.csv| grep "^195.*|.*"|uniq -c
+cut -d '|' -f2,6 movies.csv| grep "^195.*|.*"|uniq
+cut -d '|' -f2,6 movies.csv| grep "^195.*|.*"|cut -d '|' -f2
+cut -d '|' -f2,6 movies.csv| grep "^195.*|.*"|cut -d '|' -f2| uniq
+cat movies.csv 
+cut -d '|' -f1,4 movies.csv 
+cut -d '|' -f1,4 movies.csv | rev
+cut -d '|' -f1,4 movies.csv | rev| cut -c4
+cut -d '|' -f1,4 movies.csv | rev| cut -c3-
+cut -d '|' -f1,4 movies.csv | rev| cut -c5-
+vim --version
+vim
+vim > raja
+man vim
+vim pannapur
+vim
+vim
+cd
+pwd
+cd
+vim ~/.vimrc
+vim
+vim ~/.vimrc
+ls
+cad pannapur 
+cat pannapur 
+vim pannapur 
+vim -u .vimrc pannnapur
+vim pannapur 
+vim ~/.vimrc
+vim pannapur 
+vim ~/.vimrc
+vim pannapur 
+ls
+ls -a
+vim pannapur 
+vim ~/.vimrc
+vim pannapur 
+vim pannapur 
+find . -name "bahubali_2"
+find . -name "bahubali_2"| cat
+pwd
+ls .
+find . -newerct 2018-09-05
+cat raja
+cat pannapur 
+vim pannapur 
+ls /downloads/
+ls
+cd Downloads/
+ls 
+cat movies.csv 
+..
+cd ../
+ls
+cd Downloads/
+ls
+vim puli.sh
+vim puli.sh
+sh puli.sh
+chmod +x puli.sh 
+./puli.sh 
+ls -l
+chmod -w apple
+ls -l
+vim puli.sh
+./puli.sh
+vim puli.sh
+./puli.sh
+sh movies.csv

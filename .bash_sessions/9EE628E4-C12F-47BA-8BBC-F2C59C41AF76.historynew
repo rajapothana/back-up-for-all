@@ -1,0 +1,20 @@
+ls
+pwd
+cd
+pwd
+cd
+ls
+cd Downloads/
+cat moments 
+pwd
+cp moments ~/assignment/
+ls
+awk -f ./wow_ouch_moments.awk moments 
+awk -f ~/wow_ouch_moments.awk moments 
+cd ../
+cp ~/Downloads/moments  ~/assignment/
+ls
+cd assignment/
+ls
+cat moments 
+cat moments |wc -l

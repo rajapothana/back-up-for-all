@@ -1,0 +1,99 @@
+2018-10-04 22:24:10 +0530
+
+/usr/local/Cellar/python/3.7.0/bin/python3
+-s
+setup.py
+--no-user-cfg
+install
+--force
+--verbose
+--install-scripts=/usr/local/Cellar/python/3.7.0/bin
+--install-lib=/usr/local/lib/python3.7/site-packages
+--single-version-externally-managed
+--record=installed.txt
+
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/wheel
+copying wheel/metadata.py -> build/lib/wheel
+copying wheel/paths.py -> build/lib/wheel
+copying wheel/util.py -> build/lib/wheel
+copying wheel/__init__.py -> build/lib/wheel
+copying wheel/egg2wheel.py -> build/lib/wheel
+copying wheel/pkginfo.py -> build/lib/wheel
+copying wheel/bdist_wheel.py -> build/lib/wheel
+copying wheel/archive.py -> build/lib/wheel
+copying wheel/pep425tags.py -> build/lib/wheel
+copying wheel/install.py -> build/lib/wheel
+copying wheel/__main__.py -> build/lib/wheel
+copying wheel/wininst2wheel.py -> build/lib/wheel
+creating build/lib/wheel/signatures
+copying wheel/signatures/djbec.py -> build/lib/wheel/signatures
+copying wheel/signatures/ed25519py.py -> build/lib/wheel/signatures
+copying wheel/signatures/__init__.py -> build/lib/wheel/signatures
+copying wheel/signatures/keys.py -> build/lib/wheel/signatures
+creating build/lib/wheel/tool
+copying wheel/tool/__init__.py -> build/lib/wheel/tool
+running egg_info
+writing wheel.egg-info/PKG-INFO
+writing dependency_links to wheel.egg-info/dependency_links.txt
+writing entry points to wheel.egg-info/entry_points.txt
+writing requirements to wheel.egg-info/requires.txt
+writing top-level names to wheel.egg-info/top_level.txt
+reading manifest file 'wheel.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'wheel/*.txt'
+warning: no files found matching '*.sh'
+warning: no files found matching '*.py' under directory 'wheel/test'
+warning: no files found matching 'wheel/test/test-1.0-py2.py3-none-win32.whl'
+warning: no files found matching 'wheel/test/headers.dist/header.h'
+warning: no files found matching 'wheel/test/pydist-schema.json'
+no previously-included directories found matching 'wheel/test/*/dist'
+no previously-included directories found matching 'wheel/test/*/build'
+writing manifest file 'wheel.egg-info/SOURCES.txt'
+running install_lib
+creating /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/metadata.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/paths.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/util.py -> /usr/local/lib/python3.7/site-packages/wheel
+creating /usr/local/lib/python3.7/site-packages/wheel/signatures
+copying build/lib/wheel/signatures/djbec.py -> /usr/local/lib/python3.7/site-packages/wheel/signatures
+copying build/lib/wheel/signatures/ed25519py.py -> /usr/local/lib/python3.7/site-packages/wheel/signatures
+copying build/lib/wheel/signatures/__init__.py -> /usr/local/lib/python3.7/site-packages/wheel/signatures
+copying build/lib/wheel/signatures/keys.py -> /usr/local/lib/python3.7/site-packages/wheel/signatures
+copying build/lib/wheel/__init__.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/egg2wheel.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/pkginfo.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/bdist_wheel.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/archive.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/pep425tags.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/install.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/__main__.py -> /usr/local/lib/python3.7/site-packages/wheel
+copying build/lib/wheel/wininst2wheel.py -> /usr/local/lib/python3.7/site-packages/wheel
+creating /usr/local/lib/python3.7/site-packages/wheel/tool
+copying build/lib/wheel/tool/__init__.py -> /usr/local/lib/python3.7/site-packages/wheel/tool
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/metadata.py to metadata.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/paths.py to paths.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/util.py to util.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/signatures/djbec.py to djbec.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/signatures/ed25519py.py to ed25519py.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/signatures/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/signatures/keys.py to keys.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/egg2wheel.py to egg2wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/pkginfo.py to pkginfo.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/bdist_wheel.py to bdist_wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/archive.py to archive.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/pep425tags.py to pep425tags.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/install.py to install.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/__main__.py to __main__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/wininst2wheel.py to wininst2wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/wheel/tool/__init__.py to __init__.cpython-37.pyc
+running install_egg_info
+Copying wheel.egg-info to /usr/local/lib/python3.7/site-packages/wheel-0.31.1-py3.7.egg-info
+running install_scripts
+Installing wheel script to /usr/local/Cellar/python/3.7.0/bin
+writing list of installed files to 'installed.txt'

@@ -1,0 +1,7 @@
+const simpleInterest = function(value,rate,timePeriod){
+return simpleInterest=value*rate*timePeriod/100;
+}
+let value = +process.argv[2];
+let rate = +process.argv[3];
+let timePeriod = +process.argv[4];
+console.log(simpleInterest(value,rate,timePeriod));

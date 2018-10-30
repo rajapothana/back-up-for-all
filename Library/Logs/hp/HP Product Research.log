@@ -1,0 +1,4 @@
+
+2018-09-11 09:38:20 +0000: Removed launchd job plist at /Users/rajapoth/Library/LaunchAgents/com.hp.productresearch.plist: Error Domain=NSCocoaErrorDomain Code=4 "“com.hp.productresearch.plist” couldn’t be removed." UserInfo={NSFilePath=/Users/rajapoth/Library/LaunchAgents/com.hp.productresearch.plist, NSUserStringVariant=(
+    Remove
+), NSUnderlyingError=0x7feed1d1e480 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}

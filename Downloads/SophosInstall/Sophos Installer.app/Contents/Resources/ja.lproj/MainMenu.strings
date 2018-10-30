@@ -1,0 +1,180 @@
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "すべてを手前に移動";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "ウインドウ";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "しまう";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "ウインドウ";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "29"; */
+"29.title" = "メインメニュー";
+
+/* Class = "NSTextFieldCell"; title = "Welcome"; ObjectID = "31U-qf-M54"; */
+"31U-qf-M54.title" = "ようこそ";
+
+/* Class = "NSMenuItem"; title = "Sophos Installer"; ObjectID = "56"; */
+"56.title" = "Sophos Installer";
+
+/* Class = "NSMenu"; title = "Sophos Installer"; ObjectID = "57"; */
+"57.title" = "Sophos Installer";
+
+/* Class = "NSMenuItem"; title = "About Sophos Installer"; ObjectID = "58"; */
+"58.title" = "Sophos Installer について";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "閉じる";
+
+/* Class = "NSMenuItem"; title = "Save…"; ObjectID = "75"; */
+"75.title" = "保存...";
+
+/* Class = "NSMenuItem"; title = "Page Setup..."; ObjectID = "77"; */
+"77.title" = "ページ設定...";
+
+/* Class = "NSMenuItem"; title = "Print…"; ObjectID = "78"; */
+"78.title" = "プリント…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "ファイル";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "ファイル";
+
+/* Class = "NSMenuItem"; title = "Show Files"; ObjectID = "112"; */
+"112.title" = "ファイルを表示";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "サービス";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "サービス";
+
+/* Class = "NSMenuItem"; title = "Hide Sophos Installer"; ObjectID = "134"; */
+"134.title" = "Sophos Installer を隠す";
+
+/* Class = "NSMenuItem"; title = "Quit Sophos Installer"; ObjectID = "136"; */
+"136.title" = "Sophos Installer を終了";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "ほかを隠す";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "すべてを表示";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; */
+"239.title" = "拡大/縮小";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "711"; */
+"711.title" = "編集";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "712"; */
+"712.title" = "編集";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "716"; */
+"716.title" = "カット";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "717"; */
+"717.title" = "コピー";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "718"; */
+"718.title" = "ペースト";
+
+/* Class = "NSMenuItem"; title = "Clear"; ObjectID = "720"; */
+"720.title" = "クリア";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "721"; */
+"721.title" = "すべてを選択";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "1624"; */
+"1624.title" = "インストール";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "1626"; */
+"1626.title" = "終了";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1641"; */
+"1641.title" = "ラベル";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1643"; */
+"1643.title" = "ラベル";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "1727"; */
+"1727.title" = "ラベル";
+
+/* Class = "NSTextFieldCell"; title = "Your computer is now protected by the Sophos Central Endpoint software. Next it will register with the Sophos Central servers and receive additional configuration information"; ObjectID = "1730"; */
+"1730.title" = "このコンピュータは、Sophos Endpoint ソフトウェアによって保護されています。次に、Sophos Central サーバーに登録して、追加の環境設定情報を取得します。";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label "; ObjectID = "1765"; */
+"1765.title" = "複数行のラベル ";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1792"; */
+"1792.title" = "ウインドウ";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "1800"; */
+"1800.title" = "キャンセル";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "1801"; */
+"1801.title" = "インストール";
+
+/* Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "1802"; */
+"1802.title" = "パスワード:";
+
+/* Class = "NSTextFieldCell"; title = "Please contact your administrator if you need assistance."; ObjectID = "1803"; */
+"1803.title" = "詳細は管理者に問い合わせてください。";
+
+/* Class = "NSTextFieldCell"; title = "Your administrator requires you to enter the Tamper Protection password to perform this action."; ObjectID = "1804"; */
+"1804.title" = "この操作を実行するには、タンパープロテクションのパスワードを入力する必要があります。";
+
+/* Class = "NSTextFieldCell"; title = "Further information is available in KBA 123474"; ObjectID = "CNv-Gy-rdr"; */
+"CNv-Gy-rdr.title" = "詳細は、サポートデータベースの文章 123474 を参照してください";
+
+/* Class = "NSTextFieldCell"; title = "Welcome"; ObjectID = "D25-7h-lWL"; */
+"D25-7h-lWL.title" = "ようこそ";
+
+/* Class = "NSTextFieldCell"; title = "Registration Status Label"; ObjectID = "DCT-bs-Lqn"; */
+"DCT-bs-Lqn.title" = "登録状態のラベル";
+
+/* Class = "NSTextFieldCell"; title = "We found a previous installation, which we’ll replace with a new one."; ObjectID = "EZu-Wd-Pr5"; */
+"EZu-Wd-Pr5.title" = "既存のインストールを検出しました。このインストール内容は上書きされます。";
+
+/* Class = "NSTextFieldCell"; title = "Policy Status Label"; ObjectID = "GjY-ye-EWg"; */
+"GjY-ye-EWg.title" = "ポリシー状態のラベル";
+
+/* Class = "NSTextFieldCell"; title = "Intercept X: Protects against ransomware and exploits."; ObjectID = "MOW-3N-BWl"; */
+"MOW-3N-BWl.title" = "Intercept X: ランサムウェアやエクスプロイトから保護します。";
+
+/* Class = "NSTextFieldCell"; title = "Endpoint Protection: Protects against viruses, spyware and more."; ObjectID = "Sxk-pv-hIf"; */
+"Sxk-pv-hIf.title" = "Endpoint Protection: ウイルスやスパイウェアから保護します。";
+
+/* Class = "NSTextFieldCell"; title = "Device Encryption:  Protects your data if your device is lost or stolen."; ObjectID = "ado-Da-CZN"; */
+"ado-Da-CZN.title" = "Device Encryption:  デバイスの紛失時や盗難時にデータを保護します。";
+
+/* Class = "NSTextFieldCell"; title = "Installation Status Label"; ObjectID = "cyc-E5-XF8"; */
+"cyc-E5-XF8.title" = "インストール状態のラベル";
+
+/* Class = "NSTextFieldCell"; title = "Installation Status Label"; ObjectID = "dDj-Ez-TgB"; */
+"dDj-Ez-TgB.title" = "インストール状態のラベル";
+
+/* Class = "NSTextFieldCell"; title = "Installation and configuration is complete"; ObjectID = "dhz-A0-y4N"; */
+"dhz-A0-y4N.title" = "インストールと環境設定が完了しました";
+
+/* Class = "NSTextFieldCell"; title = "Registration Status Label"; ObjectID = "kGa-rD-lSs"; */
+"kGa-rD-lSs.title" = "登録状態のラベル";
+
+/* Class = "NSTextFieldCell"; title = "Policy Status Label"; ObjectID = "lim-b6-o9Y"; */
+"lim-b6-o9Y.title" = "ポリシー状態のラベル";
+
+/* Class = "NSTextFieldCell"; title = "Sophos Intercept X protects your Mac against ransomware and exploits. This app downloads and installs the latest version."; ObjectID = "nxg-uV-dsd"; */
+"nxg-uV-dsd.title" = "Sophos Intercept X は、ランサムウェアやエクスプロイトから Mac を保護します。このアプリは、最新バージョンをダウンロードしてインストールします。";
+
+/* Class = "NSTextFieldCell"; title = "Multiline Label"; ObjectID = "u84-zb-7w2"; */
+"u84-zb-7w2.title" = "複数行のラベル";
+
+/* Class = "NSTextFieldCell"; title = "We found a previous installation, which we’ll replace with a new one."; ObjectID = "zK2-dR-vA7"; */
+"zK2-dR-vA7.title" = "既存のインストールを検出しました。このインストール内容は上書きされます。";
+
+/* Class = "NSTextFieldCell"; title = "Sophos Endpoint will install the following products:"; ObjectID = "zdP-o1-Qwf"; */
+"zdP-o1-Qwf.title" = "Sophos Endpoint は以下の製品をインストールします。";
+

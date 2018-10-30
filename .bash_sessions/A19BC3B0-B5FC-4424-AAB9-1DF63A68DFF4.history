@@ -1,0 +1,547 @@
+pwd
+mkdiv projects
+mkdir projects
+cd projects
+pwd
+ls
+cd ~
+ls
+cd library
+ls
+cd safari
+ls
+cd databases
+pwd
+cd ../
+cd databases
+cd -
+cd -
+ls
+ls
+ls
+cd ___indexedDB
+TWD
+twd
+pwd
+cd ..
+cd ..
+cd ..
+cd..
+cd ..
+pwd
+ls
+cd pictures
+ls
+cd ..
+cd documents
+ls
+cd ..
+cd downloads
+ls -lh
+pwd 
+cd ../
+pwd
+mkdir -p pr 
+mkdir -p projects/examples/examples1
+pwd
+cd projects
+pwd
+ls
+cd examples
+ls
+man 
+examples
+cd examples
+cd examples1/
+rmdir
+rmdir -p
+cd
+ls
+cd projects/
+ls
+cd examples
+ls
+cd ..
+rmdir examples
+cd examples
+ls
+rmdir examples1/
+rmdir examples
+cd ../
+rmdir examples/
+ls -lh
+cd ..
+ls
+ls -lh
+cd library
+ls
+cd Dictionaries
+ls
+cd /usr/downloads
+ls
+cd CoreDataUbiquitySupport
+ls
+cd..
+cd ..
+cd ..
+cd projects
+cd ..
+ls
+cd downloads
+ls
+ls
+pwd
+cd SophosInstall
+pwd
+cd /projects
+cd Users/rajapoth/projects
+ls
+cd /
+ls
+cd Users
+ls
+cd rajapoth
+ls
+cd downloads
+cd SophosInstall
+ls
+cd /Users/rajapoth/
+ls
+cd downloads
+cd SophosInstall
+cd /Users/rajapoth/projects/
+applications ls
+/applications ls
+yes
+pwd
+ls
+cd downloads
+ls
+touch raj
+cat raj
+ls
+cd raj
+cat raj
+man cat
+cat >>raj
+cat raj
+vim 
+sort raj
+wc raj
+man cp
+cut -b 1-3 raj
+sort ray
+sort raj
+cut -b 1-4 raj
+vim names scores
+cut -c 1-3
+vim raj
+ls -a
+chmod 
+chmod +x raj
+./ raj.sh
+mv raj raj.sh
+./ raj.sh
+ls -a
+vim raj.sh
+./vim raj.sh
+/. raj.sh
+vnew
+vim raj.sh
+cd /Downloads/
+ls
+cd /Downloads
+ls Downloads/
+mv movies (1).csv modified movies.csv 
+mv 'movies (1).csv' modified movies.csv 
+mv 'movies (1).csv' 'modified_movies.csv' 
+mv "movies (1).csv" "modified_movies.csv" 
+ls -l
+cd Downloads
+mv "movies (1).csv" "modified_movies.csv" 
+awk -F '|' '$=="korean" {print $1}' modified_movies.csv 
+awk -F '|' '$="korean" {print $1}' modified_movies.csv 
+awk -F '|' ' $=="korean" {print $1}' modified_movies.csv 
+awk -F '|' ' $8=="korean" {print $1}' modified_movies.csv 
+awk -F '|' ' $8=="korean" {print $1}' modified_movies.csv 
+awk -F '|' ' $8=="korean" {print $1}' modified_movies.csv 
+awk -F '|' '$8=="Korean" {print $1}' modified_movies.csv 
+awk -F '|' '[$5="Drama" && $5="Thriller"] {print $1}'  modified_movies.csv 
+awk -F '|' '[ $5="Drama" && $5="Thriller"] {print $1}'  modified_movies.csv 
+awk -F '|' '$5="Drama" && $5="Thriller") {print $1}'  modified_movies.csv 
+awk -F '|' '($5="Drama" && $5="Thriller") {print $1}'  modified_movies.csv 
+awk -F '|' '($5="Drama" && $5="Thriller") {print $1}'  modified_movies.csv | wc -l
+awk -F '|' '($5="Drama" && $5="Thriller") {print $1}'  modified_movies.csv 
+cat modified_movies.csv 
+awk -F '|' '($5="Drama,Thriller") {print $1}'  modified_movies.csv 
+awk -F '|' '($5="Drama,Thriller") {print $1}'  modified_movies.csv |WC -L
+awk -F '|' '($5="Drama,Thriller") {print $1}'  modified_movies.csv |WC -l
+awk -F '|' '$5="Drama" {print $1}' modified_movies.csv 
+awk -F '|' '$5="Drama" {print $1}' modified_movies.csv | wc -l
+awk -F '|' '$8=="Korean" {print $1}' modified_movies.csv 
+awk -F '|' '$5=".*Drama.*" {print $1}' modified_movies.csv | wc -l
+awk -F '|' '$5==".*Drama.*" {print $1}' modified_movies.csv | wc -l
+awk -F '|' '$5=="Drama" {print $1}' modified_movies.csv | wc -l
+awk -F '|' '$5=="Thriller" {print $1}' modified_movies.csv | wc -l
+awk -F '|' '$5==".*Thriller." {print $1}' modified_movies.csv | wc -l
+awk -F '|' '$5==".*Thriller.*" {print $1}' modified_movies.csv | wc -l
+awk -F '|' {print $1 "|" $5} modified_movies.csv 
+awk -F '|' '{print $1 "|" $5}' modified_movies.csv |awk -F '|' $2=="Drama &&
+awk -F '|' {print $1 "|" $5} modified_movies.csv > name
+awk -F '|' {print $1 "|" $5} modified_movies.csv > name_genre.csv
+awk -F '|' '{print $1 "|" $5}' modified_movies.csv > name_genre.csv
+awk -F 
+awk -F '|' $2=="Drama" '{print $1 "|" $2}' name_genre.csv
+awk -F '|' '$2=="Drama"' '{print $1 "|" $2}' name_genre.csv
+awk -F '|' '$2=="Drama" {print $1 "|" $2}' name_genre.csv
+awk -F '|' '$2=="Drama" && $2=="Thriller" {print $1 "|" $2}' name_genre.csv
+awk -F '|' '($2=="Drama" && $2=="Thriller)" {print $1 "|" $2}' name_genre.csv
+awk -F '|' '{$2=="Drama" && $2=="Thriller"} {print $1 "|" $2}' name_genre.csv
+awk -F '|' '{$2=="Drama" && $2=="Thriller"} {print $1 "|" $2}' name_genre.csv |wc -l
+awk -F '|' '{$2=="Drama" && $2=="Thriller"} {print $1 "|" $2}' name_genre.csv
+cut -d '|' -f1,5 modified_movies.csv 
+cut -d '|' -f1,5 modified_movies.csv |grep ".|.*Drama.*"
+cut -d '|' -f1,5 modified_movies.csv |grep ".|.*Drama.*" |grep ".|.*Thriller.*
+cut -d '|' -f1,5 modified_movies.csv |grep ".|.*Drama.*" |grep ".|.*Thriller.*"
+cut -d '|' -f1,5 modified_movies.csv |grep ".|.*Drama.*" |grep ".|.*Thriller.*"
+cut -d '|' -f1,5 modified_movies.csv |grep ".|.*Drama.*" |grep ".|.*Thriller.*" |wc -l
+man awk
+cd ~
+pwd
+cd ..
+cd ..
+pwd
+cd bin
+ls -al
+pwd
+..
+
+ls -al
+pwd
+cd
+cd
+pwd
+cd
+pwd
+ls
+awk -F '|' '($2=="Drama" && $2=="Thriller") {print $1 "|" $2}'
+awk -F '|' '($2=="Drama" && $2=="Thriller"){print $1 "|" $2}'
+cat names_genre
+awk -F '|' /Drama/ {prit $5} modified_movie.csv
+awk -F '|' /Drama/ {print $5} modified_movie.csv
+awk -F '|' '/Drama/ {print $5}' modified_movie.csv
+awk -F '|' '/Drama/ { print $5 }' modified_movie.csv
+awk -F '|' '/Drama/ { print $5 }' modified_movies.csv
+awk -F | '/Drama/ { print $5 }' modified_movies.csv
+awk -F "|" '/Drama/ { print $5 }' modified_movies.csv
+cat Downloads
+ls Downloads/
+cat modified_movies.csv
+cd..
+cd ../
+ls
+cd rajapoth
+ls
+cd Downlodas
+cd Downloads
+ls
+awk -F "|" '/Drama/ { print $5 }' modified_movies.csv
+awk -F "|" '/Drama/ { print $5 }' modified_movies.csv |awk "|" '/Thriller/ { print $1}
+awk -F "|" '/Drama/ { print $5 }' modified_movies.csv | awk "|" '/Thriller/ { print $1}
+awk -F "|" '/Drama/ { print $5 }' modified_movies.csv | awk -F "|" '/Thriller/ { print $1}'
+man awk
+awk -F "|" '($2 > 2000) {print $2 | $1}' modified_movies.csv 
+awk -F "|" '[$2 > 2000] {print $2 "|" $1}' modified_movies.csv 
+awk -F "|" '($2 > 2000) {print $2 "|" $1}' modified_movies.csv
+vim number.awk
+awk -f number.awk -F '|' modified_movies.csv 
+vim number.awk
+awk -f number.awk -F '|' modified_movies.csv 
+vim number.awk
+awk -f number.awk -F '|' modified_movies.csv 
+vim number.awk
+find . -name pannapur
+ls
+cd
+ls
+find . -name pannapur
+vim number.awk
+find . -name number.awk
+cd ./Downloads/number.awk
+cd ./Downloads
+vim number.awk
+awk -F '|' '($2 > 1949 && $2<1960) {print $1 '|' $2}' modified_movies.csv 
+awk -F '|' '$2 > 1949 && $2<1960 {print $1 '|' $2}' modified_movies.csv 
+awk -F '|' '$2>"1949" && $2<"1960" {print $1 '|' $2}' modified_movies.csv 
+awk -F '|' '$2 > "1949" && $2 < "1960" {print $1 '|' $2}' modified_movies.csv 
+ls
+awk -F'|' '($2 > "1949" && $2 < "1960") {print $1 '|' $2}' modified_movies.csv 
+awk -F'|' '($2 > 1949 && $2 < 1960) {print $1 '|' $2}' modified_movies.csv 
+ls
+
+awk -F '|' '($2 > 1949 && $2 < 1960) {print $1 "|" $2}' modified_movies.csv 
+awk -F '|' '($2 > 1949 && $2 < 1960) {print $1 }' modified_movies.csv 
+awk -F '|' /Martin Scores/ {print $
+cat modified_movies.csv 
+awk -F '|' /Martin Scores/ {print $6 "|" $7}' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores"  {print $6 "|" $7}' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores"  {print $6 "|" $7}' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores" {print $6 "|" $7}' modified_movies.csv 
+cat modified_movies.csv 
+awk -F '|' '$6=="Martin Scorsese" {print $6 "|" $7}' modified_movies.csv 
+awk -F '|' '$6=="Martin Scorsese" {print $6 "|" $7}' modified_movies.csv | awk -F'|' '$2=="Leonardo DiCaprio" {print $1}'
+awk -F '|' '$6=="Martin Scores"  {print $6 "|" $7 "|" $1}' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores"  { print $6 }' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores" { print $6 }' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores" { print $6 }' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores" { print $6 }' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores"{ print $6 }' modified_movies.csv 
+awk -F '|' '$6=="Martin Scores"{ print $6 }' modified_movies.csv 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv|awk -F '|' '$3=="Leonardo DiCaprio" {print $1} 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv|awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv|awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv|awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv|awk '$3=="Leonardo DiCaprio" {print $1}' 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv | awk '$3=="Leonardo DiCaprio" {print $1}' 
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv
+awk -F '|' '$6=="Martin Scorsese" {print $1 "|" $6 "|" $7}' modified_movies.csv > director_actor.awk
+awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' director_actor.awk
+mv director_actor.awk directors_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' director_actor.csv
+ls
+cd directors_actor.csv 
+cat directors_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' director_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' director_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio" {print $1}' directors_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio" {print $3}' directors_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio," {print $3}' directors_actor.csv
+awk -F '|' '$3=="Leonardo DiCaprio" {print $3}' directors_actor.csv
+awk -F '|' '$1 ~/^A/ {print $1} modifide_movies.csv
+awk -F '|' '$1 ~/^A/ {print $1}' modifide_movies.csv
+ls
+awk -F '|' '$1 ~/^A/ {print $1}' modified_movies.csv
+awk -F '|' '$1 ~/A/ {print $1}' modified_movies.csv
+awk -F '|' '$3== "Leonardo DiCaprio" {print $1}' directors_actor.csv
+cat directors_actor.csv
+awk -F '|' '{print $3}' directors_actor.csv
+awk -F '|' '/Leonardo DiCaprio/ {print $1}' directors_actor.csv
+cat modified_movies.csv 
+vim name 
+awk -F '|' {print $4 "|" $1} modified_movies.csv 
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv 
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort 
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n 
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | awk 'l=NR' BEGIN{}{NR>=l-4 && NR==l print}
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | awk 'l=NR' 'BEGIN{}{NR>=l-4 && NR==l print}'
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | 
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | awk '{ array[NR]=$0 } END { for (i=NR-3; i<=NR; i++) print array[i] }'
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | awk '{ array[NR]=$0 } END { for (i=NR-4; i<=NR; i++) print array[i] }'
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | awk '{ array[NR]=$0 } END { for (i=NR-5; i<NR; i++) print array[i] }'
+awk -F '|' '{print $4 "|" $1}' modified_movies.csv |sort -n | awk '{ array[NR]=$0 } END { for (i=NR-4; i<=NR; i++) print array[i] }'
+cat modified_movies.csv 
+awk -F '|' '{print $2}' modified_movies.csv 
+man awk
+awk -F '|' '{print $2}' modified_movies.csv |uniq -c|sort 
+awk -F '|' '{print $2}' modified_movies.csv 
+awk -F '|' '{print $2}' modified_movies.csv |wc -l
+awk -F '|' '{print $2}' modified_movies.csv |uniq -c
+awk -F '|' '{print $2}' modified_movies.csv |uniq -c |wc -l
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1 | uniq -c |wc -l
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1| uniq -c |wc -l
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1
+awk -F '|' '{print $2}' modified_movies.csv |sort -n 
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1 | uniq -c
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1 | uniq 
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1| uniq 
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1|uniq -c 
+awk -F '|' '{print $2}' modified_movies.csv |sort -n1
+awk -F '|' '{print $2}' modified_movies.csv |sort -n
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq -c
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq -c | sort -n
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq -c | sort -n | tail -1
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq -c | sort -k1n
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq -c | sort -k1n | tail -n1
+awk -F '|' '{print $2}' modified_movies.csv |sort -n | uniq -c | sort -k1n | tail -n1| awk -F " " '{print $2}'
+awk -F '|' ~/"2000"/ {print $1 "|" $2} modified_movies.csv
+awk -F '|' ' /"2000"/ {print $1 "|" $2}' modified_movies.csv
+awk -F '|' '/"2000"/ {print $1 "|" $2}' modified_movies.csv
+awk -F '|' '$2== "2000" {print $1 "|" $2}' modified_movies.csv
+awk -F '|' '{print $0}' modified_movies.csv
+awk -F '|' '{print $0}' modified_movies.csv | wc -l
+awk -F '|' '{print $0}' modified_movies.csv | wc -l
+awk -f 
+wc 
+wc modified_movies.csv
+cat modified_movies.csv
+awk -F '|' '($1 ~/^O || $2 > 2000) {print $1 "|" $2}' modified_movies.csv 
+awk -F '|' '($1 ~/^O/ || $2 > 2000) {print $1 "|" $2}' modified_movies.csv 
+awk -F '|' '($1 ~/^O/) {print $1 "|" $2}' modified_movies.csv 
+awk -F '|' '($2 > 2000 || $1 ~/^O/) {print $1 "|" $2}' modified_movies.csv 
+cat >>2000.awk
+chmod +x 2000.awk
+vim2000.awk
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+vim 2000.awk
+awk -f 2000.awk modified_movies.csv 
+which FS
+Which $PATH
+echo $PATH
+PATH =$PATH : ./
+echo $PATH | sed "s/:/\n"
+echo $PATH | sed "/s/:/\n/g"
+echo $PATH | tr ":" "\n"
+pwd
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+pwd
+ls -al
+cd bin
+ls -al
+alias r=ls
+r
+unalias
+unalias r
+ls
+r
+alias
+which
+ls
+ls -al
+vim durga.sh
+vim durga.sh
+pwd
+vim largest_year.awk
+awk -f largest_year.awk  modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk  modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk  modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk
+awk -f largest_year.awk  modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk modified_movies.csv 
+vim largest_year.awk
+awk -f largest_year.awk modified_movies.csv 
+vim .vimrc
+ls
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk modified_movies.csv
+vim largest_year.awk 
+awk -F'|' '($8 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10 "|" $9 "|" $1}' movies.csv 
+awk -F'|' '($8 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10 "|" $9 "|" $1}' movies.csv 
+awk -F'|' '($8 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10"|"$9"|"$1}' movies.csv 
+awk -F'|' '($8 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10"|"$9"|"$1}' movies.csv 
+awk -F'|' '($8 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10"|"$9"|"$1}' movies.csv 
+awk -F'|' '($8 ~/Hong Kong/ && $10>=8 && $10<9){print $10"|"$9"|"$1}' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10"|"$9"|"$1}' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10}' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10 "," $9 "," $1 }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10}' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10 "," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10 "," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10+"," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10+ "," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10+ " " "," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10"," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10+"," $9 "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10+"," $9;2D;2D;2D "," $1; }' movies.csv 
+awk -F'|' '($9 ~/Hong Kong/ && $10>7.9 && $10<9.0){print $10+ " " "," $9 "," $1; }' movies.csv 
+vim largest_year.awk 
+awk -f modified_movies.csv modified_movies.csv
+vim largest_year.awk 
+awk -f modified_movies.csv modified_movies.csv
+vim largest_year.awk 
+awk -f modified_movies.csv modified_movies.csv
+vim largest_year.awk 
+awk -f modified_movies.csv modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk 
+awk -f largest_year.awk  modified_movies.csv
+vim largest_year.awk 
+vim file
+vim file_name.awk
+awk -f file_name.awk modified_movies.csv 
+wc modified_movies.csv
+wc -w modified_movies.csv
+vim file_name.awk
+awk -f file_name.awk modified_movies.csv 
+vim file_name.awk
+awk -f file_name.awk modified_movies.csv 
+vim file_name.awk
+awk -f file_name.awk modified_movies.csv 
+modifies_movies.csv | wc -c
+modifies_movies.csv | wc
+cat modifies_movies.csv | wc
+wc modified_movies.csv 
+vim file_name.awk
+awk -f file_name.awk  modified_movies.csv 
+vim file_name.awk
+awk -f file_name.awk  modified_movies.csv 
+vim file_name.awk
+awk -f file_name.awk  modified_movies.csv 
+vim file_name.awk

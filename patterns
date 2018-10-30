@@ -1,0 +1,55 @@
+function repeat (times){
+return new Array(times).fill("*").join("");
+}
+repeat(10)
+function rect (width, height){
+let line = repeat(width);
+let rect = new Array(height).fill(line).join("\n");
+return rect;
+}
+rect(10,10)
+console.log(rect(10,5))
+console.log(rect(10,15))
+console.log(rect(20,5))
+console.log(rect(1,1))
+console.log(rect(0,1))
+console.log(rect(1,0))
+function sum(){
+sum=0;
+return sum;
+}
+sum()
+function sum(){
+return sum;
+}
+sum()
+function sum(){
+return sum();
+}
+a=[1,2,3,4]
+a.map(repeat)
+console.log(a.map(repeat))
+console.log(a.map(repeat).join("\n"))
+console.log(a.map(repeat).reverse().join("\n"))
+function repeatSpace(times){
+return new Array(times).fill(" ").join("");
+}
+a.map(repeatSpace)
+
+
+
+
+
+a[]
+a=[]
+for(i=0;a.push(i++),i<10;);
+a
+for(i=0;a.push(++i),i<10;);
+a
+bb=[]
+for(i=0;bb.push(++i),i<10;);
+bb
+rec(12,4}
+rect(12,4)
+function altRec (width,heigth)
+{

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Favicon icon -->
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.ico">
+        <!--Google Sign In---->
+        <meta name="google-signin-client_id" content="370225521972-md0i360c66d6fqkfhjut104d3u1j6k22.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+        <!--- Google Sign In Ends-->
+        <title>Exam Center Student Registration</title>
+        <!-- Custom CSS -->
+        <link href="dist/css/style.min.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <script>
+            //navigator.geolocation.getCurrentPosition(success, error, options);
+
+            // navigator.geolocation.getCurrentPosition(
+            //     function(position) {
+            //         // Success goes here
+            //     }.bind(this),
+            //     function(error) {
+            //         console.log("Please turn on location for this feature")
+            //         setTimeout(function() {
+            //             window.location.href = '/'
+            //         }, 2000)
+            //     },
+            // )
+
+        </script>
+        <style>
+            .blink_me {
+              animation: blinker 1s linear infinite;
+              color:red;
+              font-size:20px;
+              text-align:center;
+            }
+            
+            @keyframes blinker {
+              20% {
+                opacity: .5;
+              }
+            }
+            
+            #fbbtn{
+                margin-top:20px;
+            }
+        </style>
+    </head>
+
+    <body onload="renderButton()">
+        <div class="main-wrapper" style="background-color: #f0f5f9">
+            <!-- ============================================================== -->
+            <!-- Preloader - style you can find in spinners.css -->
+            <!-- ============================================================== -->
+            <div class="preloader">
+                <div class="lds-ripple">
+                    <div class="lds-pos"></div>
+                    <div class="lds-pos"></div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- Preloader - style you can find in spinners.css -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Login box.scss -->
+            <!-- ============================================================== -->
+                        <div class="auth-wrapper d-flex no-block justify-content-center">
+                <div class="auth-box">
+                    <div id="loginform">
+                        <!-- Form -->
+                        <div class="row">
+                            <div class="col-lg-7 col-xs-12 text-center" style="margin-top: 50px;">
+                                <img src="assets/logo.png">
+                                <hr>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/XpqQ7vevY3A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-xs-12 col-lg-4" style="margin-top: 100px; background-color: #fff; padding: 20px;">
+                                <h4>Login Method</h4>
+                                <hr>
+                                <form method="post" id="gmail_login" action="chk_registration" style="margin: 0">
+                                    <div id="demo"></div>
+                                    <button type="submit" id="gmail_1" name="gmail" style="display: none" class="btn btn-googleplus btn-block btn-lg"><i class="fab fa-google-plus"></i> Continue as <span id="gmail_name"></span></button>
+
+                                    <div id="my-signin2"></div>
+                                    <input type="hidden" name="user_email" id="email">
+                                    <input type="hidden" name="user_name" id="name">
+                                    <input type="hidden" name="user_photo" id="profilepic">
+                                    <input type="hidden" name="lat" id="lat">
+                                    <input type="hidden" name="lon" id="lon">
+                                </form>
+                                <script>
+                                    function onSuccess(googleUser) {
+                                        console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+                                        $("#email").val(googleUser.getBasicProfile().getEmail());
+                                        $("#name").val(googleUser.getBasicProfile().getName());
+                                        $("#gmail_name").html(googleUser.getBasicProfile().getName());
+                                        $("#profilepic").val(googleUser.getBasicProfile().getImageUrl());
+                                        //$("#gmail_login").submit();
+                                        $("#my-signin2").css('display', 'none');
+                                        $("#gmail_1").css('display', 'block');
+                                    }
+                                    function onFailure(error) {
+                                        console.log(error);
+                                    }
+                                    function renderButton() {
+                                        gapi.signin2.render('my-signin2', {
+                                            'scope': 'profile email',
+                                            'width': 340,
+                                            'height': 40,
+                                            'longtitle': true,
+                                            'theme': 'dark',
+                                            'onsuccess': onSuccess,
+                                            'onfailure': onFailure
+                                        });
+
+                                        getLocation();
+                                    }
+                                </script>
+                                <!--facebook login-->
+                                <form method="post" id="facebook_login" action="chk_registration">
+                                    <button type="submit" id="fbbtn" name="facebook" style="display: none" class="btn btn-facebook waves-effect waves-light btn-lg btn-block"><i class="fab fa-facebook"></i> Continue as <span id="fb_name"></span></button>
+
+                                    <div id="my-signin2"></div>
+                                    <input type="hidden" name="user_email" id="email_fb">
+                                    <input type="hidden" name="user_name" id="name_fb">
+                                    <input type="hidden" name="user_photo" id="profilepic_fb">
+                                    <input type="hidden" name="lat_1" id="lat_1">
+                                    <input type="hidden" name="lon_1" id="lon_1">
+                                </form>
+                                <script>
+                                    // This is called with the results from from FB.getLoginStatus().
+                                    function statusChangeCallback(response) {
+                                        console.log('statusChangeCallback');
+                                        console.log(response);
+                                        // The response object is returned with a status field that lets the
+                                        // app know the current login status of the person.
+                                        // Full docs on the response object can be found in the documentation
+                                        // for FB.getLoginStatus().
+                                        if (response.status === 'connected') {
+                                            // Logged into your app and Facebook.
+                                            testAPI();
+                                        } else {
+                                            // The person is not logged into your app or we are unable to tell.
+                                            //document.getElementById('status').innerHTML = 'Please log ' + 'into this app.';
+                                        }
+                                    }
+
+                                    // This function is called when someone finishes with the Login
+                                    // Button.  See the onlogin handler attached to it in the sample
+                                    // code below.
+                                    function checkLoginState() {
+                                        FB.getLoginStatus(function (response) {
+                                            statusChangeCallback(response);
+                                        });
+                                    }
+
+                                    window.fbAsyncInit = function () {
+                                        FB.init({
+                                            appId: '471911736642786',
+                                            cookie: true, // enable cookies to allow the server to access 
+                                            // the session
+                                            xfbml: true, // parse social plugins on this page
+                                            version: 'v2.8' // use graph api version 2.8
+                                        });
+
+                                        // Now that we've initialized the JavaScript SDK, we call 
+                                        // FB.getLoginStatus().  This function gets the state of the
+                                        // person visiting this page and can return one of three states to
+                                        // the callback you provide.  They can be:
+                                        //
+                                        // 1. Logged into your app ('connected')
+                                        // 2. Logged into Facebook, but not your app ('not_authorized')
+                                        // 3. Not logged into Facebook and can't tell if they are logged into
+                                        //    your app or not.
+                                        //
+                                        // These three cases are handled in the callback function.
+
+                                        FB.getLoginStatus(function (response) {
+                                            statusChangeCallback(response);
+                                        });
+
+                                    };
+
+                                    // Load the SDK asynchronously
+                                    (function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id))
+                                            return;
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "https://connect.facebook.net/en_US/sdk.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+
+                                    // Here we run a very simple test of the Graph API after login is
+                                    // successful.  See statusChangeCallback() for when this call is made.
+                                    function testAPI() {
+                                        console.log('Welcome!  Fetching your information.... ');
+                                        FB.api('/me', {locale: 'en_US', fields: 'name, email, picture'}, function (response) {
+                                            console.log('Successful login for: ' + JSON.stringify(response));
+                                            //document.getElementById('status').innerHTML =
+                                            //'Thanks for logging in, ' + response.name + '!';
+
+                                            $("#email_fb").val(response.email);
+                                            $("#name_fb").val(response.name);
+                                            $("#profilepic_fb").val(response.picture.data.url);
+                                            $("#fb_name").html(response.name);
+                                            $(".fb-login-button").css('display', 'none');
+                                            $("#fbbtn").css('display', 'block');
+                                        });
+                                    }
+                                </script>
+                                <br>
+                                <div class="fb-login-button" data-width="340" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div>
+
+                                <div id="status"></div>
+                                
+                                <a href="mobilelogin" class="btn btn-block btn-lg btn-info">Mobile Number Login</a>
+                                <hr style="margin:20px 0">
+                                <a href="https://www.nta.ac.in/Quiz" class="btn btn-block btn-lg btn-warning">Online Mock Test</a>
+                                
+                            </div>
+                            <div class="col-xs-12 col-lg-1">
+                                
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <span class="blink_me">
+                                    TPC activity shall be suspended on 20th and 21st October 2018 due to ‘Dussehra festival’. Happy Vijayadashami to you all.
+                                </span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h4 style="color: #2f3a90">For Student Registration and Center Selection android application is also available on play store.</h4><br/>
+                                <a href="https://play.google.com/store/apps/details?id=com.nationaltestingagency" target="_blank">
+                                    <img src="assets/Google-Play-Store-Download-Button.png" style="width: 200px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- ============================================================== -->
+        <!-- All Required js -->
+        <!-- ============================================================== -->
+        <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
+        <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- ============================================================== -->
+        <!-- This page plugin js -->
+        <!-- ============================================================== -->
+        <script>
+                                    $('[data-toggle="tooltip"]').tooltip();
+                                    $(".preloader").fadeOut();
+                                    // ============================================================== 
+                                    // Login and Recover Password 
+                                    // ============================================================== 
+                                    $('#to-recover').on("click", function () {
+                                        $("#loginform").slideUp();
+                                        $("#recoverform").fadeIn();
+                                    });
+        </script>
+
+        <script>
+
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+            }
+            function showPosition(position) {
+                $("#lat").val(position.coords.latitude);
+                $("#lon").val(position.coords.longitude);
+                $("#lat_1").val(position.coords.latitude);
+                $("#lon_1").val(position.coords.longitude);
+            }
+            
+            $( document ).ready(function() {
+                console.log( "ready!" );
+                $('#myModal').modal('show');
+            });
+            
+        </script>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+        
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Dear Student</h4>
+              </div>
+              <div class="modal-body">
+                <ul>
+                    <li>Mock Tests for NEET, CMAT & GPAT is right now not available.</li>
+                    <li>Please do not call or visit TPC, unless, on your registered Mobile have received, from NTA, the date, time & TPC address for MOCK Test.</li>
+                    <li>Right now, for JEE (Main) Paper I: four & for Paper II: one Mock Test is available; similarly, Mock Tests for 40 NET subjects are available.</li>
+                    <li>To serve better, please submit your feedback: tpcntaexams@gmail.com </li>
+                    <li>After Registration, if you don’t receive TPC allotment SMS, Pl re-register for next date & time, NTA shall try to accommodate you next time for a Mock Test.</li>
+                    <li>Video learning material for JEE (Main) & Biology, from best of IIT Professors, is available at  https://www.nta.ac.in/LecturesContent</li>
+                    <li>Same Mock Test can be taken at home also: <a href='https://www.nta.ac.in/Quiz' targer='_blank'>https://www.nta.ac.in/Quiz</a></li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,305 @@
+man awk
+man awk
+pwd
+cd ../
+pwd
+ls
+rmdir Public/
+ls ./Public/
+rmdir Public/
+cat pannapur 
+rm pannapur 
+cat pr
+ls ./pr
+mkdir pr
+rmdir pr
+ls pr
+cd :q!
+rm :q!
+pwd
+ls
+rm ./pr/:q!
+cat projects/
+ls projects/
+ls Public/
+cat Public/
+rmdir Public
+cat RAJA.txt
+pwd
+ls
+cd projects/
+ls
+rm RAJA.txt/
+rm b^day/
+rm happy/
+rmdir projects/
+ls projects/
+cat examples
+ls
+cd projects/
+ls
+cat examples/
+cd examples/
+rmdir example1/
+cd ../
+ls
+rmdir examples/
+cd ../
+ls
+rmdir projects/
+rmdir happy/
+rmdir b^day/
+rmdir RAJA.txt/
+rmdir Public 
+cd Public 
+rm Public 
+cd ../
+ls
+rmdir projects/
+cat raj.sh
+rm raj.sh
+cd Downloads/
+ls
+man mv
+mv GDP_morality ~/raja_035/
+ls
+cd ..
+ls
+ls assignment/
+ls raja_035/
+cd ..
+ls
+pwd
+cd
+mv GDP_morality.awk ~/raja_035/assignments/
+cd ..
+ls
+pwd
+cd 
+pwd
+cd 
+ls
+cd ..
+cd
+ls
+cd Downloads/
+ls
+ls
+cd ..
+ls
+cd raja_035/
+ls
+ls awk_exercises/
+cd 
+ls
+rm ~/raja_035/awk_exercises/game_1.awk 
+ls
+mv ~/Downloads/.*.awk ~/raja_035/awk_exercises/
+ls
+ls Downloads/
+ls ../ ~/raja_035/awk_exercises/
+pwd
+ls
+cd Downloads/
+ls
+mv GDP_morality.awk ~/raja_035/awk_exercises/
+ls
+mv arable.awk coastline_region.awk ~/raja_035/awk_exercises/
+ls
+cat indian.awk 
+ls
+mv indian.awk smallest_country.awk
+ls
+mv landlocked.awk largest_year.awk more_mobiles.awk no_of_countries-5.awk region_country.awk region_has_more_phones.awk region_literacy_rate.awk smallest_country.awk ~/raja_035/awk_exercises/
+ls
+cat number.awk 
+mv number.awk num_of_movies_after_2000.awk
+cat literacy_region.awk 
+mv literacy_region.awk literacy_rate_of_each_region.awk 
+ls
+rm Screenshot_20180902-121233.jpg
+ls
+rm awk_assignments/
+cat delete.awk 
+rm delete.awk 
+cat directors_actor.csv 
+rm directors_actor.csv 
+ls
+cd awk_assignments/
+ls
+cat indian.awk 
+mv indian.awk area_of_all_countries.awk
+cat smallest_country 
+vim smallest_country 
+vim smallest_country 
+ls
+mv smallest_country smallest_area_country_name.awk
+mv area_of_all_countries.awk smallest_area_country_name.awk ~/raja_035/awk_exercises/
+rm total_area 
+ls
+cd ..
+ls
+rmdir awk_assignments/
+vim experiments.awk 
+rm experiments.awk
+cat file_name.awk 
+mv file_name.awk find_the_longest_line.awk
+ls
+vim group_countries_based_on_population.awk 
+rm group_countries_based_on_population.awk devide_countries_based_on_density.awk
+mv group_countries_based_on_population.awk devide_countries_based_on_density.awk
+mv group_countries_based_on_population.awk devide_countries_based_on_density.awk
+ls
+mv find_the_longest_line.awk literacy_rate_of_each_region.awk match_smalllarge_data.awk num_of_movies_after_2000.awk ~/raja_035/awk_exercises/ 
+cat spanish.awk 
+cd ..
+ls
+cd raja_035/
+ls
+awk_exercises/
+ls awk_exercises/
+mv arable.awk region_has_more_arable_land.awk
+ls
+ls awk_exercises/
+pwd
+cd awk_exercises/
+ls
+mv arable.awk region_has_more_arable_land.awk
+mv coastline_region.awk region_has_more_coastline.awk
+vim landlocked.awk 
+mv landlocked.awk landlocked_countries.awk
+vim largest_year.awk 
+mv largest_year.awk YO_spanish_Der_german_movies.awk
+mv more_mobiles.awk region_has_more_mobiles.awk
+vim no_of_countries-5.awk 
+vim no_of_countries-5.awk 
+mv  no_of_countries-5.awk no_of_countries_has_morethan_90_literacy.awk 
+cd .
+cd ..
+ls
+cd ..
+ls
+cd assignment/
+ls
+ls
+vim wow_ouch_moments.awk
+awk -f wow_ouch_moments.awk 
+awk -f wow_ouch_moments.awk moments
+awk -f wow_ouch_moments.awk moments > wow_ouch_moments.sh
+awk -f wow_ouch_moments.awk moments > wow_ouch_moments.sh |check_accuracy.sh
+bash check_accuracy.sh wow_ouch_moments.sh
+cat wow_ouch_moments.sh
+awk -f wow_ouch_moments.awk moments > wow_ouch_moments.sh | bash check_accuracy.sh
+bash check_accuracy.sh wow_ouch_moments.sh
+vim wow_ouch_moments.awk
+vim wow_ouch_moments.awk
+ls
+cd ..
+ls
+cd raja_035/
+ls
+touch games
+ls
+cd games
+pwd
+ls
+cd games 
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+4
+vim random_numbers.awk
+awk -f  random_numbers.awk
+awk -f  random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+awk -f  random_numbers.awk
+vim random_numbers.awk
+awk -f  random_numbers.awk
+4
+vim random_numbers.awk
+awk -f  random_numbers.awk
+2
+2
+ls
+awk -f  random_numbers.awk
+awk -f  random_numbers.awk
+1
+2
+vim random_numbers.awk
+ls
+mv random_numbers.awk ~/raja_035/games 
+ls
+games
+cd games
+ls games 
+cat games 
+ls
+cd games 
+cd awk_exercises/
+cd ..
+ls games 
+ls games
+cd games
+mv games random_numder.awk
+ls
+ls random_numder.awk 
+cat random_numder.awk 
+ls
+mv random_numder.awk games
+ls
+ls games
+cd games 
+vim games
+cd games 
+ls
+vim games 
+mkdir games
+mkdir Games
+which Games
+which games
+which games1
+mkdir Games1
+ls
+cd Games1/
+ls
+touch random_number.awk
+ls
+cd ..
+ls
+cd games
+ls games
+vim games
+ls Games1/
+ls awk_exercises/
+mv games ./Games1/random_number.awk 
+ls
+cd Games1/
+ls
+vim random_number.awk 
+cd ..
+ls
+mv Games1 Games
+ls
+ls ga
+ls Games/
+vi robot.awk
+cd
+pwd

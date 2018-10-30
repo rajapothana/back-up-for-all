@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'memrise' ]
+2 info using npm@6.4.1
+3 info using node@v8.12.0
+4 verbose config Skipping project config: /Users/rajapoth/.npmrc. (matches userconfig)
+5 verbose npm-session b168d2a8c16e049c
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 404 https://registry.npmjs.org/memrise 1686ms
+9 silly fetchPackageMetaData error for memrise@latest 404 Not Found: memrise@latest
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 2953ms
+12 verbose stack Error: 404 Not Found: memrise@latest
+12 verbose stack     at fetch.then.res (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/fetch.js:42:19)
+12 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+12 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:512:31)
+12 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:569:18)
+12 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:614:10)
+12 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:693:18)
+12 verbose stack     at Async._drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:133:16)
+12 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:143:10)
+12 verbose stack     at Immediate.Async.drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+12 verbose stack     at runCallback (timers.js:810:20)
+12 verbose stack     at tryOnImmediate (timers.js:768:5)
+12 verbose stack     at processImmediate [as _immediateCallback] (timers.js:745:5)
+13 verbose cwd /Users/rajapoth
+14 verbose Darwin 17.7.0
+15 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "memrise"
+16 verbose node v8.12.0
+17 verbose npm  v6.4.1
+18 error code E404
+19 error 404 Not Found: memrise@latest
+20 verbose exit [ 1, true ]

@@ -1,0 +1,67 @@
+Sophos Anti-Virus
+Product version     : 9.7.6
+Engine version      : 3.73.0
+Threat data version : 5.54
+Copyright © 1993-2018 Sophos Ltd. All rights reserved.
+
+
+Using IDE files:
+        keylo-ul.ide  fare-fih.ide  emote-vz.ide  msili-sy.ide  hupig-wm.ide  blada-hg.ide  pdfu-fmg.ide  sidewi-a.ide  
+        mdro-igi.ide  autosp-j.ide   spy-ard.ide  msili-tb.ide  fare-fiv.ide  fare-fiw.ide  emote-wr.ide  phis-cxx.ide  
+        emote-wt.ide  msili-tc.ide  emote-wv.ide  netwi-mj.ide  pdfu-fmu.ide  remco-cp.ide   drop-ui.ide  lethi-dj.ide  
+        fare-fja.ide  msil-lod.ide  fare-fje.ide  phis-cyb.ide  mdro-igl.ide  emote-wy.ide  phis-cye.ide  rtfdro-q.ide  
+        htmld-ie.ide  bank-gws.ide  age-azkg.ide  delf-gui.ide  netwi-mk.ide  zbot-mex.ide  msil-lor.ide  vbinj-st.ide  
+        trick-ed.ide  remco-cn.ide  phis-czh.ide  miner-ov.ide  inje-dks.ide  steal-ar.ide  trick-eg.ide  age-azlf.ide  
+        pdfu-foj.ide  phis-czo.ide  age-azli.ide  phis-czp.ide  msil-loy.ide  docd-ozp.ide  phis-czq.ide  zbot-mfb.ide  
+        formb-da.ide  inje-dku.ide  msil-log.ide  phis-czx.ide  age-azls.ide  blada-hk.ide  steal-az.ide  fare-fkn.ide  
+        remco-ct.ide  emote-ya.ide  formb-dd.ide  emote-xb.ide  pdfu-fox.ide  docd-pan.ide  emoge-fo.ide  msil-lpi.ide  
+          rtf-bb.ide  fare-flj.ide  zbot-mey.ide  inje-dle.ide  rans-ezt.ide  docd-pdf.ide  msil-lpo.ide  phis-dbj.ide  
+        chisb-vt.ide  phis-dbk.ide  blada-hr.ide  emoge-fq.ide  delf-guy.ide  docd-pdk.ide  shiot-de.ide  zbot-mfe.ide  
+        pdfu-fpu.ide  keylo-ut.ide  hawke-rx.ide  phis-dbv.ide  fuerbo-g.ide  rans-ezx.ide  zbot-mfx.ide  inje-dli.ide  
+        fare-fjs.ide  emote-yt.ide  fare-fmd.ide  rans-ezy.ide  fare-fmg.ide  zbot-mga.ide  formb-dq.ide  mdro-ihc.ide  
+        age-azki.ide  rans-ezq.ide  rans-faa.ide  fare-fld.ide   docph-y.ide  remco-cv.ide  remco-da.ide  inje-dlo.ide  
+        remco-db.ide  formb-dr.ide  steal-bl.ide  trick-ee.ide  delf-gvj.ide  age-aznx.ide  lokib-ak.ide  nymai-hy.ide  
+        remco-dd.ide  age-azoc.ide  inje-dlz.ide  bckdo-ab.ide  inje-dmd.ide  wont-aem.ide  darkc-ht.ide  formbo-t.ide  
+        fare-fnd.ide  msil-lrj.ide  inje-dmj.ide  zbot-mgk.ide  docd-phy.ide  rtfdr-dj.ide  emote-zn.ide  nanoc-zl.ide  
+        msil-lro.ide  age-azox.ide  emote-zp.ide  nanoc-zm.ide  remco-dh.ide  formb-ed.ide  msil-lrp.ide  rans-fad.ide  
+        fare-fnj.ide  docph-ad.ide  bank-gwy.ide  nymai-ia.ide       vdl.dat  keylo-ur.ide  trick-et.ide  vbinj-sz.ide  
+        lokib-ao.ide  age-azpo.ide  emot-aai.ide  fare-fnx.ide  pdfdro-m.ide  zbot-mgt.ide  msil-lrw.ide  formb-eh.ide  
+        miner-ox.ide  emot-aan.ide  nanoc-zt.ide  encdo-af.ide  docd-pix.ide  gandcr-w.ide     gen-e.ide  zbot-mhd.ide  
+        emot-aas.ide  msili-uk.ide  msili-ul.ide  pdfu-ftf.ide  emoge-fn.ide  blada-id.ide  zbot-mhg.ide  zbot-mhi.ide  
+        zbot-mhj.ide  emot-aau.ide  fare-fol.ide  trick-ew.ide  limit-ak.ide  nymai-ib.ide  encdo-ah.ide  emote-zr.ide  
+        phis-dfy.ide  nymai-hz.ide  fare-fpb.ide  phis-dge.ide  emot-abc.ide  trick-ey.ide  docd-pml.ide  docd-pmn.ide  
+        steal-cd.ide  age-azrm.ide  keylo-uw.ide  keylo-dt.ide  fare-fpt.ide  msil-lsq.ide  fuerbo-h.ide  msil-lsr.ide  
+        phis-dgn.ide   qbot-eo.ide  emot-abo.ide  delf-gvx.ide  delf-gvy.ide  fare-fpu.ide  zbot-mhz.ide  formb-eo.ide  
+        trick-fb.ide  remco-dk.ide  fare-fpw.ide  blada-in.ide  formb-eq.ide  emot-abw.ide  zbot-mie.ide  phis-dhg.ide  
+        pdfdl-cm.ide  pdfu-fvi.ide  rans-fal.ide  formbo-u.ide  delf-gwj.ide  rootk-ml.ide  emot-acg.ide  age-azsh.ide  
+        encdo-an.ide  pdfdl-dj.ide  trick-fo.ide  emot-aco.ide  docdr-et.ide  keylo-du.ide  emot-acp.ide  pdfu-fwb.ide  
+        emot-acq.ide  docd-pqb.ide  adwi-eki.ide  msili-va.ide  
+
+
+Scan items:
+
+        Path: /
+        Path: /private/var/vm
+        Path: /Volumes/Google Chrome
+
+
+
+Configuration:
+
+        Scan inside archives and compressed files: Yes
+        Automatically clean up threats : No
+        Scan for adware and potentially unwanted applications (PUA): Yes
+        Automatically clean up adware and potentially unwanted applications (PUA): No
+        Action on infected files: Report Only
+        Live Protection enabled: No
+        Scan for controlled applications: No
+
+2018-09-10 11:22:22 +0530 Scan 'Scan This Mac' started
+
+2018-09-11 08:02:57 +0530 Issue: 'corrupted file' detected in '/private/var/folders/zz/zyxvpxvq6csfxvn_n00000s0000068/C/com.apple.SoftwareUpdate/CFNetworkDownload_9gu8S3.tmp'
+
+
+2018-09-11 08:06:24 +0530 Files Scanned: 353181, Threats Found: 0, PUAs found: 0, Issues found: 1
+
+2018-09-11 08:06:24 +0530 Scan 'Scan This Mac' ended - Scan time: 20:44:02
+

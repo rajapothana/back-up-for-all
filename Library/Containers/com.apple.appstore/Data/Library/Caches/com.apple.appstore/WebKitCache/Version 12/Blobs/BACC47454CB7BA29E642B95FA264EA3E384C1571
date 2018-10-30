@@ -1,0 +1,1283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.apple.com/itms/" lang="en">
+
+
+    <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Mac App Store" /><meta name="description" content="Mac App Store" /><meta name="platform-cache-id" content="13" />
+
+
+
+<title>Top Apps</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+    
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/85df/da-storefront-base.css" />
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/85df/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"pageData":{},"constants":{"fetchSoftwareUpdatesUrl":"https://su.itunes.apple.com/WebObjects/MZSoftwareUpdate.woa/wa/fetchSoftwareUpdates","Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MacSoftware":{"id":12,"name":"DesktopApps"},"Audiobooks":{"id":3,"name":"Audiobooks"},"MusicVideos":{"id":5,"name":"MusicVideos"},"iTunesU":{"id":10,"name":"iTunesU"},"EBooks":{"id":11,"name":"EBooks"},"Music":{"id":1,"name":"Music"},"Podcasts":{"id":2,"name":"Podcasts"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"TVShows":{"id":4,"name":"TVShows"},"Movies":{"id":6,"name":"Movies"},"Ringtones":{"id":9,"name":"Ringtones"},"Textbooks":{"id":13,"name":"Textbooks"}},"SFSortOrder":{"PlaylistName":{"id":9},"RecentBestSellers":{"id":18},"SeriesOrder":{"id":17},"CmcRecommended":{"id":10},"Popularity":{"id":3},"OriginalReleaseDate":{"id":19},"ArtistName":{"id":8},"Featured":{"id":1},"TopRated":{"id":5},"Duration":{"id":11},"ReleaseDate":{"id":2},"TrackNumber":{"id":13},"Name":{"id":0},"AllTimeBestSellers":{"id":14},"ExpirationDate":{"id":6},"Price":{"id":7},"MostRecent":{"id":16},"PurchaseDate":{"id":4},"DateAdded":{"id":15},"DiscNumber":{"id":12}},"SFEntityType":{"Artist":{"id":1},"Playlist":{"id":4},"TopContents":{"id":7},"MultiRoom":{"id":3},"Search":{"id":6},"WeMix":{"id":8},"Cmc":{"id":2},"Work":{"id":10},"Wishlist":{"id":9},"TopAuthors":{"id":12},"Room":{"id":5},"TheyMix":{"id":11}},"countryCode":"ind","languageCode":"en","SFCustomComponentCountryCode":"ind","IXDisplayableKind":{"Artist":{"id":20,"cssClasses":[],"name":"artist"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"}},"AddToWishlistResult":{"ItemIsFree":{"id":6},"ListFull":{"id":3},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"SomeContentAlreadyInWishlist":{"id":1},"Success":{"id":0},"Failure":{"id":2},"SomeContentAlreadyOwned":{"id":4}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=in","resourceImagePathFrameworks":"https://s.mzstatic.com/htmlResources/85df/frameworks/images/","resourceBasePath":"https://s.mzstatic.com/htmlResources/85df"},"properties":{"DAH.SharingMenu.WhitelistedServiceIds":["com.apple.share.Twitter.post","com.apple.share.Facebook.post","com.apple.share.Messages.compose"],"DAH.SharingMenu.HashTag":"#MacAppStore","DAH.SharingMenu.ServiceInfo":{"com.apple.share.Facebook.post":{"locKey":"DAH.SharingMenu.Facebook"},"com.apple.share.Twitter.post":{"locKey":"DAH.SharingMenu.Twitter"},"com.apple.share.Messages.compose":{"locKey":"DAH.SharingMenu.iChat"}},"clientStatsLoadTimeGroup":"4033","MZHtmlResourcesUtil.allowDeferJsLoad":true,"ITSServerEnvironment":"prod","ITSServerInstance":"3007901","ITSResourceRevNum":"85df","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.UseLegacyLogFormat":false,"ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/in/app/id490217893","iTunesUEnrollLink":"https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=in","cobaltLearnMore":"https://itunes.apple.com/in/learn-more?about=iTunesUUpgradePage&type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":false,"SFJ.isNFAEnabledInStorefront":true,"SFJ.isRecommendationsSwooshEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"},"iTunes":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"sampling":{"custom":{"xp_amp_itd_main":{"percentage":0.001}}},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"}},"MacAppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"}},"Maps":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"disabled":true,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":1,"samplingPercentageUsersPageRender":1,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"MR22"}}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true,"isStoweUpgradeDialogEnabled":false,"stoweUpgradeSize":1600000000,"isStopPageOneEnabled":false,"SF.isNotifyMeEnabled":false,"SF.notifyMeIds":[],"SF.notifyMeIdsWithAppleWatchApp":[],"SF.notifyMeIdsWithTvApp":[],"isMovieAnywhereEnabled":true}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.MyAlerts.GeniusActivationNeeded.Button":"Go to Genius", "DABuyButton.aria.accept":"Accept, @@name@@, Free", "DAH.SharingMenu.Twitter":"Share on Twitter", "Js.Wishlist.RemoveTooltip":"Remove from Wish list", "DABuyButtonAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@?", "MHJavascriptLocalizations.DIBuyButtonDownloading":"Downloading", "DAHSoftwareInstall.Status.EstimatedTime.LessThanAMinute":"less than a minute", "DAHSoftwareInstall.Status.EstimatedTime.SecondsLeft":"@@seconds@@ @@secondUnit@@", "Js.Showcase.Next":"Next Item", "Js.DA.BuyButton.Installed":"Installed", "Js.PreflightCheckWarning.Continue":"Continue", "DABuyButtonInstall":"Install App", "DABuyButtonNewerVersionAlreadyInstalledMessage":"A newer version of this app is already installed on this computer", "DAHSoftwareInstall.Status.Paused":"Paused", "Js.CNConnections.Dialog.GetStarted":"Get Started", "Js.ReportAConcern.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "DIBuyButtonDownloadingAria":"Downloading, @@name@@", "DABuyButton.aria.preOrder.buy":"Pre-order, @@name@@, @@price@@", "Js.TextTruncation.More":"More", "Js.QuickView.Unavailable.Title":"Quick View is currently unavailable for this item.", "CNConnections.Dialog.Post.Review.SignIn.Title":"Sign in to post.", "DAHSoftwareInstall.Status.EstimatedTime.hour":"hr", "CNConnections.Upload.UploadErrorHeading":"There Is a Problem With Your Upload", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "CNConnections.Dialog.OptIn.Title":"Ping Will No Longer Be Available as of September 30", "DIBuyButtonDownloadedAria":"Downloaded, @@name@@", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Alerts based on your library content will not be enabled until you have turned on Genius. To learn more, click Go to Genius.", "_thousandsSeparator":",", "InAppPurchases":"In-App Purchases", "DAHSoftwareInstall.Status.EstimatedTime.DaysLeft":"@@days@@ @@dayUnit@@ @@hours@@ @@hourUnit@@", 
+"Js.CNConnections.LoginRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.Pagination.PreviousPage":"Previous Page", "DAHSoftwareInstall.Status.Error.MultipleUsers.description":"To update, log out all other users who are currently logged in to this computer.", "Js.TellAFriend.SigninTitle":"Sign in to tell a friend.", "Js.InlineReview.RateThis":"Rate this", "Js.InlineReview.5":"it’s great", "DAHSoftwareInstall.Status.EstimatedTime.minutes":"mins", "Js.InlineReview.4":"it’s good", "Js.InlineReview.3":"it’s ok", "DABuyButtonPreOrdered":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.second":"sec", "Js.InlineReview.2":"don’t like it", "Js.InlineReview.1":"hate it", "Js.InlinePreview.StopPreview":"Stop preview of @@title@@", "DAPreordersNotAvailableOnYourOS":"To pre-order this app, update to macOS 10.13.2 or later.", "DAHSoftwareInstall.Status.WaitingToInstall":"Waiting to install…", "DABuyButtonAlreadyInstalledNoVersionMessage":"@@installedname@@ is already installed and was not purchased from the Mac App Store.", "Close":"Close", "CNConnections.Dialog.OptIn.Message":"CNConnections.Dialog.OptIn.Message", "Js.DA.BuyButton.Open":"Open", "Js.CreateAccount":"Create Apple ID", "DAHSoftwareInstall.Status.EstimatedTime.hours":"hrs", "MZCommerce.Login_explanation":"Please enter your Apple ID and password and click Sign In.", "Js.CNConnections.OptInRequired.Title":"Ping", "Cancel":"Cancel", "DAHSoftwareInstall.Status.EstimatedTime.seconds":"secs", "DABuyButton.aria.installed":"Installed, @@name@@", "DABuyButton.aria.preOrder.free":"Pre-order, @@name@@, Free", "Js.ManageArtistAlerts.CheckAll.Actors":"Check All Actors", "SF.AskToBuy.PermissionBannerText":"Your request was sent and is awaiting approval from a parent. They can also @@bannerLinkText@@ on this device.", "DABuyButtonSameVersionAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@ again?", "DAHSoftwareInstall.Status.FileSizeSeparator":".", "DAPreorderLabel":"Pre-Order", "More":"More", "DAHSoftwareInstall.Status.EstimatedTime.minute":"min", "DABuyButtonPreOrder":"Pre-Order App", "Js.Pagination.DisabledButtonText":"disabled @@button_text@@", "Js.DA.BuyButton.Installing":"Installing", "Js.MyAlerts.CancelEmailSignUp.Message":"Are you sure you want to stop receiving email alerts?", "JS.errors.requiredLite":"Please fill in all required fields.", "CNConnections.Dialog.Post.Review.SignIn.Message":"CNConnections.Dialog.Post.Review.SignIn.Message", "SF.AskToBuy.PermissionBannerText.Free.bannerLinkText":"approve it in person", "MZCommerce.PurchaseBlockedForSpecialEdu_message":"This Apple ID cannot be used to make purchases.", "Js.ManageArtistAlerts.UncheckAll.Artists":"Uncheck All Artists", "Buy":"Buy", "Js.InlineRating.SigninTitle":"Sign in to rate this item.", "Js.ManageArtistAlerts.UncheckAll.Actors":"Uncheck All Actors", "MHJavascriptLocalizations.DIBuyButtonDownload":"Download", 
+"Js.CNConnections.OptInRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "DAHSoftwareInstall.Status.Downloading":"@@completed@@ of @@total@@", "DABuyButtonLearnMoreURL.Mavericks":"http://support.apple.com/kb/HT5842", "DABuyButtonLearnMoreURL.Lion":"http://support.apple.com/kb/ht4949", "DAHSoftwareInstall.Status.EstimatedTime.HoursLeft":"@@hours@@ @@hourUnit@@ @@minutes@@ @@minuteUnit@@", "Js.Search.HintsTitle":"Suggestions", "DAHSoftwareInstall.Status.EstimatedTime.MinutesLeft":"@@minutes@@ @@minuteUnit@@", "DABuyButtonLearnMoreURL.MtnLion":"http://support.apple.com/kb/ht5444", "DAHSoftwareInstall.Status.Error.MultipleUsers":"Multiple Users Logged In", "Js.InlinePreview.PlayPreview":"Play preview of @@title@@", "SignIn":"Sign In", "DAHSoftwareInstall.Status.Error":"An error has occurred", "Js.ManageArtistAlerts.UncheckAll":"Uncheck All", "Js.iTunesStoreError.Message":"We could not complete your request.", "DVHMusicPurchasesPage.Restored":"Unhidden", "DAHSoftwareInstall.Status.Waiting":"Waiting…", "Done":"Done", "DABuyButton.aria.open":"Open, @@name@@", "Js.Pagination.NextPage":"Next Page", "Js.CNConnections.RequestSent":"Request sent", "MHJavascriptLocalizations.DIBuyButtonDownloaded":"Downloaded", "DABuyButton.aria.install":"Install, @@name@@, Free", "DABuyButtonLearnMore":"Learn More", "DAH.SharingMenu.iChat":"Share in Messages", "CNConnections.Upload.UploadErrorMessage":"Sorry, there was an error during upload.", "Js.PreflightCheckFailedError.UpdateTitle":"We could not complete your update.", "Js.InlineReview.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.PreflightCheckFailedError.Message":"This computer does not meet the minimum install requirements for the app", "Software.HasAddOns":"Offers In-App Purchases", "Less":"Less", "Js.MyAlerts.GeniusActivationNeeded.Message":"This requires Genius.", "Js.ManageArtistAlerts.CheckAll.Artists":"Check All Artists", "Js.TellAFriend.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "CNConnections.Dialog.StopFollowing.Title":"Are you sure you want to stop following @@fullName@@?", "Js.PreflightCheckFailedErrorWithAppName.Title":"We could not complete your purchase of @@appName@@", "DTHBuyInfo.actionText.Accept":"Accept", "Js.PreflightCheckFailedError.Title":"We could not complete your purchase.", "Js.InlineReview.SigninTitle":"Sign in to write a review.", "Js.InlineRating.SigninMessage":"Sign in to continue.", "DAHSoftwareInstall.Status.EstimatedTime.TimeLeft":"@@time@@ remaining", "Js.DA.BuyButton.Install":"Install", "DABuyButton.aria.confirm.buy":"Confirm, Buy, @@name@@, @@price@@", "DAHSoftwareInstall.Status.EstimatedTime.days":"days", "Js.Pagination.Back":"Back", "DABuyButton.aria.installing":"Installing, @@name@@", "DTHBuyInfo.actionText.Gratis":"Free", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"If you would like to perform this action, please change your privacy settings.", "DAPreorderedLabel":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.day":"day", "DVHMusicPurchasesPage.Restore":"Unhide", "DABuyButton.aria.confirm.install":"Confirm, Install, @@name@@, Free", "DAHSoftwareInstall.Status.Installing":"Installing", "Js.QuickView.Unavailable.Text":"Please try again later.", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "Js.CNConnections.Dialog.Cancel":"Cancel", "Js.CNConnections.PeoplePopupMore":"and @@count@@ other@@s@@...", "Js.CNConnections.Confirmed":"Confirmed", "Js.CNConnections.UserReview.YouLiked":"You Liked", "MHJavascriptLocalizations.DIBuyButtonUpdate":"Update", "Yes":"Yes", "Js.Pagination.Next":"Next", "DABuyButton.aria.preOrdered":"Pre-ordered, @@name@@", "Js.ManageArtistAlerts.CheckAll":"Check All", "Js.ReportAConcern.SigninTitle":"Sign in to report a concern.", "Js.MyAlerts.CancelEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"This action will make your profile picture and name visible to others.", "Js.TextLimit.Remaining":"@@count@@ characters remaining", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"Are you sure you want to perform this action?", "DABuyButtonBuyNow":"Buy App", "Js.Pagination.PageNumberTitle":"page @@num@@", "DABuyButtonPreOrderedAllCaps":"PRE-ORDERED", "SF.AskToBuy.PermissionBannerText.bannerLinkText":"purchase it in person", "OK":"OK", "Js.InlineReview.Thanks":"Thanks!", "Js.InlineReview.Error":"Error", "CNConnections.Dialog.Like.Review.SignIn.Message":"CNConnections.Dialog.Like.Review.SignIn.Message", "Js.List.Item":"item", "DABuyButtonAlreadyInstalledMessage":"@@installedname@@ @@installedversion@@ is already installed and was not purchased from the Mac App Store", "No":"No", "Js.iTunesStoreError.Explanation":"There was an error in the App Store. Please try again later.", "Js.InlineReview.ClickToRate":"Click to rate", "DABuyButtonNewerVersionAlreadyInstalledExplanation":"If you want to replace it with this version, move the existing app to the trash.", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Private users may not perform this action.", "DABuyButton.aria.buy":"Buy, @@name@@, @@price@@", "Js.MyAlerts.ConfirmEmailSignUp.Message":"Are you sure you want to receive email alerts?", "CNConnections.Dialog.OptIn.ButtonSubmit":"Learn More", "_decimalSeparator":".", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancel", "MZCommerce.Login_message":"Sign In", "DIBuyButtonRedownloadAria":"Download, @@name@@: Free", "Js.CNConnections.LoginRequired.Title":"Sign in to access Ping.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Sign In", "Js.Pagination.PageNumber":"Page @@num@@", "DAHSoftwareInstall.Status.EstimatedTime.Calculating":"Calculating…", "DAH.SharingMenu.Facebook":"Share to Facebook", "DIBuyButtonUpdateAria":"Update, @@name@@", "CNConnections.Dialog.Like.Review.SignIn.Title":"Sign in to like a review.", "Js.PreflightCheckWarning.Title":"Would you like to continue?", "CNConnections.Upload.MaxPhotosErrorMessage":"You can have no more than 20 photos in one post."}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/85df/da-storefront-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/85df/da-storefront-sharing.js"></script>
+
+
+
+
+
+
+
+</head>
+
+    <body data-country="ind" buy-button-metadata-url="https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/buyButtonMetaData" toolbar-selection="top-charts" class="ind en top-contents top-contents-summary">
+  <script type="text/javascript">
+    if (window['iTSKit']) { iTSKit.preLoad(); }
+    if (window.its && its.kit) { its.kit.preload(); }
+  </script>
+
+  
+
+  
+  <div id="page">
+    <div id="wrapper">
+
+      <div id="content">
+
+        <div class="background"></div>
+
+        
+
+        
+
+        
+
+        <div class="columns">
+            <div class="main">
+                
+                
+                    <div see-all-href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=30&genreId=39&mt=12" page-number-parameter="page" pill-identifier-parameter="pill" sort-key-parameter="sort" goto-page-href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=30&genreId=39" class="lockup-container paginate application mac-application numbered">
+  <div class="title">
+    <h2>Top Paid</h2>
+    
+    
+    <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=30&amp;genreId=39&amp;mt=12" class="see-all see-all-for-one-page">See All</a>
+    
+    
+  </div>
+  <div class="content-and-controls">
+    <div class="paginated-container">
+      <div page-number="1" sort-key="6" pill-identifier="0" total-number-of-pages="1" class="paginated-content"><div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Final Cut Pro" adam-id="424389933" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Final Cut Pro" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">1. </span><a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12">Final Cut Pro</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 27 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">27 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=424389933&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827519678" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12&#34;}" minimumOSVersion="10.13.2" bundle-id="com.apple.FinalCut" original-price="₹ 24,900" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/34/0c/60/340c602c-9ff3-4035-5bfe-2a7318bfa807/signed.dcr.1858431417901623010.pfpkg" versionID="827519678" adam-id="424389933" dk-id="30" item-name="Final Cut Pro" buy-params="productType=C&amp;price=24900000&amp;salableAdamId=424389933&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827519678" version-string="10.4.3" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 24,900</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 24,900</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Final Cut Pro">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=424389933&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="GRID 2 Reloaded Edition" adam-id="875237391" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="GRID 2 Reloaded Edition" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">2. </span><a href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12">GRID 2 Reloaded Edition</a></li><li class="genre">Games</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 8 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">8 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=875237391&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=811421629" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12&#34;}" minimumOSVersion="10.9.2" bundle-id="com.feralinteractive.grid2reloaded" original-price="₹ 899" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/fe/1e/0e/fe1e0e41-b5ad-7569-b54b-fc8c769ec09a/encrypted1839433529852478041.pfpkg" versionID="811421629" adam-id="875237391" dk-id="30" item-name="GRID 2 Reloaded Edition" buy-params="productType=C&amp;price=899000&amp;salableAdamId=875237391&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=811421629" version-string="1.0.2" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 899</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 899</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for GRID 2 Reloaded Edition">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=875237391&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="RAR Extractor Star" adam-id="647505820" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/rar-extractor-star/id647505820?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="RAR Extractor Star" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/4c/ba/3e/4cba3edd-8f2c-d0bc-3df6-572fc0839088/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/4c/ba/3e/4cba3edd-8f2c-d0bc-3df6-572fc0839088/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">3. </span><a href="https://itunes.apple.com/in/app/rar-extractor-star/id647505820?mt=12">RAR Extractor Star</a></li><li class="genre">Utilities</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=647505820&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828026513" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/rar-extractor-star/id647505820?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="com.ABabe.rarextractorstar" original-price="₹ 79" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/7a/1b/00/7a1b0058-4b50-a0b0-7436-eb8bb7b37358/signed.dcr.4398612158603093643.pfpkg" versionID="828026513" adam-id="647505820" dk-id="30" item-name="RAR Extractor Star" buy-params="productType=C&amp;price=79000&amp;salableAdamId=647505820&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828026513" version-string="5.6.1" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/4c/ba/3e/4cba3edd-8f2c-d0bc-3df6-572fc0839088/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 79</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 79</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for RAR Extractor Star">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/rar-extractor-star/id647505820?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=647505820&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Earth 3D" adam-id="476566660" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/earth-3d/id476566660?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Earth 3D" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/01/81/69/0181692a-385e-72a5-c1f0-c809f72a216f/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/01/81/69/0181692a-385e-72a5-c1f0-c809f72a216f/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">4. </span><a href="https://itunes.apple.com/in/app/earth-3d/id476566660?mt=12">Earth 3D</a></li><li class="genre">Entertainment</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='3 stars, 7 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">7 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=476566660&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827208207" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/earth-3d/id476566660?mt=12&#34;}" minimumOSVersion="10.7" hasInAppPurchases="1" bundle-id="com.3Planesoft.Earth3D" original-price="₹ 249" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple125/v4/c2/1a/39/c21a39a2-96a1-794d-c93f-15aef752d5c3/signed.dcr.7287010181413470867.pfpkg" versionID="827208207" adam-id="476566660" dk-id="30" item-name="Earth 3D" buy-params="productType=C&amp;price=249000&amp;salableAdamId=476566660&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827208207" version-string="5.1.0" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/01/81/69/0181692a-385e-72a5-c1f0-c809f72a216f/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 249</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 249</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Earth 3D">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/earth-3d/id476566660?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=476566660&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="BetterSnapTool" adam-id="417375580" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/bettersnaptool/id417375580?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="BetterSnapTool" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/b3/8c/23/b38c235b-fc34-8029-c513-070673366c03/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/b3/8c/23/b38c235b-fc34-8029-c513-070673366c03/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">5. </span><a href="https://itunes.apple.com/in/app/bettersnaptool/id417375580?mt=12">BetterSnapTool</a></li><li class="genre">Productivity</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 7 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">7 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=417375580&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=823941158" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/bettersnaptool/id417375580?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="com.hegenberg.BetterSnapTool" original-price="₹ 249" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/d2/77/4d/d2774dd3-e5d2-35ed-a228-00bb5f6784ce/signed.dcr.1592710444659342874.pfpkg" versionID="823941158" adam-id="417375580" dk-id="30" item-name="BetterSnapTool" buy-params="productType=C&amp;price=249000&amp;salableAdamId=417375580&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=823941158" version-string="1.8" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/b3/8c/23/b38c235b-fc34-8029-c513-070673366c03/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 249</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 249</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for BetterSnapTool">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/bettersnaptool/id417375580?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=417375580&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Poster Maker Pro - Collage" adam-id="958459191" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/poster-maker-pro-collage/id958459191?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Poster Maker Pro - Collage" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/61/57/8e/61578e8c-44c2-e4b4-1509-fc5fc93693a2/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/61/57/8e/61578e8c-44c2-e4b4-1509-fc5fc93693a2/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">6. </span><a href="https://itunes.apple.com/in/app/poster-maker-pro-collage/id958459191?mt=12">Poster Maker Pro - Collage</a></li><li class="genre">Photography</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=958459191&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819768036" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/poster-maker-pro-collage/id958459191?mt=12&#34;}" minimumOSVersion="10.6" bundle-id="com.greatdysofts.PosterMakerPro" original-price="₹ 399" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/39/39/ca/3939ca10-c2ff-8f68-5583-eb99a7ab71fb/signed.dcr.3195787533919606133.pfpkg" versionID="819768036" adam-id="958459191" dk-id="30" item-name="Poster Maker Pro - Collage" buy-params="productType=C&amp;price=399000&amp;salableAdamId=958459191&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819768036" version-string="3.5.6" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/61/57/8e/61578e8c-44c2-e4b4-1509-fc5fc93693a2/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 399</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 399</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Poster Maker Pro - Collage">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/poster-maker-pro-collage/id958459191?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=958459191&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="iTransfer for Samsung Galaxy" adam-id="1416631937" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/itransfer-for-samsung-galaxy/id1416631937?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="iTransfer for Samsung Galaxy" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/40/6e/65/406e65db-15d6-7b6a-4a5f-1ebfcc05fd06/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/40/6e/65/406e65db-15d6-7b6a-4a5f-1ebfcc05fd06/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">7. </span><a href="https://itunes.apple.com/in/app/itransfer-for-samsung-galaxy/id1416631937?mt=12">iTransfer for Samsung Galaxy</a></li><li class="genre">Business</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1416631937&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827991717" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/itransfer-for-samsung-galaxy/id1416631937?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.droneworld.Android-File-Transfer" original-price="₹ 299" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/ea/79/34/ea79348f-5015-5957-c0a4-ed12ce1e8828/signed.dcr.7765951701180156350.pfpkg" versionID="827991717" adam-id="1416631937" dk-id="30" item-name="iTransfer for Samsung Galaxy" buy-params="productType=C&amp;price=299000&amp;salableAdamId=1416631937&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827991717" version-string="1.3" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/40/6e/65/406e65db-15d6-7b6a-4a5f-1ebfcc05fd06/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 299</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 299</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for iTransfer for Samsung Galaxy">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/itransfer-for-samsung-galaxy/id1416631937?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1416631937&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="300,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Solar - Authentic Weather Forecast with Commentary" adam-id="1234730471" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/solar-authentic-weather-forecast-with-commentary/id1234730471?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Solar - Authentic Weather Forecast with Commentary" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/a2/2c/c4/a22cc441-7d04-0858-b881-04c69fff7b53/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/a2/2c/c4/a22cc441-7d04-0858-b881-04c69fff7b53/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">8. </span><a href="https://itunes.apple.com/in/app/solar-authentic-weather-forecast-with-commentary/id1234730471?mt=12">Solar - Authentic Weather Forecast with Commentary</a></li><li class="genre">Weather</li><li class="customer-ratings"></li><li><div rating-software="300,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1234730471&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=822085906" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/solar-authentic-weather-forecast-with-commentary/id1234730471?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="Daniel.Mekis.Solar.Mac" original-price="₹ 79" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple117/v4/6f/04/0c/6f040c89-a0c1-a228-3b9b-2de2e4113495/signed.dcr.5775851105115797091.pfpkg" versionID="822085906" adam-id="1234730471" dk-id="30" item-name="Solar - Authentic Weather Forecast with Commentary" buy-params="productType=C&amp;price=79000&amp;salableAdamId=1234730471&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=822085906" version-string="1.0" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple117/v4/a2/2c/c4/a22cc441-7d04-0858-b881-04c69fff7b53/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 79</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 79</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Solar - Authentic Weather Forecast with Commentary">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/solar-authentic-weather-forecast-with-commentary/id1234730471?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1234730471&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Logic Pro X" adam-id="634148309" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Logic Pro X" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">9. </span><a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12">Logic Pro X</a></li><li class="genre">Music</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 37 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">37 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=634148309&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=825945185" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.apple.logic10" original-price="₹ 15,500" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/c9/63/cd/c963cd72-663d-bdaf-4648-ceef3d53a260/signed.dcr.1692793528001761913.pfpkg" versionID="825945185" adam-id="634148309" dk-id="30" item-name="Logic Pro X" buy-params="productType=C&amp;price=15500000&amp;salableAdamId=634148309&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=825945185" version-string="10.4.1" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 15,500</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 15,500</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Logic Pro X">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=634148309&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Earth 3D - Amazing Atlas" adam-id="609649363" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/earth-3d-amazing-atlas/id609649363?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Earth 3D - Amazing Atlas" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ba/65/81/ba6581d2-448a-7366-0a33-90c9918bbf44/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ba/65/81/ba6581d2-448a-7366-0a33-90c9918bbf44/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">10. </span><a href="https://itunes.apple.com/in/app/earth-3d-amazing-atlas/id609649363?mt=12">Earth 3D - Amazing Atlas</a></li><li class="genre">Education</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 74 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">74 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=609649363&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=823657830" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/earth-3d-amazing-atlas/id609649363?mt=12&#34;}" minimumOSVersion="10.7" hasInAppPurchases="1" bundle-id="com.3Planesoft.Earth101forMac" original-price="₹ 249" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple125/v4/c5/a3/07/c5a307f0-8935-7933-53ea-4667d98285d3/signed.dcr.8143692507883875808.pfpkg" versionID="823657830" adam-id="609649363" dk-id="30" item-name="Earth 3D - Amazing Atlas" buy-params="productType=C&amp;price=249000&amp;salableAdamId=609649363&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=823657830" version-string="6.1.0" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ba/65/81/ba6581d2-448a-7366-0a33-90c9918bbf44/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 249</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 249</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Earth 3D - Amazing Atlas">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/earth-3d-amazing-atlas/id609649363?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=609649363&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Duplicate Photos Fixer Pro" adam-id="963642514" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/duplicate-photos-fixer-pro/id963642514?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Duplicate Photos Fixer Pro" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a5/fa/88/a5fa8813-be3e-b465-1c78-dfb2892ab842/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a5/fa/88/a5fa8813-be3e-b465-1c78-dfb2892ab842/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">11. </span><a href="https://itunes.apple.com/in/app/duplicate-photos-fixer-pro/id963642514?mt=12">Duplicate Photos Fixer Pro</a></li><li class="genre">Photography</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 25 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">25 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=963642514&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826247247" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/duplicate-photos-fixer-pro/id963642514?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="com.systweak.Duplicate-Photos-Fixer-Pro" original-price="₹ 79" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/02/7c/47/027c479c-c1fd-232c-588e-5f9fba5b5bc1/signed.dcr.8730692101163009204.pfpkg" versionID="826247247" adam-id="963642514" dk-id="30" item-name="Duplicate Photos Fixer Pro" buy-params="productType=C&amp;price=79000&amp;salableAdamId=963642514&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826247247" version-string="2.5" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a5/fa/88/a5fa8813-be3e-b465-1c78-dfb2892ab842/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 79</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 79</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Duplicate Photos Fixer Pro">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/duplicate-photos-fixer-pro/id963642514?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=963642514&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Motion" adam-id="434290957" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Motion" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">12. </span><a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12">Motion</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 6 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">6 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=434290957&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826237707" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/motion/id434290957?mt=12&#34;}" minimumOSVersion="10.13.2" bundle-id="com.apple.motionapp" original-price="₹ 3,999" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/c0/54/7b/c0547b5c-8427-c958-b440-657d8c4485d1/signed.dcr.7602430363267223498.pfpkg" versionID="826237707" adam-id="434290957" dk-id="30" item-name="Motion" buy-params="productType=C&amp;price=3999000&amp;salableAdamId=434290957&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826237707" version-string="5.4.1" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 3,999</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 3,999</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Motion">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/motion/id434290957?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=434290957&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+</div>
+    </div>
+    
+  </div>
+</div>
+
+                    <div see-all-href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=27&genreId=39&mt=12" page-number-parameter="page" pill-identifier-parameter="pill" sort-key-parameter="sort" goto-page-href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=27&genreId=39" class="lockup-container paginate application mac-application numbered">
+  <div class="title">
+    <h2>Top Free</h2>
+    
+    
+    <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=27&amp;genreId=39&amp;mt=12" class="see-all see-all-for-one-page">See All</a>
+    
+    
+  </div>
+  <div class="content-and-controls">
+    <div class="paginated-container">
+      <div page-number="1" sort-key="6" pill-identifier="0" total-number-of-pages="1" class="paginated-content"><div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="GarageBand" adam-id="682658836" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/garageband/id682658836?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="GarageBand" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/68/35/ee/6835eee7-5971-3bac-a1f7-8eaaa2e8efec/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/68/35/ee/6835eee7-5971-3bac-a1f7-8eaaa2e8efec/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">1. </span><a href="https://itunes.apple.com/in/app/garageband/id682658836?mt=12">GarageBand</a></li><li class="genre">Music</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 62 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">62 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=682658836&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827663380" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/garageband/id682658836?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.apple.garageband10" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple125/v4/78/96/10/789610a4-c685-cad5-e9ae-5440033ec86f/signed.dcr.2726119038608021317.pfpkg" versionID="827663380" adam-id="682658836" dk-id="30" item-name="GarageBand" buy-params="productType=C&amp;price=0&amp;salableAdamId=682658836&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827663380" version-string="10.3.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/68/35/ee/6835eee7-5971-3bac-a1f7-8eaaa2e8efec/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for GarageBand">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/garageband/id682658836?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=682658836&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="WhatsApp Desktop" adam-id="1147396723" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/whatsapp-desktop/id1147396723?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="WhatsApp Desktop" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/6a/66/80/6a66803c-8922-7062-7cdc-1d0d6446ab8e/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/6a/66/80/6a66803c-8922-7062-7cdc-1d0d6446ab8e/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">2. </span><a href="https://itunes.apple.com/in/app/whatsapp-desktop/id1147396723?mt=12">WhatsApp Desktop</a></li><li class="genre">Social Networking</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 440 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">440 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1147396723&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828074919" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/whatsapp-desktop/id1147396723?mt=12&#34;}" minimumOSVersion="10.9.0" bundle-id="desktop.WhatsApp" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/c5/dd/48/c5dd4832-4b1c-6f05-06fc-9bb4cd9eea2c/signed.dcr.1666244263806093126.pfpkg" versionID="828074919" adam-id="1147396723" dk-id="30" item-name="WhatsApp Desktop" buy-params="productType=C&amp;price=0&amp;salableAdamId=1147396723&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828074919" version-string="0.3.419" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/6a/66/80/6a66803c-8922-7062-7cdc-1d0d6446ab8e/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for WhatsApp Desktop">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/whatsapp-desktop/id1147396723?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1147396723&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="SHAREit - Connect &amp; Transfer" adam-id="1040029915" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/shareit-connect-transfer/id1040029915?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="SHAREit - Connect &amp; Transfer" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple19/v4/3e/77/50/3e775089-b1dc-7e98-4f04-8ac55cc3b926/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple19/v4/3e/77/50/3e775089-b1dc-7e98-4f04-8ac55cc3b926/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">3. </span><a href="https://itunes.apple.com/in/app/shareit-connect-transfer/id1040029915?mt=12">SHAREit - Connect &amp; Transfer</a></li><li class="genre">Utilities</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 258 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">258 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1040029915&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=819366798" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/shareit-connect-transfer/id1040029915?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="com.ushareit.SHAREit" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple71/v4/b7/91/63/b7916303-19ba-a64e-57f3-58b107f9a4e3/signed.dcr.3065681500955316016.pfpkg" versionID="819366798" adam-id="1040029915" dk-id="30" item-name="SHAREit - Connect &amp; Transfer" buy-params="productType=C&amp;price=0&amp;salableAdamId=1040029915&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=819366798" version-string="0.9.0" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple19/v4/3e/77/50/3e775089-b1dc-7e98-4f04-8ac55cc3b926/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for SHAREit - Connect &amp; Transfer">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/shareit-connect-transfer/id1040029915?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1040029915&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="MKPlayer - MKV &amp; Media Player" adam-id="1335612105" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/mkplayer-mkv-media-player/id1335612105?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="MKPlayer - MKV &amp; Media Player" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/2a/c2/0f/2ac20fa6-ae21-06c5-c639-54aceae79429/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/2a/c2/0f/2ac20fa6-ae21-06c5-c639-54aceae79429/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">4. </span><a href="https://itunes.apple.com/in/app/mkplayer-mkv-media-player/id1335612105?mt=12">MKPlayer - MKV &amp; Media Player</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 483 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">483 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1335612105&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827632433" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/mkplayer-mkv-media-player/id1335612105?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="com.rockysandstudio.MKPlayer" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/8e/7f/36/8e7f3603-0618-edad-ce6e-582de9eaf237/signed.dcr.266153085225535949.pfpkg" versionID="827632433" adam-id="1335612105" dk-id="30" item-name="MKPlayer - MKV &amp; Media Player" buy-params="productType=C&amp;price=0&amp;salableAdamId=1335612105&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827632433" version-string="1.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/2a/c2/0f/2ac20fa6-ae21-06c5-c639-54aceae79429/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for MKPlayer - MKV &amp; Media Player">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/mkplayer-mkv-media-player/id1335612105?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1335612105&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Xcode" adam-id="497799835" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/xcode/id497799835?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Xcode" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/b8/fb/1b/b8fb1ba3-afe1-3786-2e7d-887e3ba45e09/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/b8/fb/1b/b8fb1ba3-afe1-3786-2e7d-887e3ba45e09/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">5. </span><a href="https://itunes.apple.com/in/app/xcode/id497799835?mt=12">Xcode</a></li><li class="genre">Developer Tools</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 665 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">665 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=497799835&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827449414" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/xcode/id497799835?mt=12&#34;}" minimumOSVersion="10.13.2" bundle-id="com.apple.dt.Xcode" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple125/v4/6a/48/01/6a480168-e1e2-5c80-124a-779003e6bbc9/signed.dcr.2164885431059628228.pfpkg" versionID="827449414" adam-id="497799835" dk-id="30" item-name="Xcode" buy-params="productType=C&amp;price=0&amp;salableAdamId=497799835&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827449414" version-string="9.4.1" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/b8/fb/1b/b8fb1ba3-afe1-3786-2e7d-887e3ba45e09/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Xcode">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/xcode/id497799835?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=497799835&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="The Unarchiver" adam-id="425424353" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/the-unarchiver/id425424353?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="The Unarchiver" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/6d/85/8f/6d858f37-31d1-c38a-9efa-9a7763ce46f7/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/6d/85/8f/6d858f37-31d1-c38a-9efa-9a7763ce46f7/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">6. </span><a href="https://itunes.apple.com/in/app/the-unarchiver/id425424353?mt=12">The Unarchiver</a></li><li class="genre">Utilities</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 22 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">22 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=425424353&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827514716" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/the-unarchiver/id425424353?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="cx.c3.theunarchiver" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/2a/fb/ec/2afbecd0-78bb-5dab-651d-c6adb26313a0/signed.dcr.5189762862762931895.pfpkg" versionID="827514716" adam-id="425424353" dk-id="30" item-name="The Unarchiver" buy-params="productType=C&amp;price=0&amp;salableAdamId=425424353&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827514716" version-string="4.0.0" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/6d/85/8f/6d858f37-31d1-c38a-9efa-9a7763ce46f7/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for The Unarchiver">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/the-unarchiver/id425424353?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=425424353&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Microsoft Remote Desktop 10" adam-id="1295203466" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/microsoft-remote-desktop-10/id1295203466?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Microsoft Remote Desktop 10" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/c3/96/79/c3967960-0077-f576-0abc-7fa362d0f57f/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/c3/96/79/c3967960-0077-f576-0abc-7fa362d0f57f/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">7. </span><a href="https://itunes.apple.com/in/app/microsoft-remote-desktop-10/id1295203466?mt=12">Microsoft Remote Desktop 10</a></li><li class="genre">Business</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 stars, 13 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">13 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1295203466&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828107030" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/microsoft-remote-desktop-10/id1295203466?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.microsoft.rdc.macos" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/9c/eb/f6/9cebf670-663c-a2ce-485c-95f978b54a7f/signed.dcr.2680895286735140750.pfpkg" versionID="828107030" adam-id="1295203466" dk-id="30" item-name="Microsoft Remote Desktop 10" buy-params="productType=C&amp;price=0&amp;salableAdamId=1295203466&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828107030" version-string="10.2.1" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/c3/96/79/c3967960-0077-f576-0abc-7fa362d0f57f/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Microsoft Remote Desktop 10">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/microsoft-remote-desktop-10/id1295203466?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1295203466&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="PDF Reader Pro－Lite Edition" adam-id="919472673" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/pdf-reader-pro-lite-edition/id919472673?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="PDF Reader Pro－Lite Edition" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/61/2c/f3/612cf302-4b44-3abf-ac95-ffdffee61f3c/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/61/2c/f3/612cf302-4b44-3abf-ac95-ffdffee61f3c/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">8. </span><a href="https://itunes.apple.com/in/app/pdf-reader-pro-lite-edition/id919472673?mt=12">PDF Reader Pro－Lite Edition</a></li><li class="genre">Business</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 297 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">297 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=919472673&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828170436" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/pdf-reader-pro-lite-edition/id919472673?mt=12&#34;}" minimumOSVersion="10.9" hasInAppPurchases="1" bundle-id="com.brother.pdfreaderprofree.mac" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/9c/62/57/9c62571a-81cf-b235-3dc3-0fad12aeb8b8/signed.dcr.4373395114175573965.pfpkg" versionID="828170436" adam-id="919472673" dk-id="30" item-name="PDF Reader Pro－Lite Edition" buy-params="productType=C&amp;price=0&amp;salableAdamId=919472673&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828170436" version-string="2.3" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/61/2c/f3/612cf302-4b44-3abf-ac95-ffdffee61f3c/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for PDF Reader Pro－Lite Edition">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/pdf-reader-pro-lite-edition/id919472673?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=919472673&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Kindle" adam-id="405399194" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/kindle/id405399194?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Kindle" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/03/c2/21/03c221d1-f919-9cef-d6af-52f68d075dc7/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/03/c2/21/03c221d1-f919-9cef-d6af-52f68d075dc7/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">9. </span><a href="https://itunes.apple.com/in/app/kindle/id405399194?mt=12">Kindle</a></li><li class="genre">Reference</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='3 and a half stars, 32 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">32 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=405399194&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826275028" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/kindle/id405399194?mt=12&#34;}" minimumOSVersion="10.9" bundle-id="com.amazon.Kindle" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/ff/b8/35/ffb835f3-efc3-2d59-a42a-97d0b012c56f/signed.dcr.1062424764514471787.pfpkg" versionID="826275028" adam-id="405399194" dk-id="30" item-name="Kindle" buy-params="productType=C&amp;price=0&amp;salableAdamId=405399194&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826275028" version-string="1.23.2" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/03/c2/21/03c221d1-f919-9cef-d6af-52f68d075dc7/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Kindle">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/kindle/id405399194?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=405399194&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Evernote" adam-id="406056744" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/evernote/id406056744?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Evernote" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/92/3c/16/923c16c7-c233-e6b0-727b-6107e9d112de/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/92/3c/16/923c16c7-c233-e6b0-727b-6107e9d112de/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">10. </span><a href="https://itunes.apple.com/in/app/evernote/id406056744?mt=12">Evernote</a></li><li class="genre">Productivity</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 87 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">87 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=406056744&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828169294" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/evernote/id406056744?mt=12&#34;}" minimumOSVersion="10.12" hasInAppPurchases="1" bundle-id="com.evernote.Evernote" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/98/9f/d6/989fd648-6b1d-9c86-bb81-022ca3b1b91e/signed.dcr.6043735995896660221.pfpkg" versionID="828169294" adam-id="406056744" dk-id="30" item-name="Evernote" buy-params="productType=C&amp;price=0&amp;salableAdamId=406056744&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828169294" version-string="7.4" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/92/3c/16/923c16c7-c233-e6b0-727b-6107e9d112de/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Evernote">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/evernote/id406056744?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=406056744&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Open Any File" adam-id="1238129192" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/open-any-file/id1238129192?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Open Any File" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/97/ab/8c97abda-28a5-405c-70e8-b969612b2236/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/97/ab/8c97abda-28a5-405c-70e8-b969612b2236/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">11. </span><a href="https://itunes.apple.com/in/app/open-any-file/id1238129192?mt=12">Open Any File</a></li><li class="genre">Utilities</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='3 and a half stars, 112 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span><span class="rating-star ghost">&nbsp;</span></div><span class="rating-count">112 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1238129192&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827410856" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/open-any-file/id1238129192?mt=12&#34;}" minimumOSVersion="10.10" bundle-id="com.rockysandstudio.Open-Any-File" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/35/73/92/357392ea-c99e-464c-ba59-dfccf9d5c258/signed.dcr.6395761933691605664.pfpkg" versionID="827410856" adam-id="1238129192" dk-id="30" item-name="Open Any File" buy-params="productType=C&amp;price=0&amp;salableAdamId=1238129192&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827410856" version-string="1.2.4" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/8c/97/ab/8c97abda-28a5-405c-70e8-b969612b2236/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Open Any File">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/open-any-file/id1238129192?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1238129192&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Top Speed: Drag &amp; Fast Racing" adam-id="1008143687" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/top-speed-drag-fast-racing/id1008143687?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Top Speed: Drag &amp; Fast Racing" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/91/ea/0d/91ea0d71-1750-4acb-a804-e35a2f4b627a/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/91/ea/0d/91ea0d71-1750-4acb-a804-e35a2f4b627a/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">12. </span><a href="https://itunes.apple.com/in/app/top-speed-drag-fast-racing/id1008143687?mt=12">Top Speed: Drag &amp; Fast Racing</a></li><li class="genre">Games</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 161 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">161 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1008143687&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=816434329" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/top-speed-drag-fast-racing/id1008143687?mt=12&#34;}" minimumOSVersion="10.6.6" hasInAppPurchases="1" bundle-id="com.tbegames.osx.topspeedracing" original-price="Get" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/17/a8/e4/17a8e4c1-1aca-033a-60f6-88095c37d2e6/signed.dcr.9145552103243872845.pfpkg" versionID="816434329" adam-id="1008143687" dk-id="30" item-name="Top Speed: Drag &amp; Fast Racing" buy-params="productType=C&amp;price=0&amp;salableAdamId=1008143687&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=816434329" version-string="1.2" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple49/v4/91/ea/0d/91ea0d71-1750-4acb-a804-e35a2f4b627a/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Top Speed: Drag &amp; Fast Racing">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/top-speed-drag-fast-racing/id1008143687?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1008143687&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+</div>
+    </div>
+    
+  </div>
+</div>
+
+                    <div see-all-href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=38&genreId=39&mt=12" page-number-parameter="page" pill-identifier-parameter="pill" sort-key-parameter="sort" goto-page-href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=38&genreId=39" class="lockup-container paginate application mac-application numbered">
+  <div class="title">
+    <h2>Top Grossing Apps</h2>
+    
+    
+    <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?popId=38&amp;genreId=39&amp;mt=12" class="see-all see-all-for-one-page">See All</a>
+    
+    
+  </div>
+  <div class="content-and-controls">
+    <div class="paginated-container">
+      <div page-number="1" sort-key="6" pill-identifier="0" total-number-of-pages="1" class="paginated-content"><div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Final Cut Pro" adam-id="424389933" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Final Cut Pro" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">1. </span><a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12">Final Cut Pro</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 27 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">27 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=424389933&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827519678" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12&#34;}" minimumOSVersion="10.13.2" bundle-id="com.apple.FinalCut" original-price="₹ 24,900" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple115/v4/34/0c/60/340c602c-9ff3-4035-5bfe-2a7318bfa807/signed.dcr.1858431417901623010.pfpkg" versionID="827519678" adam-id="424389933" dk-id="30" item-name="Final Cut Pro" buy-params="productType=C&amp;price=24900000&amp;salableAdamId=424389933&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827519678" version-string="10.4.3" large-icon="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 24,900</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 24,900</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Final Cut Pro">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=424389933&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Logic Pro X" adam-id="634148309" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Logic Pro X" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">2. </span><a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12">Logic Pro X</a></li><li class="genre">Music</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 37 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">37 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=634148309&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=825945185" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12&#34;}" minimumOSVersion="10.12" bundle-id="com.apple.logic10" original-price="₹ 15,500" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/c9/63/cd/c963cd72-663d-bdaf-4648-ceef3d53a260/signed.dcr.1692793528001761913.pfpkg" versionID="825945185" adam-id="634148309" dk-id="30" item-name="Logic Pro X" buy-params="productType=C&amp;price=15500000&amp;salableAdamId=634148309&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=825945185" version-string="10.4.1" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/f5/02/0d/f5020dbf-8649-d103-1634-5423f17bb7ec/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 15,500</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 15,500</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Logic Pro X">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=634148309&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="HotspotShield VPN &amp; Wifi Proxy" adam-id="771076721" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/hotspotshield-vpn-wifi-proxy/id771076721?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="HotspotShield VPN &amp; Wifi Proxy" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/39/30/f2/3930f23e-8254-13bb-6dc5-36cf249f22f9/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/39/30/f2/3930f23e-8254-13bb-6dc5-36cf249f22f9/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">3. </span><a href="https://itunes.apple.com/in/app/hotspotshield-vpn-wifi-proxy/id771076721?mt=12">HotspotShield VPN &amp; Wifi Proxy</a></li><li class="genre">Productivity</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 14 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">14 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=771076721&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827982003" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/hotspotshield-vpn-wifi-proxy/id771076721?mt=12&#34;}" minimumOSVersion="10.10" hasInAppPurchases="1" bundle-id="com.anchorfree.hss-mac" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/82/57/2e/82572eb1-0fe3-148a-f5c7-55b9371a0a01/signed.dcr.1221011692468754212.pfpkg" versionID="827982003" adam-id="771076721" dk-id="30" item-name="HotspotShield VPN &amp; Wifi Proxy" buy-params="productType=C&amp;price=0&amp;salableAdamId=771076721&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827982003" version-string="2.0.8" large-icon="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/39/30/f2/3930f23e-8254-13bb-6dc5-36cf249f22f9/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for HotspotShield VPN &amp; Wifi Proxy">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/hotspotshield-vpn-wifi-proxy/id771076721?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=771076721&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="PDF Expert - Edit and Sign PDF" adam-id="1055273043" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/pdf-expert-edit-and-sign-pdf/id1055273043?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="PDF Expert - Edit and Sign PDF" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/d0/fd/7d/d0fd7de6-4132-3251-ecad-e8adab210d2f/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/d0/fd/7d/d0fd7de6-4132-3251-ecad-e8adab210d2f/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">4. </span><a href="https://itunes.apple.com/in/app/pdf-expert-edit-and-sign-pdf/id1055273043?mt=12">PDF Expert - Edit and Sign PDF</a></li><li class="genre">Productivity</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 14 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">14 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1055273043&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828035670" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/pdf-expert-edit-and-sign-pdf/id1055273043?mt=12&#34;}" minimumOSVersion="10.11" bundle-id="com.readdle.PDFExpert-Mac" original-price="₹ 6,200" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/bf/5e/a4/bf5ea4b0-7008-6d78-4a0c-a3e341335012/signed.dcr.3094844514050103643.pfpkg" versionID="828035670" adam-id="1055273043" dk-id="30" item-name="PDF Expert - Edit and Sign PDF" buy-params="productType=C&amp;price=6200000&amp;salableAdamId=1055273043&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828035670" version-string="2.4.9" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/d0/fd/7d/d0fd7de6-4132-3251-ecad-e8adab210d2f/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 6,200</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 6,200</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for PDF Expert - Edit and Sign PDF">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/pdf-expert-edit-and-sign-pdf/id1055273043?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1055273043&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Star VPN - Unlimited VPN Proxy" adam-id="1122918970" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/star-vpn-unlimited-vpn-proxy/id1122918970?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Star VPN - Unlimited VPN Proxy" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/8d/ac/9c/8dac9c28-a442-e410-4b67-8b8ad40c5094/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/8d/ac/9c/8dac9c28-a442-e410-4b67-8b8ad40c5094/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">5. </span><a href="https://itunes.apple.com/in/app/star-vpn-unlimited-vpn-proxy/id1122918970?mt=12">Star VPN - Unlimited VPN Proxy</a></li><li class="genre">Productivity</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 188 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">188 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1122918970&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826402972" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/star-vpn-unlimited-vpn-proxy/id1122918970?mt=12&#34;}" minimumOSVersion="10.11" hasInAppPurchases="1" bundle-id="com.peach.macos" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/07/c5/68/07c568e2-ad5f-3f98-80bc-1295227928e9/signed.dcr.5742006721523228244.pfpkg" versionID="826402972" adam-id="1122918970" dk-id="30" item-name="Star VPN - Unlimited VPN Proxy" buy-params="productType=C&amp;price=0&amp;salableAdamId=1122918970&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826402972" version-string="2.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/8d/ac/9c/8dac9c28-a442-e410-4b67-8b8ad40c5094/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Star VPN - Unlimited VPN Proxy">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/star-vpn-unlimited-vpn-proxy/id1122918970?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1122918970&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Motion" adam-id="434290957" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Motion" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">6. </span><a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12">Motion</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 6 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">6 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=434290957&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826237707" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/motion/id434290957?mt=12&#34;}" minimumOSVersion="10.13.2" bundle-id="com.apple.motionapp" original-price="₹ 3,999" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/c0/54/7b/c0547b5c-8427-c958-b440-657d8c4485d1/signed.dcr.7602430363267223498.pfpkg" versionID="826237707" adam-id="434290957" dk-id="30" item-name="Motion" buy-params="productType=C&amp;price=3999000&amp;salableAdamId=434290957&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826237707" version-string="5.4.1" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 3,999</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 3,999</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Motion">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/motion/id434290957?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=434290957&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Compressor" adam-id="424390742" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/compressor/id424390742?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Compressor" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b5/74/55/b57455b8-3279-9fb9-3328-4aaaf1a339f4/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b5/74/55/b57455b8-3279-9fb9-3328-4aaaf1a339f4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">7. </span><a href="https://itunes.apple.com/in/app/compressor/id424390742?mt=12">Compressor</a></li><li class="genre">Video</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=424390742&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826365369" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/compressor/id424390742?mt=12&#34;}" minimumOSVersion="10.13.2" bundle-id="com.apple.Compressor" original-price="₹ 3,999" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/4f/e2/d5/4fe2d5ba-ea93-61c8-5579-3b89eac3d4f1/signed.dcr.3603000716912353218.pfpkg" versionID="826365369" adam-id="424390742" dk-id="30" item-name="Compressor" buy-params="productType=C&amp;price=3999000&amp;salableAdamId=424390742&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826365369" version-string="4.4.1" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b5/74/55/b57455b8-3279-9fb9-3328-4aaaf1a339f4/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 3,999</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 3,999</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Compressor">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/compressor/id424390742?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=424390742&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="GRID 2 Reloaded Edition" adam-id="875237391" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="GRID 2 Reloaded Edition" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/150x150bb.png" src-swap="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">8. </span><a href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12">GRID 2 Reloaded Edition</a></li><li class="genre">Games</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 8 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">8 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=875237391&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=811421629" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12&#34;}" minimumOSVersion="10.9.2" bundle-id="com.feralinteractive.grid2reloaded" original-price="₹ 899" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple69/v4/fe/1e/0e/fe1e0e41-b5ad-7569-b54b-fc8c769ec09a/encrypted1839433529852478041.pfpkg" versionID="811421629" adam-id="875237391" dk-id="30" item-name="GRID 2 Reloaded Edition" buy-params="productType=C&amp;price=899000&amp;salableAdamId=875237391&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=811421629" version-string="1.0.2" large-icon="https://is2-ssl.mzstatic.com/image/thumb/Purple1/v4/92/5d/30/925d3089-ef5c-c791-1b60-11de275ce98d/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 899</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 899</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for GRID 2 Reloaded Edition">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/grid-2-reloaded-edition/id875237391?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=875237391&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="iGoOffice - Microsoft Office Edition - Templates for MS Word Documents, Powerpoint Presentations, Excel Spreadsheets" adam-id="1112971518" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/igooffice-microsoft-office-edition-templates-for-ms/id1112971518?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="iGoOffice - Microsoft Office Edition - Templates for MS Word Documents, Powerpoint Presentations, Excel Spreadsheets" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple18/v4/38/17/2a/38172a2e-4914-5c75-5cde-de55ff64ae46/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple18/v4/38/17/2a/38172a2e-4914-5c75-5cde-de55ff64ae46/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">9. </span><a href="https://itunes.apple.com/in/app/igooffice-microsoft-office-edition-templates-for-ms/id1112971518?mt=12">iGoOffice - Microsoft Office Edition - Templates for MS Word Documents, Powerpoint Presentations, Excel Spreadsheets</a></li><li class="genre">Business</li><li class="customer-ratings"></li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1112971518&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=817688754" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/igooffice-microsoft-office-edition-templates-for-ms/id1112971518?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="uab.globalus.MsOffice.iGoOffice" original-price="₹ 3,099" preflight="http://osxapps.itunes.apple.com/apple-assets-us-std-000001/Purple30/v4/16/c9/0e/16c90e13-0d11-eeac-66bd-70a78d603c70/signed.dcr.9205157441900132375.pfpkg" versionID="817688754" adam-id="1112971518" dk-id="30" item-name="iGoOffice - Microsoft Office Edition - Templates for MS Word Documents, Powerpoint Presentations, Excel Spreadsheets" buy-params="productType=C&amp;price=3099000&amp;salableAdamId=1112971518&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=817688754" version-string="2.0" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple18/v4/38/17/2a/38172a2e-4914-5c75-5cde-de55ff64ae46/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 3,099</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 3,099</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for iGoOffice - Microsoft Office Edition - Templates for MS Word Documents, Powerpoint Presentations, Excel Spreadsheets">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/igooffice-microsoft-office-edition-templates-for-ms/id1112971518?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1112971518&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Dashlane - Password Manager" adam-id="552383089" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/dashlane-password-manager/id552383089?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Dashlane - Password Manager" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b6/b5/fa/b6b5fa1f-20e9-24c1-a2d4-f33c45beba62/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b6/b5/fa/b6b5fa1f-20e9-24c1-a2d4-f33c45beba62/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">10. </span><a href="https://itunes.apple.com/in/app/dashlane-password-manager/id552383089?mt=12">Dashlane - Password Manager</a></li><li class="genre">Productivity</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 62 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">62 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=552383089&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=828399315" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/dashlane-password-manager/id552383089?mt=12&#34;}" minimumOSVersion="10.12" hasInAppPurchases="1" bundle-id="com.dashlane.Dashlane" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/f5/3e/a1/f53ea1b6-9b0b-354c-047c-4a2a7958a768/signed.dcr.1114541121011281372.pfpkg" versionID="828399315" adam-id="552383089" dk-id="30" item-name="Dashlane - Password Manager" buy-params="productType=C&amp;price=0&amp;salableAdamId=552383089&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=828399315" version-string="6.2.2" large-icon="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b6/b5/fa/b6b5fa1f-20e9-24c1-a2d4-f33c45beba62/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Dashlane - Password Manager">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/dashlane-password-manager/id552383089?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=552383089&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Affinity Designer" adam-id="824171161" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/affinity-designer/id824171161?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Affinity Designer" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/92/be/61/92be6186-f844-e257-231b-4ca577bb6494/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/92/be/61/92be6186-f844-e257-231b-4ca577bb6494/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">11. </span><a href="https://itunes.apple.com/in/app/affinity-designer/id824171161?mt=12">Affinity Designer</a></li><li class="genre">Graphics &amp; Design</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars, 13 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">13 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=824171161&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=826083165" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/affinity-designer/id824171161?mt=12&#34;}" minimumOSVersion="10.7" bundle-id="com.seriflabs.affinitydesigner" original-price="₹ 3,999" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple128/v4/19/bd/66/19bd66c3-f0fe-be4f-f1a8-fcb567630b45/signed.dcr.7381080106018104884.pfpkg" versionID="826083165" adam-id="824171161" dk-id="30" item-name="Affinity Designer" buy-params="productType=C&amp;price=3999000&amp;salableAdamId=824171161&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=826083165" version-string="1.6.1" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/92/be/61/92be6186-f844-e257-231b-4ca577bb6494/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 3,999</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 3,999</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for Affinity Designer">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/affinity-designer/id824171161?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=824171161&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="WinZip - Zip, unzip, protect" adam-id="583827028" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/winzip-zip-unzip-protect/id583827028?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="WinZip - Zip, unzip, protect" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/ef/b9/84/efb98462-0e59-e78b-8116-189de759e853/source/150x150bb.png" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/ef/b9/84/efb98462-0e59-e78b-8116-189de759e853/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/85df/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><span class="index">12. </span><a href="https://itunes.apple.com/in/app/winzip-zip-unzip-protect/id583827028?mt=12">WinZip - Zip, unzip, protect</a></li><li class="genre">Utilities</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='4 and a half stars, 5 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star half">&nbsp;</span></div><span class="rating-count">5 Ratings</span>
+</div>
+</li><li><div rating-software="100,itunes-games" parental-rating="1" class="multi-button action small application mac-application detailed">
+  <button update-buy-params="productType=C&amp;price=0&amp;salableAdamId=583827028&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827922649" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/winzip-zip-unzip-protect/id583827028?mt=12&#34;}" minimumOSVersion="10.9" bundle-id="com.winzip.WinZip-Mac" original-price="₹ 2,299" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/60/53/b5/6053b552-ebe1-caf8-fe58-f2a515ba6d61/signed.dcr.8273863205911119126.pfpkg" versionID="827922649" adam-id="583827028" dk-id="30" item-name="WinZip - Zip, unzip, protect" buy-params="productType=C&amp;price=2299000&amp;salableAdamId=583827028&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827922649" version-string="6.5.4200" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/ef/b9/84/efb98462-0e59-e78b-8116-189de759e853/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">₹ 2,299</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>₹ 2,299</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for WinZip - Zip, unzip, protect">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/winzip-zip-unzip-protect/id583827028?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=583827028&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div></li></ul>  
+</div>
+</div>
+    </div>
+    
+  </div>
+</div>
+
+                
+            </div>
+            <div class="sidebar">
+                <div data-account-info-url="https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/personalizedAccountInfoFragment" data-sign-in-text="Sign In" data-welcome-text="Welcome" data-account-text="Account" metrics-loc="Titledbox_Quick Links" class="chart titled-box quick-links">
+  
+    <h2>
+      
+      Quick Links
+    </h2>
+    
+  
+  
+  
+    <div class="content"><ol class="list"><li class="link welcome user-link"><a href="#welcome">Welcome</a></li><li class="link account user-link"><a href="#account">Account</a></li><li class="link redeem user-link"><a href="https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/redeemLandingPage?cc=in">Redeem</a></li><li class="link user-link"><a target="_blank" href="http://www.apple.com/uk/support/mac/app-store/">Support</a></li></ol></div>
+  
+  
+</div>
+
+                
+            </div>
+        </div>
+
+    
+
+      </div>
+
+
+      
+      
+
+    </div>
+  </div>
+
+  <footer>
+  <div class="legal">
+    <span class="copyright">Copyright © 2018 Apple Inc. <a target="_blank" href="https://www.apple.com/uk/legal/">All Rights Reserved.</a></span>
+    <ul class="list" role="presentation">
+      <li><a target="_blank" href="https://www.apple.com/uk/privacy/">Privacy Policy</a></li>
+      <li><a target="_blank" href="http://www.apple.com/legal/itunes/appstore/in/terms.html">Terms and Conditions</a></li>
+      
+      <li><a href="https://itunes.apple.com/in/faq">FAQ</a></li>
+    </ul>
+    
+    <div class="intl" metrics-loc="CountryPicker">
+      <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage"><img src-load-auto-after-dom-load="" width="30" height="30" src-swap-high-dpi="https://s.mzstatic.com/images/flags/-dsi-30/ind.png" alt="My Store: India, Choose Store" src-swap="https://s.mzstatic.com/images/flags/30/ind.png"></img></a>
+      
+    </div>
+    
+  </div>
+</footer>
+
+
+  
+  <script type="text/javascript">
+    var pageMetricsUrl = 'https://xp.apple.com/report/2/xp_its_main?responseType=image&eventType=page&app=MacAppStore&pageId=DAHTopContentsSummaryPage&pageType=finance&eventSource=server&page=finance_DAHTopContentsSummaryPage';
+    if (pageMetricsUrl) {
+        pageMetricsUrl += "&eventTime=" + encodeURIComponent((new Date()).getTime());
+    }
+    var billingSection = document.querySelector(".edit-billing, .creditcard");
+    if (billingSection !== null) {
+        var selectedPaymentType = document.querySelector(".credit-card-picker input.selected, #paymentTypeField");
+        if (selectedPaymentType !== null) {
+            pageMetricsUrl += "&pageDetails=pmtTyp%3D" + selectedPaymentType.value;
+        } 
+    }
+    if (its && its.cookies) {
+        var itcCt = its.cookies.getUnescaped("itcCt");
+        var itscc = its.cookies.getUnescaped("itscc");
+        var hasitcCt = false;
+        if (itcCt && itcCt !== "") {
+            pageMetricsUrl += "&cookie=itcCt%3D" + itcCt;
+            hasitcCt = true;
+        }
+        if (itscc && itscc != "") {
+            pageMetricsUrl += (hasitcCt) ? "%26" : "&cookie=";
+            pageMetricsUrl += "itscc%3D" + itscc;
+        }
+    }
+    var containingDiv = document.createElement('div');
+    containingDiv.innerHTML = "<img width='0' height='0' border='0' alt='' aria-hidden=true src='" + pageMetricsUrl + "'/>";
+    document.body.appendChild(containingDiv);
+
+    // NOTE: This should be considered temporary and replaced when a better solution is available.
+    //      right now, SFMetrics should be referenced for all of these, but MZComponents can't access anything
+    //      in MZStoreComponents so we're going to have to go with this workaround.
+    var metricsConfig = {
+        'metricsUrl' : 'https://xp.apple.com/report/2/',
+        'compoundSeparator' : '_',
+        'tokenSeparator' : '|',
+        'postFrequency' : 60000,
+        'metricsBase' : {}
+    };
+</script>
+
+</body>
+
+
+</html>

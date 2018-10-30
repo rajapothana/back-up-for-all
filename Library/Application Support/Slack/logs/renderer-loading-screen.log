@@ -1,0 +1,47 @@
+[09/11/18, 14:50:54:235] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[09/11/18, 14:50:54:236] info: ║      Slack 3.3.1, darwin 17.7.0 on x64 at 09/11/18, 14:50:54:232      ║
+[09/11/18, 14:50:54:236] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[09/11/18, 14:50:54:343] info: Initializing local storage instance at path: /Users/rajapoth/Library/Application Support/Slack/local-settings.json
+[09/11/18, 14:50:54:956] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[09/11/18, 14:50:54:960] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[09/11/18, 14:50:55:415] info: Store: SET_UPDATE_STATUS up-to-date
+[09/11/18, 14:50:55:687] info: Store: SET_NETWORK_STATUS online
+[09/11/18, 14:50:55:689] info: Store: MAIN_WINDOW_SHOWN
+[09/11/18, 14:50:55:709] info: Store: ADD_WINDOW
+{
+  "id": 3,
+  "type": "sign-in"
+}
+[10/10/18, 19:16:01:205] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[10/10/18, 19:16:01:206] info: ║      Slack 3.3.3, darwin 17.7.0 on x64 at 10/10/18, 19:16:01:202      ║
+[10/10/18, 19:16:01:206] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[10/10/18, 19:16:01:310] info: Initializing local storage instance at path: /Users/rajapoth/Library/Application Support/Slack/local-settings.json
+[10/10/18, 19:16:01:653] info: Store: FOREGROUND_APP
+[10/10/18, 19:16:01:851] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[10/10/18, 19:16:01:887] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[10/10/18, 19:16:02:064] info: Store: FOREGROUND_APP
+[10/10/18, 19:16:02:393] info: Store: SET_UPDATE_STATUS up-to-date
+[10/10/18, 19:16:02:497] info: Store: SET_NETWORK_STATUS online
+[10/10/18, 19:16:08:891] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T5Q29PBRD"
+}
+[10/10/18, 19:16:08:901] info: Store: MAIN_WINDOW_SHOWN
+[10/27/18, 10:26:30:403] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[10/27/18, 10:26:30:404] info: ║      Slack 3.3.3, darwin 17.7.0 on x64 at 10/27/18, 10:26:30:399      ║
+[10/27/18, 10:26:30:404] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[10/27/18, 10:26:30:542] info: Initializing local storage instance at path: /Users/rajapoth/Library/Application Support/Slack/local-settings.json
+[10/27/18, 10:26:31:004] info: Store: FOREGROUND_APP
+[10/27/18, 10:26:31:285] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[10/27/18, 10:26:31:366] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[10/27/18, 10:26:31:647] info: Store: SET_UPDATE_STATUS up-to-date
+[10/27/18, 10:26:31:949] info: Store: SET_NETWORK_STATUS online
+[10/27/18, 10:26:37:996] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T5Q29PBRD"
+}
+[10/27/18, 10:26:38:008] info: Store: MAIN_WINDOW_SHOWN

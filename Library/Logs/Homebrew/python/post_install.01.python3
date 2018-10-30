@@ -1,0 +1,320 @@
+2018-10-04 22:24:04 +0530
+
+/usr/local/Cellar/python/3.7.0/bin/python3
+-s
+setup.py
+--no-user-cfg
+install
+--force
+--verbose
+--install-scripts=/usr/local/Cellar/python/3.7.0/bin
+--install-lib=/usr/local/lib/python3.7/site-packages
+--single-version-externally-managed
+--record=installed.txt
+
+running install
+running build
+running build_py
+creating build
+creating build/lib
+copying easy_install.py -> build/lib
+creating build/lib/setuptools
+copying setuptools/ssl_support.py -> build/lib/setuptools
+copying setuptools/windows_support.py -> build/lib/setuptools
+copying setuptools/package_index.py -> build/lib/setuptools
+copying setuptools/archive_util.py -> build/lib/setuptools
+copying setuptools/py36compat.py -> build/lib/setuptools
+copying setuptools/config.py -> build/lib/setuptools
+copying setuptools/version.py -> build/lib/setuptools
+copying setuptools/py31compat.py -> build/lib/setuptools
+copying setuptools/depends.py -> build/lib/setuptools
+copying setuptools/py27compat.py -> build/lib/setuptools
+copying setuptools/__init__.py -> build/lib/setuptools
+copying setuptools/glob.py -> build/lib/setuptools
+copying setuptools/sandbox.py -> build/lib/setuptools
+copying setuptools/launch.py -> build/lib/setuptools
+copying setuptools/extension.py -> build/lib/setuptools
+copying setuptools/unicode_utils.py -> build/lib/setuptools
+copying setuptools/monkey.py -> build/lib/setuptools
+copying setuptools/pep425tags.py -> build/lib/setuptools
+copying setuptools/build_meta.py -> build/lib/setuptools
+copying setuptools/dep_util.py -> build/lib/setuptools
+copying setuptools/site-patch.py -> build/lib/setuptools
+copying setuptools/msvc.py -> build/lib/setuptools
+copying setuptools/dist.py -> build/lib/setuptools
+copying setuptools/lib2to3_ex.py -> build/lib/setuptools
+copying setuptools/glibc.py -> build/lib/setuptools
+copying setuptools/py33compat.py -> build/lib/setuptools
+copying setuptools/wheel.py -> build/lib/setuptools
+copying setuptools/namespaces.py -> build/lib/setuptools
+creating build/lib/pkg_resources
+copying pkg_resources/py31compat.py -> build/lib/pkg_resources
+copying pkg_resources/__init__.py -> build/lib/pkg_resources
+creating build/lib/setuptools/_vendor
+copying setuptools/_vendor/__init__.py -> build/lib/setuptools/_vendor
+copying setuptools/_vendor/six.py -> build/lib/setuptools/_vendor
+copying setuptools/_vendor/pyparsing.py -> build/lib/setuptools/_vendor
+creating build/lib/setuptools/command
+copying setuptools/command/bdist_egg.py -> build/lib/setuptools/command
+copying setuptools/command/alias.py -> build/lib/setuptools/command
+copying setuptools/command/py36compat.py -> build/lib/setuptools/command
+copying setuptools/command/build_ext.py -> build/lib/setuptools/command
+copying setuptools/command/easy_install.py -> build/lib/setuptools/command
+copying setuptools/command/install_scripts.py -> build/lib/setuptools/command
+copying setuptools/command/upload.py -> build/lib/setuptools/command
+copying setuptools/command/register.py -> build/lib/setuptools/command
+copying setuptools/command/bdist_wininst.py -> build/lib/setuptools/command
+copying setuptools/command/dist_info.py -> build/lib/setuptools/command
+copying setuptools/command/install_lib.py -> build/lib/setuptools/command
+copying setuptools/command/upload_docs.py -> build/lib/setuptools/command
+copying setuptools/command/build_py.py -> build/lib/setuptools/command
+copying setuptools/command/__init__.py -> build/lib/setuptools/command
+copying setuptools/command/sdist.py -> build/lib/setuptools/command
+copying setuptools/command/test.py -> build/lib/setuptools/command
+copying setuptools/command/saveopts.py -> build/lib/setuptools/command
+copying setuptools/command/bdist_rpm.py -> build/lib/setuptools/command
+copying setuptools/command/build_clib.py -> build/lib/setuptools/command
+copying setuptools/command/egg_info.py -> build/lib/setuptools/command
+copying setuptools/command/install.py -> build/lib/setuptools/command
+copying setuptools/command/develop.py -> build/lib/setuptools/command
+copying setuptools/command/rotate.py -> build/lib/setuptools/command
+copying setuptools/command/install_egg_info.py -> build/lib/setuptools/command
+copying setuptools/command/setopt.py -> build/lib/setuptools/command
+creating build/lib/setuptools/extern
+copying setuptools/extern/__init__.py -> build/lib/setuptools/extern
+creating build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/version.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/__init__.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/utils.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/requirements.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/_structures.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/markers.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/__about__.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/_compat.py -> build/lib/setuptools/_vendor/packaging
+copying setuptools/_vendor/packaging/specifiers.py -> build/lib/setuptools/_vendor/packaging
+creating build/lib/pkg_resources/_vendor
+copying pkg_resources/_vendor/__init__.py -> build/lib/pkg_resources/_vendor
+copying pkg_resources/_vendor/appdirs.py -> build/lib/pkg_resources/_vendor
+copying pkg_resources/_vendor/six.py -> build/lib/pkg_resources/_vendor
+copying pkg_resources/_vendor/pyparsing.py -> build/lib/pkg_resources/_vendor
+creating build/lib/pkg_resources/extern
+copying pkg_resources/extern/__init__.py -> build/lib/pkg_resources/extern
+creating build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/version.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/__init__.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/utils.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/requirements.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/_structures.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/markers.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/__about__.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/_compat.py -> build/lib/pkg_resources/_vendor/packaging
+copying pkg_resources/_vendor/packaging/specifiers.py -> build/lib/pkg_resources/_vendor/packaging
+copying setuptools/script (dev).tmpl -> build/lib/setuptools
+copying setuptools/script.tmpl -> build/lib/setuptools
+copying setuptools/cli-64.exe -> build/lib/setuptools
+copying setuptools/gui-64.exe -> build/lib/setuptools
+copying setuptools/cli.exe -> build/lib/setuptools
+copying setuptools/cli-32.exe -> build/lib/setuptools
+copying setuptools/gui-32.exe -> build/lib/setuptools
+copying setuptools/gui.exe -> build/lib/setuptools
+copying setuptools/command/launcher manifest.xml -> build/lib/setuptools/command
+running install_lib
+copying build/lib/easy_install.py -> /usr/local/lib/python3.7/site-packages
+creating /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/ssl_support.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/windows_support.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/package_index.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/archive_util.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/py36compat.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/config.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/version.py -> /usr/local/lib/python3.7/site-packages/setuptools
+creating /usr/local/lib/python3.7/site-packages/setuptools/_vendor
+creating /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/version.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/__init__.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/utils.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/requirements.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/_structures.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/markers.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/__about__.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/_compat.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/packaging/specifiers.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging
+copying build/lib/setuptools/_vendor/__init__.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor
+copying build/lib/setuptools/_vendor/six.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor
+copying build/lib/setuptools/_vendor/pyparsing.py -> /usr/local/lib/python3.7/site-packages/setuptools/_vendor
+copying build/lib/setuptools/py31compat.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/cli-64.exe -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/gui-64.exe -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/depends.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/py27compat.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/__init__.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/glob.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/sandbox.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/script.tmpl -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/launch.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/extension.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/unicode_utils.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/monkey.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/pep425tags.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/build_meta.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/cli.exe -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/dep_util.py -> /usr/local/lib/python3.7/site-packages/setuptools
+creating /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/bdist_egg.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/alias.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/py36compat.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/build_ext.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/easy_install.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/launcher manifest.xml -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/install_scripts.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/upload.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/register.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/bdist_wininst.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/dist_info.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/install_lib.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/upload_docs.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/build_py.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/__init__.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/sdist.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/test.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/saveopts.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/bdist_rpm.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/build_clib.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/egg_info.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/install.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/develop.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/rotate.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/install_egg_info.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/command/setopt.py -> /usr/local/lib/python3.7/site-packages/setuptools/command
+copying build/lib/setuptools/site-patch.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/msvc.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/cli-32.exe -> /usr/local/lib/python3.7/site-packages/setuptools
+creating /usr/local/lib/python3.7/site-packages/setuptools/extern
+copying build/lib/setuptools/extern/__init__.py -> /usr/local/lib/python3.7/site-packages/setuptools/extern
+copying build/lib/setuptools/gui-32.exe -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/gui.exe -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/dist.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/lib2to3_ex.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/glibc.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/py33compat.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/wheel.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/namespaces.py -> /usr/local/lib/python3.7/site-packages/setuptools
+copying build/lib/setuptools/script (dev).tmpl -> /usr/local/lib/python3.7/site-packages/setuptools
+creating /usr/local/lib/python3.7/site-packages/pkg_resources
+creating /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor
+creating /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/version.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/__init__.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/utils.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/requirements.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/_structures.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/markers.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/__about__.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/_compat.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/packaging/specifiers.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging
+copying build/lib/pkg_resources/_vendor/__init__.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor
+copying build/lib/pkg_resources/_vendor/appdirs.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor
+copying build/lib/pkg_resources/_vendor/six.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor
+copying build/lib/pkg_resources/_vendor/pyparsing.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor
+copying build/lib/pkg_resources/py31compat.py -> /usr/local/lib/python3.7/site-packages/pkg_resources
+copying build/lib/pkg_resources/__init__.py -> /usr/local/lib/python3.7/site-packages/pkg_resources
+creating /usr/local/lib/python3.7/site-packages/pkg_resources/extern
+copying build/lib/pkg_resources/extern/__init__.py -> /usr/local/lib/python3.7/site-packages/pkg_resources/extern
+byte-compiling /usr/local/lib/python3.7/site-packages/easy_install.py to easy_install.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/ssl_support.py to ssl_support.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/windows_support.py to windows_support.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/package_index.py to package_index.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/archive_util.py to archive_util.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/py36compat.py to py36compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/config.py to config.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/version.py to version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/version.py to version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/utils.py to utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/requirements.py to requirements.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/_structures.py to _structures.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/markers.py to markers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/__about__.py to __about__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/_compat.py to _compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/packaging/specifiers.py to specifiers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/six.py to six.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/_vendor/pyparsing.py to pyparsing.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/py31compat.py to py31compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/depends.py to depends.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/py27compat.py to py27compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/glob.py to glob.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/sandbox.py to sandbox.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/launch.py to launch.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/extension.py to extension.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/unicode_utils.py to unicode_utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/monkey.py to monkey.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/pep425tags.py to pep425tags.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/build_meta.py to build_meta.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/dep_util.py to dep_util.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/bdist_egg.py to bdist_egg.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/alias.py to alias.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/py36compat.py to py36compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/build_ext.py to build_ext.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/easy_install.py to easy_install.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/install_scripts.py to install_scripts.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/upload.py to upload.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/register.py to register.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/bdist_wininst.py to bdist_wininst.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/dist_info.py to dist_info.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/install_lib.py to install_lib.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/upload_docs.py to upload_docs.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/build_py.py to build_py.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/sdist.py to sdist.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/test.py to test.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/saveopts.py to saveopts.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/bdist_rpm.py to bdist_rpm.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/build_clib.py to build_clib.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/egg_info.py to egg_info.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/install.py to install.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/develop.py to develop.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/rotate.py to rotate.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/install_egg_info.py to install_egg_info.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/command/setopt.py to setopt.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/site-patch.py to site-patch.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/msvc.py to msvc.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/extern/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/dist.py to dist.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/lib2to3_ex.py to lib2to3_ex.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/glibc.py to glibc.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/py33compat.py to py33compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/wheel.py to wheel.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/setuptools/namespaces.py to namespaces.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/version.py to version.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/utils.py to utils.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/requirements.py to requirements.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_structures.py to _structures.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/markers.py to markers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/__about__.py to __about__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/_compat.py to _compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/packaging/specifiers.py to specifiers.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/appdirs.py to appdirs.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/six.py to six.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/_vendor/pyparsing.py to pyparsing.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/py31compat.py to py31compat.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/__init__.py to __init__.cpython-37.pyc
+byte-compiling /usr/local/lib/python3.7/site-packages/pkg_resources/extern/__init__.py to __init__.cpython-37.pyc
+running install_egg_info
+running egg_info
+writing setuptools.egg-info/PKG-INFO
+writing dependency_links to setuptools.egg-info/dependency_links.txt
+writing entry points to setuptools.egg-info/entry_points.txt
+writing requirements to setuptools.egg-info/requires.txt
+writing top-level names to setuptools.egg-info/top_level.txt
+reading manifest file 'setuptools.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'setuptools.egg-info/SOURCES.txt'
+Copying setuptools.egg-info to /usr/local/lib/python3.7/site-packages/setuptools-40.4.1-py3.7.egg-info
+running install_scripts
+Installing easy_install script to /usr/local/Cellar/python/3.7.0/bin
+Installing easy_install-3.7 script to /usr/local/Cellar/python/3.7.0/bin
+writing list of installed files to 'installed.txt'

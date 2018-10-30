@@ -1,0 +1,9 @@
+2018/10/26-20:49:18.474 49667 Reusing MANIFEST /Users/rajapoth/Library/Application Support/Google/Chrome/Profile 1/Sync Data/LevelDB/MANIFEST-000001
+2018/10/26-20:49:18.474 49667 Recovering log #4
+2018/10/26-20:49:18.477 49667 Reusing old log /Users/rajapoth/Library/Application Support/Google/Chrome/Profile 1/Sync Data/LevelDB/000004.log 
+2018/10/28-15:28:30.811 6327 Level-0 table #8: started
+2018/10/28-15:28:30.856 6327 Level-0 table #8: 816942 bytes OK
+2018/10/28-15:28:30.857 6327 Delete type=0 #4
+2018/10/29-14:11:16.750 6327 Level-0 table #10: started
+2018/10/29-14:11:16.791 6327 Level-0 table #10: 798819 bytes OK
+2018/10/29-14:11:16.792 6327 Delete type=0 #7

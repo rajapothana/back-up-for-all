@@ -1,0 +1,1128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.apple.com/itms/" lang="en">
+
+
+  <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Mac App Store" /><meta name="description" content="Mac App Store" /><meta name="platform-cache-id" content="13" />
+
+
+
+<title>macOS Mojave</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+    
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/0a06/da-storefront-base.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/0a06/da-storefront-product.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/0a06/da-storefront-reviews.css" />
+
+
+
+    
+<style type="text/css">
+
+    html, body {
+
+    
+        background-color: #ffffff !important;
+    
+
+}
+
+    body div#content, body footer {
+
+    
+        background-color: transparent !important;
+    
+
+}
+
+    body.sd-device div#content > div.background {
+
+    
+        background: url(https://is5-ssl.mzstatic.com/image/thumb/Features118/v4/a2/37/55/a2375581-9c95-db07-e2a2-0c25d65ba0b1/mza_7917688436419139980.png/0x0ss-85.png) no-repeat top left transparent !important;
+    
+        -webkit-background-size: 1202px auto !important;
+    
+
+}
+
+    body.hd-device div#content > div.background {
+
+    
+        background: url(https://is5-ssl.mzstatic.com/image/thumb/Features118/v4/a2/37/55/a2375581-9c95-db07-e2a2-0c25d65ba0b1/mza_7917688436419139980.png/0x0ss-85.png) no-repeat top left transparent !important;
+    
+        -webkit-background-size: 1202px auto !important;
+    
+
+}
+
+    #wrapper p, #wrapper li, #wrapper div {
+
+    
+        color: #656565 !important;
+    
+        text-shadow: none !important;
+    
+
+}
+
+    #wrapper a {
+
+    
+        color: #000000 !important;
+    
+        text-shadow: none !important;
+    
+
+}
+
+    #wrapper a:before, #wrapper a:not(.text-truncate-toggle):after {
+
+    
+        color: currentcolor !important;
+    
+        background-color: currentcolor !important;
+    
+
+}
+
+    #wrapper a.more-link:before {
+
+    
+        background-color: transparent !important;
+    
+
+}
+
+    #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
+
+    
+        color: #000000 !important;
+    
+        text-shadow: none !important;
+    
+
+}
+
+    button.action-button:not(.view-trailer), div.pill button {
+
+    
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(241,241,241,0.75)), to(rgba(171,171,171,0.75))) !important;
+    
+        border-color: rgba(198,198,198,0.75) !important;
+    
+        color: rgba(0,0,0,1.0) !important;
+    
+
+}
+
+    body > div.page div.select select {
+
+    
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(241,241,241,0.75)), to(rgba(171,171,171,0.75))) !important;
+    
+        border-width: 1px !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(198,198,198,0.75) !important;
+    
+        color: rgba(0,0,0,1.0) !important;
+    
+        text-shadow: none !important;
+    
+        -webkit-box-shadow: none !important;
+    
+
+}
+
+    button.action-button:not(.view-trailer):active, div.pill button:active, div.pill button.active {
+
+    
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(171,171,171,0.75)), to(rgba(241,241,241,0.75))) !important;
+    
+        color: #000000 !important;
+    
+
+}
+
+    body > div.page div.select label {
+
+    
+        color: #000000 !important;
+    
+
+}
+
+    body > div.page div.select:before {
+
+    
+        border: none !important;
+    
+
+}
+
+    body > div.page div.select:after {
+
+    
+        background-color: #000000 !important;
+    
+
+}
+
+    div.pagination-controls a.page-link, div.pagination-controls a.page-link.active {
+
+    
+        border-color: rgba(185,185,185,1.0) !important;
+    
+
+}
+
+    div.pagination-controls a.page-link.active {
+
+    
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(185,185,185,1.0)), to(rgba(255,255,255,1.0))) !important;
+    
+
+}
+
+    footer div.legal {
+
+    
+        border-top-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    footer div.legal span.copyright, footer div.legal a {
+
+    
+        color: #656565 !important;
+    
+        text-shadow: none !important;
+    
+
+}
+
+    footer div.legal > ul > li:not(:last-child)::after {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.lockup-container, div.titled-box {
+
+    
+        background-image: none !important;
+    
+        background-color: rgba(0,0,0,0) !important;
+    
+
+}
+
+    div.lockup-container .title, div.titled-box h2 {
+
+    
+        border-bottom-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div.lockup-container .title a, div.titled-box h2 a,div.lockup-container .title div.select label span,div.lockup-container .title div.select label select {
+
+    
+        color: #000000 !important;
+    
+
+}
+
+    div.lockup-container .title div.select:after {
+
+    
+        background-color: #000000 !important;
+    
+
+}
+
+    div.lockup-container .title div.select:before {
+
+    
+        color: #000000 !important;
+    
+        border-left: 0px solid transparent !important;
+    
+        border-right-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div.lockup-container .title div.select select {
+
+    
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,1.0)), color-stop(0.49, rgba(243,243,243,1.0)), color-stop(0.5, rgba(238,238,238,1.0)), to(rgba(226,226,226,1.0))) !important;
+    
+        border-width: 1px !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+        color: rgba(0,0,0,1.0) !important;
+    
+        text-shadow: none !important;
+    
+        -webkit-box-shadow: none !important;
+    
+
+}
+
+    div.lockup-container .content-and-controls:before, div.titled-container .content-and-controls:before {
+
+    
+        display: none !important;
+    
+
+}
+
+    div.lockup-container[data-columns-current="3"] div.lockup:nth-of-type(6n+1), div.lockup-container[data-columns-current="3"] div.lockup:nth-of-type(6n+2), div.lockup-container[data-columns-current="3"] div.lockup:nth-of-type(6n+3), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+1), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+2), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+3), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+4), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+1), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+2), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+3), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+4), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+5) {
+
+}
+
+    div.lockup-container[data-columns-current="3"] div.lockup:nth-of-type(6n+4), div.lockup-container[data-columns-current="3"] div.lockup:nth-of-type(6n+5), div.lockup-container[data-columns-current="3"] div.lockup:nth-of-type(6n+6), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+5), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+6), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+7), div.lockup-container[data-columns-current="4"] div.lockup:nth-of-type(8n+8), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+6), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+7), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+8), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+9), div.lockup-container[data-columns-current="5"] div.lockup:nth-of-type(10n+10) {
+
+}
+
+    div.lockup-container div.lockup ul li, div.lockup-container div.lockup div.rating span.rating-count {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.lockup-container div.lockup {
+
+    
+        border-bottom-color: rgba(226,226,226,1.0) !important;
+    
+        border-left-color: rgba(226,226,226,1.0) !important;
+    
+        border-right-color: transparent !important;
+    
+
+}
+
+    div.titled-box hr {
+
+    
+        -webkit-border-image: none !important;
+    
+        border-width: 0 0 1px !important;
+    
+        margin: 8px -10px !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    #wrapper div.lockup-container div.lockup.small .preorder-label {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    #sidebar .app-links a.see-all {
+
+    
+        color: #656565 !important;
+    
+        border-top-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    #sidebar .app-links a.see-all:last-child {
+
+    
+        border-bottom-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    #sidebar .app-links > div:before {
+
+    
+        border-left-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    body.product .sidebar .app-info li .label, body.product .sidebar .app-info p span.app-requirements {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    body.product #sidebar .app-info li a {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    body.product #sidebar .more-by div.lockup {
+
+    
+        background-image: none !important;
+    
+        padding: 7px 9px !important;
+    
+        -webkit-border-image: none !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    body.product .preorder-placard {
+
+    
+        background-image: none !important;
+    
+        background-color: rgba(255,255,255,1.0) !important;
+    
+        border-width: 1px !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+        -webkit-box-shadow: 0 0 0 transparent !important;
+    
+
+}
+
+    div#screenshots {
+
+    
+        background-image: none !important;
+    
+        background-color: rgba(255,255,255,1.0) !important;
+    
+        border-width: 1px !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+        -webkit-box-shadow: 0 0 0 transparent !important;
+    
+
+}
+
+    div#screenshots .thumbs:before {
+
+    
+        -webkit-border-image: none !important;
+    
+        border-width: 0 0 1px !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div#screenshots .thumbs li {
+
+    
+        -webkit-box-shadow: none !important;
+    
+        border-left: none !important;
+    
+        border-right-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div#screenshots .thumbs li:first-child {
+
+    
+        border-left-color: rgba(226,226,226,1.0) !important;
+    
+        border-left-width: 1px !important;
+    
+        border-left-style: solid !important;
+    
+
+}
+
+    div#screenshots .thumbs li.selected {
+
+    
+        -webkit-box-shadow: none !important;
+    
+        margin-bottom: 0 !important;
+    
+        border-width: 1px !important;
+    
+        background: rgba(255,255,255,0.75) !important;
+    
+
+}
+
+    div#screenshots .thumbs li.selected:before {
+
+    
+        top: -6px !important;
+    
+        background-color: rgba(255,255,255,1.0) !important;
+    
+        -webkit-box-shadow: none !important;
+    
+        border-width: 0 1px 1px 0 !important;
+    
+        border-style: solid !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div.ratings-histogram > div.vote > div.graph {
+
+    
+        background: rgba(238,238,238,0.75) !important;
+    
+
+}
+
+    div.ratings-histogram > div.vote > div.graph > span.bar {
+
+    
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(185,185,185,1.0)), to(rgba(145,145,145,1.0))) !important;
+    
+
+}
+
+    div.ratings-histogram > div.vote > div.stars > div > span.rating-star {
+
+    
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(171,171,171,1.0)), to(rgba(119,119,119,1.0))) !important;
+    
+
+}
+
+    div.ratings-histogram > a:before {
+
+    
+        background: #656565 !important;
+    
+
+}
+
+    div.customer-review h5, div.customer-review span {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.customer-review h5 span.rating-star {
+
+    
+        background-color: #656565 !important;
+    
+
+}
+
+    div.customer-reviews a.see-all, div.customer-reviews a.next-link, div.customer-reviews a.back-link, div.customer-reviews div.write-a-review, div.customer-reviews a.report {
+
+    
+        color: #000000 !important;
+    
+
+}
+
+    div.customer-reviews a.next-link.disabled, div.customer-reviews a.back-link.disabled {
+
+    
+        opacity: 0.5 !important;
+    
+
+}
+
+    div.customer-review div.feedback div.stats {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.customer-review p.feedback span.rate {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.customer-review p.feedback span.rate a:first-child {
+
+    
+        border-right-color: #656565 !important;
+    
+
+}
+
+    div.customer-reviews > div.inline-review > div {
+
+    
+        background: rgba(255,255,255,1.0) !important;
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+        -webkit-box-shadow: none !important;
+    
+
+}
+
+    div.inline-review div.star-rating {
+
+    
+        border-bottom-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div.inline-review div.review-form input[type="text"], div.review-form textarea {
+
+    
+        border-color: rgba(226,226,226,1.0) !important;
+    
+        background-color: rgba(255,255,255,0.75) !important;
+    
+
+}
+
+    div.customer-ratings div.histogram-container {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.inline-review div.review-tips h5, div.inline-review div.review-tips li {
+
+    
+        color: #000000 !important;
+    
+
+}
+
+    div.inline-review div.review-form input:not(.review-button), div.review-form textarea {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.inline-review label, div.inline-review label > span, span.rating-desc {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.review-form > span.review-disclaimer {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    div.customer-reviews div.customer-review:first-child {
+
+    
+        border-top-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    div.customer-reviews div.customer-review {
+
+    
+        border-bottom-color: rgba(226,226,226,1.0) !important;
+    
+
+}
+
+    #wrapper div.editorial-badge {
+
+    
+        background-color: #656565 !important;
+    
+        color: #ffffff !important;
+    
+
+}
+
+    body.product #wrapper .progress {
+
+    
+        border: 1px solid #656565 !important;
+    
+        background-color: #ffffff !important;
+    
+
+}
+
+    body.product #wrapper .progress .progress-value {
+
+    
+        background: #656565 !important;
+    
+
+}
+
+    body.product #wrapper .product-detail .preorder-label {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    body.product #wrapper .product-detail .product-info p span {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    .typ-container {
+
+    
+        color: #656565 !important;
+    
+        border-bottom: 1px solid rgba(226,226,226,0.75) !important;
+    
+
+}
+
+    .typ .typ-info-container h2.typ-info-title {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    .typ-info-container .typ-info-body p.typ-info {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    .typ-links-container a.see-all, .typ-info-container .typ-redeem-another-code a.see-all {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    .typ-links-container a.see-all:after, .typ-info-container .typ-redeem-another-code a.see-all:after {
+
+    
+        background-color: #656565 !important;
+    
+
+}
+
+    .typ-artwork-divider {
+
+    
+        background-color: rgba(226,226,226,0.75) !important;
+    
+
+}
+
+    .typ-artwork-container .lockup-info a, .typ-artwork-container .lockup-info li {
+
+    
+        color: #656565 !important;
+    
+
+}
+
+    .typ-has-artwork-logo .typ-artwork-container {
+
+    
+        border-right: 1px solid rgba(226,226,226,0.75) !important;
+    
+
+}
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0a06/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"pageData":{},"constants":{"fetchSoftwareUpdatesUrl":"https://su.itunes.apple.com/WebObjects/MZSoftwareUpdate.woa/wa/fetchSoftwareUpdates","Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MacSoftware":{"id":12,"name":"DesktopApps"},"Audiobooks":{"id":3,"name":"Audiobooks"},"MusicVideos":{"id":5,"name":"MusicVideos"},"iTunesU":{"id":10,"name":"iTunesU"},"EBooks":{"id":11,"name":"EBooks"},"Music":{"id":1,"name":"Music"},"Podcasts":{"id":2,"name":"Podcasts"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"TVShows":{"id":4,"name":"TVShows"},"Movies":{"id":6,"name":"Movies"},"Ringtones":{"id":9,"name":"Ringtones"},"Textbooks":{"id":13,"name":"Textbooks"}},"SFSortOrder":{"PlaylistName":{"id":9},"RecentBestSellers":{"id":18},"SeriesOrder":{"id":17},"CmcRecommended":{"id":10},"Popularity":{"id":3},"OriginalReleaseDate":{"id":19},"ArtistName":{"id":8},"Featured":{"id":1},"TopRated":{"id":5},"Duration":{"id":11},"ReleaseDate":{"id":2},"TrackNumber":{"id":13},"Name":{"id":0},"AllTimeBestSellers":{"id":14},"ExpirationDate":{"id":6},"Price":{"id":7},"MostRecent":{"id":16},"PurchaseDate":{"id":4},"DateAdded":{"id":15},"DiscNumber":{"id":12}},"SFEntityType":{"Artist":{"id":1},"Playlist":{"id":4},"TopContents":{"id":7},"MultiRoom":{"id":3},"Search":{"id":6},"WeMix":{"id":8},"Cmc":{"id":2},"Work":{"id":10},"Wishlist":{"id":9},"TopAuthors":{"id":12},"Room":{"id":5},"TheyMix":{"id":11}},"countryCode":"ind","languageCode":"en","SFCustomComponentCountryCode":"ind","IXDisplayableKind":{"Artist":{"id":20,"cssClasses":[],"name":"artist"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"}},"AddToWishlistResult":{"ItemIsFree":{"id":6},"ListFull":{"id":3},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"SomeContentAlreadyInWishlist":{"id":1},"Success":{"id":0},"Failure":{"id":2},"SomeContentAlreadyOwned":{"id":4}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=in","resourceImagePathFrameworks":"https://s.mzstatic.com/htmlResources/0a06/frameworks/images/","resourceBasePath":"https://s.mzstatic.com/htmlResources/0a06"},"properties":{"DAH.SharingMenu.WhitelistedServiceIds":["com.apple.share.Twitter.post","com.apple.share.Facebook.post","com.apple.share.Messages.compose"],"DAH.SharingMenu.HashTag":"#MacAppStore","DAH.SharingMenu.ServiceInfo":{"com.apple.share.Facebook.post":{"locKey":"DAH.SharingMenu.Facebook"},"com.apple.share.Twitter.post":{"locKey":"DAH.SharingMenu.Twitter"},"com.apple.share.Messages.compose":{"locKey":"DAH.SharingMenu.iChat"}},"clientStatsLoadTimeGroup":"4034","MZHtmlResourcesUtil.allowDeferJsLoad":true,"ITSServerEnvironment":"prod","ITSServerInstance":"2125033","ITSResourceRevNum":"0a06","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.UseLegacyLogFormat":false,"ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/in/app/id490217893","iTunesUEnrollLink":"https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=in","cobaltLearnMore":"https://itunes.apple.com/in/learn-more?about=iTunesUUpgradePage\u0026type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":false,"SFJ.isNFAEnabledInStorefront":true,"SFJ.isRecommendationsSwooshEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":0.25,"samplingPercentageUsersPageRender":0.25,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"ST11"},"iTunes":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":0.25,"samplingPercentageUsersPageRender":0.25,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"sampling":{"custom":{"xp_amp_itd_main":{"percentage":0.001}}},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"ST11"}},"MacAppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":0.25,"samplingPercentageUsersPageRender":0.25,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"ST11"}},"Maps":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"disabled":true,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":0.25,"samplingPercentageUsersPageRender":0.25,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"143467-2,13","language":"2","platformId":"13","platformName":"MacAppStore","storeFront":"143467","environmentDataCenter":"ST11"}}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true,"isStoweUpgradeDialogEnabled":false,"stoweUpgradeSize":1600000000,"isStopPageOneEnabled":false,"SF.isNotifyMeEnabled":false,"SF.notifyMeIds":[],"SF.notifyMeIdsWithAppleWatchApp":[],"SF.notifyMeIdsWithTvApp":[],"isMovieAnywhereEnabled":true}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.MyAlerts.GeniusActivationNeeded.Button":"Go to Genius", "DABuyButton.aria.accept":"Accept, @@name@@, Free", "DAH.SharingMenu.Twitter":"Share on Twitter", "Js.Wishlist.RemoveTooltip":"Remove from Wish list", "DABuyButtonAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@?", "MHJavascriptLocalizations.DIBuyButtonDownloading":"Downloading", "DAHSoftwareInstall.Status.EstimatedTime.LessThanAMinute":"less than a minute", "DAHSoftwareInstall.Status.EstimatedTime.SecondsLeft":"@@seconds@@ @@secondUnit@@", "Js.Showcase.Next":"Next Item", "Js.DA.BuyButton.Installed":"Installed", "Js.PreflightCheckWarning.Continue":"Continue", "DABuyButtonInstall":"Install App", "DABuyButtonNewerVersionAlreadyInstalledMessage":"A newer version of this app is already installed on this computer", "DAHSoftwareInstall.Status.Paused":"Paused", "Js.CNConnections.Dialog.GetStarted":"Get Started", "Js.ReportAConcern.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "DIBuyButtonDownloadingAria":"Downloading, @@name@@", "DABuyButton.aria.preOrder.buy":"Pre-order, @@name@@, @@price@@", "Js.TextTruncation.More":"More", "Js.QuickView.Unavailable.Title":"Quick View is currently unavailable for this item.", "CNConnections.Dialog.Post.Review.SignIn.Title":"Sign in to post.", "DAHSoftwareInstall.Status.EstimatedTime.hour":"hr", "CNConnections.Upload.UploadErrorHeading":"There Is a Problem With Your Upload", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "CNConnections.Dialog.OptIn.Title":"Ping Will No Longer Be Available as of September 30", "DIBuyButtonDownloadedAria":"Downloaded, @@name@@", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Alerts based on your library content will not be enabled until you have turned on Genius. To learn more, click Go to Genius.", "_thousandsSeparator":",", "InAppPurchases":"In-App Purchases", "DAHSoftwareInstall.Status.EstimatedTime.DaysLeft":"@@days@@ @@dayUnit@@ @@hours@@ @@hourUnit@@", 
+"Js.CNConnections.LoginRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.Pagination.PreviousPage":"Previous Page", "DAHSoftwareInstall.Status.Error.MultipleUsers.description":"To update, log out all other users who are currently logged in to this computer.", "Js.TellAFriend.SigninTitle":"Sign in to tell a friend.", "Js.InlineReview.RateThis":"Rate this", "Js.InlineReview.5":"it’s great", "DAHSoftwareInstall.Status.EstimatedTime.minutes":"mins", "Js.InlineReview.4":"it’s good", "Js.InlineReview.3":"it’s ok", "DABuyButtonPreOrdered":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.second":"sec", "Js.InlineReview.2":"don’t like it", "Js.InlineReview.1":"hate it", "Js.InlinePreview.StopPreview":"Stop preview of @@title@@", "DAPreordersNotAvailableOnYourOS":"To pre-order this app, update to macOS 10.13.2 or later.", "DAHSoftwareInstall.Status.WaitingToInstall":"Waiting to install…", "DABuyButtonAlreadyInstalledNoVersionMessage":"@@installedname@@ is already installed and was not purchased from the Mac App Store.", "Close":"Close", "CNConnections.Dialog.OptIn.Message":"CNConnections.Dialog.OptIn.Message", "Js.DA.BuyButton.Open":"Open", "Js.CreateAccount":"Create Apple ID", "DAHSoftwareInstall.Status.EstimatedTime.hours":"hrs", "MZCommerce.Login_explanation":"Please enter your Apple ID and password and click Sign In.", "Js.CNConnections.OptInRequired.Title":"Ping", "Cancel":"Cancel", "DAHSoftwareInstall.Status.EstimatedTime.seconds":"secs", "DABuyButton.aria.installed":"Installed, @@name@@", "DABuyButton.aria.preOrder.free":"Pre-order, @@name@@, Free", "Js.ManageArtistAlerts.CheckAll.Actors":"Check All Actors", "SF.AskToBuy.PermissionBannerText":"Your request was sent and is awaiting approval from a parent. They can also @@bannerLinkText@@ on this device.", "DABuyButtonSameVersionAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@ again?", "DAHSoftwareInstall.Status.FileSizeSeparator":".", "DAPreorderLabel":"Pre-Order", "More":"More", "DAHSoftwareInstall.Status.EstimatedTime.minute":"min", "DABuyButtonPreOrder":"Pre-Order App", "Js.Pagination.DisabledButtonText":"disabled @@button_text@@", "Js.DA.BuyButton.Installing":"Installing", "Js.MyAlerts.CancelEmailSignUp.Message":"Are you sure you want to stop receiving email alerts?", "JS.errors.requiredLite":"Please fill in all required fields.", "CNConnections.Dialog.Post.Review.SignIn.Message":"CNConnections.Dialog.Post.Review.SignIn.Message", "SF.AskToBuy.PermissionBannerText.Free.bannerLinkText":"approve it in person", "MZCommerce.PurchaseBlockedForSpecialEdu_message":"This Apple ID cannot be used to make purchases.", "Js.ManageArtistAlerts.UncheckAll.Artists":"Uncheck All Artists", "Buy":"Buy", "Js.InlineRating.SigninTitle":"Sign in to rate this item.", "Js.ManageArtistAlerts.UncheckAll.Actors":"Uncheck All Actors", "MHJavascriptLocalizations.DIBuyButtonDownload":"Download", 
+"Js.CNConnections.OptInRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "DAHSoftwareInstall.Status.Downloading":"@@completed@@ of @@total@@", "DABuyButtonLearnMoreURL.Mavericks":"http://support.apple.com/kb/HT5842", "DABuyButtonLearnMoreURL.Lion":"http://support.apple.com/kb/ht4949", "DAHSoftwareInstall.Status.EstimatedTime.HoursLeft":"@@hours@@ @@hourUnit@@ @@minutes@@ @@minuteUnit@@", "Js.Search.HintsTitle":"Suggestions", "DAHSoftwareInstall.Status.EstimatedTime.MinutesLeft":"@@minutes@@ @@minuteUnit@@", "DABuyButtonLearnMoreURL.MtnLion":"http://support.apple.com/kb/ht5444", "DAHSoftwareInstall.Status.Error.MultipleUsers":"Multiple Users Logged In", "Js.InlinePreview.PlayPreview":"Play preview of @@title@@", "SignIn":"Sign In", "DAHSoftwareInstall.Status.Error":"An error has occurred", "Js.ManageArtistAlerts.UncheckAll":"Uncheck All", "Js.iTunesStoreError.Message":"We could not complete your request.", "DVHMusicPurchasesPage.Restored":"Unhidden", "DAHSoftwareInstall.Status.Waiting":"Waiting…", "Done":"Done", "DABuyButton.aria.open":"Open, @@name@@", "Js.Pagination.NextPage":"Next Page", "Js.CNConnections.RequestSent":"Request sent", "MHJavascriptLocalizations.DIBuyButtonDownloaded":"Downloaded", "DABuyButton.aria.install":"Install, @@name@@, Free", "DABuyButtonLearnMore":"Learn More", "DAH.SharingMenu.iChat":"Share in Messages", "CNConnections.Upload.UploadErrorMessage":"Sorry, there was an error during upload.", "Js.PreflightCheckFailedError.UpdateTitle":"We could not complete your update.", "Js.InlineReview.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.PreflightCheckFailedError.Message":"This computer does not meet the minimum install requirements for the app", "Software.HasAddOns":"Offers In-App Purchases", "Less":"Less", "Js.MyAlerts.GeniusActivationNeeded.Message":"This requires Genius.", "Js.ManageArtistAlerts.CheckAll.Artists":"Check All Artists", "Js.TellAFriend.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "CNConnections.Dialog.StopFollowing.Title":"Are you sure you want to stop following @@fullName@@?", "Js.PreflightCheckFailedErrorWithAppName.Title":"We could not complete your purchase of @@appName@@", "DTHBuyInfo.actionText.Accept":"Accept", "Js.PreflightCheckFailedError.Title":"We could not complete your purchase.", "Js.InlineReview.SigninTitle":"Sign in to write a review.", "Js.InlineRating.SigninMessage":"Sign in to continue.", "DAHSoftwareInstall.Status.EstimatedTime.TimeLeft":"@@time@@ remaining", "Js.DA.BuyButton.Install":"Install", "DABuyButton.aria.confirm.buy":"Confirm, Buy, @@name@@, @@price@@", "DAHSoftwareInstall.Status.EstimatedTime.days":"days", "Js.Pagination.Back":"Back", "DABuyButton.aria.installing":"Installing, @@name@@", "DTHBuyInfo.actionText.Gratis":"Free", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"If you would like to perform this action, please change your privacy settings.", "DAPreorderedLabel":"Pre-Ordered", "DAHSoftwareInstall.Status.EstimatedTime.day":"day", "DVHMusicPurchasesPage.Restore":"Unhide", "DABuyButton.aria.confirm.install":"Confirm, Install, @@name@@, Free", "DAHSoftwareInstall.Status.Installing":"Installing", "Js.QuickView.Unavailable.Text":"Please try again later.", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "Js.CNConnections.Dialog.Cancel":"Cancel", "Js.CNConnections.PeoplePopupMore":"and @@count@@ other@@s@@...", "Js.CNConnections.Confirmed":"Confirmed", "Js.CNConnections.UserReview.YouLiked":"You Liked", "MHJavascriptLocalizations.DIBuyButtonUpdate":"Update", "Yes":"Yes", "Js.Pagination.Next":"Next", "DABuyButton.aria.preOrdered":"Pre-ordered, @@name@@", "Js.ManageArtistAlerts.CheckAll":"Check All", "Js.ReportAConcern.SigninTitle":"Sign in to report a concern.", "Js.MyAlerts.CancelEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"This action will make your profile picture and name visible to others.", "Js.TextLimit.Remaining":"@@count@@ characters remaining", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"Are you sure you want to perform this action?", "DABuyButtonBuyNow":"Buy App", "Js.Pagination.PageNumberTitle":"page @@num@@", "DABuyButtonPreOrderedAllCaps":"PRE-ORDERED", "SF.AskToBuy.PermissionBannerText.bannerLinkText":"purchase it in person", "OK":"OK", "Js.InlineReview.Thanks":"Thanks!", "Js.InlineReview.Error":"Error", "CNConnections.Dialog.Like.Review.SignIn.Message":"CNConnections.Dialog.Like.Review.SignIn.Message", "Js.List.Item":"item", "DABuyButtonAlreadyInstalledMessage":"@@installedname@@ @@installedversion@@ is already installed and was not purchased from the Mac App Store", "No":"No", "Js.iTunesStoreError.Explanation":"There was an error in the App Store. Please try again later.", "Js.InlineReview.ClickToRate":"Click to rate", "DABuyButtonNewerVersionAlreadyInstalledExplanation":"If you want to replace it with this version, move the existing app to the trash.", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Private users may not perform this action.", "DABuyButton.aria.buy":"Buy, @@name@@, @@price@@", "Js.MyAlerts.ConfirmEmailSignUp.Message":"Are you sure you want to receive email alerts?", "CNConnections.Dialog.OptIn.ButtonSubmit":"Learn More", "_decimalSeparator":".", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancel", "MZCommerce.Login_message":"Sign In", "DIBuyButtonRedownloadAria":"Download, @@name@@: Free", "Js.CNConnections.LoginRequired.Title":"Sign in to access Ping.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Sign In", "Js.Pagination.PageNumber":"Page @@num@@", "DAHSoftwareInstall.Status.EstimatedTime.Calculating":"Calculating…", "DAH.SharingMenu.Facebook":"Share to Facebook", "DIBuyButtonUpdateAria":"Update, @@name@@", "CNConnections.Dialog.Like.Review.SignIn.Title":"Sign in to like a review.", "Js.PreflightCheckWarning.Title":"Would you like to continue?", "CNConnections.Upload.MaxPhotosErrorMessage":"You can have no more than 20 photos in one post."}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0a06/da-storefront-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0a06/da-storefront-product.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0a06/da-storefront-reviews.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0a06/da-storefront-sharing.js"></script>
+
+
+
+
+
+
+
+</head>
+
+  <body data-country="ind" buy-button-metadata-url="https://se-edge.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/buyButtonMetaData" toolbar-selection="" class="ind en product software  uber light-uber uber-software">
+  <script type="text/javascript">
+    if (window['iTSKit']) { iTSKit.preLoad(); }
+    if (window.its && its.kit) { its.kit.preload(); }
+  </script>
+
+  
+
+  
+  <div id="page">
+    <div id="wrapper">
+
+      <div id="content">
+
+        <div class="background"></div>
+
+        
+
+        
+
+        
+    <div class="columns">
+    
+      <div class="main">
+
+        <div class="product-detail">
+          
+          <div rating-software="100,itunes-games" parental-rating="1" class="lockup product application mac-application">
+  <a href="https://itunes.apple.com/in/app/macos-mojave/id1398502828?mt=12"><div class="artwork">
+    <img width="175" height="175" alt="macOS Mojave" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/a9/df/ac/a9dfac37-a1cd-2943-493f-f530f857fde2/source/350x350bb.png" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/a9/df/ac/a9dfac37-a1cd-2943-493f-f530f857fde2/source/175x175bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    <meta itemprop="image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/a9/df/ac/a9dfac37-a1cd-2943-493f-f530f857fde2/source/175x175bb.png"></meta>
+    
+    
+</div></a>
+  <div rating-software="100,itunes-games" parental-rating="1" class="multi-button large application mac-application">
+  <button is-free-download="1" update-buy-params="productType=C&amp;price=0&amp;salableAdamId=1398502828&amp;pricingParameters=SWUPD&amp;pg=default&amp;appExtVrsId=827534645" share-message-data="{&#34;tinyUrl&#34;:&#34;https://itunes.apple.com/in/app/macos-mojave/id1398502828?mt=12&#34;}" minimumOSVersion="10.8" bundle-id="com.apple.InstallAssistant.Mojave" original-price="Get" preflight="http://osxapps.itunes.apple.com/itunes-assets/Purple118/v4/57/fa/f5/57faf5a2-72dc-6b11-cb6e-e9cfe1cc6077/signed.dcr.3759590723550108996.pfpkg" versionID="827534645" adam-id="1398502828" dk-id="30" item-name="macOS Mojave" buy-params="productType=C&amp;price=0&amp;salableAdamId=1398502828&amp;pricingParameters=STDQ&amp;pg=default&amp;appExtVrsId=827534645" version-string="10.14" large-icon="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/a9/df/ac/a9dfac37-a1cd-2943-493f-f530f857fde2/source/175x175bb.jpg" metrics-leaf="1" metrics-loc="Buy" class="button-area">
+    <span class="price">Get</span>
+    <span class="left-cap"></span>
+    <div class="inner"><span>Get</span></div>
+    <span class="right-cap"></span>
+  </button>
+  
+    <select aria-label="Actions for macOS Mojave">
+      
+        <option action="copy-link" href="https://itunes.apple.com/in/app/macos-mojave/id1398502828?mt=12" metrics-loc="CopyLink" metrics-leaf="1">Copy Link</option>
+      
+        <option taf-body-url="https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/tellAFriendBody?name=s&amp;type=14&amp;id=1398502828&amp;displayable-kind=30" action="tell-a-friend" metrics-loc="TellAFriend" metrics-leaf="1">Tell a Friend</option>
+      
+    </select>
+    <span class="arrow"></span>
+  
+</div>
+  
+</div>
+          <div class="product-info box-flex">
+            
+            <div metrics-loc="Titledbox_macOS Mojave" class="product-review">
+  <div class="title">
+    <h1 style="display: inline-block;">
+      
+      macOS Mojave
+    </h1>
+    
+        <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?cc=in&amp;ratingSystem=appsApple"><span rating-system="itunes-games" rating-id="1" class="content-rating">4+</span></a>
+  </div>
+  
+  
+    <p truncate-style="same-paragraph" truncate-length="9" class="more-text">macOS Mojave delivers new features inspired by its most powerful users but designed for everyone. Stay focused on your work using Dark Mode. Organise your desktop using Stacks. Experience four new built-in apps. And discover new apps in the reimagined Mac App Store. <br /><br />Dark Mode<br />• Experience a dramatic new look for your Mac that puts your content front and centre while controls recede into the background. <br />• Enjoy new app designs that are easier on your eyes in dark environments. <br /><br />Desktop<br />• View an ever-changing desktop picture with Dynamic Desktop.<br />• Automatically organise your desktop files by kind, date or tag using Stacks.<br />• Capture stills and video of your screen using the new Screenshot utility. <br /><br />Finder<br />• Find your files visually using large previews in Gallery View.<br />• See full metadata for all file types in the Preview pane.<br />• Rotate an image, create a PDF and more — directly in the Finder using Quick Actions.<br />• Mark up and sign PDFs, crop images and trim audio and video files using Quick Look. <br /><br />Continuity Camera<br />• Photograph an object or scan a document nearby using your iPhone, and it automatically appears on your Mac.  <br /><br />Mac App Store<br />• Browse handpicked apps in the new Discover, Create, Work and Play tabs.<br />• Discover the perfect app and make the most of those you have with stories, curated collections and videos. <br /><br />iTunes<br />• Search with lyrics to find a song using a few of the words you remember.<br />• Start a personalised station of any artist’s music from the enhanced artist pages.<br />• Enjoy the new Friends Mix, a playlist of songs your friends are listening to. <br /><br />Safari<br />• Block Share and Like buttons, comment widgets and embedded content from tracking you without your permission with enhanced Intelligent Tracking Prevention.<br />• Prevent websites from tracking your Mac using a simplified system profile that makes you more anonymous online. <br /><br />Apple News<br />• Read Top Stories selected by Apple News editors, trending stories popular with readers, and a customised feed created just for you. <br />• Keep your favourite topics, channels and saved stories up to date on your Mac and iOS devices.  <br /><br />Stocks<br />• Create a customised watchlist and view interactive charts that sync across your Mac and iOS devices.<br />• Browse business news driving the markets curated by Apple News editors. <br /><br />Voice Memos<br />• Make audio recordings, listen to them as you work with other apps, or use them in a podcast, song or video.<br />• Access audio clips from your iPhone on your Mac using iCloud.  <br /><br />Home<br />• Organise and control all your HomeKit accessories from your desktop. <br />• Receive real-time notifications from your home devices while you work.</p>
+  
+  
+</div>
+
+            
+            
+            
+            
+          </div>
+        </div>
+        <div rating-software="100,itunes-games" parental-rating="1" id="screenshots"><div class="fullsize"></div><div class="thumbs"><ul class="list"><li data-media-image-2x="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ee/e6/0d/eee60d93-5f84-dff3-3b15-dc369ff4160e/source/1600x1000bb.jpg" data-media-image="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ee/e6/0d/eee60d93-5f84-dff3-3b15-dc369ff4160e/source/800x500bb.jpg" data-media-label="Application Screenshot" class="selected"><div role="radio" aria-label="Application Screenshot Thumbnail 1" class="artwork">
+    <img width="80" height="50" alt="Application Screenshot Thumbnail 1" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ee/e6/0d/eee60d93-5f84-dff3-3b15-dc369ff4160e/source/160x100bb.jpg" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/ee/e6/0d/eee60d93-5f84-dff3-3b15-dc369ff4160e/source/80x50bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></li><li data-media-image-2x="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/c7/a2/00/c7a20083-069c-8e84-c40a-ab0283d7f9e1/source/1600x1000bb.jpg" data-media-image="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/c7/a2/00/c7a20083-069c-8e84-c40a-ab0283d7f9e1/source/800x500bb.jpg" data-media-label="Application Screenshot"><div role="radio" aria-label="Application Screenshot Thumbnail 2" class="artwork">
+    <img width="80" height="50" alt="Application Screenshot Thumbnail 2" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/c7/a2/00/c7a20083-069c-8e84-c40a-ab0283d7f9e1/source/160x100bb.jpg" src-load-auto-after-dom-load="" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/c7/a2/00/c7a20083-069c-8e84-c40a-ab0283d7f9e1/source/80x50bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></li><li data-media-image-2x="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/76/8e/2a/768e2ae2-cd5c-ea6e-9cce-81650df13bb3/source/1600x1000bb.jpg" data-media-image="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/76/8e/2a/768e2ae2-cd5c-ea6e-9cce-81650df13bb3/source/800x500bb.jpg" data-media-label="Application Screenshot"><div role="radio" aria-label="Application Screenshot Thumbnail 3" class="artwork">
+    <img width="80" height="50" alt="Application Screenshot Thumbnail 3" src-swap-high-dpi="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/76/8e/2a/768e2ae2-cd5c-ea6e-9cce-81650df13bb3/source/160x100bb.jpg" src-load-auto-after-dom-load="" src-swap="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/76/8e/2a/768e2ae2-cd5c-ea6e-9cce-81650df13bb3/source/80x50bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></li><li data-media-image-2x="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9e/a4/66/9ea4660e-73f8-e227-e89d-7cd494dc4f5a/source/1600x1000bb.jpg" data-media-image="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9e/a4/66/9ea4660e-73f8-e227-e89d-7cd494dc4f5a/source/800x500bb.jpg" data-media-label="Application Screenshot"><div role="radio" aria-label="Application Screenshot Thumbnail 4" class="artwork">
+    <img width="80" height="50" alt="Application Screenshot Thumbnail 4" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9e/a4/66/9ea4660e-73f8-e227-e89d-7cd494dc4f5a/source/160x100bb.jpg" src-load-auto-after-dom-load="" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/9e/a4/66/9ea4660e-73f8-e227-e89d-7cd494dc4f5a/source/80x50bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></li><li data-media-image-2x="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e8/42/a2/e842a27e-1774-ddf5-5bef-ddbf8125fad1/source/1600x1000bb.jpg" data-media-image="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e8/42/a2/e842a27e-1774-ddf5-5bef-ddbf8125fad1/source/800x500bb.jpg" data-media-label="Application Screenshot"><div role="radio" aria-label="Application Screenshot Thumbnail 5" class="artwork">
+    <img width="80" height="50" alt="Application Screenshot Thumbnail 5" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e8/42/a2/e842a27e-1774-ddf5-5bef-ddbf8125fad1/source/160x100bb.jpg" src-load-auto-after-dom-load="" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e8/42/a2/e842a27e-1774-ddf5-5bef-ddbf8125fad1/source/80x50bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></li></ul></div></div>
+      </div>
+    
+      <div class="sidebar">
+        
+        <div rating-software="100,itunes-games" parental-rating="1" class="app-links"><div><a target="_blank" href="https://www.apple.com/uk/macos/mojave/" class="see-all">Apple Web Site</a><a target="_blank" href="https://support.apple.com/en-gb/macos/" class="see-all">macOS Mojave Support</a><a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewEula?id=1398502828" class="see-all">App License Agreement</a><a target="_blank" href="https://www.apple.com/legal/privacy/en-ww" class="see-all">Privacy Policy</a></div></div>
+        
+        <div metrics-loc="Titledbox_Information" class="titled-box app-info">
+  
+    <h2>
+      
+      Information
+    </h2>
+    
+  
+  
+  
+    <div class="content"><ul class="list"><li class="genre"><span class="label">Category: </span><a href="https://itunes.apple.com/in/genre/mac-utilities/id12019?mt=12"><span itemprop="applicationCategory">Utilities</span></a></li><li class="release-date"><span class="label">Released: </span><span itemprop="datePublished" content="2018-09-25 05:50:35 Etc/GMT"> 25 September 2018</span></li><li><span class="label">Version: </span><span itemprop="softwareVersion">10.14</span></li><li><span class="label">Price: </span>Free</li><li><span class="label">Size: </span>4.90 GB</li><li><span class="label">Family Sharing: </span>Yes</li><li class="language"><span class="label">Languages: </span>English, Arabic, Catalan, Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Simplified Chinese, Slovak, Spanish, Swedish, Thai, Traditional Chinese, Turkish, Ukrainian, Vietnamese</li><li><span class="label">Developer: </span><span itemscope itemtype="http://schema.org/Person" itemprop="author"><span itemprop="name">Apple Distribution International</span></span></li><li class="copyright">© 2018 Apple, Inc.</li></ul><hr/><div class="app-rating"><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?ratingSystem=appsApple&#39;);" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?ratingSystem=appsApple">Rated 4+</a></div><p><span class="app-requirements">Compatibility: </span><span itemprop="operatingSystem">OS X 10.8 or later</span></p></div>
+  
+  
+</div>
+
+        
+        
+        
+        <div metrics-loc="Titledbox_More Apps by Apple" class="titled-box more-by">
+  
+    <h2>
+      
+      <a href="https://itunes.apple.com/in/developer/apple/id284417353?mt=12">More Apps by Apple</a>
+    </h2>
+    
+  
+  
+  
+    <div class="content"><div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Logic Pro X" adam-id="634148309" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Logic Pro X" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/e5/0c/11/e50c116c-8a43-e110-582f-82190f7c1bd5/source/150x150bb.png" src-swap="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/e5/0c/11/e50c116c-8a43-e110-582f-82190f7c1bd5/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/app/logic-pro-x/id634148309?mt=12">Logic Pro X</a></li><li class="genre">Music</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+</li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Final Cut Pro" adam-id="424389933" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Final Cut Pro" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/150x150bb.png" src-swap="https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/69/f7/1f/69f71f29-2be3-1ac0-8844-0bd0e08aa584/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/app/final-cut-pro/id424389933?mt=12">Final Cut Pro</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+</li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Motion" adam-id="434290957" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Motion" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/c9/30/00/c9300003-e1d6-aa4c-5736-f8a384496da4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/app/motion/id434290957?mt=12">Motion</a></li><li class="genre">Video</li><li class="customer-ratings"><div class='rating' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+</li></ul>  
+</div>
+<div rating-software="100,itunes-games" parental-rating="1" metrics-loc="Lockup_" role="group" aria-label="Compressor" adam-id="424390742" class="lockup small detailed option application mac-application">
+  
+  <a href="https://itunes.apple.com/in/app/compressor/id424390742?mt=12" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Compressor" src-load-auto-after-page-load-if-not-onscreen="" src-swap-high-dpi="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b5/74/55/b57455b8-3279-9fb9-3328-4aaaf1a339f4/source/150x150bb.png" src-swap="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/b5/74/55/b57455b8-3279-9fb9-3328-4aaaf1a339f4/source/75x75bb.png" class="artwork" src="https://s.mzstatic.com/htmlResources/0a06/frameworks/images/p.png" />
+    
+    
+    
+</div></a>
+  <ul class="list"><li class="name"><a href="https://itunes.apple.com/in/app/compressor/id424390742?mt=12">Compressor</a></li><li class="genre">Video</li><li class="customer-ratings"></li></ul>  
+</div>
+</div>
+  
+  
+</div>
+
+      </div>
+
+    </div>
+
+    <div class="columns">
+      <div class="main">
+        
+        
+
+        
+        <div client-side-include-url="https://myapp.itunes.apple.com/WebObjects/MZAppPersonalizer.woa/wa/customersAlsoBoughtFragment?sd=1398502828" ignore-plists="true" class="customers-also-bought-include"></div>
+      </div>
+    </div>
+
+  
+
+      </div>
+
+
+      
+      
+
+    </div>
+  </div>
+
+  <footer>
+  <div class="legal">
+    <span class="copyright">Copyright © 2018 Apple Inc. <a target="_blank" href="https://www.apple.com/uk/legal/">All Rights Reserved.</a></span>
+    <ul class="list" role="presentation">
+      <li><a target="_blank" href="https://www.apple.com/uk/privacy/">Privacy Policy</a></li>
+      <li><a target="_blank" href="http://www.apple.com/legal/itunes/appstore/in/terms.html">Terms and Conditions</a></li>
+      
+      <li><a href="https://itunes.apple.com/in/faq">FAQ</a></li>
+    </ul>
+    
+    <div class="intl" metrics-loc="CountryPicker">
+      <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/countrySelectorPage"><img src-load-auto-after-dom-load="" width="30" height="30" src-swap-high-dpi="https://s.mzstatic.com/images/flags/-dsi-30/ind.png" alt="My Store: India, Choose Store" src-swap="https://s.mzstatic.com/images/flags/30/ind.png"></img></a>
+      
+    </div>
+    
+  </div>
+</footer>
+
+
+  
+  <script type="text/javascript">
+    var pageMetricsUrl = 'https://xp.apple.com/report/2/xp_its_main?responseType=image&eventType=page&app=MacAppStore&pageId=DAHSoftwarePage&pageType=finance&eventSource=server&page=finance_DAHSoftwarePage';
+    if (pageMetricsUrl) {
+        pageMetricsUrl += "&eventTime=" + encodeURIComponent((new Date()).getTime());
+    }
+    var billingSection = document.querySelector(".edit-billing, .creditcard");
+    if (billingSection !== null) {
+        var selectedPaymentType = document.querySelector(".credit-card-picker input.selected, #paymentTypeField");
+        if (selectedPaymentType !== null) {
+            pageMetricsUrl += "&pageDetails=pmtTyp%3D" + selectedPaymentType.value;
+        } 
+    }
+    if (its && its.cookies) {
+        var itcCt = its.cookies.getUnescaped("itcCt");
+        var itscc = its.cookies.getUnescaped("itscc");
+        var hasitcCt = false;
+        if (itcCt && itcCt !== "") {
+            pageMetricsUrl += "&cookie=itcCt%3D" + itcCt;
+            hasitcCt = true;
+        }
+        if (itscc && itscc != "") {
+            pageMetricsUrl += (hasitcCt) ? "%26" : "&cookie=";
+            pageMetricsUrl += "itscc%3D" + itscc;
+        }
+    }
+    var containingDiv = document.createElement('div');
+    containingDiv.innerHTML = "<img width='0' height='0' border='0' alt='' aria-hidden=true src='" + pageMetricsUrl + "'/>";
+    document.body.appendChild(containingDiv);
+
+    // NOTE: This should be considered temporary and replaced when a better solution is available.
+    //      right now, SFMetrics should be referenced for all of these, but MZComponents can't access anything
+    //      in MZStoreComponents so we're going to have to go with this workaround.
+    var metricsConfig = {
+        'metricsUrl' : 'https://xp.apple.com/report/2/',
+        'compoundSeparator' : '_',
+        'tokenSeparator' : '|',
+        'postFrequency' : 60000,
+        'metricsBase' : {}
+    };
+</script>
+
+</body>
+
+
+</html>
